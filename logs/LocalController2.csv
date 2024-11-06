@@ -1,0 +1,11 @@
+Timestamp, Object Name, Event
+2024-11-06T13:12:53.124164500,LocalController2,Success switching object Actuator position 1 to ON
+2024-11-06T13:12:54.138020700,LocalController2,Success switching object Actuator position 1 to OFF
+2024-11-06T13:12:55.148743900,LocalController2,Success switching object Actuator position 1 to OFF
+2024-11-06T13:12:56.160598800,LocalController2,Success switching object Actuator position 1 to ON
+2024-11-06T13:12:57.171715500,LocalController2,Success switching object Actuator position 1 to ON
+2024-11-06T13:12:58.185137300,LocalController2,Success switching object Actuator position 1 to OFF
+2024-11-06T13:12:59.204327900,LocalController2,Success switching object Actuator position 1 to OFF
+2024-11-06T13:13:00.221699600,LocalController2,Success switching object Actuator position 1 to OFF
+2024-11-06T13:13:01.224974900,LocalController2,Success switching object Actuator position 1 to ON
+2024-11-06T13:13:02.234609900,LocalController2,Success switching object Actuator position 1 to ON

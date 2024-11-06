@@ -49,7 +49,7 @@ public abstract class Sensor extends Device {
     }
 
     @Override
-    public void exportState() {
+    public synchronized void exportState(String... event) {
         if(!hasAddedHeader){
             ArrayList<String> header_columns = new ArrayList<>();
             header_columns.add("Timestamp");
@@ -78,7 +78,7 @@ public abstract class Sensor extends Device {
         writer.println(getCurrentTimestamp()+"," + object_name + "," + joined_values);
     }
 
-    public DataPacket readField(String fieldName){
+    private DataPacket readField(String fieldName){
         synchronized(fields){
             Float value = fields.get(fieldName);
             return new DataPacket(String.join("_",object_name,fieldName),value,1,getCurrentTimestamp());
@@ -86,7 +86,7 @@ public abstract class Sensor extends Device {
     }
 
     
-    public boolean setField(String fieldName, Float value){
+    private boolean setField(String fieldName, Float value){
         synchronized(fields){
             if(fields.containsKey(fieldName)){
                 fields.put(fieldName,value);
@@ -97,7 +97,7 @@ public abstract class Sensor extends Device {
     }
 
     @Override
-    public ExecutionResult execute(String command, String... arguments){
+    public synchronized ExecutionResult execute(String command, String... arguments){
         boolean success = false;
         DataPacket packet = null;
 

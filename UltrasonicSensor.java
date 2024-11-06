@@ -4,6 +4,7 @@ public class UltrasonicSensor extends Sensor {
     public UltrasonicSensor(String name, String outputFileName, int runTimeStep, String inputFileName){
         super(name, outputFileName, runTimeStep,inputFileName);
     }
+    
     @Override
     protected void initFields() {
         fields.put("Distance",Float.valueOf(0));

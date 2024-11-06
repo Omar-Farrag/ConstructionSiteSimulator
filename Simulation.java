@@ -1,103 +1,64 @@
+import java.util.ArrayList;
+import java.util.Random;
+
 public class Simulation {
 
     public static void main(String[] args) {
         
-        HighPowerDevice dev1 = new HighPowerDevice("Bombaster1", "logs/Bombaster1.csv", 500);
-        HighPowerDevice dev2 = new HighPowerDevice("Bombaster2", "logs/Bombaster2.csv", 500);
-        HighPowerDevice dev3 = new HighPowerDevice("Bombaster3", "logs/Bombaster3.csv", 500);
+        int runTimeStep = 1000; //ms
+        
+        UltrasonicSensor ultrasonicSensor1 = new UltrasonicSensor("Ultrasonic1", "logs/Ultrasonic1.csv", runTimeStep, "inputs/ultrasonic1_values.csv");
+        UltrasonicSensor ultrasonicSensor2 = new UltrasonicSensor("Ultrasonic2", "logs/Ultrasonic2.csv", runTimeStep, "inputs/ultrasonic2_values.csv");
+        
+        ProcessingAlgorithm controller1Algo = (uController controller)->{
+            DataPacket distance1 = controller.queryField("Ultrasonic1","Distance");
+            DataPacket distance2 = controller.queryField("Ultrasonic2","Distance");
 
-        Actuator node = new Actuator("Actuation_Node", "logs/Actuation_Node.csv", 100, 3);
-
-        node.connectTo(dev1, 0);
-        node.connectTo(dev2, 1);
-        node.connectTo(dev3, 2);
-
-
-        ProcessingAlgorithm algo = (uController controller) -> {
-            Device actuator = controller.getDevices().get(0);
-            String status = "ON";
-
-            actuator.execute("Switch", "0", status);
-            controller.setLastExecutedCommand("Turned " + status + " Switch 0");
-            controller.exportState();
-            
-            actuator.execute("Switch", "1", status);
-            controller.setLastExecutedCommand("Turned " + status + " Switch 1");
-            controller.exportState();
-            
-            actuator.execute("Switch", "2", status);
-            controller.setLastExecutedCommand("Turned " + status + " Switch 2");
-            controller.exportState();
-
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            status = "OFF";
-
-            actuator.execute("Switch", "0", status);
-            controller.setLastExecutedCommand("Turned " + status + " Switch 0");
-            controller.exportState();
-            
-            actuator.execute("Switch", "1", status);
-            controller.setLastExecutedCommand("Turned " + status + " Switch 1");
-            controller.exportState();
-            
-            actuator.execute("Switch", "2", status);
-            controller.setLastExecutedCommand("Turned " + status + " Switch 2");
-            controller.exportState();
-            
+            controller.publishPacket(distance1);
+            controller.publishPacket(distance2);
         };
 
-        uController controller = new uController("uCont1", "logs/uCont1.csv", 1000,algo);
-        controller.connectTo(node);
+        uController controller1 = new uController("LocalController1", "logs/LocalController1.csv", runTimeStep, controller1Algo);
+        controller1.connectTo(ultrasonicSensor1,ultrasonicSensor2);
+        
+        Node node1 = new Node("Node1", "logs/Node1.csv", runTimeStep,20,controller1);
 
-        dev1.start();
-        dev2.start();
-        dev3.start();
-        node.start();
-        controller.start();
+        
+        HighPowerDevice fan = new HighPowerDevice("Fan", "logs/Fan.csv", runTimeStep);
+        Actuator actuator = new Actuator("Actuator", "logs/Actuator.csv", runTimeStep, 3);
+        actuator.connectTo(fan, 1);
+
+        ProcessingAlgorithm controller2Algo = (uController controller)->{
+            int temp = new Random().nextInt(99);
+            if(temp > 40) controller.updateSwitch("Actuator", "1", "ON");
+            else controller.updateSwitch("Actuator", "1", "OFF");
+        };
+
+        uController controller2 = new uController("LocalController2", "logs/LocalController2.csv", runTimeStep, controller2Algo);
+        controller2.connectTo(actuator);
+
+        Node node2 = new Node("Node2", "logs/Node2.csv", runTimeStep,30,controller2);
+        
+        ArrayList<SimulationObject> simulationObjects = new ArrayList<>(); 
+        simulationObjects.add(ultrasonicSensor1);
+        simulationObjects.add(ultrasonicSensor2);
+        simulationObjects.add(controller1);
+        simulationObjects.add(node1);
+        simulationObjects.add(fan);
+        simulationObjects.add(actuator);
+        simulationObjects.add(controller2);
+        simulationObjects.add(node2);
+
+        for(SimulationObject object : simulationObjects) object.start();
         
         try {
-    //         Thread.sleep(750);
-    //         node.execute("Switch","0", "ON");
-    //         Thread.sleep(1000);
-    //         node.execute("Switch","1", "ON");
-    //         Thread.sleep(1000);
-    //         node.execute("Switch","2", "ON");
-
-    //         Thread.sleep(1000);
-    //         node.execute("Switch", "0", "OFF");
-    //         Thread.sleep(1000);
-    //         node.execute("Switch", "1", "OFF");
-    //         Thread.sleep(1000);
-    //         node.execute("Switch", "2", "OFF");
-
-    //         Thread.sleep(1000);
-    //         node.execute("Switch","0", "ON");
-    //         Thread.sleep(1000);
-    //         node.execute("Switch", "1", "OFF");
-    //         Thread.sleep(1000);
-    //         node.execute("Switch","2", "ON");
-            
-    //         Thread.sleep(1000);
-    //         node.disconnect(2);
-
-    //         Thread.sleep(3000);
             Thread.sleep(10000);
-            
-
-
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-        dev1.terminate();
-        dev2.terminate();
-        dev3.terminate();
-        node.terminate();
-        controller.terminate();
+        
+        
+        for(SimulationObject object : simulationObjects) object.terminate();
 
     
     }

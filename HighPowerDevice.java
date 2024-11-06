@@ -27,17 +27,37 @@ public class HighPowerDevice extends Device {
     }
 
     @Override
-    public void exportState() {
-      if(!hasAddedHeader){
-                writer.println("Timestamp, Device Name, Is Powered");
-                hasAddedHeader = true;
+    public synchronized void exportState(String... args) {
+
+          if(!hasAddedHeader){
+              writer.println("Timestamp, Device Name, Is Powered");
+              hasAddedHeader = true;
             }
-        writer.println(getCurrentTimestamp()+"," + object_name + "," + isPowered());
+            writer.println(getCurrentTimestamp()+"," + object_name + "," + isPowered());
     }
 
     @Override
     public void runTimeFunction() {
         exportState();
+    }
+
+    @Override
+    public synchronized ExecutionResult execute(String command, String... arguments) {
+        boolean success = false;
+        DataPacket packet = null;
+
+        if(command.equalsIgnoreCase("Switch")){
+            if(arguments[0].equalsIgnoreCase("ON")) {
+                powerOn();
+                success = true;
+            }
+
+            else if(arguments[0].equalsIgnoreCase("OFF")) {
+                powerOff();
+                success = true;
+            }
+        }
+        return new ExecutionResult(success, packet);
     }
 
 }

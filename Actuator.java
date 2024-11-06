@@ -39,26 +39,26 @@ public class Actuator extends Device {
         return true;
     }
 
-    public synchronized boolean switchOn(int position){
+    private synchronized boolean switchOn(int position){
         if(position < 0 || position >= numSwitches) return false;
         
         switchStates.set(position, true);
-        if(connectedDevices.get(position) != null) connectedDevices.get(position).powerOn();
+        if(connectedDevices.get(position) != null) connectedDevices.get(position).execute("Switch", "ON");
         return true;
         
     }
 
-    public synchronized boolean switchOff(int position){
+    private synchronized boolean switchOff(int position){
         if(position < 0 || position >= numSwitches) return false;
         
         switchStates.set(position, false);
-        if(connectedDevices.get(position) != null) connectedDevices.get(position).powerOff();
+        if(connectedDevices.get(position) != null) connectedDevices.get(position).execute("Switch","OFF");
         return true;
         
     }
 
     @Override
-    public synchronized void exportState() {
+    public synchronized void exportState(String... event) {
         if(!hasAddedHeader){
             ArrayList<String> header_columns = new ArrayList<>();
             header_columns.add("Timestamp");
@@ -93,7 +93,7 @@ public class Actuator extends Device {
     }
 
     @Override
-    public ExecutionResult execute(String command, String... arguments) {
+    public synchronized ExecutionResult execute(String command, String... arguments) {
         boolean success = false;
         DataPacket packet = null;
         

@@ -72,7 +72,7 @@ public abstract class SimulationObject implements Runnable {
         return object_name;
     }
 
-    public abstract void exportState();
+    public abstract void exportState(String... event);
     public abstract void runTimeFunction();
 
 }

@@ -6,11 +6,12 @@ public class Camera extends SimulationObject{
         super(name, outputLogFileName,runTimeStep);
     }
     @Override
-    public void exportState() {
+    public synchronized void exportState(String... event) {
+
         if(!hasAddedHeader){
-                writer.println("Timestamp, Object Name, Event");
-                hasAddedHeader = true;
-            }
+            writer.println("Timestamp, Object Name, Event");
+            hasAddedHeader = true;
+        }
         writer.println(getCurrentTimestamp()+"," + object_name + ", Took a Video");
         
     }
