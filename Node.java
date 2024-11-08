@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Map.Entry;
 import java.util.Queue;
 
@@ -15,6 +16,7 @@ public class Node extends SimulationObject{
         this.localController = locaController;
         connectedNodes = new HashMap<>();
         localController.setParentNode(this);
+        receivedDataPackets = new LinkedList<DataPacket>();
     }
     
     public void connectTo(Node... nodesToConnect){

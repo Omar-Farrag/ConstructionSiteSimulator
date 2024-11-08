@@ -18,6 +18,10 @@ public class uController extends SimulationObject{
         this.parentNode = parentNode;
     }
 
+    public void setGateway(Gateway gateway) {
+        this.gateway = gateway;
+    }
+
     public void connectTo(LowPowerDevice... devicesToConnect){
         synchronized(devices){
             for(Device device : devicesToConnect) devices.add(device);
@@ -30,8 +34,23 @@ public class uController extends SimulationObject{
         }
     }
 
+    public void connectTo(Gateway gateway){
+        this.gateway = gateway;
+        gateway.setParentController(this);
+    }
     public void publishPacket(DataPacket packet){
         parentNode.publishPacket(packet);
+    }
+
+    public void receiveDataPacket(DataPacket packet){
+        parentNode.update(parentNode, packet);
+    }
+    
+    public boolean forward(DataPacket packet, String route){
+        route = this.gateway.getObject_name()+","+route;
+        boolean sent =  gateway.forward(gateway,gateway, packet, route, 0);
+        exportState(String.format("[%s] Forwarded Packet Through Gateway", sent ? "SUCCESS" : "FAILURE"));
+        return sent;
     }
 
     @Override
