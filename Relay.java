@@ -1,12 +1,12 @@
 import java.util.ArrayList;
 
-public class Actuator extends Device {
+public class Relay extends Device {
 
     private int numSwitches;
     private ArrayList<Boolean> switchStates;
     private ArrayList<HighPowerDevice> connectedDevices;
 
-    public Actuator(String object_name,String outputFileName, int runTimeStep, int numSwitches){
+    public Relay(String object_name,String outputFileName, int runTimeStep, int numSwitches){
         super(object_name, outputFileName, runTimeStep);
         this.numSwitches = numSwitches;
 
@@ -88,7 +88,7 @@ public class Actuator extends Device {
     }
 
     @Override
-    public void runTimeFunction() {
+    protected void runTimeFunction() {
         exportState();
     }
 
@@ -98,9 +98,13 @@ public class Actuator extends Device {
         DataPacket packet = null;
         
         if(command.equalsIgnoreCase("Switch")){
-            int position = Integer.parseInt(arguments[0]);
-            if(arguments[1].equalsIgnoreCase("ON")) success = switchOn(position);
-            else if (arguments[1].equalsIgnoreCase("OFF")) success = switchOff(position);
+            try {
+                int position = Integer.parseInt(arguments[0]);
+                if(arguments[1].equalsIgnoreCase("ON")) success = switchOn(position);
+                else if (arguments[1].equalsIgnoreCase("OFF")) success = switchOff(position);
+            } catch (NumberFormatException e) {
+                // e.printStackTrace();
+            }
         }
 
         return new ExecutionResult(success, packet); 

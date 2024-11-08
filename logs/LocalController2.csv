@@ -1,11 +1,11 @@
 Timestamp, Object Name, Event
-2024-11-06T13:12:53.124164500,LocalController2,Success switching object Actuator position 1 to ON
-2024-11-06T13:12:54.138020700,LocalController2,Success switching object Actuator position 1 to OFF
-2024-11-06T13:12:55.148743900,LocalController2,Success switching object Actuator position 1 to OFF
-2024-11-06T13:12:56.160598800,LocalController2,Success switching object Actuator position 1 to ON
-2024-11-06T13:12:57.171715500,LocalController2,Success switching object Actuator position 1 to ON
-2024-11-06T13:12:58.185137300,LocalController2,Success switching object Actuator position 1 to OFF
-2024-11-06T13:12:59.204327900,LocalController2,Success switching object Actuator position 1 to OFF
-2024-11-06T13:13:00.221699600,LocalController2,Success switching object Actuator position 1 to OFF
-2024-11-06T13:13:01.224974900,LocalController2,Success switching object Actuator position 1 to ON
-2024-11-06T13:13:02.234609900,LocalController2,Success switching object Actuator position 1 to ON
+2024-11-08T18:21:44.131257400,LocalController2,[FAILURE] Switched object [Actuator] position [5] to [ON]
+2024-11-08T18:21:45.145347800,LocalController2,[FAILURE] Switched object [Actuator] position [5] to [ON]
+2024-11-08T18:21:46.154491500,LocalController2,[FAILURE] Switched object [Actuator] position [5] to [ON]
+2024-11-08T18:21:47.162123500,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [OFF]
+2024-11-08T18:21:48.171865700,LocalController2,[FAILURE] Switched object [Actuator] position [5] to [ON]
+2024-11-08T18:21:49.183898200,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [OFF]
+2024-11-08T18:21:50.185322500,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [OFF]
+2024-11-08T18:21:51.199079200,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [OFF]
+2024-11-08T18:21:52.209721500,LocalController2,[FAILURE] Switched object [Actuator] position [5] to [ON]
+2024-11-08T18:21:53.220422500,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [OFF]

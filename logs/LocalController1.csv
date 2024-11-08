@@ -1,21 +1,31 @@
-Timestamp                     ,Object Name      ,Event
-2024-11-06T13:12:53.119106700 ,LocalController1 ,Success querying object Ultrasonic1 field Distance
-2024-11-06T13:12:53.123117300 ,LocalController1 ,Success querying object Ultrasonic2 field Distance
-2024-11-06T13:12:54.139029700 ,LocalController1 ,Success querying object Ultrasonic1 field Distance
-2024-11-06T13:12:54.140030200 ,LocalController1 ,Success querying object Ultrasonic2 field Distance
-2024-11-06T13:12:55.148743900 ,LocalController1 ,Success querying object Ultrasonic1 field Distance
-2024-11-06T13:12:55.150851100 ,LocalController1 ,Success querying object Ultrasonic2 field Distance
-2024-11-06T13:12:56.160598800 ,LocalController1 ,Success querying object Ultrasonic1 field Distance
-2024-11-06T13:12:56.161597500 ,LocalController1 ,Success querying object Ultrasonic2 field Distance
-2024-11-06T13:12:57.172468300 ,LocalController1 ,Success querying object Ultrasonic1 field Distance
-2024-11-06T13:12:57.172468300 ,LocalController1 ,Success querying object Ultrasonic2 field Distance
-2024-11-06T13:12:58.185137300 ,LocalController1 ,Success querying object Ultrasonic1 field Distance
-2024-11-06T13:12:58.186132800 ,LocalController1 ,Success querying object Ultrasonic2 field Distance
-2024-11-06T13:12:59.203321    ,LocalController1 ,Success querying object Ultrasonic1 field Distance
-2024-11-06T13:12:59.205671700 ,LocalController1 ,Success querying object Ultrasonic2 field Distance
-2024-11-06T13:13:00.221699600 ,LocalController1 ,Success querying object Ultrasonic1 field Distance
-2024-11-06T13:13:00.222718700 ,LocalController1 ,Success querying object Ultrasonic2 field Distance
-2024-11-06T13:13:01.224974900 ,LocalController1 ,Success querying object Ultrasonic1 field Distance
-2024-11-06T13:13:01.225724800 ,LocalController1 ,Success querying object Ultrasonic2 field Distance
-2024-11-06T13:13:02.234609900 ,LocalController1 ,Success querying object Ultrasonic1 field Distance
-2024-11-06T13:13:02.235618400 ,LocalController1 ,Success querying object Ultrasonic2 field Distance
+Timestamp, Object Name, Event
+2024-11-08T18:21:44.127350,LocalController1,[FAILURE] Received field [Distance_gusgsd] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:44.147418500,LocalController1,[FAILURE] Received field [Distanceasdfasdf] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:44.193898500,LocalController1,[SUCCESS] Set field [Distance] in object [Ultrasonic2]
+2024-11-08T18:21:45.129336100,LocalController1,[FAILURE] Received field [Distance_gusgsd] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:45.238134100,LocalController1,[FAILURE] Received field [Distanceasdfasdf] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:45.269524500,LocalController1,[SUCCESS] Set field [Distance] in object [Ultrasonic2]
+2024-11-08T18:21:46.138801500,LocalController1,[FAILURE] Received field [Distance_gusgsd] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:46.311618300,LocalController1,[FAILURE] Received field [Distanceasdfasdf] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:46.340272,LocalController1,[SUCCESS] Set field [Distance] in object [Ultrasonic2]
+2024-11-08T18:21:47.146330500,LocalController1,[FAILURE] Received field [Distance_gusgsd] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:47.380437300,LocalController1,[FAILURE] Received field [Distanceasdfasdf] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:47.411625700,LocalController1,[SUCCESS] Set field [Distance] in object [Ultrasonic2]
+2024-11-08T18:21:48.157056700,LocalController1,[FAILURE] Received field [Distance_gusgsd] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:48.452785700,LocalController1,[FAILURE] Received field [Distanceasdfasdf] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:48.484353700,LocalController1,[SUCCESS] Set field [Distance] in object [Ultrasonic2]
+2024-11-08T18:21:49.167372100,LocalController1,[FAILURE] Received field [Distance_gusgsd] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:49.528716,LocalController1,[FAILURE] Received field [Distanceasdfasdf] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:49.561702700,LocalController1,[SUCCESS] Set field [Distance] in object [Ultrasonic2]
+2024-11-08T18:21:50.169788800,LocalController1,[FAILURE] Received field [Distance_gusgsd] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:50.605826,LocalController1,[FAILURE] Received field [Distanceasdfasdf] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:50.638339400,LocalController1,[SUCCESS] Set field [Distance] in object [Ultrasonic2]
+2024-11-08T18:21:51.184153,LocalController1,[FAILURE] Received field [Distance_gusgsd] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:51.681019,LocalController1,[FAILURE] Received field [Distanceasdfasdf] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:51.713812700,LocalController1,[SUCCESS] Set field [Distance] in object [Ultrasonic2]
+2024-11-08T18:21:52.194258700,LocalController1,[FAILURE] Received field [Distance_gusgsd] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:52.752216400,LocalController1,[FAILURE] Received field [Distanceasdfasdf] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:52.800025600,LocalController1,[SUCCESS] Set field [Distance] in object [Ultrasonic2]
+2024-11-08T18:21:53.204579200,LocalController1,[FAILURE] Received field [Distance_gusgsd] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:53.847197300,LocalController1,[FAILURE] Received field [Distanceasdfasdf] from object [Ultrasonic1]. Value [Null]
+2024-11-08T18:21:53.882422600,LocalController1,[SUCCESS] Set field [Distance] in object [Ultrasonic2]

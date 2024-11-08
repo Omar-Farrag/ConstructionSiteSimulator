@@ -72,7 +72,15 @@ public abstract class SimulationObject implements Runnable {
         return object_name;
     }
 
-    public abstract void exportState(String... event);
-    public abstract void runTimeFunction();
+    public synchronized void exportState(String... event) {
+
+        if(!hasAddedHeader){
+            writer.println("Timestamp, Object Name, Event");
+            hasAddedHeader = true;
+        }
+        writer.println(getCurrentTimestamp()+"," + object_name + "," + event[0]);
+        
+    }
+    protected abstract void runTimeFunction();
 
 }

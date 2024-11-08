@@ -5,6 +5,7 @@ public class uController extends SimulationObject{
     private Node parentNode;
     private ProcessingAlgorithm algorithm;
     private ArrayList<Device> devices;
+    private Gateway gateway;
 
     public uController(String name, String outputLogFileName, int runTimeStep, ProcessingAlgorithm algorithm) {
         super(name, outputLogFileName, runTimeStep);
@@ -17,7 +18,13 @@ public class uController extends SimulationObject{
         this.parentNode = parentNode;
     }
 
-    public void connectTo(Device... devicesToConnect){
+    public void connectTo(LowPowerDevice... devicesToConnect){
+        synchronized(devices){
+            for(Device device : devicesToConnect) devices.add(device);
+        }
+    }
+
+    public void connectTo(Relay... devicesToConnect){
         synchronized(devices){
             for(Device device : devicesToConnect) devices.add(device);
         }
@@ -28,65 +35,61 @@ public class uController extends SimulationObject{
     }
 
     @Override
-    public synchronized void exportState(String... event) {
-        if(!hasAddedHeader){
-            writer.println("Timestamp, Object Name, Event");
-            hasAddedHeader = true;
-        }
-        writer.println(getCurrentTimestamp()+"," + object_name + "," + event[0]);
-    }
-
-    @Override
-    public void runTimeFunction() {
+    protected void runTimeFunction() {
         algorithm.process(this);
     }
 
-    public DataPacket queryField(String objectName, String field){
+    public ExecutionResult getField(String objectName, String field){
         synchronized(devices){
             for(Device dev : devices){
                 if(dev.getObject_name().equalsIgnoreCase(objectName)){
                     ExecutionResult result = dev.execute("GET", field);
-                    String status = result.isSuccess() ? "Success" : "Fail";
-                    exportState(String.format("%s querying object %s field %s",status, objectName, field));
-                    return result.getReturnedPacket();
+                    String status = result.isSuccess() ? "SUCCESS" : "FAILURE";
+                    DataPacket packet = result.getReturnedPacket();
+                    exportState(String.format("[%s] Received field [%s] from object [%s]. Value [%s]",status, field, objectName, packet != null ? packet.getValue(): "Null"));
+                    return result;
                 }
             }
         }
-        exportState(String.format("Failed querying object %s field %s", objectName, field));
+        exportState(String.format("[FAILURE] Received field [%s] from object [%s]. Value [Null]", field, objectName));
 
-        return null;
+        return new ExecutionResult(false, null);
     }
-    public Boolean setField(String objectName, String field, Float value){
-
+    
+    public ExecutionResult setField(String objectName, String field, String value){       
         synchronized(devices){
             for(Device dev : devices){
                 if(dev.getObject_name().equalsIgnoreCase(objectName)){
-                    ExecutionResult result = dev.execute("SET", field, value.toString());
-                    String status = result.isSuccess() ? "Success" : "Fail";
-                    exportState(String.format("%s setting object %s field %s to %s",status, objectName, field, value.toString()));
-                    return result.isSuccess();
+                    ExecutionResult result = dev.execute("SET", field, value);
+                    String status = result.isSuccess() ? "SUCCESS" : "FAILURE";
+                    exportState(String.format("[%s] Set field [%s] in object [%s]",status, field, objectName));
+                    return result;
                 }
             }
         }
-        exportState(String.format("Failed setting object %s field %s to %s", objectName, field, value.toString()));
-        return false;
+        exportState(String.format("[FAILURE] Set field %s in object %s", field, objectName));
+        return new ExecutionResult(false, null);
 
     }
-    public boolean updateSwitch(String objectName, String position, String switchStatus){
+    
+    public ExecutionResult updateSwitch(String objectName, String position, String switchStatus){
 
         synchronized(devices){
             for(Device dev : devices){
                 if(dev.getObject_name().equalsIgnoreCase(objectName)){
                     ExecutionResult result = dev.execute("Switch", position, switchStatus);
-                    String successStatus = result.isSuccess() ? "Success" : "Fail";
-                    exportState(String.format("%s switching object %s position %s to %s",successStatus, objectName, position, switchStatus));
-                    return result.isSuccess();
+                    String successStatus = result.isSuccess() ? "SUCCESS" : "FAILURE";
+                    exportState(String.format("[%s] Switched object [%s] position [%s] to [%s]",successStatus, objectName, position, switchStatus));
+                    return result;
                 }
             }
         }
-        exportState(String.format("Failed switching object %s position %f to %s", objectName, position, switchStatus));
-        return false;
+        exportState(String.format("[FAILURE] Switched object [%s] position [%s] to [%s]", objectName, position, switchStatus));
+        return new ExecutionResult(false, null);
 
     }
     
+    public Node getParentNode() {
+        return parentNode;
+    }
 }

@@ -37,7 +37,7 @@ public class HighPowerDevice extends Device {
     }
 
     @Override
-    public void runTimeFunction() {
+    protected void runTimeFunction() {
         exportState();
     }
 
