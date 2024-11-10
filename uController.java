@@ -2,7 +2,8 @@ import java.util.ArrayList;
 
 public class uController extends SimulationObject{
 
-    private Node parentNode;
+    private Node parentSlaveNode;
+    private ControlNode parentControlNode;
     private ProcessingAlgorithm algorithm;
     private ArrayList<Device> devices;
     private Gateway gateway;
@@ -15,7 +16,13 @@ public class uController extends SimulationObject{
     }
 
     public void setParentNode(Node parentNode) {
-        this.parentNode = parentNode;
+        this.parentSlaveNode = parentNode;
+        this.parentControlNode = null;
+    }
+    
+    public void setParentNode(ControlNode parentNode) {
+        this.parentControlNode = parentNode;
+        this.parentSlaveNode = null;
     }
 
     public void setGateway(Gateway gateway) {
@@ -38,18 +45,20 @@ public class uController extends SimulationObject{
         this.gateway = gateway;
         gateway.setParentController(this);
     }
+    
     public void publishPacket(DataPacket packet){
-        parentNode.publishPacket(packet);
+        parentSlaveNode.publishPacket(packet);
     }
 
-    public void receiveDataPacket(DataPacket packet){
-        parentNode.update(parentNode, packet);
+    public void receiveDataPacket(Gateway source, DataPacket packet){
+        parentControlNode.update(source.getParentNode(), packet);
     }
     
     public boolean forward(DataPacket packet, String route){
         route = this.gateway.getObject_name()+","+route;
         boolean sent =  gateway.forward(gateway,gateway, packet, route, 0);
-        exportState(String.format("[%s] Forwarded Packet Through Gateway", sent ? "SUCCESS" : "FAILURE"));
+        exportState(String.format("[%s] Forwarded Packet Through Connected Gateway", sent ? "SUCCESS" : "FAILURE"));
+        this.parentControlNode.exportState(String.format("[%s] Forwarded Packet Through Connected Gateway", sent ? "SUCCESS" : "FAILURE"));
         return sent;
     }
 
@@ -108,7 +117,11 @@ public class uController extends SimulationObject{
 
     }
     
-    public Node getParentNode() {
-        return parentNode;
+    public Node getParentSlaveNode() {
+        return parentSlaveNode;
+    }
+    
+    public ControlNode getParentControlNode() {
+        return parentControlNode;
     }
 }

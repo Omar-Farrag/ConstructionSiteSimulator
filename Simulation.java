@@ -14,8 +14,8 @@ public class Simulation {
             ExecutionResult result = controller.getField("Ultrasonic1","Distance");
             if(result.isSuccess()){
                 DataPacket distance1 = result.getReturnedPacket();
-                controller.publishPacket(distance1);
-                String[] route = {"Gateway2"};
+                // controller.publishPacket(distance1);
+                String[] route = {"Gateway3"};
                 controller.forward(distance1,String.join(",", route));
             } 
             
@@ -29,7 +29,7 @@ public class Simulation {
         controller1.connectTo(ultrasonicSensor1,ultrasonicSensor2);
         controller1.connectTo(gateway1);
 
-        Node node1 = new Node("Node1", "logs/Node1.csv", runTimeStep,20,controller1);
+        ControlNode node1 = new ControlNode("Node1", "logs/Node1.csv", runTimeStep,controller1);
 
         
         HighPowerDevice fan = new HighPowerDevice("Fan", "logs/Fan.csv", runTimeStep);
@@ -40,21 +40,22 @@ public class Simulation {
             int temp = new Random().nextInt(99);
             if(temp > 40) controller.updateSwitch("Actuator", "1", "ON");
             else controller.updateSwitch("Actuator", "1", "OFF");
+            controller.publishPacket(new DataPacket("", "", "", 0, ""));
         };
         Gateway gateway2 = new Gateway("Gateway2", "logs/gateway2.csv", runTimeStep);
         uController controller2 = new uController("LocalController2", "logs/LocalController2.csv", runTimeStep, controller2Algo);
         controller2.connectTo(actuator);
         controller2.connectTo(gateway2);
 
-        Node node2 = new Node("Node2", "logs/Node2.csv", runTimeStep,30,controller2);
+        Node node2 = new Node("Node2", "logs/Node2.csv", runTimeStep,20,controller2);
         
 
         LowPowerDevice camera = new LowPowerDevice("Camera", "logs/Camera.csv", runTimeStep, "inputs/camera_values.csv", 3500);
         ProcessingAlgorithm controller3Algo = (uController controller)->{
-            Node node = controller.getParentNode();
+            ControlNode node = controller.getParentControlNode();
             controller.exportState("Welcome to the playground");
             // node.getFieldFrom("Node1", "Ultrasonic1", "Distance");
-            // node.setFieldIn("Node1", "Ultrasonic2", "Distance","911");
+            // node.setFieldIn("Node1", "Ultrasonic2", "Distance","911");S
         };
 
         Gateway gateway3 = new Gateway("Gateway3", "logs/gateway3.csv", runTimeStep);
@@ -63,8 +64,8 @@ public class Simulation {
         controller3.connectTo(camera);
         controller3.connectTo(gateway3);
 
-        Node node3 = new Node("Node3","logs/Node3.csv",runTimeStep,20,controller3);
-        node3.connectTo(node1, node2);
+        ControlNode node3 = new ControlNode("Node3","logs/Node3.csv",runTimeStep,controller3);
+        node3.subscribeTo(node2);
 
 
         gateway1.connectTo(gateway2,gateway3);

@@ -1,21 +1,21 @@
 Timestamp, Object Name, Event
-2024-11-08T21:50:52.282480900,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [10]
-2024-11-08T21:50:52.313770900,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
-2024-11-08T21:50:53.329498100,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [10]
-2024-11-08T21:50:53.331857500,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
-2024-11-08T21:50:54.341191400,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [10]
-2024-11-08T21:50:54.345586400,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
-2024-11-08T21:50:55.356001,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [23]
-2024-11-08T21:50:55.360000100,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
-2024-11-08T21:50:56.370703600,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [22]
-2024-11-08T21:50:56.373345400,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
-2024-11-08T21:50:57.382796,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [24]
-2024-11-08T21:50:57.384521700,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
-2024-11-08T21:50:58.396796900,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [200]
-2024-11-08T21:50:58.399687400,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
-2024-11-08T21:50:59.408404,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [30]
-2024-11-08T21:50:59.411407500,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
-2024-11-08T21:51:00.413856900,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [35]
-2024-11-08T21:51:00.418980600,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
-2024-11-08T21:51:01.423258300,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [32]
-2024-11-08T21:51:01.427277500,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
+2024-11-10T20:25:14.818854700,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [Uninitialized]
+2024-11-10T20:25:14.835225100,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
+2024-11-10T20:25:15.846922700,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [10]
+2024-11-10T20:25:15.853454300,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
+2024-11-10T20:25:16.870283300,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [10]
+2024-11-10T20:25:16.871277700,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
+2024-11-10T20:25:17.881096600,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [23]
+2024-11-10T20:25:17.883495,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
+2024-11-10T20:25:18.890169700,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [22]
+2024-11-10T20:25:18.893549,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
+2024-11-10T20:25:19.904464,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [24]
+2024-11-10T20:25:19.910889900,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
+2024-11-10T20:25:20.917318400,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [200]
+2024-11-10T20:25:20.921789400,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
+2024-11-10T20:25:21.932762300,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [30]
+2024-11-10T20:25:21.941085900,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
+2024-11-10T20:25:22.945635400,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [35]
+2024-11-10T20:25:22.949155200,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
+2024-11-10T20:25:23.962558,LocalController1,[SUCCESS] Received field [Distance] from object [Ultrasonic1]. Value [32]
+2024-11-10T20:25:23.967483900,LocalController1,[SUCCESS] Forwarded Packet Through Gateway
