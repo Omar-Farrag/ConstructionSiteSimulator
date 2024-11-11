@@ -6,16 +6,19 @@ import java.util.Queue;
 
 public class ControlNode extends SimulationObject {
 
+    final int BLE_transmission_rate = 100; //kbps
     private HashMap<String, SlaveNode> connectedSlaveNodes;
-    private Queue<DataPacket> receivedDataPackets;
+    private Queue<DataPacket> bufferedDataPackets;
+    private Queue<BulkDataPacket> receivedBulkDataPackets;
     private HashMap<String, String> fieldValues;
 
     public ControlNode(String object_name, String outputFileName, int runTimeStep, uController localController){
         super(object_name, outputFileName, runTimeStep);
         localController.setParentNode(this);
-        receivedDataPackets = new LinkedList<DataPacket>();
         connectedSlaveNodes = new HashMap<>();
         fieldValues = new HashMap<>();
+        receivedBulkDataPackets = new LinkedList<>();
+        bufferedDataPackets = new LinkedList<>();
     }
 
     public void subscribeTo(SlaveNode... nodesToConnect){
@@ -27,15 +30,34 @@ public class ControlNode extends SimulationObject {
     }
     
     public synchronized void update(SlaveNode sender, DataPacket receivedDataPacket){
+        int time_delay = sender.getRTT_to_Control_Node()/2 + receivedDataPacket.getSize() / BLE_transmission_rate;
+        try {
+            Thread.sleep(time_delay);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        exportState(String.format("Received new packet from slave node [%s]", sender.getObject_name()));      
+        
+        synchronized(bufferedDataPackets){
+            bufferedDataPackets.add(receivedDataPacket);
+        }
+        
         fieldValues.put(
             receivedDataPacket.getSourceObjectName()+"_"+receivedDataPacket.getFieldName(),
             receivedDataPacket.getValue());
-        exportState(String.format("Received new packet from slave node [%s]", sender.getObject_name()));
+
+        time_delay = sender.getRTT_to_Control_Node()/2;
+        try {
+            Thread.sleep(time_delay);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
-    public void receiveForwardedPacket(ControlNode sender, DataPacket receivedDataPacket){
-        synchronized(receivedDataPacket){
-            receivedDataPackets.add(receivedDataPacket);
+    public void receiveForwardedPacket(ControlNode sender, BulkDataPacket receivedBulkDataPacket){
+        synchronized(receivedBulkDataPackets){
+            receivedBulkDataPackets.add(receivedBulkDataPacket);
             exportState(String.format("Received new packet from control node [%s]", sender.getObject_name()));
         }
     }
@@ -47,19 +69,21 @@ public class ControlNode extends SimulationObject {
         if(targetNode!= null) {
             result = targetNode.getField(this, targetObjectName, field);
             String successStatus = result.isSuccess() ? "SUCCESS" : "FAILURE";
-            exportState(String.format("[%s] Requested field [%s] from object [%s] in slave node [%s]. Value [%s]",successStatus, field, targetObjectName, targetNodeName, result.isSuccess()? result.getReturnedPacket().getValue():"Null"));
+            exportState(String.format("[%s] Received field [%s] from object [%s] in slave node [%s]. Value [%s]",successStatus, field, targetObjectName, targetNodeName, result.isSuccess()? result.getReturnedPacket().getValue():"Null"));
             return result;
         }
         else{
-            exportState(String.format("[FAILURE] Requested field [%s] from object [%s] in slave node [%s]. Value [Null]",field, targetObjectName, targetNodeName));
+            exportState(String.format("[FAILURE] Received field [%s] from object [%s] in slave node [%s]. Value [Null]",field, targetObjectName, targetNodeName));
             return new ExecutionResult(false, null);
         }
     }
 
-    public ExecutionResult setFieldIn(String targetNodeName, String targetObjectName, String field, String value){
+    public ExecutionResult setFieldIn(String targetNodeName, String targetObjectName, String field, String value, int size){
+        
         SlaveNode targetNode = connectedSlaveNodes.get(targetNodeName);
+        
         if(targetNode != null){
-            ExecutionResult result = targetNode.setField(this, targetObjectName, field, value);
+            ExecutionResult result = targetNode.setField(this, targetObjectName, field, value, size);
             String successStatus = result.isSuccess() ? "SUCCESS" : "FAILURE";
             exportState(String.format("[%s] Set field [%s] in object [%s] in slave node [%s]", successStatus, field, targetObjectName, targetNodeName));
             return result;
@@ -69,6 +93,18 @@ public class ControlNode extends SimulationObject {
             return new ExecutionResult(false, null);
         }
         
+    }
+
+    public Queue<BulkDataPacket> getReceivedBulkDataPackets() {
+        return receivedBulkDataPackets;
+    }
+
+    public Queue<DataPacket> getBufferedDataPackets() {
+        return bufferedDataPackets;
+    }
+    
+    public void clearBufferedPackets(){
+        bufferedDataPackets.clear();
     }
 
     @Override

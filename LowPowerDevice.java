@@ -84,9 +84,10 @@ public class LowPowerDevice extends Device {
         }
     }
     
-    private void setField(String fieldName, String value){
+    private DataPacket setField(String fieldName, String value){
         synchronized(fieldValues){
             fieldValues.put(fieldName,value);
+            return new DataPacket(object_name,fieldName,value,fieldSize,getCurrentTimestamp());
         }
     }
 
@@ -104,7 +105,7 @@ public class LowPowerDevice extends Device {
 
         else if(command.equalsIgnoreCase("SET")){
             if(fieldValues.containsKey(arguments[0])) {
-                setField(arguments[0], arguments[1]);
+                packet = setField(arguments[0], arguments[1]);
                 success = true;        
             }
         }

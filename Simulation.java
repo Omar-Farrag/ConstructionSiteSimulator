@@ -1,5 +1,7 @@
 import java.util.HashMap;
 import java.util.Map.Entry;
+
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -12,8 +14,8 @@ public class Simulation {
         
         int runTimeStep = 1000; //ms
         
-        LowPowerDevice ultrasonicSensor1 = new LowPowerDevice("Ultrasonic1", "logs/Ultrasonic1.csv", runTimeStep, "inputs/ultrasonic1_values.csv",1);
-        LowPowerDevice ultrasonicSensor2 = new LowPowerDevice("Ultrasonic2", "logs/Ultrasonic2.csv", runTimeStep, "inputs/ultrasonic2_values.csv",1);
+        LowPowerDevice ultrasonicSensor1 = new LowPowerDevice("Ultrasonic1", "logs/Ultrasonic1.csv", runTimeStep, "inputs/ultrasonic1_values.csv",1000);
+        LowPowerDevice ultrasonicSensor2 = new LowPowerDevice("Ultrasonic2", "logs/Ultrasonic2.csv", runTimeStep, "inputs/ultrasonic2_values.csv",1000);
         
         ProcessingAlgorithm controller1Algo = (uController controller)->{
             ExecutionResult result1 = controller.getField("Ultrasonic1","Distance");
@@ -56,7 +58,17 @@ public class Simulation {
             if(temp > 40) controller.updateSwitch("Actuator", "1", "ON");
             else controller.updateSwitch("Actuator", "1", "OFF");
             String[] route = {"Gateway3"};
-            controller.forward(new DataPacket("TempSensor", "Temp", String.valueOf(temp), 8, ""),String.join(",", route));
+            
+            BulkDataPacket packet = new BulkDataPacket(controller.getParentControlNode().getObject_name(), controller.getCurrentTimestamp());
+            packet.addPacket(new DataPacket("TempSensor", "Temp", String.valueOf(temp), 1, ""));
+            packet.addPacket(new DataPacket("TempSensor", "Temp", String.valueOf(temp), 1, ""));
+            packet.addPacket(new DataPacket("TempSensor", "Temp", String.valueOf(temp), 1, ""));
+            packet.addPacket(new DataPacket("TempSensor", "Temp", String.valueOf(temp), 1, ""));
+            packet.addPacket(new DataPacket("TempSensor", "Temp", String.valueOf(temp), 1, ""));
+            packet.addPacket(new DataPacket("TempSensor", "Temp", String.valueOf(temp), 1, ""));
+            packet.addPacket(new DataPacket("TempSensor", "Temp", String.valueOf(temp), 1, ""));
+            packet.addPacket(new DataPacket("TempSensor", "Temp", String.valueOf(temp), 1, ""));
+            controller.forward(packet,String.join(",", route));
         };
         Gateway gateway2 = new Gateway("Gateway2", "logs/gateway2.csv", runTimeStep);
         uController controller2 = new uController("LocalController2", "logs/LocalController2.csv", runTimeStep, controller2Algo);
@@ -69,14 +81,19 @@ public class Simulation {
         LowPowerDevice camera = new LowPowerDevice("Camera", "logs/Camera.csv", runTimeStep, "inputs/camera_values.csv", 3500);
         ProcessingAlgorithm controller3Algo = (uController controller)->{
             ControlNode node = controller.getParentControlNode();
-            controller.exportState("Welcome to the playground");
+            BulkDataPacket packet = new BulkDataPacket(node.getObject_name(),controller.getCurrentTimestamp());
+            packet.addPackets(node.getBufferedDataPackets());
+            controller.exportState(String.format("Aggregated %s Data Packets", node.getBufferedDataPackets().size()));
+            controller.forward(packet, "Gateway2");
+            node.clearBufferedPackets();
+            controller.exportState(String.format("Current Buffer Size  = %s Data Packets", node.getBufferedDataPackets().size()));
             // node.getFieldFrom("Node1", "Ultrasonic1", "Distance");
             // node.setFieldIn("Node1", "Ultrasonic2", "Distance","911");S
         };
 
         Gateway gateway3 = new Gateway("Gateway3", "logs/gateway3.csv", runTimeStep);
         
-        uController controller3 = new uController("LocalController3", "logs/LocalController3.csv", runTimeStep, controller3Algo);
+        uController controller3 = new uController("LocalController3", "logs/LocalController3.csv", runTimeStep*2, controller3Algo);
         controller3.connectTo(camera);
         controller3.connectTo(gateway3);
 
@@ -85,8 +102,8 @@ public class Simulation {
 
 
         // gateway1.connectTo(gateway2,gateway3);
-        gateway2.connectTo(gateway3, 300);
-        gateway3.connectTo(gateway2, 300);
+        gateway2.connectTo(gateway3, 100);
+        gateway3.connectTo(gateway2, 100);
 
         simulationObjects.put(ultrasonicSensor1.getObject_name(),ultrasonicSensor1);
         simulationObjects.put(ultrasonicSensor2.getObject_name(),ultrasonicSensor2); 
@@ -135,7 +152,7 @@ public class Simulation {
             return option != 5;
 
         }catch(NumberFormatException e){
-            System.out.print("Invalid option");
+            System.out.println("Invalid option");
             return true;
         }
 

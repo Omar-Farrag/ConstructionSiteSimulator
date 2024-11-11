@@ -1,9 +1,21 @@
-Timestamp, Object Name, Event
-2024-11-11T07:57:01.556653800,LocalController3,Welcome to the playground
-2024-11-11T07:57:02.571627,LocalController3,Welcome to the playground
-2024-11-11T07:57:03.586757100,LocalController3,Welcome to the playground
-2024-11-11T07:57:04.601019800,LocalController3,Welcome to the playground
-2024-11-11T07:57:05.613924900,LocalController3,Welcome to the playground
-2024-11-11T07:57:06.627267600,LocalController3,Welcome to the playground
-2024-11-11T07:57:07.636103500,LocalController3,Welcome to the playground
-2024-11-11T07:57:08.648913100,LocalController3,Welcome to the playground
+Timestamp                     ,Object Name      ,Event
+2024-11-11T23:11:55.314237200 ,LocalController3 ,Aggregated 0 Data Packets
+2024-11-11T23:11:55.319373300 ,LocalController3 ,[STARTED] Sent Packet Through Connected Gateway
+2024-11-11T23:11:55.400909500 ,LocalController3 ,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-11T23:11:55.411970300 ,LocalController3 ,Current Buffer Size  = 0 Data Packets
+2024-11-11T23:11:57.416807900 ,LocalController3 ,Aggregated 4 Data Packets
+2024-11-11T23:11:57.418904    ,LocalController3 ,[STARTED] Sent Packet Through Connected Gateway
+2024-11-11T23:11:57.476938800 ,LocalController3 ,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-11T23:11:57.478934800 ,LocalController3 ,Current Buffer Size  = 0 Data Packets
+2024-11-11T23:11:59.495923400 ,LocalController3 ,Aggregated 6 Data Packets
+2024-11-11T23:11:59.497582800 ,LocalController3 ,[STARTED] Sent Packet Through Connected Gateway
+2024-11-11T23:11:59.556914600 ,LocalController3 ,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-11T23:11:59.559597300 ,LocalController3 ,Current Buffer Size  = 0 Data Packets
+2024-11-11T23:12:01.561791800 ,LocalController3 ,Aggregated 6 Data Packets
+2024-11-11T23:12:01.563786400 ,LocalController3 ,[STARTED] Sent Packet Through Connected Gateway
+2024-11-11T23:12:01.624756600 ,LocalController3 ,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-11T23:12:01.626752500 ,LocalController3 ,Current Buffer Size  = 0 Data Packets
+2024-11-11T23:12:03.643974900 ,LocalController3 ,Aggregated 6 Data Packets
+2024-11-11T23:12:03.645906700 ,LocalController3 ,[STARTED] Sent Packet Through Connected Gateway
+2024-11-11T23:12:03.703929400 ,LocalController3 ,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-11T23:12:03.706842500 ,LocalController3 ,Current Buffer Size  = 0 Data Packets

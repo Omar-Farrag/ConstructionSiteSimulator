@@ -1,8 +1,9 @@
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
 public class Gateway extends SimulationObject{
+
+    final int WIFI_TRANSMISSION_RATE = 2000; //kbps
 
     private uController parentController;
     HashMap<Gateway,Integer> connectedGateways;
@@ -20,7 +21,7 @@ public class Gateway extends SimulationObject{
         this.parentController = parentController;
     }
     
-    public boolean forward(Gateway source, Gateway previous, DataPacket packet, String route, int position){
+    public boolean forward(Gateway source, Gateway previous, BulkDataPacket packet, String route, int position){
         String[] routeComponents = route.split(",");
         if(position == (routeComponents.length-1)){
     
@@ -40,7 +41,8 @@ public class Gateway extends SimulationObject{
             if(nextGateway.getKey().getObject_name().equalsIgnoreCase(nextGatewayName)){
                 exportState(String.format("[SUCCESS] Forwarded packet from Gateway [%s] to Gateway [%s]", previous.getObject_name(), nextGateway.getKey().getObject_name()));
                 try {
-                    Thread.sleep(nextGateway.getValue()/2);
+                    int time_delay= nextGateway.getValue()/2 + packet.getSize() / (WIFI_TRANSMISSION_RATE);
+                    Thread.sleep(time_delay);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

@@ -1,16 +1,37 @@
 Timestamp,Object Name,Event
-2024-11-11T07:57:01.558391900,Node2,
-2024-11-11T07:57:01.769087200,Node2,[SUCCESS] Forwarded Packet Through Connected Gateway
-2024-11-11T07:57:02.572634500,Node2,
-2024-11-11T07:57:02.931147,Node2,[SUCCESS] Forwarded Packet Through Connected Gateway
-2024-11-11T07:57:03.586757100,Node2,
-2024-11-11T07:57:04.308462900,Node2,[SUCCESS] Forwarded Packet Through Connected Gateway
-2024-11-11T07:57:04.601019800,Node2,
-2024-11-11T07:57:05.475817300,Node2,[SUCCESS] Forwarded Packet Through Connected Gateway
-2024-11-11T07:57:05.612925100,Node2,
-2024-11-11T07:57:06.627267600,Node2,
-2024-11-11T07:57:06.648499600,Node2,[SUCCESS] Forwarded Packet Through Connected Gateway
-2024-11-11T07:57:07.636103500,Node2,
-2024-11-11T07:57:07.811924100,Node2,[SUCCESS] Forwarded Packet Through Connected Gateway
-2024-11-11T07:57:08.649740600,Node2,
-2024-11-11T07:57:08.982190400,Node2,[SUCCESS] Forwarded Packet Through Connected Gateway
+2024-11-11T23:11:55.285118,Node2,
+2024-11-11T23:11:55.322602400,Node2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-11T23:11:55.398845100,Node2,Received new packet from control node [Node3]
+2024-11-11T23:11:55.414959,Node2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-11T23:11:56.290486700,Node2,
+2024-11-11T23:11:56.423578900,Node2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-11T23:11:56.516054600,Node2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-11T23:11:57.292036100,Node2,
+2024-11-11T23:11:57.474933800,Node2,Received new packet from control node [Node3]
+2024-11-11T23:11:57.527383600,Node2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-11T23:11:57.590972500,Node2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-11T23:11:58.302714600,Node2,
+2024-11-11T23:11:58.599108100,Node2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-11T23:11:58.663627500,Node2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-11T23:11:59.310346900,Node2,
+2024-11-11T23:11:59.553552800,Node2,Received new packet from control node [Node3]
+2024-11-11T23:11:59.681070900,Node2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-11T23:11:59.744231400,Node2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-11T23:12:00.317120400,Node2,
+2024-11-11T23:12:00.754595800,Node2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-11T23:12:00.817588500,Node2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-11T23:12:01.326557,Node2,
+2024-11-11T23:12:01.620911,Node2,Received new packet from control node [Node3]
+2024-11-11T23:12:01.826495200,Node2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-11T23:12:01.890406500,Node2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-11T23:12:02.341868100,Node2,
+2024-11-11T23:12:02.898774200,Node2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-11T23:12:02.963375100,Node2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-11T23:12:03.347422900,Node2,
+2024-11-11T23:12:03.701235,Node2,Received new packet from control node [Node3]
+2024-11-11T23:12:03.968203,Node2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-11T23:12:04.031914200,Node2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-11T23:12:04.361204300,Node2,
+2024-11-11T23:12:05.043428500,Node2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-11T23:12:05.107336200,Node2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-11T23:12:05.369564400,Node2,

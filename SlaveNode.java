@@ -4,6 +4,8 @@ import java.util.Map.Entry;
 
 public class SlaveNode extends SimulationObject{
 
+    final int BLE_transmission_rate = 100; //kbps
+
     protected uController localController;
     private int RTT_to_Control_Node; //ms
     private HashMap<String, ControlNode> subscribers;
@@ -23,50 +25,76 @@ public class SlaveNode extends SimulationObject{
     }
 
     public void publishPacket(DataPacket packet){
+
+        exportState(String.format("Started Publishing packet to %d subscribers",subscribers.size()));
         for (Entry<String,ControlNode> nodeEntry : subscribers.entrySet()) {
-            try {
-                Thread.sleep(RTT_to_Control_Node/2);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
             nodeEntry.getValue().update(this, packet);
         }
-        exportState(String.format("Published packet to %d subscribers",subscribers.size()));
+        exportState(String.format("Done Publishing packet to %d subscribers",subscribers.size()));
     }
 
     public ExecutionResult getField(ControlNode requester, String objectName, String field){
+
         try {
-            Thread.sleep(RTT_to_Control_Node/2);
+            int time_delay= RTT_to_Control_Node /2;
+            Thread.sleep(time_delay);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+        exportState(String.format("Node [%s] requested field [%s] in object [%s]",
+            requester.getObject_name(),
+            field, 
+            objectName));
+
+        ExecutionResult result;
         synchronized(localController){
-            ExecutionResult result = localController.getField(objectName, field);
-            exportState(String.format("[%s] Node [%s] requested field [%s] in object [%s]. Value [%s]",
-                result.isSuccess() ? "SUCCESS" : "FAILURE",
-                requester.getObject_name(),
-                field, 
-                objectName, 
-                result.isSuccess() ? result.getReturnedPacket().getValue() : "Null"));
-            return result;
+            result = localController.getField(objectName, field);
         }
+
+        try {
+            int time_delay= RTT_to_Control_Node/2 + (result.isSuccess() ? result.getReturnedPacket().getSize() / (BLE_transmission_rate) : 0);
+            Thread.sleep(time_delay);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        return result;
+
     }
     
-    public ExecutionResult setField(ControlNode setter, String objectName, String field, String value){
+    public ExecutionResult setField(ControlNode setter, String objectName, String field, String value, int size){
+
         try {
-            Thread.sleep(RTT_to_Control_Node/2);
+            int time_delay= RTT_to_Control_Node /2 + size / BLE_transmission_rate;
+            Thread.sleep(time_delay);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+        exportState(String.format("Node [%s] attempted updating field [%s] in object [%s]",
+            setter.getObject_name(),
+            field, 
+            objectName));
+
+        ExecutionResult result;
         synchronized(localController){
-        ExecutionResult result = localController.setField(objectName, field, value);
-            exportState(String.format("[%s] Node [%s] attempted updating field [%s] in object [%s]",
-                result.isSuccess() ? "SUCCESS" : "FAILURE",
-                setter.getObject_name(),
-                field, 
-                objectName));
-            return result;
+            result = localController.setField(objectName, field, value);
         }
+
+        try {
+            int time_delay= RTT_to_Control_Node/2;
+            Thread.sleep(time_delay);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        return result;
+
+    }
+
+    public int getRTT_to_Control_Node() {
+        return RTT_to_Control_Node;
     }
 
     public ArrayList<String> getOfferedFields(){

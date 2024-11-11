@@ -1,22 +1,55 @@
 Timestamp, Object Name, Event
-2024-11-11T07:57:01.611276400,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:01.636437600,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:01.650704200,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:02.677719500,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:02.698720500,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:02.725469200,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:03.761899300,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:03.788595800,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:03.803592400,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:04.835992600,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:04.852099500,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:04.866484500,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:05.893360800,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:05.911593900,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:05.925747700,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:06.953505100,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:06.969482600,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:06.984414400,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:08.027107200,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:08.070002900,Node1,Published packet to 1 subscribers
-2024-11-11T07:57:08.089485900,Node1,Published packet to 1 subscribers
+2024-11-11T23:11:55.327685200,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:11:55.366780800,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:11:55.367521400,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:11:55.410171900,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:11:55.411970300,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:11:55.460731500,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:11:56.472863800,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:11:56.513062600,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:11:56.514056300,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:11:56.561765500,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:11:56.563620500,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:11:56.608435400,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:11:57.620417200,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:11:57.664062700,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:11:57.665163800,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:11:57.710928400,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:11:57.712515200,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:11:57.758400900,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:11:58.771028,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:11:58.813213500,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:11:58.813937900,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:11:58.859971500,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:11:58.861860100,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:11:58.905755600,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:11:59.916398300,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:11:59.960355400,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:11:59.962506400,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:12:00.005772600,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:12:00.007625400,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:12:00.052461700,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:12:01.066337200,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:12:01.109529900,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:12:01.111110400,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:12:01.156846200,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:12:01.158838900,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:12:01.203047300,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:12:02.223301,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:12:02.262171200,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:12:02.262988500,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:12:02.308999200,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:12:02.309709700,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:12:02.355198800,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:12:03.366841500,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:12:03.410759300,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:12:03.411491900,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:12:03.457835600,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:12:03.458950600,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:12:03.503669400,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:12:04.518619,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:12:04.609965900,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:12:04.610557300,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:12:04.655642400,Node1,Done Publishing packet to 1 subscribers
+2024-11-11T23:12:04.656491600,Node1,Started Publishing packet to 1 subscribers
+2024-11-11T23:12:04.701715100,Node1,Done Publishing packet to 1 subscribers

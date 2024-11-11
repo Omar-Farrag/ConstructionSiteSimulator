@@ -7,6 +7,7 @@ public class uController extends SimulationObject{
     private ProcessingAlgorithm algorithm;
     private ArrayList<Device> devices;
     private ArrayList<String> offeredFields;
+
     private Gateway gateway;
 
     public uController(String name, String outputLogFileName, int runTimeStep, ProcessingAlgorithm algorithm) {
@@ -14,12 +15,12 @@ public class uController extends SimulationObject{
         this.algorithm = algorithm;
         this.devices = new ArrayList<>();
         offeredFields = new ArrayList<>();
-
     }
 
     public void setParentNode(SlaveNode parentNode) {
         this.parentSlaveNode = parentNode;
         this.parentControlNode = null;
+
     }
     
     public void setParentNode(ControlNode parentNode) {
@@ -57,15 +58,17 @@ public class uController extends SimulationObject{
         parentSlaveNode.publishPacket(packet);
     }
 
-    public void receiveDataPacket(Gateway source, DataPacket packet){
+    public void receiveDataPacket(Gateway source, BulkDataPacket packet){
         parentControlNode.receiveForwardedPacket(source.getParentNode(), packet);
     }
     
-    public boolean forward(DataPacket packet, String route){
+    public boolean forward(BulkDataPacket packet, String route){
         route = this.gateway.getObject_name()+","+route;
+        this.parentControlNode.exportState("[STARTED] Sent Packet Through Connected Gateway");
+        exportState("[STARTED] Sent Packet Through Connected Gateway");
         boolean sent =  gateway.forward(gateway,gateway, packet, route, 0);
-        exportState(String.format("[%s] Forwarded Packet Through Connected Gateway", sent ? "SUCCESS" : "FAILURE"));
-        this.parentControlNode.exportState(String.format("[%s] Forwarded Packet Through Connected Gateway", sent ? "SUCCESS" : "FAILURE"));
+        exportState(String.format("[%s] Sent Packet Through Connected Gateway", sent ? "SUCCESS" : "FAILURE"));
+        this.parentControlNode.exportState(String.format("[%s] Sent Packet Through Connected Gateway", sent ? "SUCCESS" : "FAILURE"));
         return sent;
     }
 
