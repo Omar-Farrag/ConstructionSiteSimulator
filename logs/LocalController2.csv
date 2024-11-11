@@ -1,11 +1,15 @@
 Timestamp, Object Name, Event
-2024-11-10T20:25:14.821351700,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
-2024-11-10T20:25:15.879310,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
-2024-11-10T20:25:16.918152700,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
-2024-11-10T20:25:17.959244900,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
-2024-11-10T20:25:19.000957200,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
-2024-11-10T20:25:20.043430200,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
-2024-11-10T20:25:21.088097800,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [OFF]
-2024-11-10T20:25:22.133484200,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
-2024-11-10T20:25:23.178010800,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
-2024-11-10T20:25:24.216115900,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
+2024-11-11T07:57:01.590445300,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
+2024-11-11T07:57:01.767895900,LocalController2,[SUCCESS] Forwarded Packet Through Connected Gateway
+2024-11-11T07:57:02.772062100,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
+2024-11-11T07:57:02.931147,LocalController2,[SUCCESS] Forwarded Packet Through Connected Gateway
+2024-11-11T07:57:03.947821400,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [OFF]
+2024-11-11T07:57:04.308462900,LocalController2,[SUCCESS] Forwarded Packet Through Connected Gateway
+2024-11-11T07:57:05.317375800,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
+2024-11-11T07:57:05.475191200,LocalController2,[SUCCESS] Forwarded Packet Through Connected Gateway
+2024-11-11T07:57:06.485886900,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
+2024-11-11T07:57:06.647276500,LocalController2,[SUCCESS] Forwarded Packet Through Connected Gateway
+2024-11-11T07:57:07.651208900,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
+2024-11-11T07:57:07.811924100,LocalController2,[SUCCESS] Forwarded Packet Through Connected Gateway
+2024-11-11T07:57:08.822273600,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
+2024-11-11T07:57:08.980949200,LocalController2,[SUCCESS] Forwarded Packet Through Connected Gateway

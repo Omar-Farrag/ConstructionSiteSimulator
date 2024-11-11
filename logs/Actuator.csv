@@ -1,11 +1,9 @@
 Timestamp,Object Name,Connected Device 0,Switch 0 Status,Connected Device 1,Switch 1 Status,Connected Device 2,Switch 2 Status
-2024-11-10T20:25:14.814384700,Actuator,Disconnected,false,Fan,false,Disconnected,false
-2024-11-10T20:25:15.815970800,Actuator,Disconnected,false,Fan,true,Disconnected,false
-2024-11-10T20:25:16.821508700,Actuator,Disconnected,false,Fan,true,Disconnected,false
-2024-11-10T20:25:17.834406500,Actuator,Disconnected,false,Fan,true,Disconnected,false
-2024-11-10T20:25:18.843218500,Actuator,Disconnected,false,Fan,true,Disconnected,false
-2024-11-10T20:25:19.856790100,Actuator,Disconnected,false,Fan,true,Disconnected,false
-2024-11-10T20:25:20.869468800,Actuator,Disconnected,false,Fan,true,Disconnected,false
-2024-11-10T20:25:21.883929700,Actuator,Disconnected,false,Fan,false,Disconnected,false
-2024-11-10T20:25:22.897322900,Actuator,Disconnected,false,Fan,true,Disconnected,false
-2024-11-10T20:25:23.914957900,Actuator,Disconnected,false,Fan,true,Disconnected,false
+2024-11-11T07:57:01.575435700,Actuator,Disconnected,false,Fan,false,Disconnected,false
+2024-11-11T07:57:02.584398200,Actuator,Disconnected,false,Fan,true,Disconnected,false
+2024-11-11T07:57:03.586757100,Actuator,Disconnected,false,Fan,true,Disconnected,false
+2024-11-11T07:57:04.599976,Actuator,Disconnected,false,Fan,false,Disconnected,false
+2024-11-11T07:57:05.616234100,Actuator,Disconnected,false,Fan,true,Disconnected,false
+2024-11-11T07:57:06.627267600,Actuator,Disconnected,false,Fan,true,Disconnected,false
+2024-11-11T07:57:07.635044300,Actuator,Disconnected,false,Fan,true,Disconnected,false
+2024-11-11T07:57:08.648913100,Actuator,Disconnected,false,Fan,true,Disconnected,false

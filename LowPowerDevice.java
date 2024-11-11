@@ -134,4 +134,7 @@ public class LowPowerDevice extends Device {
         exportState();
     }
 
+    public ArrayList<String> getFieldNames() {
+        return fieldNames;
+    }
 }

@@ -2,20 +2,22 @@ import java.util.ArrayList;
 
 public class uController extends SimulationObject{
 
-    private Node parentSlaveNode;
+    private SlaveNode parentSlaveNode;
     private ControlNode parentControlNode;
     private ProcessingAlgorithm algorithm;
     private ArrayList<Device> devices;
+    private ArrayList<String> offeredFields;
     private Gateway gateway;
 
     public uController(String name, String outputLogFileName, int runTimeStep, ProcessingAlgorithm algorithm) {
         super(name, outputLogFileName, runTimeStep);
         this.algorithm = algorithm;
         this.devices = new ArrayList<>();
+        offeredFields = new ArrayList<>();
 
     }
 
-    public void setParentNode(Node parentNode) {
+    public void setParentNode(SlaveNode parentNode) {
         this.parentSlaveNode = parentNode;
         this.parentControlNode = null;
     }
@@ -31,7 +33,12 @@ public class uController extends SimulationObject{
 
     public void connectTo(LowPowerDevice... devicesToConnect){
         synchronized(devices){
-            for(Device device : devicesToConnect) devices.add(device);
+            for(LowPowerDevice device : devicesToConnect) {
+                devices.add(device);
+                for(String field : device.getFieldNames()){
+                    offeredFields.add(device.getObject_name()+"_"+field);
+                }
+            }
         }
     }
 
@@ -51,7 +58,7 @@ public class uController extends SimulationObject{
     }
 
     public void receiveDataPacket(Gateway source, DataPacket packet){
-        parentControlNode.update(source.getParentNode(), packet);
+        parentControlNode.receiveForwardedPacket(source.getParentNode(), packet);
     }
     
     public boolean forward(DataPacket packet, String route){
@@ -117,11 +124,15 @@ public class uController extends SimulationObject{
 
     }
     
-    public Node getParentSlaveNode() {
+    public SlaveNode getParentSlaveNode() {
         return parentSlaveNode;
     }
     
     public ControlNode getParentControlNode() {
         return parentControlNode;
+    }
+
+    public ArrayList<String> getOfferedFields() {
+        return offeredFields;
     }
 }

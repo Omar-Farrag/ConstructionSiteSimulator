@@ -1,23 +1,25 @@
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map.Entry;
 
 public class Gateway extends SimulationObject{
 
     private uController parentController;
-    ArrayList<Gateway> connectedGateways;
+    HashMap<Gateway,Integer> connectedGateways;
 
     public Gateway(String object_name, String outputFileName, int runTimeStep){
         super(object_name, outputFileName, runTimeStep);
-        connectedGateways = new ArrayList<>();
+        connectedGateways = new HashMap<>();
     }
 
-    public void connectTo(Gateway... gateways){
-        for(Gateway gateway : gateways) {
-            connectedGateways.add(gateway);        
-        }
+    public void connectTo(Gateway gateway, int RTT_to_gateway){
+        connectedGateways.put(gateway,RTT_to_gateway);        
     }
+    
     public void setParentController(uController parentController) {
         this.parentController = parentController;
     }
+    
     public boolean forward(Gateway source, Gateway previous, DataPacket packet, String route, int position){
         String[] routeComponents = route.split(",");
         if(position == (routeComponents.length-1)){
@@ -34,10 +36,15 @@ public class Gateway extends SimulationObject{
         }
         
         String nextGatewayName = routeComponents[position+1];
-        for(Gateway nextGateway : connectedGateways){
-            if(nextGateway.getObject_name().equalsIgnoreCase(nextGatewayName)){
-                exportState(String.format("[SUCCESS] Forwarded packet from Gateway [%s] to Gateway [%s]", previous.getObject_name(), nextGateway.getObject_name()));
-                return nextGateway.forward(source, this, packet, route, position+1);
+        for(Entry<Gateway,Integer> nextGateway : connectedGateways.entrySet()){
+            if(nextGateway.getKey().getObject_name().equalsIgnoreCase(nextGatewayName)){
+                exportState(String.format("[SUCCESS] Forwarded packet from Gateway [%s] to Gateway [%s]", previous.getObject_name(), nextGateway.getKey().getObject_name()));
+                try {
+                    Thread.sleep(nextGateway.getValue()/2);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                return nextGateway.getKey().forward(source, this, packet, route, position+1);
             }
         }
         exportState(String.format("[FAILURE] Forwarded packet from Gateway [%s] to Gateway [%s]", previous.getObject_name(), nextGatewayName ));

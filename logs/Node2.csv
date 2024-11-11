@@ -1,11 +1,16 @@
-Timestamp, Object Name, Event
-2024-11-10T20:25:14.861280,Node2,Published packet to 1 subscribers
-2024-11-10T20:25:15.904164300,Node2,Published packet to 1 subscribers
-2024-11-10T20:25:16.948856400,Node2,Published packet to 1 subscribers
-2024-11-10T20:25:17.989975500,Node2,Published packet to 1 subscribers
-2024-11-10T20:25:19.033548800,Node2,Published packet to 1 subscribers
-2024-11-10T20:25:20.076514600,Node2,Published packet to 1 subscribers
-2024-11-10T20:25:21.118803900,Node2,Published packet to 1 subscribers
-2024-11-10T20:25:22.167917100,Node2,Published packet to 1 subscribers
-2024-11-10T20:25:23.209324100,Node2,Published packet to 1 subscribers
-2024-11-10T20:25:24.241680700,Node2,Published packet to 1 subscribers
+Timestamp,Object Name,Event
+2024-11-11T07:57:01.558391900,Node2,
+2024-11-11T07:57:01.769087200,Node2,[SUCCESS] Forwarded Packet Through Connected Gateway
+2024-11-11T07:57:02.572634500,Node2,
+2024-11-11T07:57:02.931147,Node2,[SUCCESS] Forwarded Packet Through Connected Gateway
+2024-11-11T07:57:03.586757100,Node2,
+2024-11-11T07:57:04.308462900,Node2,[SUCCESS] Forwarded Packet Through Connected Gateway
+2024-11-11T07:57:04.601019800,Node2,
+2024-11-11T07:57:05.475817300,Node2,[SUCCESS] Forwarded Packet Through Connected Gateway
+2024-11-11T07:57:05.612925100,Node2,
+2024-11-11T07:57:06.627267600,Node2,
+2024-11-11T07:57:06.648499600,Node2,[SUCCESS] Forwarded Packet Through Connected Gateway
+2024-11-11T07:57:07.636103500,Node2,
+2024-11-11T07:57:07.811924100,Node2,[SUCCESS] Forwarded Packet Through Connected Gateway
+2024-11-11T07:57:08.649740600,Node2,
+2024-11-11T07:57:08.982190400,Node2,[SUCCESS] Forwarded Packet Through Connected Gateway

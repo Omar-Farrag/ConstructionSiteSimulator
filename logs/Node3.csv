@@ -1,21 +1,37 @@
-Timestamp, Object Name, Event
-2024-11-10T20:25:14.831209800,Node3,Received new packet from Control Node [Node1]
-2024-11-10T20:25:14.855923300,Node3,Received new packet from Node [Node2]
-2024-11-10T20:25:15.851440100,Node3,Received new packet from Control Node [Node1]
-2024-11-10T20:25:15.903084,Node3,Received new packet from Node [Node2]
-2024-11-10T20:25:16.871277700,Node3,Received new packet from Control Node [Node1]
-2024-11-10T20:25:16.947815600,Node3,Received new packet from Node [Node2]
-2024-11-10T20:25:17.883097900,Node3,Received new packet from Control Node [Node1]
-2024-11-10T20:25:17.988590700,Node3,Received new packet from Node [Node2]
-2024-11-10T20:25:18.892171600,Node3,Received new packet from Control Node [Node1]
-2024-11-10T20:25:19.032551,Node3,Received new packet from Node [Node2]
-2024-11-10T20:25:19.909460,Node3,Received new packet from Control Node [Node1]
-2024-11-10T20:25:20.075496200,Node3,Received new packet from Node [Node2]
-2024-11-10T20:25:20.919762900,Node3,Received new packet from Control Node [Node1]
-2024-11-10T20:25:21.118085300,Node3,Received new packet from Node [Node2]
-2024-11-10T20:25:21.936071300,Node3,Received new packet from Control Node [Node1]
-2024-11-10T20:25:22.167917100,Node3,Received new packet from Node [Node2]
-2024-11-10T20:25:22.947775300,Node3,Received new packet from Control Node [Node1]
-2024-11-10T20:25:23.209324100,Node3,Received new packet from Node [Node2]
-2024-11-10T20:25:23.965474300,Node3,Received new packet from Control Node [Node1]
-2024-11-10T20:25:24.240688200,Node3,Received new packet from Node [Node2]
+Timestamp,Object Name,Event,Ultrasonic2_Distance,Ultrasonic1_Distance,Ultrasonic1_Hala2,Ultrasonic1_Hala
+2024-11-11T07:57:01.561392100,Node3,,Uninitialized,Uninitialized,Uninitialized,Uninitialized
+2024-11-11T07:57:01.605281200,Node3,Received new packet from slave node [Node1],Uninitialized,Uninitialized,Uninitialized,Uninitialized
+2024-11-11T07:57:01.635422200,Node3,Received new packet from slave node [Node1],Uninitialized,Uninitialized,Uninitialized,0
+2024-11-11T07:57:01.649706200,Node3,Received new packet from slave node [Node1],Uninitialized,Uninitialized,-1,0
+2024-11-11T07:57:01.758427800,Node3,Received new packet from control node [Node2],Uninitialized,Uninitialized,-1,0
+2024-11-11T07:57:02.571627,Node3,,Uninitialized,Uninitialized,-1,0
+2024-11-11T07:57:02.676723500,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-11T07:57:02.693727200,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-11T07:57:02.724471300,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-11T07:57:02.929140800,Node3,Received new packet from control node [Node2],Uninitialized,10,-1,0
+2024-11-11T07:57:03.586757100,Node3,,Uninitialized,10,-1,0
+2024-11-11T07:57:03.759842200,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-11T07:57:03.787594800,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-11T07:57:03.803592400,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-11T07:57:04.115056300,Node3,Received new packet from control node [Node2],Uninitialized,10,-1,0
+2024-11-11T07:57:04.601019800,Node3,,Uninitialized,10,-1,0
+2024-11-11T07:57:04.834953100,Node3,Received new packet from slave node [Node1],Uninitialized,23,-1,0
+2024-11-11T07:57:04.850165100,Node3,Received new packet from slave node [Node1],Uninitialized,23,-1,0
+2024-11-11T07:57:04.865443500,Node3,Received new packet from slave node [Node1],Uninitialized,23,-1,0
+2024-11-11T07:57:05.473158500,Node3,Received new packet from control node [Node2],Uninitialized,23,-1,0
+2024-11-11T07:57:05.612925100,Node3,,Uninitialized,23,-1,0
+2024-11-11T07:57:05.892530700,Node3,Received new packet from slave node [Node1],Uninitialized,22,-1,0
+2024-11-11T07:57:05.909596600,Node3,Received new packet from slave node [Node1],Uninitialized,22,-1,0
+2024-11-11T07:57:05.924468100,Node3,Received new packet from slave node [Node1],Uninitialized,22,-1,0
+2024-11-11T07:57:06.628063500,Node3,,Uninitialized,22,-1,0
+2024-11-11T07:57:06.644282800,Node3,Received new packet from control node [Node2],Uninitialized,22,-1,0
+2024-11-11T07:57:06.951465800,Node3,Received new packet from slave node [Node1],Uninitialized,24,-1,0
+2024-11-11T07:57:06.967513600,Node3,Received new packet from slave node [Node1],Uninitialized,24,-1,0
+2024-11-11T07:57:06.983134100,Node3,Received new packet from slave node [Node1],Uninitialized,24,-1,0
+2024-11-11T07:57:07.637113400,Node3,,Uninitialized,24,-1,0
+2024-11-11T07:57:07.809929500,Node3,Received new packet from control node [Node2],Uninitialized,24,-1,0
+2024-11-11T07:57:08.025582400,Node3,Received new packet from slave node [Node1],Uninitialized,200,-1,0
+2024-11-11T07:57:08.039950100,Node3,Received new packet from slave node [Node1],Uninitialized,200,-1,0
+2024-11-11T07:57:08.087089300,Node3,Received new packet from slave node [Node1],Uninitialized,200,-1,0
+2024-11-11T07:57:08.648913100,Node3,,Uninitialized,200,-1,0
+2024-11-11T07:57:08.978432400,Node3,Received new packet from control node [Node2],Uninitialized,200,-1,0
