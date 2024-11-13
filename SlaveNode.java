@@ -1,36 +1,29 @@
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map.Entry;
 
 public class SlaveNode extends SimulationObject{
 
     final int BLE_transmission_rate = 100; //kbps
 
     protected uController localController;
-    private int RTT_to_Control_Node; //ms
-    private HashMap<String, ControlNode> subscribers;
+    protected int RTT_to_Control_Node; //ms
+    private ControlNode controlNode;
 
     public SlaveNode(String object_name, String outputFileName, int runTimeStep, int RTT_to_Zone_Controller, uController locaController){
         super(object_name, outputFileName, runTimeStep);
         this.RTT_to_Control_Node = RTT_to_Zone_Controller;
         this.localController = locaController;
-        subscribers = new HashMap<>();
         localController.setParentNode(this);
     }
     
-    public void addSubscriber(ControlNode... nodesToSubscribe){
-        for(ControlNode node : nodesToSubscribe){
-            subscribers.put(node.getObject_name(),node);
-        }
+    public void setControlNode(ControlNode controlNode){
+        this.controlNode = controlNode;
     }
 
     public void publishPacket(DataPacket packet){
 
-        exportState(String.format("Started Publishing packet to %d subscribers",subscribers.size()));
-        for (Entry<String,ControlNode> nodeEntry : subscribers.entrySet()) {
-            nodeEntry.getValue().update(this, packet);
-        }
-        exportState(String.format("Done Publishing packet to %d subscribers",subscribers.size()));
+        exportState(String.format("Started Publishing packet to Control Node [%s]",controlNode.getObject_name()));
+        controlNode.update(this,packet);
+        exportState(String.format("Done Publishing packet to Control Node [%s]",controlNode.getObject_name()));
     }
 
     public ExecutionResult getField(ControlNode requester, String objectName, String field){
@@ -93,6 +86,13 @@ public class SlaveNode extends SimulationObject{
 
     }
 
+    public boolean isPermittedToEnter(String id){
+        exportState(String.format("Asked Control Node [%s] about ID [%s]'s permission",controlNode.getObject_name(),id));
+        boolean permitted = controlNode.isPermittedToEnter(this, id);
+        exportState(String.format("ID [%s]'s permission: [%s]", id, permitted? "ALLOWED": "DENIED"));
+        return permitted;
+    }
+
     public int getRTT_to_Control_Node() {
         return RTT_to_Control_Node;
     }
@@ -101,6 +101,9 @@ public class SlaveNode extends SimulationObject{
         return localController.getOfferedFields();
     }
 
+    public ControlNode getControlNode() {
+        return controlNode;
+    }
     @Override
     protected void runTimeFunction() {
         // Do Nothing

@@ -1,59 +1,106 @@
 Timestamp,Object Name,Event,Ultrasonic2_Distance,Ultrasonic1_Distance,Ultrasonic1_Hala2,Ultrasonic1_Hala
-2024-11-11T23:11:55.290125500,Node3,,Uninitialized,Uninitialized,Uninitialized,Uninitialized
-2024-11-11T23:11:55.315263500,Node3,[STARTED] Sent Packet Through Connected Gateway,Uninitialized,Uninitialized,Uninitialized,Uninitialized
-2024-11-11T23:11:55.350826200,Node3,Received new packet from slave node [Node1],Uninitialized,Uninitialized,Uninitialized,Uninitialized
-2024-11-11T23:11:55.398845100,Node3,Received new packet from slave node [Node1],Uninitialized,Uninitialized,Uninitialized,Uninitialized
-2024-11-11T23:11:55.410171900,Node3,[SUCCESS] Sent Packet Through Connected Gateway,Uninitialized,Uninitialized,Uninitialized,0
-2024-11-11T23:11:55.411970300,Node3,Received new packet from control node [Node2],Uninitialized,Uninitialized,Uninitialized,0
-2024-11-11T23:11:55.444929300,Node3,Received new packet from slave node [Node1],Uninitialized,Uninitialized,Uninitialized,0
-2024-11-11T23:11:56.302467400,Node3,,Uninitialized,Uninitialized,-1,0
-2024-11-11T23:11:56.499695500,Node3,Received new packet from slave node [Node1],Uninitialized,Uninitialized,-1,0
-2024-11-11T23:11:56.513062600,Node3,Received new packet from control node [Node2],Uninitialized,10,-1,0
-2024-11-11T23:11:56.546731700,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
-2024-11-11T23:11:56.593692900,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
-2024-11-11T23:11:57.308183500,Node3,,Uninitialized,10,-1,0
-2024-11-11T23:11:57.417791900,Node3,[STARTED] Sent Packet Through Connected Gateway,Uninitialized,10,-1,0
-2024-11-11T23:11:57.477931200,Node3,[SUCCESS] Sent Packet Through Connected Gateway,Uninitialized,10,-1,0
-2024-11-11T23:11:57.588049800,Node3,Received new packet from control node [Node2],Uninitialized,10,-1,0
-2024-11-11T23:11:57.648159400,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
-2024-11-11T23:11:57.695364200,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
-2024-11-11T23:11:57.743036400,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
-2024-11-11T23:11:58.318365800,Node3,,Uninitialized,10,-1,0
-2024-11-11T23:11:58.659312100,Node3,Received new packet from control node [Node2],Uninitialized,10,-1,0
-2024-11-11T23:11:58.797608,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
-2024-11-11T23:11:58.845191600,Node3,Received new packet from slave node [Node1],Uninitialized,23,-1,0
-2024-11-11T23:11:58.891631600,Node3,Received new packet from slave node [Node1],Uninitialized,23,-1,0
-2024-11-11T23:11:59.325488300,Node3,,Uninitialized,23,-1,0
-2024-11-11T23:11:59.496941600,Node3,[STARTED] Sent Packet Through Connected Gateway,Uninitialized,23,-1,0
-2024-11-11T23:11:59.558540900,Node3,[SUCCESS] Sent Packet Through Connected Gateway,Uninitialized,23,-1,0
-2024-11-11T23:11:59.742230200,Node3,Received new packet from control node [Node2],Uninitialized,23,-1,0
-2024-11-11T23:11:59.944846500,Node3,Received new packet from slave node [Node1],Uninitialized,23,-1,0
-2024-11-11T23:11:59.990363400,Node3,Received new packet from slave node [Node1],Uninitialized,22,-1,0
-2024-11-11T23:12:00.037460400,Node3,Received new packet from slave node [Node1],Uninitialized,22,-1,0
-2024-11-11T23:12:00.331610100,Node3,,Uninitialized,22,-1,0
-2024-11-11T23:12:00.814903900,Node3,Received new packet from control node [Node2],Uninitialized,22,-1,0
-2024-11-11T23:12:01.093953100,Node3,Received new packet from slave node [Node1],Uninitialized,22,-1,0
-2024-11-11T23:12:01.141422200,Node3,Received new packet from slave node [Node1],Uninitialized,24,-1,0
-2024-11-11T23:12:01.188772900,Node3,Received new packet from slave node [Node1],Uninitialized,24,-1,0
-2024-11-11T23:12:01.342458900,Node3,,Uninitialized,24,-1,0
-2024-11-11T23:12:01.562791100,Node3,[STARTED] Sent Packet Through Connected Gateway,Uninitialized,24,-1,0
-2024-11-11T23:12:01.625757800,Node3,[SUCCESS] Sent Packet Through Connected Gateway,Uninitialized,24,-1,0
-2024-11-11T23:12:01.887410400,Node3,Received new packet from control node [Node2],Uninitialized,24,-1,0
-2024-11-11T23:12:02.246766500,Node3,Received new packet from slave node [Node1],Uninitialized,24,-1,0
-2024-11-11T23:12:02.294375400,Node3,Received new packet from slave node [Node1],Uninitialized,200,-1,0
-2024-11-11T23:12:02.339814100,Node3,Received new packet from slave node [Node1],Uninitialized,200,-1,0
-2024-11-11T23:12:02.355198800,Node3,,Uninitialized,200,-1,0
-2024-11-11T23:12:02.960613100,Node3,Received new packet from control node [Node2],Uninitialized,200,-1,0
-2024-11-11T23:12:03.363042800,Node3,,Uninitialized,200,-1,0
-2024-11-11T23:12:03.395811500,Node3,Received new packet from slave node [Node1],Uninitialized,200,-1,0
-2024-11-11T23:12:03.441585,Node3,Received new packet from slave node [Node1],Uninitialized,30,-1,0
-2024-11-11T23:12:03.488184800,Node3,Received new packet from slave node [Node1],Uninitialized,30,-1,0
-2024-11-11T23:12:03.644879300,Node3,[STARTED] Sent Packet Through Connected Gateway,Uninitialized,30,-1,0
-2024-11-11T23:12:03.704990900,Node3,[SUCCESS] Sent Packet Through Connected Gateway,Uninitialized,30,-1,0
-2024-11-11T23:12:04.030877100,Node3,Received new packet from control node [Node2],Uninitialized,30,-1,0
-2024-11-11T23:12:04.375912600,Node3,,Uninitialized,30,-1,0
-2024-11-11T23:12:04.547136900,Node3,Received new packet from slave node [Node1],Uninitialized,30,-1,0
-2024-11-11T23:12:04.640203,Node3,Received new packet from slave node [Node1],Uninitialized,32,-1,0
-2024-11-11T23:12:04.686522,Node3,Received new packet from slave node [Node1],Uninitialized,32,-1,0
-2024-11-11T23:12:05.104104600,Node3,Received new packet from control node [Node2],Uninitialized,32,-1,0
-2024-11-11T23:12:05.386118500,Node3,,Uninitialized,32,-1,0
+2024-11-13T10:49:39.891239800,Node3,,Uninitialized,Uninitialized,Uninitialized,Uninitialized
+2024-11-13T10:49:39.956511800,Node3,[STARTED] Sent Packet Through Connected Gateway,Uninitialized,Uninitialized,Uninitialized,Uninitialized
+2024-11-13T10:49:40.004234100,Node3,Received new packet from slave node [Node1],Uninitialized,Uninitialized,Uninitialized,Uninitialized
+2024-11-13T10:49:40.015203500,Node3,Gate [Gate1] queried permission status for ID [Omar]. Permission [ALLOWED],Uninitialized,Uninitialized,Uninitialized,Uninitialized
+2024-11-13T10:49:40.051676,Node3,Received new packet from slave node [Node1],Uninitialized,Uninitialized,Uninitialized,Uninitialized
+2024-11-13T10:49:40.064707,Node3,[SUCCESS] Sent Packet Through Connected Gateway,Uninitialized,Uninitialized,Uninitialized,0
+2024-11-13T10:49:40.064707,Node3,Received new packet from control node [Node2],Uninitialized,Uninitialized,Uninitialized,0
+2024-11-13T10:49:40.099562800,Node3,Received new packet from slave node [Node1],Uninitialized,Uninitialized,Uninitialized,0
+2024-11-13T10:49:40.922535700,Node3,,Uninitialized,Uninitialized,-1,0
+2024-11-13T10:49:41.156602100,Node3,Received new packet from slave node [Node1],Uninitialized,Uninitialized,-1,0
+2024-11-13T10:49:41.168855900,Node3,Received new packet from control node [Node2],Uninitialized,10,-1,0
+2024-11-13T10:49:41.202908500,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-13T10:49:41.248702700,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-13T10:49:41.932222,Node3,,Uninitialized,10,-1,0
+2024-11-13T10:49:42.056781900,Node3,Gate [Gate1] queried permission status for ID [Nobody]. Permission [DENIED],Uninitialized,10,-1,0
+2024-11-13T10:49:42.069773900,Node3,[STARTED] Sent Packet Through Connected Gateway,Uninitialized,10,-1,0
+2024-11-13T10:49:42.127968700,Node3,[SUCCESS] Sent Packet Through Connected Gateway,Uninitialized,10,-1,0
+2024-11-13T10:49:42.239837300,Node3,Received new packet from control node [Node2],Uninitialized,10,-1,0
+2024-11-13T10:49:42.302892200,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-13T10:49:42.349222800,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-13T10:49:42.397919400,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-13T10:49:42.938831100,Node3,,Uninitialized,10,-1,0
+2024-11-13T10:49:43.315980100,Node3,Received new packet from control node [Node2],Uninitialized,10,-1,0
+2024-11-13T10:49:43.454537800,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-13T10:49:43.500565700,Node3,Received new packet from slave node [Node1],Uninitialized,23,-1,0
+2024-11-13T10:49:43.548587300,Node3,Received new packet from slave node [Node1],Uninitialized,23,-1,0
+2024-11-13T10:49:43.950827400,Node3,,Uninitialized,23,-1,0
+2024-11-13T10:49:44.093372600,Node3,Gate [Gate1] queried permission status for ID [Guten]. Permission [DENIED],Uninitialized,23,-1,0
+2024-11-13T10:49:44.139965400,Node3,[STARTED] Sent Packet Through Connected Gateway,Uninitialized,23,-1,0
+2024-11-13T10:49:44.197665400,Node3,[SUCCESS] Sent Packet Through Connected Gateway,Uninitialized,23,-1,0
+2024-11-13T10:49:44.386869,Node3,Received new packet from control node [Node2],Uninitialized,23,-1,0
+2024-11-13T10:49:44.605652900,Node3,Received new packet from slave node [Node1],Uninitialized,23,-1,0
+2024-11-13T10:49:44.651765200,Node3,Received new packet from slave node [Node1],Uninitialized,22,-1,0
+2024-11-13T10:49:44.698484700,Node3,Received new packet from slave node [Node1],Uninitialized,22,-1,0
+2024-11-13T10:49:44.964032300,Node3,,Uninitialized,22,-1,0
+2024-11-13T10:49:45.464565600,Node3,Received new packet from control node [Node2],Uninitialized,22,-1,0
+2024-11-13T10:49:45.746489200,Node3,Received new packet from slave node [Node1],Uninitialized,22,-1,0
+2024-11-13T10:49:45.792431100,Node3,Received new packet from slave node [Node1],Uninitialized,24,-1,0
+2024-11-13T10:49:45.838686300,Node3,Received new packet from slave node [Node1],Uninitialized,24,-1,0
+2024-11-13T10:49:45.979300300,Node3,,Uninitialized,24,-1,0
+2024-11-13T10:49:46.134872100,Node3,Gate [Gate1] queried permission status for ID [Guten]. Permission [DENIED],Uninitialized,24,-1,0
+2024-11-13T10:49:46.212640200,Node3,[STARTED] Sent Packet Through Connected Gateway,Uninitialized,24,-1,0
+2024-11-13T10:49:46.273081700,Node3,[SUCCESS] Sent Packet Through Connected Gateway,Uninitialized,24,-1,0
+2024-11-13T10:49:46.538357700,Node3,Received new packet from control node [Node2],Uninitialized,24,-1,0
+2024-11-13T10:49:46.911401,Node3,Received new packet from slave node [Node1],Uninitialized,24,-1,0
+2024-11-13T10:49:46.958563700,Node3,Received new packet from slave node [Node1],Uninitialized,200,-1,0
+2024-11-13T10:49:47.004878400,Node3,Received new packet from slave node [Node1],Uninitialized,200,-1,0
+2024-11-13T10:49:47.016888800,Node3,,Uninitialized,200,-1,0
+2024-11-13T10:49:47.614859100,Node3,Received new packet from control node [Node2],Uninitialized,200,-1,0
+2024-11-13T10:49:48.017309100,Node3,,Uninitialized,200,-1,0
+2024-11-13T10:49:48.064239200,Node3,Received new packet from slave node [Node1],Uninitialized,200,-1,0
+2024-11-13T10:49:48.111867400,Node3,Received new packet from slave node [Node1],Uninitialized,35,-1,0
+2024-11-13T10:49:48.159380900,Node3,Received new packet from slave node [Node1],Uninitialized,35,-1,0
+2024-11-13T10:49:48.175150800,Node3,Gate [Gate1] queried permission status for ID [Farrag]. Permission [ALLOWED],Uninitialized,35,-1,0
+2024-11-13T10:49:48.283538700,Node3,[STARTED] Sent Packet Through Connected Gateway,Uninitialized,35,-1,0
+2024-11-13T10:49:48.341019900,Node3,[SUCCESS] Sent Packet Through Connected Gateway,Uninitialized,35,-1,0
+2024-11-13T10:49:48.687478,Node3,Received new packet from control node [Node2],Uninitialized,35,-1,0
+2024-11-13T10:49:49.031217200,Node3,,Uninitialized,35,-1,0
+2024-11-13T10:49:49.217158600,Node3,Received new packet from slave node [Node1],Uninitialized,35,-1,0
+2024-11-13T10:49:49.263162500,Node3,Received new packet from slave node [Node1],Uninitialized,32,-1,0
+2024-11-13T10:49:49.310513300,Node3,Received new packet from slave node [Node1],Uninitialized,32,-1,0
+2024-11-13T10:49:49.763287,Node3,Received new packet from control node [Node2],Uninitialized,32,-1,0
+2024-11-13T10:49:50.043826800,Node3,,Uninitialized,32,-1,0
+2024-11-13T10:49:50.214593300,Node3,Gate [Gate1] queried permission status for ID [Tagen]. Permission [DENIED],Uninitialized,32,-1,0
+2024-11-13T10:49:50.369160100,Node3,Received new packet from slave node [Node1],Uninitialized,32,-1,0
+2024-11-13T10:49:50.380800200,Node3,[STARTED] Sent Packet Through Connected Gateway,Uninitialized,63,-1,0
+2024-11-13T10:49:50.415610700,Node3,Received new packet from slave node [Node1],Uninitialized,63,-1,0
+2024-11-13T10:49:50.450773800,Node3,Received new packet from slave node [Node1],Uninitialized,63,-1,0
+2024-11-13T10:49:50.462500700,Node3,[SUCCESS] Sent Packet Through Connected Gateway,Uninitialized,63,-1,0
+2024-11-13T10:49:50.838073600,Node3,Received new packet from control node [Node2],Uninitialized,63,-1,0
+2024-11-13T10:49:51.055818,Node3,,Uninitialized,63,-1,0
+2024-11-13T10:49:51.506355600,Node3,Received new packet from slave node [Node1],Uninitialized,63,-1,0
+2024-11-13T10:49:51.553802700,Node3,Received new packet from slave node [Node1],Uninitialized,89,-1,0
+2024-11-13T10:49:51.601076700,Node3,Received new packet from slave node [Node1],Uninitialized,89,-1,0
+2024-11-13T10:49:51.911704200,Node3,Received new packet from control node [Node2],Uninitialized,89,-1,0
+2024-11-13T10:49:52.067365200,Node3,,Uninitialized,89,-1,0
+2024-11-13T10:49:52.256070800,Node3,Gate [Gate1] queried permission status for ID [Nobody]. Permission [DENIED],Uninitialized,89,-1,0
+2024-11-13T10:49:52.474165800,Node3,[STARTED] Sent Packet Through Connected Gateway,Uninitialized,89,-1,0
+2024-11-13T10:49:52.531228,Node3,[SUCCESS] Sent Packet Through Connected Gateway,Uninitialized,89,-1,0
+2024-11-13T10:49:52.658943700,Node3,Received new packet from slave node [Node1],Uninitialized,89,-1,0
+2024-11-13T10:49:52.705062,Node3,Received new packet from slave node [Node1],Uninitialized,100,-1,0
+2024-11-13T10:49:52.751566300,Node3,Received new packet from slave node [Node1],Uninitialized,100,-1,0
+2024-11-13T10:49:52.984947700,Node3,Received new packet from control node [Node2],Uninitialized,100,-1,0
+2024-11-13T10:49:53.078823800,Node3,,Uninitialized,100,-1,0
+2024-11-13T10:49:53.805016200,Node3,Received new packet from slave node [Node1],Uninitialized,100,-1,0
+2024-11-13T10:49:53.851621,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-13T10:49:53.900193100,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-13T10:49:54.056655800,Node3,Received new packet from control node [Node2],Uninitialized,10,-1,0
+2024-11-13T10:49:54.088760100,Node3,,Uninitialized,10,-1,0
+2024-11-13T10:49:54.291226100,Node3,Gate [Gate1] queried permission status for ID []. Permission [DENIED],Uninitialized,10,-1,0
+2024-11-13T10:49:54.540759600,Node3,[STARTED] Sent Packet Through Connected Gateway,Uninitialized,10,-1,0
+2024-11-13T10:49:54.601001400,Node3,[SUCCESS] Sent Packet Through Connected Gateway,Uninitialized,10,-1,0
+2024-11-13T10:49:54.947762700,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-13T10:49:54.994307100,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-13T10:49:55.041612400,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-13T10:49:55.103019900,Node3,,Uninitialized,10,-1,0
+2024-11-13T10:49:55.134818,Node3,Received new packet from control node [Node2],Uninitialized,10,-1,0
+2024-11-13T10:49:56.098229600,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-13T10:49:56.112659900,Node3,,Uninitialized,10,-1,0
+2024-11-13T10:49:56.143773800,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-13T10:49:56.190573200,Node3,Received new packet from slave node [Node1],Uninitialized,10,-1,0
+2024-11-13T10:49:56.206192400,Node3,Received new packet from control node [Node2],Uninitialized,10,-1,0
+2024-11-13T10:49:56.332149,Node3,Gate [Gate1] queried permission status for ID [Omar]. Permission [ALLOWED],Uninitialized,10,-1,0
+2024-11-13T10:49:56.612087200,Node3,[STARTED] Sent Packet Through Connected Gateway,Uninitialized,10,-1,0
+2024-11-13T10:49:56.670953900,Node3,[SUCCESS] Sent Packet Through Connected Gateway,Uninitialized,10,-1,0

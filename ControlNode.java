@@ -11,9 +11,11 @@ public class ControlNode extends SimulationObject {
     private Queue<DataPacket> bufferedDataPackets;
     private Queue<BulkDataPacket> receivedBulkDataPackets;
     private HashMap<String, String> fieldValues;
+    private uController localController;
 
     public ControlNode(String object_name, String outputFileName, int runTimeStep, uController localController){
         super(object_name, outputFileName, runTimeStep);
+        this.localController = localController;
         localController.setParentNode(this);
         connectedSlaveNodes = new HashMap<>();
         fieldValues = new HashMap<>();
@@ -23,7 +25,7 @@ public class ControlNode extends SimulationObject {
 
     public void subscribeTo(SlaveNode... nodesToConnect){
         for(SlaveNode node : nodesToConnect){
-            node.addSubscriber(this);
+            node.setControlNode(this);
             connectedSlaveNodes.put(node.getObject_name(), node);
             for(String field : node.getOfferedFields()) fieldValues.put(field, "Uninitialized");
         }
@@ -110,6 +112,25 @@ public class ControlNode extends SimulationObject {
     @Override
     protected void runTimeFunction() {
         exportState("");
+    }
+
+    public boolean isPermittedToEnter(SlaveNode gate, String id){
+        try {
+            Thread.sleep(gate.getRTT_to_Control_Node()/2);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        boolean isPermitted =  localController.isPermittedToEnter(id);
+        exportState(String.format("Gate [%s] queried permission status for ID [%s]. Permission [%s]", gate.getObject_name(), id, isPermitted ? "ALLOWED" : "DENIED"));
+        
+        try {
+            Thread.sleep(gate.getRTT_to_Control_Node()/2);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        return isPermitted;
+    
     }
 
     @Override

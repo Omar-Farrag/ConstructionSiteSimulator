@@ -96,11 +96,15 @@ public class Simulation {
         uController controller3 = new uController("LocalController3", "logs/LocalController3.csv", runTimeStep*2, controller3Algo);
         controller3.connectTo(camera);
         controller3.connectTo(gateway3);
+        controller3.addPermittedId("Omar");
+        controller3.addPermittedId("Farrag");
 
         ControlNode node3 = new ControlNode("Node3","logs/Node3.csv",runTimeStep,controller3);
         node3.subscribeTo(node1);
 
-
+        SlaveNode gate = new Gate("Gate1", "logs/Gate1.csv", runTimeStep+1000, 20);
+        gate.setControlNode(node3);
+        
         // gateway1.connectTo(gateway2,gateway3);
         gateway2.connectTo(gateway3, 100);
         gateway3.connectTo(gateway2, 100);
@@ -119,6 +123,7 @@ public class Simulation {
         simulationObjects.put(gateway3.getObject_name(),gateway3); 
         simulationObjects.put(controller3.getObject_name(),controller3);
         simulationObjects.put(node3.getObject_name(),node3);
+        simulationObjects.put(gate.getObject_name(),gate);
 
         
 

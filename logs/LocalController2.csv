@@ -1,31 +1,49 @@
 Timestamp, Object Name, Event
-2024-11-11T23:11:55.320904200,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [OFF]
-2024-11-11T23:11:55.330932900,LocalController2,[STARTED] Sent Packet Through Connected Gateway
-2024-11-11T23:11:55.414084100,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
-2024-11-11T23:11:56.422578500,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
-2024-11-11T23:11:56.424579400,LocalController2,[STARTED] Sent Packet Through Connected Gateway
-2024-11-11T23:11:56.514056300,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
-2024-11-11T23:11:57.526389500,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [OFF]
-2024-11-11T23:11:57.528655500,LocalController2,[STARTED] Sent Packet Through Connected Gateway
-2024-11-11T23:11:57.590017,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
-2024-11-11T23:11:58.598085800,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
-2024-11-11T23:11:58.600085200,LocalController2,[STARTED] Sent Packet Through Connected Gateway
-2024-11-11T23:11:58.662625,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
-2024-11-11T23:11:59.680181900,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
-2024-11-11T23:11:59.682066700,LocalController2,[STARTED] Sent Packet Through Connected Gateway
-2024-11-11T23:11:59.743247200,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
-2024-11-11T23:12:00.753617400,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
-2024-11-11T23:12:00.755745200,LocalController2,[STARTED] Sent Packet Through Connected Gateway
-2024-11-11T23:12:00.816251100,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
-2024-11-11T23:12:01.824665300,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
-2024-11-11T23:12:01.826812300,LocalController2,[STARTED] Sent Packet Through Connected Gateway
-2024-11-11T23:12:01.889410,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
-2024-11-11T23:12:02.896728300,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [OFF]
-2024-11-11T23:12:02.898774200,LocalController2,[STARTED] Sent Packet Through Connected Gateway
-2024-11-11T23:12:02.962554900,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
-2024-11-11T23:12:03.967242700,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [OFF]
-2024-11-11T23:12:03.968203,LocalController2,[STARTED] Sent Packet Through Connected Gateway
-2024-11-11T23:12:04.031914200,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
-2024-11-11T23:12:05.042428100,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
-2024-11-11T23:12:05.043428500,LocalController2,[STARTED] Sent Packet Through Connected Gateway
-2024-11-11T23:12:05.106138200,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:39.906210600,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
+2024-11-13T10:49:39.947899900,LocalController2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:40.066708900,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:41.079895900,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [OFF]
+2024-11-13T10:49:41.081885,LocalController2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:41.171504100,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:42.177951800,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [OFF]
+2024-11-13T10:49:42.180144,LocalController2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:42.241845200,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:43.252310600,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [OFF]
+2024-11-13T10:49:43.254178800,LocalController2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:43.317946400,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:44.324423100,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
+2024-11-13T10:49:44.325697500,LocalController2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:44.389000700,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:45.402892600,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
+2024-11-13T10:49:45.403784200,LocalController2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:45.465532800,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:46.476037500,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
+2024-11-13T10:49:46.477659200,LocalController2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:46.540301,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:47.552072900,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [OFF]
+2024-11-13T10:49:47.553194700,LocalController2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:47.617640200,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:48.626160500,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [OFF]
+2024-11-13T10:49:48.627700,LocalController2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:48.689419700,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:49.701429400,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [OFF]
+2024-11-13T10:49:49.701429400,LocalController2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:49.763287,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:50.774625700,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
+2024-11-13T10:49:50.776434600,LocalController2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:50.840077700,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:51.849533200,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
+2024-11-13T10:49:51.851668700,LocalController2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:51.913768,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:52.924127700,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
+2024-11-13T10:49:52.925668700,LocalController2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:52.986794600,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:53.993119800,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [OFF]
+2024-11-13T10:49:53.995926200,LocalController2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:54.056655800,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:55.074532200,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
+2024-11-13T10:49:55.075631700,LocalController2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:55.136870800,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:56.144759500,LocalController2,[SUCCESS] Switched object [Actuator] position [1] to [ON]
+2024-11-13T10:49:56.145757,LocalController2,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:56.208472600,LocalController2,[SUCCESS] Sent Packet Through Connected Gateway

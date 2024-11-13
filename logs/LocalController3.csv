@@ -1,21 +1,46 @@
-Timestamp                     ,Object Name      ,Event
-2024-11-11T23:11:55.314237200 ,LocalController3 ,Aggregated 0 Data Packets
-2024-11-11T23:11:55.319373300 ,LocalController3 ,[STARTED] Sent Packet Through Connected Gateway
-2024-11-11T23:11:55.400909500 ,LocalController3 ,[SUCCESS] Sent Packet Through Connected Gateway
-2024-11-11T23:11:55.411970300 ,LocalController3 ,Current Buffer Size  = 0 Data Packets
-2024-11-11T23:11:57.416807900 ,LocalController3 ,Aggregated 4 Data Packets
-2024-11-11T23:11:57.418904    ,LocalController3 ,[STARTED] Sent Packet Through Connected Gateway
-2024-11-11T23:11:57.476938800 ,LocalController3 ,[SUCCESS] Sent Packet Through Connected Gateway
-2024-11-11T23:11:57.478934800 ,LocalController3 ,Current Buffer Size  = 0 Data Packets
-2024-11-11T23:11:59.495923400 ,LocalController3 ,Aggregated 6 Data Packets
-2024-11-11T23:11:59.497582800 ,LocalController3 ,[STARTED] Sent Packet Through Connected Gateway
-2024-11-11T23:11:59.556914600 ,LocalController3 ,[SUCCESS] Sent Packet Through Connected Gateway
-2024-11-11T23:11:59.559597300 ,LocalController3 ,Current Buffer Size  = 0 Data Packets
-2024-11-11T23:12:01.561791800 ,LocalController3 ,Aggregated 6 Data Packets
-2024-11-11T23:12:01.563786400 ,LocalController3 ,[STARTED] Sent Packet Through Connected Gateway
-2024-11-11T23:12:01.624756600 ,LocalController3 ,[SUCCESS] Sent Packet Through Connected Gateway
-2024-11-11T23:12:01.626752500 ,LocalController3 ,Current Buffer Size  = 0 Data Packets
-2024-11-11T23:12:03.643974900 ,LocalController3 ,Aggregated 6 Data Packets
-2024-11-11T23:12:03.645906700 ,LocalController3 ,[STARTED] Sent Packet Through Connected Gateway
-2024-11-11T23:12:03.703929400 ,LocalController3 ,[SUCCESS] Sent Packet Through Connected Gateway
-2024-11-11T23:12:03.706842500 ,LocalController3 ,Current Buffer Size  = 0 Data Packets
+Timestamp, Object Name, Event
+2024-11-13T10:49:39.949867900,LocalController3,Aggregated 0 Data Packets
+2024-11-13T10:49:39.964387700,LocalController3,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:39.988067,LocalController3,Parent Node [Node3] asked if ID [Omar] is permitted to enter zone. Permission [ALLOWED]
+2024-11-13T10:49:40.036820,LocalController3,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:40.064707,LocalController3,Current Buffer Size  = 0 Data Packets
+2024-11-13T10:49:42.054914300,LocalController3,Parent Node [Node3] asked if ID [Nobody] is permitted to enter zone. Permission [DENIED]
+2024-11-13T10:49:42.069773900,LocalController3,Aggregated 4 Data Packets
+2024-11-13T10:49:42.070777,LocalController3,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:42.126538100,LocalController3,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:42.129003700,LocalController3,Current Buffer Size  = 0 Data Packets
+2024-11-13T10:49:44.091299600,LocalController3,Parent Node [Node3] asked if ID [Guten] is permitted to enter zone. Permission [DENIED]
+2024-11-13T10:49:44.138977400,LocalController3,Aggregated 6 Data Packets
+2024-11-13T10:49:44.139965400,LocalController3,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:44.196653,LocalController3,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:44.197665400,LocalController3,Current Buffer Size  = 0 Data Packets
+2024-11-13T10:49:46.134572,LocalController3,Parent Node [Node3] asked if ID [Guten] is permitted to enter zone. Permission [DENIED]
+2024-11-13T10:49:46.212213,LocalController3,Aggregated 6 Data Packets
+2024-11-13T10:49:46.213784500,LocalController3,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:46.272085700,LocalController3,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:46.273081700,LocalController3,Current Buffer Size  = 0 Data Packets
+2024-11-13T10:49:48.174953500,LocalController3,Parent Node [Node3] asked if ID [Farrag] is permitted to enter zone. Permission [ALLOWED]
+2024-11-13T10:49:48.283538700,LocalController3,Aggregated 6 Data Packets
+2024-11-13T10:49:48.284198600,LocalController3,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:48.341019900,LocalController3,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:48.341915,LocalController3,Current Buffer Size  = 0 Data Packets
+2024-11-13T10:49:50.213551100,LocalController3,Parent Node [Node3] asked if ID [Tagen] is permitted to enter zone. Permission [DENIED]
+2024-11-13T10:49:50.352879800,LocalController3,Aggregated 3 Data Packets
+2024-11-13T10:49:50.381931900,LocalController3,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:50.436139,LocalController3,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:50.463412300,LocalController3,Current Buffer Size  = 0 Data Packets
+2024-11-13T10:49:52.254207100,LocalController3,Parent Node [Node3] asked if ID [Nobody] is permitted to enter zone. Permission [DENIED]
+2024-11-13T10:49:52.473155,LocalController3,Aggregated 3 Data Packets
+2024-11-13T10:49:52.475156200,LocalController3,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:52.530277100,LocalController3,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:52.531228,LocalController3,Current Buffer Size  = 0 Data Packets
+2024-11-13T10:49:54.291226100,LocalController3,Parent Node [Node3] asked if ID [] is permitted to enter zone. Permission [DENIED]
+2024-11-13T10:49:54.540759600,LocalController3,Aggregated 6 Data Packets
+2024-11-13T10:49:54.541964500,LocalController3,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:54.599951200,LocalController3,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:54.602094600,LocalController3,Current Buffer Size  = 0 Data Packets
+2024-11-13T10:49:56.331620800,LocalController3,Parent Node [Node3] asked if ID [Omar] is permitted to enter zone. Permission [ALLOWED]
+2024-11-13T10:49:56.611086400,LocalController3,Aggregated 6 Data Packets
+2024-11-13T10:49:56.612670600,LocalController3,[STARTED] Sent Packet Through Connected Gateway
+2024-11-13T10:49:56.669956100,LocalController3,[SUCCESS] Sent Packet Through Connected Gateway
+2024-11-13T10:49:56.671948200,LocalController3,Current Buffer Size  = 0 Data Packets

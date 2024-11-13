@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashSet;
 
 public class uController extends SimulationObject{
 
@@ -7,6 +8,7 @@ public class uController extends SimulationObject{
     private ProcessingAlgorithm algorithm;
     private ArrayList<Device> devices;
     private ArrayList<String> offeredFields;
+    private HashSet<String> permittedIDs;
 
     private Gateway gateway;
 
@@ -15,6 +17,7 @@ public class uController extends SimulationObject{
         this.algorithm = algorithm;
         this.devices = new ArrayList<>();
         offeredFields = new ArrayList<>();
+        permittedIDs = new HashSet<>();
     }
 
     public void setParentNode(SlaveNode parentNode) {
@@ -70,6 +73,20 @@ public class uController extends SimulationObject{
         exportState(String.format("[%s] Sent Packet Through Connected Gateway", sent ? "SUCCESS" : "FAILURE"));
         this.parentControlNode.exportState(String.format("[%s] Sent Packet Through Connected Gateway", sent ? "SUCCESS" : "FAILURE"));
         return sent;
+    }
+
+    public void addPermittedId(String id){
+        permittedIDs.add(id);
+    }
+
+    public void removePermittedId(String id){
+        permittedIDs.remove(id);
+    }
+
+    public boolean isPermittedToEnter(String id){
+        boolean permitted = permittedIDs.contains(id);
+        exportState(String.format("Parent Node [%s] asked if ID [%s] is permitted to enter zone. Permission [%s]", parentControlNode.getObject_name(),id, permitted ? "ALLOWED" : "DENIED"));
+        return permitted;
     }
 
     @Override

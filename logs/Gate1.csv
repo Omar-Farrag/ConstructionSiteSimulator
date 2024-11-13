@@ -1,0 +1,19 @@
+Timestamp, Object Name, Event
+2024-11-13T10:49:39.967388300,Gate1,Asked Control Node [Node3] about ID [Omar]'s permission
+2024-11-13T10:49:40.036182500,Gate1,ID [Omar]'s permission: [ALLOWED]
+2024-11-13T10:49:42.041779900,Gate1,Asked Control Node [Node3] about ID [Nobody]'s permission
+2024-11-13T10:49:42.069773900,Gate1,ID [Nobody]'s permission: [DENIED]
+2024-11-13T10:49:44.078322300,Gate1,Asked Control Node [Node3] about ID [Guten]'s permission
+2024-11-13T10:49:44.106411100,Gate1,ID [Guten]'s permission: [DENIED]
+2024-11-13T10:49:46.119802800,Gate1,Asked Control Node [Node3] about ID [Guten]'s permission
+2024-11-13T10:49:46.149924300,Gate1,ID [Guten]'s permission: [DENIED]
+2024-11-13T10:49:48.160269,Gate1,Asked Control Node [Node3] about ID [Farrag]'s permission
+2024-11-13T10:49:48.190363800,Gate1,ID [Farrag]'s permission: [ALLOWED]
+2024-11-13T10:49:50.201596900,Gate1,Asked Control Node [Node3] about ID [Tagen]'s permission
+2024-11-13T10:49:50.229425400,Gate1,ID [Tagen]'s permission: [DENIED]
+2024-11-13T10:49:52.241138700,Gate1,Asked Control Node [Node3] about ID [Nobody]'s permission
+2024-11-13T10:49:52.269746800,Gate1,ID [Nobody]'s permission: [DENIED]
+2024-11-13T10:49:54.275694400,Gate1,Asked Control Node [Node3] about ID []'s permission
+2024-11-13T10:49:54.306399700,Gate1,ID []'s permission: [DENIED]
+2024-11-13T10:49:56.318078800,Gate1,Asked Control Node [Node3] about ID [Omar]'s permission
+2024-11-13T10:49:56.346637700,Gate1,ID [Omar]'s permission: [ALLOWED]
