@@ -110,4 +110,15 @@ public class Relay extends Device {
         return new ExecutionResult(success, packet); 
     }
 
+    @Override
+    public void terminate() {
+        for (HighPowerDevice dev : connectedDevices) dev.terminate();
+        super.terminate();
+    }
+
+    @Override
+    public void start() {
+        for (HighPowerDevice dev : connectedDevices) dev.start();
+        super.start();
+    }
 }

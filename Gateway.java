@@ -14,7 +14,12 @@ public class Gateway extends SimulationObject{
     }
 
     public void connectTo(Gateway gateway, int RTT_to_gateway){
-        connectedGateways.put(gateway,RTT_to_gateway);        
+        connectedGateways.put(gateway,RTT_to_gateway);
+        gateway.addConnectedGateway(this, RTT_to_gateway);        
+    }
+
+    private void addConnectedGateway(Gateway gatway, int RTT_to_gateway){
+        connectedGateways.put(gatway, RTT_to_gateway);
     }
     
     public void setParentController(uController parentController) {

@@ -108,5 +108,17 @@ public class SlaveNode extends SimulationObject{
     protected void runTimeFunction() {
         // Do Nothing
     }
+
+    @Override
+    public void start() {
+        localController.start();
+        super.start();
+    }
+
+    @Override
+    public void terminate() {
+        localController.terminate();
+        super.terminate();
+    }
     
 }

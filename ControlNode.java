@@ -154,4 +154,15 @@ public class ControlNode extends SimulationObject {
 
     }
 
+    @Override
+    public void start() {
+        localController.start();
+        super.start();
+    }
+
+    @Override
+    public void terminate() {
+        localController.terminate();
+        super.terminate();
+    }
 }

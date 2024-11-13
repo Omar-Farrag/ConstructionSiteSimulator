@@ -155,4 +155,16 @@ public class uController extends SimulationObject{
     public ArrayList<String> getOfferedFields() {
         return offeredFields;
     }
+
+    @Override
+    public void terminate() {
+        for(Device dev : devices) dev.terminate();
+        super.terminate();
+    }
+
+    @Override
+    public void start() {
+        for(Device dev : devices) dev.start();
+        super.start();
+    }
 }
