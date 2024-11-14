@@ -17,7 +17,6 @@ public class Simulation {
             packet.addPackets(node.getBufferedDataPackets());
             controller.exportState(String.format("Aggregated %s Data Packets", node.getBufferedDataPackets().size()));
             controller.forwardToZones(packet, "Zone2");
-            node.clearBufferedPackets();
             controller.exportState(String.format("Current Buffer Size  = %s Data Packets", node.getBufferedDataPackets().size()));
         };
         PeripheralZone zone = new PeripheralZone("Zone1", runTimeStep, zoneAlgo);

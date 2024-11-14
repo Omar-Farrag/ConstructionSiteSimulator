@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class uController extends SimulationObject{
 
@@ -66,7 +68,6 @@ public class uController extends SimulationObject{
         parentControlNode.receiveForwardedPacket(source.getParentNode(), packet);
     }
     
-    
     public boolean forwardToZones(BulkDataPacket packet, String... peripheralZoneRoute){
         
         for (int i = 0; i<peripheralZoneRoute.length; i++) peripheralZoneRoute[i] += "_ControlNode_gateway";
@@ -107,6 +108,12 @@ public class uController extends SimulationObject{
         boolean permitted = permittedIDs.contains(id);
         exportState(String.format("Parent Node [%s] asked if ID [%s] is permitted to enter zone. Permission [%s]", parentControlNode.getObject_name(),id, permitted ? "ALLOWED" : "DENIED"));
         return permitted;
+    }
+
+    
+    public Queue<DataPacket> getBufferedDataPackets() {
+        if(parentControlNode != null) return parentControlNode.getBufferedDataPackets();
+        else return new LinkedList<>();
     }
 
     @Override

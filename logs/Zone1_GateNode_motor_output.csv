@@ -1,11 +1,9 @@
 Timestamp, Device Name, Is Powered
-2024-11-14T15:33:26.315095700,Zone1_GateNode_motor,false
-2024-11-14T15:33:27.332723900,Zone1_GateNode_motor,false
-2024-11-14T15:33:28.333032900,Zone1_GateNode_motor,false
-2024-11-14T15:33:29.344736300,Zone1_GateNode_motor,true
-2024-11-14T15:33:30.345997100,Zone1_GateNode_motor,false
-2024-11-14T15:33:31.355835300,Zone1_GateNode_motor,false
-2024-11-14T15:33:32.363178500,Zone1_GateNode_motor,true
-2024-11-14T15:33:33.374459700,Zone1_GateNode_motor,false
-2024-11-14T15:33:34.381832200,Zone1_GateNode_motor,false
-2024-11-14T15:33:35.392173200,Zone1_GateNode_motor,false
+2024-11-14T16:00:56.552303800,Zone1_GateNode_motor,false
+2024-11-14T16:00:57.580708500,Zone1_GateNode_motor,true
+2024-11-14T16:00:58.596958900,Zone1_GateNode_motor,false
+2024-11-14T16:00:59.607040300,Zone1_GateNode_motor,false
+2024-11-14T16:01:00.620372,Zone1_GateNode_motor,true
+2024-11-14T16:01:01.633406600,Zone1_GateNode_motor,false
+2024-11-14T16:01:02.647735800,Zone1_GateNode_motor,false
+2024-11-14T16:01:03.660687300,Zone1_GateNode_motor,true

@@ -1,0 +1,34 @@
+Timestamp, Object Name, Event
+2024-11-14T16:00:54.329367800,Zone1_GateNode_controller,Started
+2024-11-14T16:00:56.550300600,Zone1_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone1_GateNode_scanner]. Value [Omar]
+2024-11-14T16:00:56.565853900,Zone1_GateNode_controller,Asked Parent Node [Zone1_GateNode] about ID [Omar]'s permission
+2024-11-14T16:00:56.723063400,Zone1_GateNode_controller,ID [Omar]'s permission: [ALLOWED]
+2024-11-14T16:00:56.726165400,Zone1_GateNode_controller,[SUCCESS] Switched object [Zone1_GateNode_relay] position [0] to [ON]
+2024-11-14T16:00:57.736790100,Zone1_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone1_GateNode_scanner]. Value [Hala]
+2024-11-14T16:00:57.737784600,Zone1_GateNode_controller,Asked Parent Node [Zone1_GateNode] about ID [Hala]'s permission
+2024-11-14T16:00:57.770233100,Zone1_GateNode_controller,ID [Hala]'s permission: [DENIED]
+2024-11-14T16:00:57.771231800,Zone1_GateNode_controller,[SUCCESS] Switched object [Zone1_GateNode_relay] position [0] to [OFF]
+2024-11-14T16:00:58.790968100,Zone1_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone1_GateNode_scanner]. Value [Hala]
+2024-11-14T16:00:58.795729600,Zone1_GateNode_controller,Asked Parent Node [Zone1_GateNode] about ID [Hala]'s permission
+2024-11-14T16:00:58.847218500,Zone1_GateNode_controller,ID [Hala]'s permission: [DENIED]
+2024-11-14T16:00:58.850748700,Zone1_GateNode_controller,[SUCCESS] Switched object [Zone1_GateNode_relay] position [0] to [OFF]
+2024-11-14T16:00:59.856144800,Zone1_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone1_GateNode_scanner]. Value [Farrag]
+2024-11-14T16:00:59.857551800,Zone1_GateNode_controller,Asked Parent Node [Zone1_GateNode] about ID [Farrag]'s permission
+2024-11-14T16:00:59.890000600,Zone1_GateNode_controller,ID [Farrag]'s permission: [ALLOWED]
+2024-11-14T16:00:59.891514500,Zone1_GateNode_controller,[SUCCESS] Switched object [Zone1_GateNode_relay] position [0] to [ON]
+2024-11-14T16:01:00.903499900,Zone1_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone1_GateNode_scanner]. Value [Guten Tagen]
+2024-11-14T16:01:00.905029500,Zone1_GateNode_controller,Asked Parent Node [Zone1_GateNode] about ID [Guten Tagen]'s permission
+2024-11-14T16:01:00.947840800,Zone1_GateNode_controller,ID [Guten Tagen]'s permission: [DENIED]
+2024-11-14T16:01:00.948353100,Zone1_GateNode_controller,[SUCCESS] Switched object [Zone1_GateNode_relay] position [0] to [OFF]
+2024-11-14T16:01:01.961810200,Zone1_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone1_GateNode_scanner]. Value [hala]
+2024-11-14T16:01:01.961810200,Zone1_GateNode_controller,Asked Parent Node [Zone1_GateNode] about ID [hala]'s permission
+2024-11-14T16:01:01.994003700,Zone1_GateNode_controller,ID [hala]'s permission: [DENIED]
+2024-11-14T16:01:01.995004700,Zone1_GateNode_controller,[SUCCESS] Switched object [Zone1_GateNode_relay] position [0] to [OFF]
+2024-11-14T16:01:03.005258800,Zone1_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone1_GateNode_scanner]. Value [Omar]
+2024-11-14T16:01:03.007249800,Zone1_GateNode_controller,Asked Parent Node [Zone1_GateNode] about ID [Omar]'s permission
+2024-11-14T16:01:03.039185300,Zone1_GateNode_controller,ID [Omar]'s permission: [ALLOWED]
+2024-11-14T16:01:03.040175100,Zone1_GateNode_controller,[SUCCESS] Switched object [Zone1_GateNode_relay] position [0] to [ON]
+2024-11-14T16:01:04.048118400,Zone1_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone1_GateNode_scanner]. Value [Hala]
+2024-11-14T16:01:04.049120600,Zone1_GateNode_controller,Asked Parent Node [Zone1_GateNode] about ID [Hala]'s permission
+2024-11-14T16:01:04.081111900,Zone1_GateNode_controller,ID [Hala]'s permission: [DENIED]
+2024-11-14T16:01:04.082141100,Zone1_GateNode_controller,[SUCCESS] Switched object [Zone1_GateNode_relay] position [0] to [OFF]

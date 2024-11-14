@@ -104,14 +104,11 @@ public class ControlNode extends SimulationObject {
     public void addPermittedId(String id){
         localController.addPermittedId(id);
     }
+
     public Queue<DataPacket> getBufferedDataPackets() {
         return bufferedDataPackets;
     }
     
-    public void clearBufferedPackets(){
-        bufferedDataPackets.clear();
-    }
-
     @Override
     protected void runTimeFunction() {
         //Do Nothing. Controller does all the functionality
