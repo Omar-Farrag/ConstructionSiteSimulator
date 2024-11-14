@@ -11,7 +11,7 @@ public class ControlNode extends SimulationObject {
     private Queue<DataPacket> bufferedDataPackets;
     private Queue<BulkDataPacket> receivedBulkDataPackets;
     private HashMap<String, String> fieldValues;
-    private uController localController;
+    protected uController localController;
 
     public ControlNode(String object_name, String outputFileName, int runTimeStep, uController localController){
         super(object_name, outputFileName, runTimeStep);
@@ -101,6 +101,9 @@ public class ControlNode extends SimulationObject {
         return receivedBulkDataPackets;
     }
 
+    public void addPermittedId(String id){
+        localController.addPermittedId(id);
+    }
     public Queue<DataPacket> getBufferedDataPackets() {
         return bufferedDataPackets;
     }
@@ -111,7 +114,7 @@ public class ControlNode extends SimulationObject {
 
     @Override
     protected void runTimeFunction() {
-        exportState("");
+        //Do Nothing. Controller does all the functionality
     }
 
     public boolean isPermittedToEnter(SlaveNode gate, String id){

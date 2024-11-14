@@ -1,0 +1,20 @@
+Timestamp, Object Name, Event
+2024-11-14T15:33:24.839343,Zone2_GateNode,Started
+2024-11-14T15:33:26.443826500,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-14T15:33:26.479351900,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-14T15:33:27.492764500,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-14T15:33:27.523305600,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-14T15:33:28.536762400,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-14T15:33:28.566997100,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-14T15:33:29.578276500,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-14T15:33:29.609658900,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-14T15:33:30.616016200,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-14T15:33:30.674071400,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-14T15:33:31.685910900,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-14T15:33:31.713854200,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-14T15:33:32.747625600,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-14T15:33:32.781715100,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-14T15:33:33.798603400,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-14T15:33:33.824259100,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-14T15:33:34.836299,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-14T15:33:34.865922900,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]

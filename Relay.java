@@ -112,13 +112,18 @@ public class Relay extends Device {
 
     @Override
     public void terminate() {
-        for (HighPowerDevice dev : connectedDevices) dev.terminate();
+        for (HighPowerDevice dev : connectedDevices){
+            if(dev!= null) dev.terminate();
+        }
         super.terminate();
     }
 
     @Override
     public void start() {
-        for (HighPowerDevice dev : connectedDevices) dev.start();
+        for (HighPowerDevice dev : connectedDevices){
+            if(dev != null) dev.start();
+
+        } 
         super.start();
     }
 }

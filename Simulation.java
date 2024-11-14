@@ -1,8 +1,5 @@
 import java.util.HashMap;
 import java.util.Map.Entry;
-
-
-import java.util.Random;
 import java.util.Scanner;
 
 public class Simulation {
@@ -13,124 +10,35 @@ public class Simulation {
     public static void main(String[] args) {
         
         int runTimeStep = 1000; //ms
-        
-        LowPowerDevice ultrasonicSensor1 = new LowPowerDevice("Ultrasonic1", "logs/Ultrasonic1.csv", runTimeStep, "inputs/ultrasonic1_values.csv",1000);
-        LowPowerDevice ultrasonicSensor2 = new LowPowerDevice("Ultrasonic2", "logs/Ultrasonic2.csv", runTimeStep, "inputs/ultrasonic2_values.csv",1000);
-        
-        ProcessingAlgorithm controller1Algo = (uController controller)->{
-            ExecutionResult result1 = controller.getField("Ultrasonic1","Distance");
-            ExecutionResult result2 = controller.getField("Ultrasonic1","Hala");
-            ExecutionResult result3 = controller.getField("Ultrasonic1","Hala2");
-            if(result1.isSuccess()){
-                DataPacket distance1 = result1.getReturnedPacket();
-                controller.publishPacket(distance1);
-            } 
-            if(result2.isSuccess()){
-                DataPacket hala = result2.getReturnedPacket();
-                controller.publishPacket(hala);
 
-            } 
-            if(result3.isSuccess()){
-                DataPacket hala2 = result3.getReturnedPacket();
-                controller.publishPacket(hala2);
-
-            } 
-            
-            // DataPacket distance2 = controller.getField("Ultrasonic2","Distasdfance").getReturnedPacket();
-            // controller.publishPacket(distance2);
-        };
-
-        // Gateway gateway1 = new Gateway("Gateway1", "logs/gateway1.csv", runTimeStep);
-
-        uController controller1 = new uController("LocalController1", "logs/LocalController1.csv", runTimeStep, controller1Algo);
-        controller1.connectTo(ultrasonicSensor1,ultrasonicSensor2);
-        // controller1.connectTo(gateway1);
-
-        SlaveNode node1 = new SlaveNode("Node1", "logs/Node1.csv", runTimeStep,20,controller1);
-
-        
-        HighPowerDevice fan = new HighPowerDevice("Fan", "logs/Fan.csv", runTimeStep);
-        Relay actuator = new Relay("Actuator", "logs/Actuator.csv", runTimeStep, 3);
-        actuator.connectTo(fan, 1);
-
-        ProcessingAlgorithm controller2Algo = (uController controller)->{
-            int temp = new Random().nextInt(99);
-            if(temp > 40) controller.updateSwitch("Actuator", "1", "ON");
-            else controller.updateSwitch("Actuator", "1", "OFF");
-            String[] route = {"Gateway3"};
-            
-            BulkDataPacket packet = new BulkDataPacket(controller.getParentControlNode().getObject_name(), controller.getCurrentTimestamp());
-            packet.addPacket(new DataPacket("TempSensor", "Temp", String.valueOf(temp), 1, ""));
-            packet.addPacket(new DataPacket("TempSensor", "Temp", String.valueOf(temp), 1, ""));
-            packet.addPacket(new DataPacket("TempSensor", "Temp", String.valueOf(temp), 1, ""));
-            packet.addPacket(new DataPacket("TempSensor", "Temp", String.valueOf(temp), 1, ""));
-            packet.addPacket(new DataPacket("TempSensor", "Temp", String.valueOf(temp), 1, ""));
-            packet.addPacket(new DataPacket("TempSensor", "Temp", String.valueOf(temp), 1, ""));
-            packet.addPacket(new DataPacket("TempSensor", "Temp", String.valueOf(temp), 1, ""));
-            packet.addPacket(new DataPacket("TempSensor", "Temp", String.valueOf(temp), 1, ""));
-            controller.forward(packet,String.join(",", route));
-        };
-        Gateway gateway2 = new Gateway("Gateway2", "logs/gateway2.csv", runTimeStep);
-        uController controller2 = new uController("LocalController2", "logs/LocalController2.csv", runTimeStep, controller2Algo);
-        controller2.connectTo(actuator);
-        controller2.connectTo(gateway2);
-
-        ControlNode node2 = new ControlNode("Node2", "logs/Node2.csv", runTimeStep,controller2);
-        
-
-        LowPowerDevice camera = new LowPowerDevice("Camera", "logs/Camera.csv", runTimeStep, "inputs/camera_values.csv", 3500);
-        ProcessingAlgorithm controller3Algo = (uController controller)->{
+        ProcessingAlgorithm zoneAlgo = (uController controller)->{
             ControlNode node = controller.getParentControlNode();
             BulkDataPacket packet = new BulkDataPacket(node.getObject_name(),controller.getCurrentTimestamp());
             packet.addPackets(node.getBufferedDataPackets());
             controller.exportState(String.format("Aggregated %s Data Packets", node.getBufferedDataPackets().size()));
-            controller.forward(packet, "Gateway2");
+            controller.forwardToZones(packet, "Zone2");
             node.clearBufferedPackets();
             controller.exportState(String.format("Current Buffer Size  = %s Data Packets", node.getBufferedDataPackets().size()));
-            // node.getFieldFrom("Node1", "Ultrasonic1", "Distance");
-            // node.setFieldIn("Node1", "Ultrasonic2", "Distance","911");S
         };
+        PeripheralZone zone = new PeripheralZone("Zone1", runTimeStep, zoneAlgo);
+        zone.addPermittedId("Omar");
+        zone.addPermittedId("Farrag");
 
-        Gateway gateway3 = new Gateway("Gateway3", "logs/gateway3.csv", runTimeStep);
-        
-        uController controller3 = new uController("LocalController3", "logs/LocalController3.csv", runTimeStep*2, controller3Algo);
-        controller3.connectTo(camera);
-        controller3.connectTo(gateway3);
-        controller3.addPermittedId("Omar");
-        controller3.addPermittedId("Farrag");
+        ProcessingAlgorithm zoneAlgo2 = (uController controller)->{            
+        };
+        PeripheralZone zone2 = new PeripheralZone("Zone2", runTimeStep, zoneAlgo2);
+        zone.addPermittedId("Omar");
+        zone.addPermittedId("Farrag");
 
-        ControlNode node3 = new ControlNode("Node3","logs/Node3.csv",runTimeStep,controller3);
-        node3.subscribeTo(node1);
+        zone.connectToZone(zone2, 100);
 
-        SlaveNode gate = new Gate("Gate1", "logs/Gate1.csv", runTimeStep+1000, 20);
-        gate.setControlNode(node3);
-        
-        // gateway1.connectTo(gateway2,gateway3);
-        gateway2.connectTo(gateway3, 100);
-        gateway3.connectTo(gateway2, 100);
-
-        simulationObjects.put(ultrasonicSensor1.getObject_name(),ultrasonicSensor1);
-        simulationObjects.put(ultrasonicSensor2.getObject_name(),ultrasonicSensor2); 
-        // simulationObjects.put(gateway1.getObject_name(),gateway1); 
-        simulationObjects.put(controller1.getObject_name(),controller1);
-        simulationObjects.put(node1.getObject_name(),node1);
-        simulationObjects.put(fan.getObject_name(),fan);
-        simulationObjects.put(actuator.getObject_name(),actuator);
-        simulationObjects.put(gateway2.getObject_name(),gateway2); 
-        simulationObjects.put(controller2.getObject_name(),controller2);
-        simulationObjects.put(node2.getObject_name(),node2);
-        simulationObjects.put(camera.getObject_name(),camera);
-        simulationObjects.put(gateway3.getObject_name(),gateway3); 
-        simulationObjects.put(controller3.getObject_name(),controller3);
-        simulationObjects.put(node3.getObject_name(),node3);
-        simulationObjects.put(gate.getObject_name(),gate);
+        simulationObjects.put(zone.getObject_name(),zone);
+        simulationObjects.put(zone2.getObject_name(),zone2);
 
         
 
         while(menu());
-        
-
-    
+            
     }
 
     static boolean menu(){

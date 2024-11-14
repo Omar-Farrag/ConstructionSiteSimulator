@@ -1,3 +1,7 @@
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class Gate extends SlaveNode{
 
@@ -24,23 +28,30 @@ public class Gate extends SlaveNode{
                     }
                 }));
 
-        scanner = new LowPowerDevice(
-            object_name + "_" + "scanner" 
-            , "logs/"+ object_name + "_" + "scanner.csv"
-            , runTimeStep
-            , "inputs/"+object_name + "_" + "scanner_values.csv"
-            , 12);
+        String name = getFullName("scanner");
+        String outputFile  = getOutputFileName(name);
+        String inputFile = getInputFileName(name);
 
-        motorRelay = new Relay(
-            object_name + "_" + "relay" 
-            , "logs/"+object_name + "_" + "relay.csv" 
-            , runTimeStep
-            , 1);
+        if(!new File(inputFile).exists())
+        {        
+            try (FileWriter fileWriter = new FileWriter(inputFile);
+                BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)) {
+                bufferedWriter.write("ID");
+                bufferedWriter.flush();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
 
-        motor = new HighPowerDevice(
-            object_name + "_" + "motor" 
-            , "logs/"+object_name + "_" + "motor.csv" 
-            , runTimeStep);
+        scanner = new LowPowerDevice(name, outputFile, runTimeStep, inputFile, 12); 
+
+        name = getFullName("relay");
+        outputFile  = getOutputFileName(name);
+        motorRelay = new Relay(name,outputFile,runTimeStep,1);
+
+        name = getFullName("motor");
+        outputFile  = getOutputFileName(name);
+        motor = new HighPowerDevice(name,outputFile,runTimeStep);
 
         localController.connectTo(scanner);
         
@@ -49,24 +60,18 @@ public class Gate extends SlaveNode{
 
     }
 
-    @Override
-    public void start() {
-        scanner.start();
-        motorRelay.start();
-        motor.start();
-        this.localController.start();
-        super.start();
+    private String getInputFileName(String name){
+        return "inputs/" + name + "_input.csv"; 
+
     }
 
-    @Override
-    public void terminate() {
-        scanner.terminate();
-        motorRelay.terminate();
-        motor.terminate();
-        this.localController.terminate();
-        super.terminate();
+    private String getOutputFileName(String name){
+        return "logs/" + name + "_output.csv"; 
+
     }
 
-    
+    private String getFullName(String localName){
+        return this.object_name + "_"+localName;
+    }    
    
 }

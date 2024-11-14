@@ -1,0 +1,47 @@
+Timestamp, Object Name, Event
+2024-11-14T15:33:24.485923100,Zone1_ControlNode_controller,Started
+2024-11-14T15:33:26.299083100,Zone1_ControlNode_controller,Aggregated 0 Data Packets
+2024-11-14T15:33:26.330113400,Zone1_ControlNode_controller,[STARTED] Sent Packet Through Connected Gateway. Next Hop [Zone2_ControlNode_gateway]. Target Destination [Zone2_ControlNode_gateway]
+2024-11-14T15:33:26.448784200,Zone1_ControlNode_controller,Parent Node [Zone1_ControlNode] asked if ID [Bang] is permitted to enter zone. Permission [DENIED]
+2024-11-14T15:33:26.520146700,Zone1_ControlNode_controller,[SUCCESS] Sent Packet Through Connected Gateway. Next Hop [Zone2_ControlNode_gateway]. Target Destination [Zone2_ControlNode_gateway]
+2024-11-14T15:33:26.521140300,Zone1_ControlNode_controller,Current Buffer Size  = 0 Data Packets
+2024-11-14T15:33:27.491763800,Zone1_ControlNode_controller,Parent Node [Zone1_ControlNode] asked if ID [Skidoosh] is permitted to enter zone. Permission [DENIED]
+2024-11-14T15:33:27.523305600,Zone1_ControlNode_controller,Aggregated 0 Data Packets
+2024-11-14T15:33:27.525199700,Zone1_ControlNode_controller,[STARTED] Sent Packet Through Connected Gateway. Next Hop [Zone2_ControlNode_gateway]. Target Destination [Zone2_ControlNode_gateway]
+2024-11-14T15:33:27.587967200,Zone1_ControlNode_controller,[SUCCESS] Sent Packet Through Connected Gateway. Next Hop [Zone2_ControlNode_gateway]. Target Destination [Zone2_ControlNode_gateway]
+2024-11-14T15:33:27.589071200,Zone1_ControlNode_controller,Current Buffer Size  = 0 Data Packets
+2024-11-14T15:33:28.535266500,Zone1_ControlNode_controller,Parent Node [Zone1_ControlNode] asked if ID [Omar] is permitted to enter zone. Permission [ALLOWED]
+2024-11-14T15:33:28.598644100,Zone1_ControlNode_controller,Aggregated 0 Data Packets
+2024-11-14T15:33:28.601779200,Zone1_ControlNode_controller,[STARTED] Sent Packet Through Connected Gateway. Next Hop [Zone2_ControlNode_gateway]. Target Destination [Zone2_ControlNode_gateway]
+2024-11-14T15:33:28.663875500,Zone1_ControlNode_controller,[SUCCESS] Sent Packet Through Connected Gateway. Next Hop [Zone2_ControlNode_gateway]. Target Destination [Zone2_ControlNode_gateway]
+2024-11-14T15:33:28.664763500,Zone1_ControlNode_controller,Current Buffer Size  = 0 Data Packets
+2024-11-14T15:33:29.578276500,Zone1_ControlNode_controller,Parent Node [Zone1_ControlNode] asked if ID [Guten] is permitted to enter zone. Permission [DENIED]
+2024-11-14T15:33:29.672731800,Zone1_ControlNode_controller,Aggregated 0 Data Packets
+2024-11-14T15:33:29.673740800,Zone1_ControlNode_controller,[STARTED] Sent Packet Through Connected Gateway. Next Hop [Zone2_ControlNode_gateway]. Target Destination [Zone2_ControlNode_gateway]
+2024-11-14T15:33:29.739997700,Zone1_ControlNode_controller,[SUCCESS] Sent Packet Through Connected Gateway. Next Hop [Zone2_ControlNode_gateway]. Target Destination [Zone2_ControlNode_gateway]
+2024-11-14T15:33:29.741169500,Zone1_ControlNode_controller,Current Buffer Size  = 0 Data Packets
+2024-11-14T15:33:30.643627200,Zone1_ControlNode_controller,Parent Node [Zone1_ControlNode] asked if ID [Tagen] is permitted to enter zone. Permission [DENIED]
+2024-11-14T15:33:30.750281900,Zone1_ControlNode_controller,Aggregated 0 Data Packets
+2024-11-14T15:33:30.751474100,Zone1_ControlNode_controller,[STARTED] Sent Packet Through Connected Gateway. Next Hop [Zone2_ControlNode_gateway]. Target Destination [Zone2_ControlNode_gateway]
+2024-11-14T15:33:30.818006400,Zone1_ControlNode_controller,[SUCCESS] Sent Packet Through Connected Gateway. Next Hop [Zone2_ControlNode_gateway]. Target Destination [Zone2_ControlNode_gateway]
+2024-11-14T15:33:30.820461,Zone1_ControlNode_controller,Current Buffer Size  = 0 Data Packets
+2024-11-14T15:33:31.698732,Zone1_ControlNode_controller,Parent Node [Zone1_ControlNode] asked if ID [Farrag] is permitted to enter zone. Permission [ALLOWED]
+2024-11-14T15:33:31.823165,Zone1_ControlNode_controller,Aggregated 0 Data Packets
+2024-11-14T15:33:31.824604900,Zone1_ControlNode_controller,[STARTED] Sent Packet Through Connected Gateway. Next Hop [Zone2_ControlNode_gateway]. Target Destination [Zone2_ControlNode_gateway]
+2024-11-14T15:33:31.892370900,Zone1_ControlNode_controller,[SUCCESS] Sent Packet Through Connected Gateway. Next Hop [Zone2_ControlNode_gateway]. Target Destination [Zone2_ControlNode_gateway]
+2024-11-14T15:33:31.893193200,Zone1_ControlNode_controller,Current Buffer Size  = 0 Data Packets
+2024-11-14T15:33:32.766161900,Zone1_ControlNode_controller,Parent Node [Zone1_ControlNode] asked if ID [Hala] is permitted to enter zone. Permission [DENIED]
+2024-11-14T15:33:32.904812400,Zone1_ControlNode_controller,Aggregated 0 Data Packets
+2024-11-14T15:33:32.914353300,Zone1_ControlNode_controller,[STARTED] Sent Packet Through Connected Gateway. Next Hop [Zone2_ControlNode_gateway]. Target Destination [Zone2_ControlNode_gateway]
+2024-11-14T15:33:32.967971800,Zone1_ControlNode_controller,[SUCCESS] Sent Packet Through Connected Gateway. Next Hop [Zone2_ControlNode_gateway]. Target Destination [Zone2_ControlNode_gateway]
+2024-11-14T15:33:32.970408700,Zone1_ControlNode_controller,Current Buffer Size  = 0 Data Packets
+2024-11-14T15:33:33.809413200,Zone1_ControlNode_controller,Parent Node [Zone1_ControlNode] asked if ID [Bang] is permitted to enter zone. Permission [DENIED]
+2024-11-14T15:33:33.979148500,Zone1_ControlNode_controller,Aggregated 0 Data Packets
+2024-11-14T15:33:33.980842600,Zone1_ControlNode_controller,[STARTED] Sent Packet Through Connected Gateway. Next Hop [Zone2_ControlNode_gateway]. Target Destination [Zone2_ControlNode_gateway]
+2024-11-14T15:33:34.047792600,Zone1_ControlNode_controller,[SUCCESS] Sent Packet Through Connected Gateway. Next Hop [Zone2_ControlNode_gateway]. Target Destination [Zone2_ControlNode_gateway]
+2024-11-14T15:33:34.049001300,Zone1_ControlNode_controller,Current Buffer Size  = 0 Data Packets
+2024-11-14T15:33:34.851067700,Zone1_ControlNode_controller,Parent Node [Zone1_ControlNode] asked if ID [Skidoosh] is permitted to enter zone. Permission [DENIED]
+2024-11-14T15:33:35.052549700,Zone1_ControlNode_controller,Aggregated 0 Data Packets
+2024-11-14T15:33:35.054559300,Zone1_ControlNode_controller,[STARTED] Sent Packet Through Connected Gateway. Next Hop [Zone2_ControlNode_gateway]. Target Destination [Zone2_ControlNode_gateway]
+2024-11-14T15:33:35.115738800,Zone1_ControlNode_controller,[SUCCESS] Sent Packet Through Connected Gateway. Next Hop [Zone2_ControlNode_gateway]. Target Destination [Zone2_ControlNode_gateway]
+2024-11-14T15:33:35.117185200,Zone1_ControlNode_controller,Current Buffer Size  = 0 Data Packets

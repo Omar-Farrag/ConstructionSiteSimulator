@@ -1,0 +1,38 @@
+Timestamp, Object Name, Event
+2024-11-14T15:33:24.847346500,Zone2_GateNode_controller,Started
+2024-11-14T15:33:26.439019200,Zone2_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone2_GateNode_scanner]. Value [Uninitialized]
+2024-11-14T15:33:26.441144900,Zone2_GateNode_controller,Asked Parent Node [Zone2_GateNode] about ID [Uninitialized]'s permission
+2024-11-14T15:33:26.480080100,Zone2_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-14T15:33:26.480080100,Zone2_GateNode_controller,[SUCCESS] Switched object [Zone2_GateNode_relay] position [0] to [OFF]
+2024-11-14T15:33:27.491763800,Zone2_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone2_GateNode_scanner]. Value [Uninitialized]
+2024-11-14T15:33:27.492764500,Zone2_GateNode_controller,Asked Parent Node [Zone2_GateNode] about ID [Uninitialized]'s permission
+2024-11-14T15:33:27.524059700,Zone2_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-14T15:33:27.524059700,Zone2_GateNode_controller,[SUCCESS] Switched object [Zone2_GateNode_relay] position [0] to [OFF]
+2024-11-14T15:33:28.535266500,Zone2_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone2_GateNode_scanner]. Value [Uninitialized]
+2024-11-14T15:33:28.536253700,Zone2_GateNode_controller,Asked Parent Node [Zone2_GateNode] about ID [Uninitialized]'s permission
+2024-11-14T15:33:28.568513200,Zone2_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-14T15:33:28.568513200,Zone2_GateNode_controller,[SUCCESS] Switched object [Zone2_GateNode_relay] position [0] to [OFF]
+2024-11-14T15:33:29.578276500,Zone2_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone2_GateNode_scanner]. Value [Uninitialized]
+2024-11-14T15:33:29.578276500,Zone2_GateNode_controller,Asked Parent Node [Zone2_GateNode] about ID [Uninitialized]'s permission
+2024-11-14T15:33:29.609658900,Zone2_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-14T15:33:29.610658800,Zone2_GateNode_controller,[SUCCESS] Switched object [Zone2_GateNode_relay] position [0] to [OFF]
+2024-11-14T15:33:30.612585900,Zone2_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone2_GateNode_scanner]. Value [Uninitialized]
+2024-11-14T15:33:30.614586800,Zone2_GateNode_controller,Asked Parent Node [Zone2_GateNode] about ID [Uninitialized]'s permission
+2024-11-14T15:33:30.674655400,Zone2_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-14T15:33:30.677656300,Zone2_GateNode_controller,[SUCCESS] Switched object [Zone2_GateNode_relay] position [0] to [OFF]
+2024-11-14T15:33:31.685051900,Zone2_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone2_GateNode_scanner]. Value [Uninitialized]
+2024-11-14T15:33:31.685910900,Zone2_GateNode_controller,Asked Parent Node [Zone2_GateNode] about ID [Uninitialized]'s permission
+2024-11-14T15:33:31.715874500,Zone2_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-14T15:33:31.715874500,Zone2_GateNode_controller,[SUCCESS] Switched object [Zone2_GateNode_relay] position [0] to [OFF]
+2024-11-14T15:33:32.729103700,Zone2_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone2_GateNode_scanner]. Value [Uninitialized]
+2024-11-14T15:33:32.745583200,Zone2_GateNode_controller,Asked Parent Node [Zone2_GateNode] about ID [Uninitialized]'s permission
+2024-11-14T15:33:32.782055200,Zone2_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-14T15:33:32.782561600,Zone2_GateNode_controller,[SUCCESS] Switched object [Zone2_GateNode_relay] position [0] to [OFF]
+2024-11-14T15:33:33.793712500,Zone2_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone2_GateNode_scanner]. Value [Uninitialized]
+2024-11-14T15:33:33.797708400,Zone2_GateNode_controller,Asked Parent Node [Zone2_GateNode] about ID [Uninitialized]'s permission
+2024-11-14T15:33:33.824772,Zone2_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-14T15:33:33.824772,Zone2_GateNode_controller,[SUCCESS] Switched object [Zone2_GateNode_relay] position [0] to [OFF]
+2024-11-14T15:33:34.834848700,Zone2_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone2_GateNode_scanner]. Value [Uninitialized]
+2024-11-14T15:33:34.834848700,Zone2_GateNode_controller,Asked Parent Node [Zone2_GateNode] about ID [Uninitialized]'s permission
+2024-11-14T15:33:34.865922900,Zone2_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-14T15:33:34.866811600,Zone2_GateNode_controller,[SUCCESS] Switched object [Zone2_GateNode_relay] position [0] to [OFF]

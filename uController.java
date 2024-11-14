@@ -61,17 +61,37 @@ public class uController extends SimulationObject{
         parentSlaveNode.publishPacket(packet);
     }
 
-    public void receiveDataPacket(Gateway source, BulkDataPacket packet){
+    public void receiveDataPacket(Gateway source, Gateway previous, BulkDataPacket packet){
+        exportState(String.format("[SUCCESS] Received packet from Gateway [%s]. Last Forwarded By Gateway [%s]", source.getObject_name(), previous.getObject_name()));
         parentControlNode.receiveForwardedPacket(source.getParentNode(), packet);
     }
     
+    
+    public boolean forwardToZones(BulkDataPacket packet, String... peripheralZoneRoute){
+        
+        for (int i = 0; i<peripheralZoneRoute.length; i++) peripheralZoneRoute[i] += "_ControlNode_gateway";
+
+        return forward(packet, String.join(",", peripheralZoneRoute));
+    }
+
     public boolean forward(BulkDataPacket packet, String route){
+        
         route = this.gateway.getObject_name()+","+route;
-        this.parentControlNode.exportState("[STARTED] Sent Packet Through Connected Gateway");
-        exportState("[STARTED] Sent Packet Through Connected Gateway");
+        String[] hops = route.split(",");
+        
+        
+        String nextHop, destination;
+        if(hops.length == 1) nextHop = destination = this.gateway.getObject_name();
+        else{
+            nextHop = hops[1];
+            destination = hops[hops.length-1];
+        }
+
+        this.parentControlNode.exportState(String.format("[STARTED] Sent Packet Through Connected Gateway. Next Hop [%s]. Target Destination [%s]", nextHop,destination));
+        exportState(String.format("[STARTED] Sent Packet Through Connected Gateway. Next Hop [%s]. Target Destination [%s]", nextHop,destination));
         boolean sent =  gateway.forward(gateway,gateway, packet, route, 0);
-        exportState(String.format("[%s] Sent Packet Through Connected Gateway", sent ? "SUCCESS" : "FAILURE"));
-        this.parentControlNode.exportState(String.format("[%s] Sent Packet Through Connected Gateway", sent ? "SUCCESS" : "FAILURE"));
+        exportState(String.format("[%s] Sent Packet Through Connected Gateway. Next Hop [%s]. Target Destination [%s]", sent ? "SUCCESS" : "FAILURE", nextHop, destination));
+        this.parentControlNode.exportState(String.format("[%s] Sent Packet Through Connected Gateway. Next Hop [%s]. Target Destination [%s]", sent ? "SUCCESS" : "FAILURE", nextHop, destination));
         return sent;
     }
 
@@ -159,12 +179,14 @@ public class uController extends SimulationObject{
     @Override
     public void terminate() {
         for(Device dev : devices) dev.terminate();
+        if(gateway != null) gateway.terminate();
         super.terminate();
     }
 
     @Override
     public void start() {
         for(Device dev : devices) dev.start();
+        if(gateway != null) gateway.start();
         super.start();
     }
 }

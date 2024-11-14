@@ -17,6 +17,7 @@ public abstract class SimulationObject implements Runnable {
     public String getCurrentTimestamp(){
         return LocalDateTime.now().toString();
     }
+    
     protected SimulationObject(String name, String outputLogFileName, int runTimeStep){
         this.runTimeThread = new Thread(this);
         this.hasAddedHeader = false;
@@ -32,6 +33,7 @@ public abstract class SimulationObject implements Runnable {
             alive = false;
         }
     }
+    
     public boolean isAlive(){
         synchronized(alive){
             return alive;
@@ -51,6 +53,7 @@ public abstract class SimulationObject implements Runnable {
             e.printStackTrace();
         }
     }
+    
     public void start(){
         this.alive = true;
         runTimeThread.start();
@@ -81,6 +84,7 @@ public abstract class SimulationObject implements Runnable {
         writer.println(getCurrentTimestamp()+"," + object_name + "," + event[0]);
         
     }
+    
     protected abstract void runTimeFunction();
 
 }

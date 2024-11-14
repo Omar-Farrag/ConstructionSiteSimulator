@@ -31,7 +31,7 @@ public class Gateway extends SimulationObject{
         if(position == (routeComponents.length-1)){
     
             if(routeComponents[position].equalsIgnoreCase(this.object_name)){
-                parentController.receiveDataPacket(source, packet);
+                parentController.receiveDataPacket(source, previous, packet);
                 exportState(String.format("[SUCCESS] Received packet from Gateway [%s]. Last Forwarded By Gateway [%s]", source.getObject_name(), previous.getObject_name()));
                 return true;
             }

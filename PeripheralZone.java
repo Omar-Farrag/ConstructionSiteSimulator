@@ -1,3 +1,7 @@
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class PeripheralZone extends SimulationObject {
@@ -18,17 +22,36 @@ public class PeripheralZone extends SimulationObject {
 
     protected ArrayList<SlaveNode> otherSlaveNodes;
 
-    public PeripheralZone(String object_name, String outputLogFileName, int runTimeStep, ProcessingAlgorithm algorithm){
-        super(object_name, outputLogFileName, runTimeStep);
-        this.runTimeStep = runTimeStep;
+    public PeripheralZone(String object_name, int runTimeStep, ProcessingAlgorithm algorithm){
+        super(object_name, getOutputFileName(object_name), runTimeStep);
+        exportState("Started");
 
+        this.runTimeStep = runTimeStep;
         this.algorithm = algorithm;
+        
+        otherSlaveNodes = new ArrayList<>();
 
         controlNode = createControlNode();
         gateNode = createGateNode();
         actuationNode = createActuationNode();
         buzzerNode = createBuzzerNode();
         speakerNode = createSpeakerNode();
+
+        controlNode.exportState("Started");
+        controlNode.localController.exportState("Started");
+
+        gateNode.exportState("Started");
+        gateNode.localController.exportState("Started");
+        
+        actuationNode.exportState("Started");
+        actuationNode.localController.exportState("Started");
+        
+        buzzerNode.exportState("Started");
+        buzzerNode.localController.exportState("Started");
+        
+        speakerNode.exportState("Started");
+        speakerNode.localController.exportState("Started");
+
         
     }
 
@@ -46,6 +69,10 @@ public class PeripheralZone extends SimulationObject {
 
     }
 
+    public void addPermittedId(String id){
+        controlNode.addPermittedId(id);
+    }
+    
     private SlaveNode createGateNode(){
         String nodeName = getFullName("GateNode");
         String outputFileName = getOutputFileName(nodeName);
@@ -106,6 +133,17 @@ public class PeripheralZone extends SimulationObject {
         String controllerName = nodeName + "_controller";
         String speakerName = nodeName + "_speaker";
 
+        if(!new File(getInputFileName(speakerName)).exists())
+        { 
+            try (FileWriter fileWriter = new FileWriter(getInputFileName(speakerName));
+                BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)) {
+                bufferedWriter.write("Played Message");
+                bufferedWriter.flush();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
         LowPowerDevice speaker = new LowPowerDevice(speakerName, getOutputFileName(speakerName), runTimeStep,getInputFileName(speakerName),100);
 
         uController controller = new uController(controllerName, getOutputFileName(controllerName), runTimeStep, (uController cont)->{});
@@ -126,6 +164,17 @@ public class PeripheralZone extends SimulationObject {
         String cameraName = nodeName + "_camera";
         String gatewayName = nodeName + "_gateway";
 
+        if(!new File(getInputFileName(cameraName)).exists())
+        { 
+            try (FileWriter fileWriter = new FileWriter(getInputFileName(cameraName));
+                BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)) {
+                bufferedWriter.write("Video");
+                bufferedWriter.flush();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
         LowPowerDevice camera = new LowPowerDevice(cameraName, getOutputFileName(cameraName), runTimeStep,getInputFileName(cameraName),3500000);
         gateway = new Gateway(gatewayName, getOutputFileName(gatewayName), runTimeStep);
 
@@ -138,13 +187,13 @@ public class PeripheralZone extends SimulationObject {
         return node;
     }
 
-    private String getOutputFileName(String name){
-        return "logs/"+ name+ ".csv";
+    private static String getOutputFileName(String name){
+        return "logs/"+ name+ "_output.csv";
         
     }
 
-    private String getInputFileName(String name) {
-        return "inputs/"+ name+ ".csv";
+    private static String getInputFileName(String name) {
+        return "inputs/"+ name+ "_input.csv";
     }
 
     private String getFullName(String localName){
