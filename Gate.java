@@ -9,18 +9,16 @@ public class Gate extends SlaveNode{
     private Relay motorRelay;
     private HighPowerDevice motor;
 
-    public Gate(String nodeName, String outputFileName, int runTimeStep, int RTT_to_Zone_Controller){
-        super(nodeName, outputFileName, runTimeStep, RTT_to_Zone_Controller, 
+    public Gate(String nodeName, int runTimeStep, int RTT_to_Zone_Controller){
+        super(nodeName, runTimeStep, RTT_to_Zone_Controller, 
                 new uController(
                     getFullName(nodeName, "controller") 
-                    ,getOutputFileName(getFullName(nodeName, "controller"))
                     , runTimeStep
                     , (uController controller)->{gateControllerFunction(controller,nodeName);}
                     )
             );
 
         String name = getFullName(nodeName,"scanner");
-        String outputFile  = getOutputFileName(name);
         String inputFile = getInputFileName(name);
 
         if(!new File(inputFile).exists())
@@ -34,30 +32,18 @@ public class Gate extends SlaveNode{
             }
         }
 
-        scanner = new LowPowerDevice(name, outputFile, runTimeStep, inputFile, 12); 
+        scanner = new LowPowerDevice(name, runTimeStep, 12); 
 
         name = getFullName(nodeName,"relay");
-        outputFile  = getOutputFileName(name);
-        motorRelay = new Relay(name,outputFile,runTimeStep,1);
+        motorRelay = new Relay(name, runTimeStep,1);
 
         name = getFullName(nodeName,"motor");
-        outputFile  = getOutputFileName(name);
-        motor = new HighPowerDevice(name,outputFile,runTimeStep);
+        motor = new HighPowerDevice(name, runTimeStep);
 
         localController.connectTo(scanner);
         
         motorRelay.connectTo(motor, 0);
         localController.connectTo(motorRelay);
-
-    }
-
-    private static String getInputFileName(String name){
-        return "inputs/" + name + "_input.csv"; 
-
-    }
-
-    private static String getOutputFileName(String name){
-        return "logs/" + name + "_output.csv"; 
 
     }
 

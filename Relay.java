@@ -6,8 +6,8 @@ public class Relay extends Device {
     private ArrayList<Boolean> switchStates;
     private ArrayList<HighPowerDevice> connectedDevices;
 
-    public Relay(String object_name,String outputFileName, int runTimeStep, int numSwitches){
-        super(object_name, outputFileName, runTimeStep);
+    public Relay(String object_name, int runTimeStep, int numSwitches){
+        super(object_name, runTimeStep);
         this.numSwitches = numSwitches;
 
         switchStates = new ArrayList<>(numSwitches);
@@ -126,4 +126,5 @@ public class Relay extends Device {
         } 
         super.start();
     }
+
 }

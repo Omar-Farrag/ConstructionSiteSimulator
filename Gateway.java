@@ -8,8 +8,8 @@ public class Gateway extends SimulationObject{
     private uController parentController;
     HashMap<Gateway,Integer> connectedGateways;
 
-    public Gateway(String object_name, String outputFileName, int runTimeStep){
-        super(object_name, outputFileName, runTimeStep);
+    public Gateway(String object_name, int runTimeStep){
+        super(object_name, runTimeStep);
         connectedGateways = new HashMap<>();
     }
 

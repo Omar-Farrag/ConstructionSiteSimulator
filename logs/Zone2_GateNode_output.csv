@@ -1,18 +1,24 @@
 Timestamp, Object Name, Event
-2024-11-14T16:00:54.994290100,Zone2_GateNode,Started
-2024-11-14T16:00:56.575870400,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
-2024-11-14T16:00:56.721302400,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-14T16:00:57.739112600,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
-2024-11-14T16:00:57.768236600,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-14T16:00:58.796861800,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
-2024-11-14T16:00:58.847218500,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-14T16:00:59.858686400,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
-2024-11-14T16:00:59.886216,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-14T16:01:00.905544200,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
-2024-11-14T16:01:00.946548900,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-14T16:01:01.961810200,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
-2024-11-14T16:01:01.992004100,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-14T16:01:03.008258,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
-2024-11-14T16:01:03.036173800,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-14T16:01:04.049120600,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
-2024-11-14T16:01:04.079108800,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-19T12:26:02.357307100,Zone2_GateNode,Started
+2024-11-19T12:26:37.361420600,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-19T12:26:37.485807700,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-19T12:26:38.497994400,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-19T12:26:38.557328200,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-19T12:26:39.583944800,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-19T12:26:39.621856800,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-19T12:26:40.636903,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-19T12:26:40.667105,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-19T12:26:41.694782,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-19T12:26:41.746256800,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-19T12:26:42.761215900,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-19T12:26:42.802602500,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-19T12:26:43.820305300,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-19T12:26:43.861966400,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-19T12:26:44.880497700,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-19T12:26:44.906553200,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-19T12:26:45.923364800,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-19T12:26:45.950939500,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-19T12:26:46.966806800,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-19T12:26:46.996747500,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-19T12:26:48.010040500,Zone2_GateNode,Asked Control Node [Zone2_ControlNode] about ID [Uninitialized]'s permission
+2024-11-19T12:26:48.054333700,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]

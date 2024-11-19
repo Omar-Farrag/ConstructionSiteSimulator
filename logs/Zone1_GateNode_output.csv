@@ -1,18 +1,24 @@
 Timestamp, Object Name, Event
-2024-11-14T16:00:54.323727700,Zone1_GateNode,Started
-2024-11-14T16:00:56.575870400,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
-2024-11-14T16:00:56.721302400,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-11-14T16:00:57.737784600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Hala]'s permission
-2024-11-14T16:00:57.768236600,Zone1_GateNode,ID [Hala]'s permission: [DENIED]
-2024-11-14T16:00:58.796861800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Hala]'s permission
-2024-11-14T16:00:58.846217900,Zone1_GateNode,ID [Hala]'s permission: [DENIED]
-2024-11-14T16:00:59.858686400,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
-2024-11-14T16:00:59.887468700,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-11-14T16:01:00.905544200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten Tagen]'s permission
-2024-11-14T16:01:00.946548900,Zone1_GateNode,ID [Guten Tagen]'s permission: [DENIED]
-2024-11-14T16:01:01.963225900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
-2024-11-14T16:01:01.992004100,Zone1_GateNode,ID [hala]'s permission: [DENIED]
-2024-11-14T16:01:03.008258,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
-2024-11-14T16:01:03.036173800,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-11-14T16:01:04.049120600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Hala]'s permission
-2024-11-14T16:01:04.079108800,Zone1_GateNode,ID [Hala]'s permission: [DENIED]
+2024-11-19T12:26:02.098965500,Zone1_GateNode,Started
+2024-11-19T12:26:37.361420600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
+2024-11-19T12:26:37.485807700,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
+2024-11-19T12:26:38.501988800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
+2024-11-19T12:26:38.557328200,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
+2024-11-19T12:26:39.583944800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
+2024-11-19T12:26:39.621856800,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
+2024-11-19T12:26:40.636903,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
+2024-11-19T12:26:40.667105,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
+2024-11-19T12:26:41.693779900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
+2024-11-19T12:26:41.746256800,Zone1_GateNode,ID [hala]'s permission: [DENIED]
+2024-11-19T12:26:42.761215900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
+2024-11-19T12:26:42.801057400,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
+2024-11-19T12:26:43.820305300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
+2024-11-19T12:26:43.846502300,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
+2024-11-19T12:26:44.861367900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
+2024-11-19T12:26:44.892370200,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
+2024-11-19T12:26:45.905903500,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
+2024-11-19T12:26:45.935899200,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
+2024-11-19T12:26:46.950911600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
+2024-11-19T12:26:46.980414600,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
+2024-11-19T12:26:47.996279100,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
+2024-11-19T12:26:48.023412200,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]

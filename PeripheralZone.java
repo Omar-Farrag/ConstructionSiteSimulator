@@ -23,7 +23,7 @@ public class PeripheralZone extends SimulationObject {
     protected ArrayList<SlaveNode> otherSlaveNodes;
 
     public PeripheralZone(String object_name, int runTimeStep, ProcessingAlgorithm algorithm){
-        super(object_name, getOutputFileName(object_name), runTimeStep);
+        super(object_name, runTimeStep);
         exportState("Started");
 
         this.runTimeStep = runTimeStep;
@@ -75,9 +75,8 @@ public class PeripheralZone extends SimulationObject {
     
     private SlaveNode createGateNode(){
         String nodeName = getFullName("GateNode");
-        String outputFileName = getOutputFileName(nodeName);
         
-        SlaveNode gateNode = new Gate(nodeName, outputFileName, runTimeStep, RTT_to_Zone_Controller); 
+        SlaveNode gateNode = new Gate(nodeName, runTimeStep, RTT_to_Zone_Controller); 
         gateNode.setControlNode(controlNode);
         
         return gateNode;
@@ -86,17 +85,16 @@ public class PeripheralZone extends SimulationObject {
 
     private SlaveNode createActuationNode(){
         String nodeName = getFullName("ActuatorNode");
-        String outputFileName = getOutputFileName(nodeName);
 
         String actuatorName = nodeName + "_actuator";
         String controllerName = nodeName + "_controller";
 
-        actuator = new Relay(nodeName + actuatorName, getOutputFileName(actuatorName), runTimeStep, 4);
+        actuator = new Relay(actuatorName, runTimeStep, 4);
 
-        uController controller = new uController(controllerName, getOutputFileName(controllerName), runTimeStep, (uController cont)->{});
+        uController controller = new uController(controllerName, runTimeStep, (uController cont)->{});
         controller.connectTo(actuator);
 
-        SlaveNode node = new SlaveNode(nodeName, outputFileName, runTimeStep, RTT_to_Zone_Controller, controller);
+        SlaveNode node = new SlaveNode(nodeName, runTimeStep, RTT_to_Zone_Controller, controller);
         gateNode.setControlNode(controlNode);
 
         return node;
@@ -106,20 +104,19 @@ public class PeripheralZone extends SimulationObject {
     private SlaveNode createBuzzerNode(){
 
         String nodeName = getFullName("BuzzerNode");
-        String outputFileName = getOutputFileName(nodeName);
 
         String actuatorName = nodeName + "_actuator";
         String controllerName = nodeName + "_controller";
         String buzzerName = nodeName + "_buzzer";
 
-        Relay actuator = new Relay(nodeName + actuatorName, getOutputFileName(actuatorName), runTimeStep, 1);
-        HighPowerDevice buzzer = new HighPowerDevice(buzzerName, getOutputFileName(buzzerName), runTimeStep);
+        Relay actuator = new Relay(actuatorName, runTimeStep, 1);
+        HighPowerDevice buzzer = new HighPowerDevice(buzzerName, runTimeStep);
         actuator.connectTo(buzzer, 0);
 
-        uController controller = new uController(controllerName, getOutputFileName(controllerName), runTimeStep, (uController cont)->{});
+        uController controller = new uController(controllerName, runTimeStep, (uController cont)->{});
         controller.connectTo(actuator);
 
-        SlaveNode node = new SlaveNode(nodeName, outputFileName, runTimeStep, RTT_to_Zone_Controller, controller);
+        SlaveNode node = new SlaveNode(nodeName,runTimeStep, RTT_to_Zone_Controller, controller);
         gateNode.setControlNode(controlNode);
 
         return node;
@@ -128,7 +125,6 @@ public class PeripheralZone extends SimulationObject {
     
     private SlaveNode createSpeakerNode(){
         String nodeName = getFullName("SpeakerNode");
-        String outputFileName = getOutputFileName(nodeName);
 
         String controllerName = nodeName + "_controller";
         String speakerName = nodeName + "_speaker";
@@ -144,12 +140,13 @@ public class PeripheralZone extends SimulationObject {
             }
         }
 
-        LowPowerDevice speaker = new LowPowerDevice(speakerName, getOutputFileName(speakerName), runTimeStep,getInputFileName(speakerName),100);
 
-        uController controller = new uController(controllerName, getOutputFileName(controllerName), runTimeStep, (uController cont)->{});
+        LowPowerDevice speaker = new LowPowerDevice(speakerName, runTimeStep,100);
+
+        uController controller = new uController(controllerName, runTimeStep, (uController cont)->{});
         controller.connectTo(speaker);
 
-        SlaveNode node = new SlaveNode(nodeName, outputFileName, runTimeStep, RTT_to_Zone_Controller, controller);
+        SlaveNode node = new SlaveNode(nodeName, runTimeStep, RTT_to_Zone_Controller, controller);
         gateNode.setControlNode(controlNode);
 
         return node;
@@ -158,7 +155,6 @@ public class PeripheralZone extends SimulationObject {
 
     private ControlNode createControlNode(){
         String nodeName = getFullName("ControlNode");
-        String outputFileName = getOutputFileName(nodeName);
 
         String controllerName = nodeName + "_controller";
         String cameraName = nodeName + "_camera";
@@ -175,31 +171,32 @@ public class PeripheralZone extends SimulationObject {
             }
         }
 
-        LowPowerDevice camera = new LowPowerDevice(cameraName, getOutputFileName(cameraName), runTimeStep,getInputFileName(cameraName),3500000);
-        gateway = new Gateway(gatewayName, getOutputFileName(gatewayName), runTimeStep);
+        LowPowerDevice camera = new LowPowerDevice(cameraName, runTimeStep,3500000);
+        gateway = new Gateway(gatewayName, runTimeStep);
 
-        uController controller = new uController(controllerName, getOutputFileName(controllerName), runTimeStep, algorithm);
+        uController controller = new uController(controllerName, runTimeStep, algorithm);
         controller.connectTo(camera);
         controller.connectTo(gateway);
 
-        ControlNode node = new ControlNode(nodeName, outputFileName, runTimeStep, controller);
+        ControlNode node = new ControlNode(nodeName, runTimeStep, controller);
 
         return node;
-    }
-
-    private static String getOutputFileName(String name){
-        return "logs/"+ name+ "_output.csv";
-        
-    }
-
-    private static String getInputFileName(String name) {
-        return "inputs/"+ name+ "_input.csv";
     }
 
     private String getFullName(String localName){
         return this.object_name + "_"+localName;
     }
 
+    
+    public void initFields(){
+       controlNode.initFields();
+       gateNode.initFields();
+       actuationNode.initFields();
+       buzzerNode.initFields();
+       speakerNode.initFields();
+
+       for(SlaveNode node : otherSlaveNodes) node.initFields();
+    }
     @Override
     protected void runTimeFunction() {
         // Do Nothing

@@ -1,5 +1,8 @@
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,27 +13,44 @@ public class LowPowerDevice extends Device {
     private ArrayList<String> fieldNames;
     private HashMap<String, String> fieldValues;
     private List<List<String>> fileInputs;
+    private String inputFileName;
     private int rowIndex;
     private int fieldSize;
 
 
-    public LowPowerDevice(String name, String outputFileName, int runTimeStep, String inputFileName, int fieldSize){
-        super(name, outputFileName, runTimeStep);
+    public LowPowerDevice(String name, int runTimeStep, int fieldSize){
+        super(name, runTimeStep);
         fieldNames = new ArrayList<>();
         fileInputs = new ArrayList<>();
         fieldValues = new HashMap<>();
-        initFields(inputFileName);
         rowIndex = 0;
+        this.inputFileName = getInputFileName(name);
+
+        if(!new File(inputFileName).exists())
+        { 
+            try (FileWriter fileWriter = new FileWriter(inputFileName);
+                BufferedWriter bufferedWriter = new BufferedWriter(fileWriter)) {
+                bufferedWriter.write("");
+                bufferedWriter.flush();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
         this.fieldSize = fieldSize; 
     }
 
-    private void initFields(String inputFileName){
+    @Override
+    public void initFields(){
 
+        fieldValues.clear();
         try (BufferedReader br = new BufferedReader(new FileReader(inputFileName))) {
         
             String line = br.readLine();
-            String[] headerValues = line.split(",");
-            for (String headerValue : headerValues) fieldNames.add(headerValue);
+            if(line != null){
+                String[] headerValues = line.split(",");
+                for (String headerValue : headerValues) fieldNames.add(headerValue);
+            }
 
             while ((line = br.readLine()) != null) {
                 List<String> row = new ArrayList<>();

@@ -3,8 +3,8 @@ public class HighPowerDevice extends Device {
 
     private Boolean connectedToPower;
 
-    public HighPowerDevice(String name, String outputFileName, int runTimeStep){
-        super(name, outputFileName,runTimeStep);
+    public HighPowerDevice(String name, int runTimeStep){
+        super(name, runTimeStep);
         connectedToPower = false;
     }
 
@@ -59,5 +59,6 @@ public class HighPowerDevice extends Device {
         }
         return new ExecutionResult(success, packet);
     }
+
 
 }

@@ -8,11 +8,15 @@ public class SlaveNode extends SimulationObject{
     protected int RTT_to_Control_Node; //ms
     private ControlNode controlNode;
 
-    public SlaveNode(String object_name, String outputFileName, int runTimeStep, int RTT_to_Zone_Controller, uController locaController){
-        super(object_name, outputFileName, runTimeStep);
+    public SlaveNode(String object_name, int runTimeStep, int RTT_to_Zone_Controller, uController locaController){
+        super(object_name, runTimeStep);
         this.RTT_to_Control_Node = RTT_to_Zone_Controller;
         this.localController = locaController;
         localController.setParentNode(this);
+    }
+
+    public void initFields(){
+        localController.initFields();
     }
     
     public void setControlNode(ControlNode controlNode){

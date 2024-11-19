@@ -18,12 +18,12 @@ public abstract class SimulationObject implements Runnable {
         return LocalDateTime.now().toString();
     }
     
-    protected SimulationObject(String name, String outputLogFileName, int runTimeStep){
+    protected SimulationObject(String name, int runTimeStep){
         this.runTimeThread = new Thread(this);
         this.hasAddedHeader = false;
         this.alive = false;
         this.object_name = name;
-        this.outputLogFileName = outputLogFileName;
+        this.outputLogFileName = getOutputFileName(name);
         this.runTimeStep = runTimeStep;
         initWriter();
     }
@@ -69,6 +69,15 @@ public abstract class SimulationObject implements Runnable {
                 e.printStackTrace();
             }
         }
+    }
+
+    protected static String getOutputFileName(String name){
+        return "logs/"+ name+ "_output.csv";
+        
+    }
+
+    protected static String getInputFileName(String name) {
+        return "inputs/"+ name+ "_input.csv";
     }
 
     public String getObject_name() {

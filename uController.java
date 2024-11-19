@@ -14,14 +14,18 @@ public class uController extends SimulationObject{
 
     private Gateway gateway;
 
-    public uController(String name, String outputLogFileName, int runTimeStep, ProcessingAlgorithm algorithm) {
-        super(name, outputLogFileName, runTimeStep);
+    public uController(String name, int runTimeStep, ProcessingAlgorithm algorithm) {
+        super(name,runTimeStep);
         this.algorithm = algorithm;
         this.devices = new ArrayList<>();
         offeredFields = new ArrayList<>();
         permittedIDs = new HashSet<>();
     }
 
+    public void initFields(){
+        for (Device dev : devices) dev.initFields();
+    }
+    
     public void setParentNode(SlaveNode parentNode) {
         this.parentSlaveNode = parentNode;
         this.parentControlNode = null;

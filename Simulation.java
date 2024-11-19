@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Simulation {
 
     static Scanner scanner = new Scanner(System.in);
-    static HashMap<String, SimulationObject> simulationObjects = new HashMap<>(); 
+    static HashMap<String, PeripheralZone> simulationObjects = new HashMap<>(); 
 
     public static void main(String[] args) {
         
@@ -22,6 +22,15 @@ public class Simulation {
         PeripheralZone zone = new PeripheralZone("Zone1", runTimeStep, zoneAlgo);
         zone.addPermittedId("Omar");
         zone.addPermittedId("Farrag");
+        
+        
+        LowPowerDevice dev = new LowPowerDevice("someDevice", runTimeStep, 1);
+        uController cont = new uController("someCont", runTimeStep, (uController contr)->{});
+        cont.connectTo(dev);
+        SlaveNode node = new SlaveNode("someNode", runTimeStep, 20, cont);
+
+        
+        zone.addSlaveNode(node);
 
         ProcessingAlgorithm zoneAlgo2 = (uController controller)->{            
         };
@@ -43,8 +52,8 @@ public class Simulation {
     static boolean menu(){
 
         System.out.println("***************Options*************** ");
-        System.out.println("1) Start Simulation");
-        System.out.println("2) Activate Simulation Object");
+        System.out.println("1) Init Fields");
+        System.out.println("2) Start Simulation");
         System.out.println("3) Deactivate Simulation Object");
         System.out.println("4) Update Field");
         System.out.println("5) End Simulation");
@@ -54,8 +63,8 @@ public class Simulation {
         try{
             int option = Integer.parseInt(userInput);
             switch(option){
-                case 1: startSimulation(); break;
-                case 2: switchObject(true); break;
+                case 1: initFields(); break;
+                case 2: startSimulation(); break;
                 case 3: switchObject(false); break;
                 case 4: updateField(); break;
                 case 5: endSimulation(); break;
@@ -70,8 +79,14 @@ public class Simulation {
 
     }
 
+    static void initFields(){
+        for(Entry<String,PeripheralZone> entry : simulationObjects.entrySet()) 
+            if (!entry.getValue().isAlive()) entry.getValue().initFields();
+
+        System.out.println("[Fields Initialized]");
+    }
     static void startSimulation(){
-        for(Entry<String,SimulationObject> entry : simulationObjects.entrySet()) 
+        for(Entry<String,PeripheralZone> entry : simulationObjects.entrySet()) 
             if (!entry.getValue().isAlive()) entry.getValue().start();
 
         System.out.println("[Simulation Started]");
@@ -85,7 +100,7 @@ public class Simulation {
         
     }
     static void endSimulation(){
-        for(Entry<String,SimulationObject> entry : simulationObjects.entrySet()) 
+        for(Entry<String,PeripheralZone> entry : simulationObjects.entrySet()) 
             if (entry.getValue().isAlive()) entry.getValue().terminate();
         
         System.out.println("[Simulation Ended]");

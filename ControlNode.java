@@ -13,8 +13,8 @@ public class ControlNode extends SimulationObject {
     private HashMap<String, String> fieldValues;
     protected uController localController;
 
-    public ControlNode(String object_name, String outputFileName, int runTimeStep, uController localController){
-        super(object_name, outputFileName, runTimeStep);
+    public ControlNode(String object_name, int runTimeStep, uController localController){
+        super(object_name, runTimeStep);
         this.localController = localController;
         localController.setParentNode(this);
         connectedSlaveNodes = new HashMap<>();
@@ -29,6 +29,10 @@ public class ControlNode extends SimulationObject {
             connectedSlaveNodes.put(node.getObject_name(), node);
             for(String field : node.getOfferedFields()) fieldValues.put(field, "Uninitialized");
         }
+    }
+
+    public void initFields(){
+        localController.initFields();
     }
     
     public synchronized void update(SlaveNode sender, DataPacket receivedDataPacket){

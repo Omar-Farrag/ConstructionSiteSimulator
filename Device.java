@@ -1,9 +1,10 @@
 public abstract class Device extends SimulationObject{
     
-    public Device(String name, String outputFileName, int runTimeStep){
-        super(name, outputFileName, runTimeStep);
+    public Device(String name, int runTimeStep){
+        super(name, runTimeStep);
     }
 
+    public void initFields(){}
     public abstract ExecutionResult execute(String command, String... arguments);
 
 
