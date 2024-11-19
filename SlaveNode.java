@@ -23,11 +23,10 @@ public class SlaveNode extends SimulationObject{
         this.controlNode = controlNode;
     }
 
-    public void publishPacket(DataPacket packet){
-
-        exportState(String.format("Started Publishing packet to Control Node [%s]",controlNode.getObject_name()));
-        controlNode.update(this,packet);
-        exportState(String.format("Done Publishing packet to Control Node [%s]",controlNode.getObject_name()));
+    public void publishPacket(DataPacket... packets){
+        exportState(String.format("Started Publishing (%d) packets to Control Node [%s]",packets.length, controlNode.getObject_name()));
+        controlNode.update(this,packets);
+        exportState(String.format("Done Publishing (%d) packets to Control Node [%s]",packets.length, controlNode.getObject_name()));
     }
 
     public ExecutionResult getField(ControlNode requester, String objectName, String field){
@@ -50,7 +49,7 @@ public class SlaveNode extends SimulationObject{
         }
 
         try {
-            int time_delay= RTT_to_Control_Node/2 + (result.isSuccess() ? result.getReturnedPacket().getSize() / (BLE_transmission_rate) : 0);
+            int time_delay= RTT_to_Control_Node/2 + (result.isSuccess() ? result.getReturnedPacket().getSize() * 8 / (BLE_transmission_rate) : 0);
             Thread.sleep(time_delay);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -63,7 +62,7 @@ public class SlaveNode extends SimulationObject{
     public ExecutionResult setField(ControlNode setter, String objectName, String field, String value, int size){
 
         try {
-            int time_delay= RTT_to_Control_Node /2 + size / BLE_transmission_rate;
+            int time_delay= RTT_to_Control_Node /2 + size * 8 / BLE_transmission_rate;
             Thread.sleep(time_delay);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -88,6 +87,36 @@ public class SlaveNode extends SimulationObject{
 
         return result;
 
+    }
+
+    
+    public ExecutionResult updateSwitch(ControlNode setter, String objectName, String position, String switchStatus) {
+        
+        try {
+            int time_delay= RTT_to_Control_Node /2 + 8 / BLE_transmission_rate;
+            Thread.sleep(time_delay);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        exportState(String.format("Node [%s] attempted updating switch position [%s] in object [%s]",
+            setter.getObject_name(),
+            position, 
+            objectName));
+
+        ExecutionResult result;
+        synchronized(localController){
+            result = localController.updateSwitch(objectName, position, switchStatus);
+        }
+
+        try {
+            int time_delay= RTT_to_Control_Node/2;
+            Thread.sleep(time_delay);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        return result;       
     }
 
     public boolean isPermittedToEnter(String id){

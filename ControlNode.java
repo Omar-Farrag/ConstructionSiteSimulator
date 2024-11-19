@@ -33,26 +33,38 @@ public class ControlNode extends SimulationObject {
 
     public void initFields(){
         localController.initFields();
+        for(Entry<String, SlaveNode> entry : connectedSlaveNodes.entrySet()){
+            ArrayList<String> fields = entry.getValue().getOfferedFields();
+            for (String field : fields){
+                fieldValues.put(field,"Uninitialized");
+            }
+        }   
+        
     }
     
-    public synchronized void update(SlaveNode sender, DataPacket receivedDataPacket){
-        int time_delay = sender.getRTT_to_Control_Node()/2 + receivedDataPacket.getSize() / BLE_transmission_rate;
+    public synchronized void update(SlaveNode sender, DataPacket... receivedDataPackets){
+        int totalDataSize = 0;
+        for(DataPacket packet : receivedDataPackets) totalDataSize += packet.getSize();
+        int time_delay = sender.getRTT_to_Control_Node()/2 + totalDataSize / BLE_transmission_rate;
         try {
             Thread.sleep(time_delay);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-        exportState(String.format("Received new packet from slave node [%s]", sender.getObject_name()));      
+        exportState(String.format("Received (%d) new packet from slave node [%s]",receivedDataPackets.length, sender.getObject_name()));      
         
         synchronized(bufferedDataPackets){
-            bufferedDataPackets.add(receivedDataPacket);
+            for(DataPacket packet : receivedDataPackets) bufferedDataPackets.add(packet);
         }
-        
-        fieldValues.put(
-            receivedDataPacket.getSourceObjectName()+"_"+receivedDataPacket.getFieldName(),
-            receivedDataPacket.getValue());
 
+        synchronized(fieldValues){
+            for(DataPacket packet : receivedDataPackets)
+            fieldValues.put(
+                packet.getSourceObjectName()+"_"+packet.getFieldName(),
+                packet.getValue());
+                
+        }
         time_delay = sender.getRTT_to_Control_Node()/2;
         try {
             Thread.sleep(time_delay);
@@ -101,6 +113,20 @@ public class ControlNode extends SimulationObject {
         
     }
 
+    public ExecutionResult updateSwitchIn(String targetNodeName, String targetObjectName, String position, String switchStatus){
+        SlaveNode targetNode = connectedSlaveNodes.get(targetNodeName);
+        
+        if(targetNode != null){
+            ExecutionResult result = targetNode.updateSwitch(this, targetObjectName, position,switchStatus);
+            String successStatus = result.isSuccess() ? "SUCCESS" : "FAILURE";
+            exportState(String.format("[%s] Set switch position [%s] in object [%s] in slave node [%s]", successStatus, position, targetObjectName, targetNodeName));
+            return result;
+        }       
+        else{
+            exportState(String.format("[FAILURE] Set switch position [%s] in object [%s] in slave node [%s]",position, targetObjectName, targetNodeName));
+            return new ExecutionResult(false, null);
+        }
+    }
     public Queue<BulkDataPacket> getReceivedBulkDataPackets() {
         return receivedBulkDataPackets;
     }
@@ -110,7 +136,12 @@ public class ControlNode extends SimulationObject {
     }
 
     public Queue<DataPacket> getBufferedDataPackets() {
-        return bufferedDataPackets;
+        synchronized(bufferedDataPackets){
+            Queue<DataPacket> copy = new LinkedList<>(bufferedDataPackets);
+            bufferedDataPackets.clear();
+            return copy;
+
+        }
     }
     
     @Override
@@ -123,6 +154,9 @@ public class ControlNode extends SimulationObject {
             Thread.sleep(gate.getRTT_to_Control_Node()/2);
         } catch (InterruptedException e) {
             e.printStackTrace();
+        }
+        synchronized(fieldValues){
+            fieldValues.put(gate.getOfferedFields().get(0),id);
         }
         boolean isPermitted =  localController.isPermittedToEnter(id);
         exportState(String.format("Gate [%s] queried permission status for ID [%s]. Permission [%s]", gate.getObject_name(), id, isPermitted ? "ALLOWED" : "DENIED"));
@@ -137,6 +171,12 @@ public class ControlNode extends SimulationObject {
     
     }
 
+    public String getCurrentValue(String deviceName, String fieldName){
+        synchronized(fieldValues){
+            return fieldValues.get(deviceName+"_"+ fieldName);
+        }
+    }
+    
     @Override
     public synchronized void exportState(String... event) {
         if(!hasAddedHeader){

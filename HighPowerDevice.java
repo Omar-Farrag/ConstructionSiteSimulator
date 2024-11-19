@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class HighPowerDevice extends Device {
 
@@ -60,5 +61,11 @@ public class HighPowerDevice extends Device {
         return new ExecutionResult(success, packet);
     }
 
+    @Override
+    public ArrayList<String> getFieldNames() {
+        ArrayList<String> fieldNames = new ArrayList<>();
+        fieldNames.add("Is Powered");
+        return fieldNames;
+    }
 
 }

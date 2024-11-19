@@ -23,9 +23,14 @@ public class uController extends SimulationObject{
     }
 
     public void initFields(){
-        for (Device dev : devices) dev.initFields();
+        for (Device dev : devices){
+            dev.initFields();
+            for(String field : dev.getFieldNames()){
+                offeredFields.add(dev.getObject_name()+"_"+field);
+            }
+        }         
     }
-    
+
     public void setParentNode(SlaveNode parentNode) {
         this.parentSlaveNode = parentNode;
         this.parentControlNode = null;
@@ -45,9 +50,6 @@ public class uController extends SimulationObject{
         synchronized(devices){
             for(LowPowerDevice device : devicesToConnect) {
                 devices.add(device);
-                for(String field : device.getFieldNames()){
-                    offeredFields.add(device.getObject_name()+"_"+field);
-                }
             }
         }
     }
@@ -63,8 +65,8 @@ public class uController extends SimulationObject{
         gateway.setParentController(this);
     }
     
-    public void publishPacket(DataPacket packet){
-        parentSlaveNode.publishPacket(packet);
+    public void publishPacket(DataPacket... packets){
+        parentSlaveNode.publishPacket(packets);
     }
 
     public void receiveDataPacket(Gateway source, Gateway previous, BulkDataPacket packet){
@@ -119,6 +121,23 @@ public class uController extends SimulationObject{
         if(parentControlNode != null) return parentControlNode.getBufferedDataPackets();
         else return new LinkedList<>();
     }
+
+    public ExecutionResult setFieldIn(String targetNodeName, String targetObjectName, String field, String value,
+            int size) {
+        ExecutionResult result =  parentControlNode.setFieldIn(targetNodeName, targetObjectName, field, value, size);
+        String successStatus = result.isSuccess() ? "SUCCESS" : "FAILURE";
+        exportState(String.format("[%s] Set field [%s] in object [%s] in slave node [%s]", successStatus, field, targetObjectName, targetNodeName));
+        return result;                
+    }
+
+    public ExecutionResult updateSwitchIn(String targetNodeName, String targetObjectName, String position,
+            String switchStatus) {
+        ExecutionResult result = parentControlNode.updateSwitchIn(targetNodeName, targetObjectName, position, switchStatus);
+        String successStatus = result.isSuccess() ? "SUCCESS" : "FAILURE";
+        exportState(String.format("[%s] Set switch position [%s] in object [%s] in slave node [%s]", successStatus, position, targetObjectName, targetNodeName));
+        return result;  
+    }
+
 
     @Override
     protected void runTimeFunction() {
@@ -185,6 +204,13 @@ public class uController extends SimulationObject{
 
     public ArrayList<String> getOfferedFields() {
         return offeredFields;
+    }
+
+    public String getCurrentValue(String deviceName, String fieldName){
+        if(parentControlNode != null){
+            return parentControlNode.getCurrentValue(deviceName, fieldName);
+        }
+        else return null;
     }
 
     @Override

@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public abstract class Device extends SimulationObject{
     
     public Device(String name, int runTimeStep){
@@ -6,6 +8,8 @@ public abstract class Device extends SimulationObject{
 
     public void initFields(){}
     public abstract ExecutionResult execute(String command, String... arguments);
+
+    public abstract ArrayList<String> getFieldNames();
 
 
 }

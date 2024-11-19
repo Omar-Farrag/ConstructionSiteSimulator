@@ -155,6 +155,7 @@ public class LowPowerDevice extends Device {
         exportState();
     }
 
+    @Override
     public ArrayList<String> getFieldNames() {
         return fieldNames;
     }

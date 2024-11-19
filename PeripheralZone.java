@@ -4,6 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
+
 public class PeripheralZone extends SimulationObject {
 
 
@@ -24,34 +25,22 @@ public class PeripheralZone extends SimulationObject {
 
     public PeripheralZone(String object_name, int runTimeStep, ProcessingAlgorithm algorithm){
         super(object_name, runTimeStep);
-        exportState("Started");
 
         this.runTimeStep = runTimeStep;
         this.algorithm = algorithm;
         
         otherSlaveNodes = new ArrayList<>();
 
-        controlNode = createControlNode();
         gateNode = createGateNode();
         actuationNode = createActuationNode();
         buzzerNode = createBuzzerNode();
         speakerNode = createSpeakerNode();
+        controlNode = createControlNode();
 
-        controlNode.exportState("Started");
-        controlNode.localController.exportState("Started");
-
-        gateNode.exportState("Started");
-        gateNode.localController.exportState("Started");
-        
-        actuationNode.exportState("Started");
-        actuationNode.localController.exportState("Started");
-        
-        buzzerNode.exportState("Started");
-        buzzerNode.localController.exportState("Started");
-        
-        speakerNode.exportState("Started");
-        speakerNode.localController.exportState("Started");
-
+        controlNode.subscribeTo(gateNode);
+        controlNode.subscribeTo(actuationNode);
+        controlNode.subscribeTo(buzzerNode);
+        controlNode.subscribeTo(speakerNode);
         
     }
 
@@ -67,6 +56,10 @@ public class PeripheralZone extends SimulationObject {
         otherSlaveNodes.add(otherSlaveNode);
         controlNode.subscribeTo(otherSlaveNode);
 
+    }
+
+    public void addAllSlaveNodes(ArrayList<SlaveNode> otherSlaveNodes){
+        for (SlaveNode node : otherSlaveNodes) addSlaveNode(node);
     }
 
     public void addPermittedId(String id){
@@ -91,7 +84,25 @@ public class PeripheralZone extends SimulationObject {
 
         actuator = new Relay(actuatorName, runTimeStep, 4);
 
-        uController controller = new uController(controllerName, runTimeStep, (uController cont)->{});
+        uController controller = new uController(controllerName, runTimeStep, (uController cont)->{
+            
+            ArrayList<ExecutionResult> results = new ArrayList<>();
+            results.add(cont.getField(actuatorName, "Connected Device 0"));
+            results.add(cont.getField(actuatorName, "Connected Device 1"));
+            results.add(cont.getField(actuatorName, "Connected Device 2"));
+            results.add(cont.getField(actuatorName, "Connected Device 3"));
+            results.add(cont.getField(actuatorName, "Switch 0 Status"));
+            results.add(cont.getField(actuatorName, "Switch 1 Status"));
+            results.add(cont.getField(actuatorName, "Switch 2 Status"));
+            results.add(cont.getField(actuatorName, "Switch 3 Status"));
+
+            ArrayList<DataPacket> toPublish = new ArrayList<>();
+            for (ExecutionResult result : results) if(result.isSuccess()) toPublish.add(result.getReturnedPacket());
+
+            cont.publishPacket(toPublish.toArray(new DataPacket[0]));
+
+
+        });
         controller.connectTo(actuator);
 
         SlaveNode node = new SlaveNode(nodeName, runTimeStep, RTT_to_Zone_Controller, controller);
@@ -107,13 +118,17 @@ public class PeripheralZone extends SimulationObject {
 
         String actuatorName = nodeName + "_actuator";
         String controllerName = nodeName + "_controller";
-        String buzzerName = nodeName + "_buzzer";
+        String buzzerName =actuatorName + "_buzzer";
 
         Relay actuator = new Relay(actuatorName, runTimeStep, 1);
         HighPowerDevice buzzer = new HighPowerDevice(buzzerName, runTimeStep);
         actuator.connectTo(buzzer, 0);
 
-        uController controller = new uController(controllerName, runTimeStep, (uController cont)->{});
+        uController controller = new uController(controllerName, runTimeStep, (uController cont)->{
+            ExecutionResult result1 = cont.getField(actuatorName, "Connected Device 0");
+            ExecutionResult result2 = cont.getField(actuatorName, "Switch 0 Status");
+            if(result1.isSuccess()&& result2.isSuccess()) cont.publishPacket(result1.getReturnedPacket(), result2.getReturnedPacket());
+        });
         controller.connectTo(actuator);
 
         SlaveNode node = new SlaveNode(nodeName,runTimeStep, RTT_to_Zone_Controller, controller);
@@ -143,7 +158,10 @@ public class PeripheralZone extends SimulationObject {
 
         LowPowerDevice speaker = new LowPowerDevice(speakerName, runTimeStep,100);
 
-        uController controller = new uController(controllerName, runTimeStep, (uController cont)->{});
+        uController controller = new uController(controllerName, runTimeStep, (uController cont)->{
+            ExecutionResult result1 = cont.getField(speakerName, "Played Message");
+            if(result1.isSuccess()) cont.publishPacket(result1.getReturnedPacket());
+        });
         controller.connectTo(speaker);
 
         SlaveNode node = new SlaveNode(nodeName, runTimeStep, RTT_to_Zone_Controller, controller);
@@ -189,13 +207,14 @@ public class PeripheralZone extends SimulationObject {
 
     
     public void initFields(){
-       controlNode.initFields();
-       gateNode.initFields();
-       actuationNode.initFields();
-       buzzerNode.initFields();
-       speakerNode.initFields();
+        gateNode.initFields();
+        actuationNode.initFields();
+        buzzerNode.initFields();
+        speakerNode.initFields();
 
-       for(SlaveNode node : otherSlaveNodes) node.initFields();
+        for(SlaveNode node : otherSlaveNodes) node.initFields();
+
+        controlNode.initFields();
     }
     @Override
     protected void runTimeFunction() {
@@ -213,17 +232,34 @@ public class PeripheralZone extends SimulationObject {
         for(SlaveNode node : otherSlaveNodes) node.start();
 
         super.start();
+
+        exportState("Started");
+
+        controlNode.exportState("Started");
+        controlNode.localController.exportState("Started");
+
+        gateNode.exportState("Started");
+        gateNode.localController.exportState("Started");
+        
+        actuationNode.exportState("Started");
+        actuationNode.localController.exportState("Started");
+        
+        buzzerNode.exportState("Started");
+        buzzerNode.localController.exportState("Started");
+        
+        speakerNode.exportState("Started");
+        speakerNode.localController.exportState("Started");
     }
     
     @Override
     public void terminate() {
-        controlNode.terminate();
         gateNode.terminate();
         actuationNode.terminate();
         buzzerNode.terminate();
         speakerNode.terminate();
-
+        
         for(SlaveNode node : otherSlaveNodes) node.terminate();
+        controlNode.terminate();
         super.terminate();
     }
 

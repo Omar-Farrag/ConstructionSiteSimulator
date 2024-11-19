@@ -52,12 +52,19 @@ public class Gate extends SlaveNode{
                     if(result.isSuccess()){
                         String value = result.getReturnedPacket().getValue();
                         SlaveNode parent = controller.getParentSlaveNode();
+                        
                         controller.exportState(String.format("Asked Parent Node [%s] about ID [%s]'s permission",parent.getObject_name(),value));
+                        
                         boolean permitted = parent.isPermittedToEnter(value);
                         controller.exportState(String.format("ID [%s]'s permission: [%s]", value, permitted? "ALLOWED": "DENIED"));
                         if(permitted) controller.updateSwitch(getFullName(gateObjectName, "relay"), "0","ON");
                         else controller.updateSwitch(getFullName(gateObjectName, "relay"), "0","OFF");
+                        
+                        ExecutionResult result1 = controller.getField(getFullName(gateObjectName, "relay"),"Connected Device 0" );
+                        ExecutionResult result2 = controller.getField(getFullName(gateObjectName, "relay"),"Switch 0 Status" );
+                        if(result1.isSuccess() && result2.isSuccess()) controller.publishPacket(result1.getReturnedPacket(), result2.getReturnedPacket());
                     }
+
     }
 
     private static String getFullName(String nodeName, String localObjectName){
