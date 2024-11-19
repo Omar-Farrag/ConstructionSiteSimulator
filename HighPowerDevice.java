@@ -28,13 +28,15 @@ public class HighPowerDevice extends Device {
     }
 
     @Override
-    public synchronized void exportState(String... args) {
+    public void exportState(String... args) {
 
-          if(!hasAddedHeader){
-              writer.println("Timestamp, Device Name, Is Powered");
-              hasAddedHeader = true;
+        synchronized(writer){
+            if(!hasAddedHeader){
+                writer.println("Timestamp, Device Name, Is Powered");
+                hasAddedHeader = true;
             }
             writer.println(getCurrentTimestamp()+"," + object_name + "," + isPowered());
+        }
     }
 
     @Override

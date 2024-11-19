@@ -1,466 +1,202 @@
 Timestamp, Object Name, Event
-2024-11-20T01:46:28.947069,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
-2024-11-20T01:46:28.969880,Zone1_GateNode,Started
-2024-11-20T01:46:29.014483500,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
-2024-11-20T01:46:29.019466800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:29.346273900,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:30.363028,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
-2024-11-20T01:46:30.403853900,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
-2024-11-20T01:46:30.409808500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:30.450504800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:31.467581300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
-2024-11-20T01:46:31.498247,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-11-20T01:46:31.528269900,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:31.560026700,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:32.563187500,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
-2024-11-20T01:46:32.591761300,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-11-20T01:46:32.605761,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:32.638643400,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:33.641949900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
-2024-11-20T01:46:33.670632900,Zone1_GateNode,ID [hala]'s permission: [DENIED]
-2024-11-20T01:46:33.693548200,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:33.733098100,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:34.773894700,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
-2024-11-20T01:46:34.812421300,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
-2024-11-20T01:46:34.818422400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:34.859507900,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:35.877296500,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
-2024-11-20T01:46:35.907831700,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
-2024-11-20T01:46:35.913839700,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:35.954072800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:36.959404400,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
-2024-11-20T01:46:36.989257500,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
-2024-11-20T01:46:36.990259300,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:37.020736500,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:38.023311900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
-2024-11-20T01:46:38.053097700,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-11-20T01:46:38.054280800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:38.100161400,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:39.106811200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
-2024-11-20T01:46:39.148054,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-11-20T01:46:39.151961,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:39.225952800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:40.238324700,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
-2024-11-20T01:46:40.268104400,Zone1_GateNode,ID [hala]'s permission: [DENIED]
-2024-11-20T01:46:40.279104800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:40.315032200,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:41.319245900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
-2024-11-20T01:46:41.350234800,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
-2024-11-20T01:46:41.354762600,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:41.381764400,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:42.392230300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
-2024-11-20T01:46:42.423245800,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
-2024-11-20T01:46:42.429246100,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:42.470796,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:43.481916400,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
-2024-11-20T01:46:43.513050800,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
-2024-11-20T01:46:43.524159100,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:43.559828600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:44.570361600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
-2024-11-20T01:46:44.602273700,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
-2024-11-20T01:46:44.605273500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:44.664875,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:45.667827,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
-2024-11-20T01:46:45.699050,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-11-20T01:46:45.702055200,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:45.730066600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:46.739931600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
-2024-11-20T01:46:46.795278900,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-11-20T01:46:46.798281100,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:46.827759100,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:47.830145700,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
-2024-11-20T01:46:47.860322800,Zone1_GateNode,ID [hala]'s permission: [DENIED]
-2024-11-20T01:46:47.862315400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:47.891310200,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:48.904149,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
-2024-11-20T01:46:48.934128400,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
-2024-11-20T01:46:48.936987800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:48.995108300,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:50.010255300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
-2024-11-20T01:46:50.039909200,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
-2024-11-20T01:46:50.043907200,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:50.086201700,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:51.101572800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
-2024-11-20T01:46:51.132686700,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
-2024-11-20T01:46:51.148411400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:51.175014600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:52.177906900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
-2024-11-20T01:46:52.213216200,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-11-20T01:46:52.216151300,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:52.291604700,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:53.294490600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
-2024-11-20T01:46:53.319938700,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-11-20T01:46:53.320938700,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:53.372013200,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:54.376209,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
-2024-11-20T01:46:54.459388200,Zone1_GateNode,ID [hala]'s permission: [DENIED]
-2024-11-20T01:46:54.462895200,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:54.536456400,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:55.540567200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
-2024-11-20T01:46:55.570456400,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
-2024-11-20T01:46:55.574467800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:55.601665700,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:56.615153600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
-2024-11-20T01:46:56.645759200,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
-2024-11-20T01:46:56.646745,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:56.676667300,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:57.684258400,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
-2024-11-20T01:46:57.713382300,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
-2024-11-20T01:46:57.715355200,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:57.776388600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:58.792514200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
-2024-11-20T01:46:58.822509600,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
-2024-11-20T01:46:58.824510500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:58.883148100,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:59.919397900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
-2024-11-20T01:46:59.958019100,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-11-20T01:46:59.959499700,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:46:59.989259800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:01.002505500,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
-2024-11-20T01:47:01.034098300,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-11-20T01:47:01.036984700,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:01.065523900,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:02.079869400,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
-2024-11-20T01:47:02.109701500,Zone1_GateNode,ID [hala]'s permission: [DENIED]
-2024-11-20T01:47:02.112700700,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:02.141144,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:03.153814200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
-2024-11-20T01:47:03.184807100,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
-2024-11-20T01:47:03.185119500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:03.215778800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:04.234066,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
-2024-11-20T01:47:04.264961800,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
-2024-11-20T01:47:04.264961800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:04.296760800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:05.305725200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
-2024-11-20T01:47:05.335849600,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
-2024-11-20T01:47:05.338816600,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:05.366190,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:06.380619800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
-2024-11-20T01:47:06.409294200,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-11-20T01:47:06.417181500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:06.455856900,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:07.473941200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
-2024-11-20T01:47:07.518007400,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-11-20T01:47:07.521005300,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:07.565093900,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:08.571822500,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
-2024-11-20T01:47:08.601361600,Zone1_GateNode,ID [hala]'s permission: [DENIED]
-2024-11-20T01:47:08.604931600,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:08.632928700,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:09.646959100,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
-2024-11-20T01:47:09.677296500,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
-2024-11-20T01:47:09.678294900,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:09.708081100,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:10.740939900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
-2024-11-20T01:47:10.784859200,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
-2024-11-20T01:47:10.785813100,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:10.816464300,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:11.832984500,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
-2024-11-20T01:47:11.862625400,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
-2024-11-20T01:47:11.865525100,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:11.894838200,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:12.909105900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
-2024-11-20T01:47:12.939570,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
-2024-11-20T01:47:12.941571400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:12.970209800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:13.988450800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
-2024-11-20T01:47:14.032213300,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-11-20T01:47:14.034212100,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:14.094188800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:15.100678300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
-2024-11-20T01:47:15.129650300,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-11-20T01:47:15.135659400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:15.192566600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:16.196329600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
-2024-11-20T01:47:16.225068100,Zone1_GateNode,ID [hala]'s permission: [DENIED]
-2024-11-20T01:47:16.227056700,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:16.257090100,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:17.270723200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
-2024-11-20T01:47:17.295814900,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
-2024-11-20T01:47:17.300811700,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:17.342380800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:18.347042200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
-2024-11-20T01:47:18.379482900,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
-2024-11-20T01:47:18.382511100,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:18.418622600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:19.435577700,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
-2024-11-20T01:47:19.465151900,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
-2024-11-20T01:47:19.562185900,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:19.680854100,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:20.686981800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
-2024-11-20T01:47:20.732387600,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-11-20T01:47:20.735386,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:20.792421600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:21.794077600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
-2024-11-20T01:47:21.825547900,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-11-20T01:47:21.831080200,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:21.869901,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:22.873925300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
-2024-11-20T01:47:22.901967400,Zone1_GateNode,ID [hala]'s permission: [DENIED]
-2024-11-20T01:47:22.902985300,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:22.964525900,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:23.970733100,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
-2024-11-20T01:47:24.001281300,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
-2024-11-20T01:47:24.002301600,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:24.064386400,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:25.079646800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
-2024-11-20T01:47:25.124692700,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
-2024-11-20T01:47:25.129543800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:25.217566400,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:26.219971700,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
-2024-11-20T01:47:26.266758600,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
-2024-11-20T01:47:26.269707800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:26.314299600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:27.331104400,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
-2024-11-20T01:47:27.358770100,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
-2024-11-20T01:47:27.360848900,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:27.390746800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:28.423011600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
-2024-11-20T01:47:28.452006800,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-11-20T01:47:28.453022500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:28.483388800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:29.500640200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
-2024-11-20T01:47:29.529278500,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-11-20T01:47:29.531262400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:29.560367900,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:30.573147800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
-2024-11-20T01:47:30.603427600,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
-2024-11-20T01:47:30.607431800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:30.634031300,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:31.637909700,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
-2024-11-20T01:47:31.668377300,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
-2024-11-20T01:47:31.673358,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:31.700478800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:32.716456300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
-2024-11-20T01:47:32.746379300,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
-2024-11-20T01:47:32.748385900,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:32.777466600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:33.792552900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
-2024-11-20T01:47:33.822600900,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
-2024-11-20T01:47:33.826530200,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:33.853527400,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:34.866656700,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
-2024-11-20T01:47:34.898202100,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-11-20T01:47:34.900187200,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:34.928789200,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:35.940490200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
-2024-11-20T01:47:35.971116300,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-11-20T01:47:35.978895400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:36.032545100,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:37.048556300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
-2024-11-20T01:47:37.079668400,Zone1_GateNode,ID [hala]'s permission: [DENIED]
-2024-11-20T01:47:37.082559900,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:37.142543600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:38.158261500,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
-2024-11-20T01:47:38.188580100,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
-2024-11-20T01:47:38.195419500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:38.235934500,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:39.250805900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
-2024-11-20T01:47:39.281776900,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
-2024-11-20T01:47:39.286643700,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:39.327371300,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:40.342080600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
-2024-11-20T01:47:40.372887900,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
-2024-11-20T01:47:40.374873500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:40.404410700,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:41.423294800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
-2024-11-20T01:47:41.450892400,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
-2024-11-20T01:47:41.452305400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:41.482287900,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:42.493136800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
-2024-11-20T01:47:42.525154,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-11-20T01:47:42.526140500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:42.620827900,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:43.628017300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
-2024-11-20T01:47:43.657771900,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-11-20T01:47:43.659285200,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:43.689464200,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:44.705487400,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
-2024-11-20T01:47:44.736040500,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
-2024-11-20T01:47:44.737073900,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:44.766625900,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:45.778494500,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
-2024-11-20T01:47:45.804644400,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
-2024-11-20T01:47:45.805731400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:45.865923600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:46.873328800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
-2024-11-20T01:47:46.903885200,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
-2024-11-20T01:47:46.905885200,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:46.966035300,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:47.971021300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
-2024-11-20T01:47:48.001584800,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
-2024-11-20T01:47:48.002586700,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:48.030616800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:49.038715600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
-2024-11-20T01:47:49.082841,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-11-20T01:47:49.084827500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:49.128402300,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:50.133517900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
-2024-11-20T01:47:50.160891400,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-11-20T01:47:50.161889500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:50.221303900,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:51.225714900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
-2024-11-20T01:47:51.256865300,Zone1_GateNode,ID [hala]'s permission: [DENIED]
-2024-11-20T01:47:51.258864800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:51.315755900,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:52.399311900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
-2024-11-20T01:47:52.423900300,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
-2024-11-20T01:47:52.430886700,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:52.506626700,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:53.519883600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
-2024-11-20T01:47:53.550348900,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
-2024-11-20T01:47:53.554239800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:53.611805,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:54.613245200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
-2024-11-20T01:47:54.643965,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
-2024-11-20T01:47:54.651371,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:54.690745700,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:55.695958,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
-2024-11-20T01:47:55.726964500,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
-2024-11-20T01:47:55.727476900,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:55.757137700,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:56.771058400,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
-2024-11-20T01:47:56.801924700,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-11-20T01:47:56.804903,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:56.864410,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:57.879724500,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
-2024-11-20T01:47:57.909397200,Zone1_GateNode,ID [hala]'s permission: [DENIED]
-2024-11-20T01:47:57.911395100,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:57.939559200,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:58.943034600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
-2024-11-20T01:47:58.988891400,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
-2024-11-20T01:47:58.991769700,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:47:59.051210,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:00.054550500,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
-2024-11-20T01:48:00.082204100,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
-2024-11-20T01:48:00.085158,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:00.113627,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:01.125304600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
-2024-11-20T01:48:01.154223400,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
-2024-11-20T01:48:01.162919400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:01.201197200,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:02.214870100,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
-2024-11-20T01:48:02.245472500,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
-2024-11-20T01:48:02.246489200,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:02.276284100,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:03.289204300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
-2024-11-20T01:48:03.321043200,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-11-20T01:48:03.322049900,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:03.352597900,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:04.364765600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
-2024-11-20T01:48:04.395806100,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-11-20T01:48:04.396805700,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:04.426857900,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:05.439893300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
-2024-11-20T01:48:05.469716700,Zone1_GateNode,ID [hala]'s permission: [DENIED]
-2024-11-20T01:48:05.472732500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:05.533285400,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:06.537956600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
-2024-11-20T01:48:06.568604,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
-2024-11-20T01:48:06.570596900,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:06.598369,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:07.604008,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
-2024-11-20T01:48:07.637003200,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
-2024-11-20T01:48:07.644878,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:07.728985100,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:08.749999,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
-2024-11-20T01:48:08.802894700,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
-2024-11-20T01:48:08.804879800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:08.854318100,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:09.861313400,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
-2024-11-20T01:48:09.891356700,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
-2024-11-20T01:48:09.892356,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:09.922357600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:10.937461100,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
-2024-11-20T01:48:10.967273400,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-11-20T01:48:10.987091,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:11.014400500,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:12.025220900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
-2024-11-20T01:48:12.056677900,Zone1_GateNode,ID [hala]'s permission: [DENIED]
-2024-11-20T01:48:12.058551600,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:12.087808400,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:13.095659700,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
-2024-11-20T01:48:13.125541100,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
-2024-11-20T01:48:13.126035800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:13.155918400,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:14.170926,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
-2024-11-20T01:48:14.202937500,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
-2024-11-20T01:48:14.203932,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:14.230082300,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:15.240581800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
-2024-11-20T01:48:15.277436800,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
-2024-11-20T01:48:15.279488600,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:15.305318400,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:16.319863700,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
-2024-11-20T01:48:16.350400700,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
-2024-11-20T01:48:16.353400900,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:16.379443800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:17.380024200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
-2024-11-20T01:48:17.412400200,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-11-20T01:48:17.414499500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:17.472541100,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:18.474398400,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
-2024-11-20T01:48:18.503518400,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-11-20T01:48:18.517025100,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:18.545399400,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:19.552164300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
-2024-11-20T01:48:19.583169600,Zone1_GateNode,ID [hala]'s permission: [DENIED]
-2024-11-20T01:48:19.584995600,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:19.641984100,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:20.673046700,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
-2024-11-20T01:48:20.727378,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
-2024-11-20T01:48:20.743364500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:20.867415700,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:21.883603100,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
-2024-11-20T01:48:21.911304400,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
-2024-11-20T01:48:21.913292600,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:21.969517,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:22.975417300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
-2024-11-20T01:48:23.004677400,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
-2024-11-20T01:48:23.009571600,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:23.035692200,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:24.050446400,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
-2024-11-20T01:48:24.080379900,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
-2024-11-20T01:48:24.082300500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:24.158678,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:25.174615200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
-2024-11-20T01:48:25.205751700,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-11-20T01:48:25.207737,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:25.237750300,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:26.251846,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
-2024-11-20T01:48:26.282849400,Zone1_GateNode,ID [hala]'s permission: [DENIED]
-2024-11-20T01:48:26.286848400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:26.314944900,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:27.327876200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
-2024-11-20T01:48:27.359178200,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
-2024-11-20T01:48:27.360177800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:27.389218800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:28.403334500,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
-2024-11-20T01:48:28.434354700,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
-2024-11-20T01:48:28.458334,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:28.501615,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:29.510222500,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
-2024-11-20T01:48:29.540682300,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
-2024-11-20T01:48:29.541686800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:29.571892600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:30.575605400,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
-2024-11-20T01:48:30.605995900,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
-2024-11-20T01:48:30.606990500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:30.637885600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:31.654369800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
-2024-11-20T01:48:31.683384600,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-11-20T01:48:31.694910200,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:31.730458800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:32.737082200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
-2024-11-20T01:48:32.768619100,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-11-20T01:48:32.770620300,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:32.832376300,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:33.840064400,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
-2024-11-20T01:48:33.869303700,Zone1_GateNode,ID [hala]'s permission: [DENIED]
-2024-11-20T01:48:33.874289500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:33.931844100,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:34.940202200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
-2024-11-20T01:48:34.968721100,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
-2024-11-20T01:48:34.970718200,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
-2024-11-20T01:48:35.000345500,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:48.779594100,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
+ission
+2024-11-20T02:54:45.041766100,Zone1_GateNode,Started
+2024-11-20T02:54:45.073326300,Zone1_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-20T02:54:45.220742200,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:45.260814500,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:45.766113200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
+2024-11-20T02:54:45.836853900,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
+2024-11-20T02:54:45.850602700,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:45.883793700,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:46.394353300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
+2024-11-20T02:54:46.425328200,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
+2024-11-20T02:54:46.431963800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:46.473069800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:46.990678400,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
+2024-11-20T02:54:47.018431700,Zone1_GateNode,ID [hala]'s permission: [DENIED]
+2024-11-20T02:54:47.028440200,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:47.061904600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:47.567184200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
+2024-11-20T02:54:47.609982500,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
+2024-11-20T02:54:47.611987800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:47.641570400,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:48.154803300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
+2024-11-20T02:54:48.201190200,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
+2024-11-20T02:54:48.210074400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:48.264454300,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:48.857409300,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
+2024-11-20T02:54:48.863425800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:48.904265600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:49.422158800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
+2024-11-20T02:54:49.449771800,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
+2024-11-20T02:54:49.452050500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:49.481308600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:49.996689300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
+2024-11-20T02:54:50.027087100,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
+2024-11-20T02:54:50.031776100,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:50.074667100,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:50.590777800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
+2024-11-20T02:54:50.621995800,Zone1_GateNode,ID [hala]'s permission: [DENIED]
+2024-11-20T02:54:50.624993600,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:50.653260300,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:51.166241300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
+2024-11-20T02:54:51.196797800,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
+2024-11-20T02:54:51.199782500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:51.228791800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:51.741225,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
+2024-11-20T02:54:51.772122200,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
+2024-11-20T02:54:51.776123400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:51.803638300,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:52.318054,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
+2024-11-20T02:54:52.348625800,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
+2024-11-20T02:54:52.360623900,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:52.395758200,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:52.909141400,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
+2024-11-20T02:54:52.939336100,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
+2024-11-20T02:54:52.945126100,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:52.985571800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:53.504719300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
+2024-11-20T02:54:53.531321,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
+2024-11-20T02:54:53.532320300,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:53.562978500,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:54.075852600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
+2024-11-20T02:54:54.105438100,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
+2024-11-20T02:54:54.110437600,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:54.133424400,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:54.652769800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
+2024-11-20T02:54:54.683015600,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
+2024-11-20T02:54:54.684003600,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:54.714262400,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:55.216054800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
+2024-11-20T02:54:55.243635500,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
+2024-11-20T02:54:55.247076,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:55.275854800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:55.789758,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
+2024-11-20T02:54:55.821021,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
+2024-11-20T02:54:55.825265500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:55.853004,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:56.367774900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
+2024-11-20T02:54:56.393076600,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
+2024-11-20T02:54:56.406266800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:56.445814400,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:56.962508200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
+2024-11-20T02:54:56.992550,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
+2024-11-20T02:54:56.994549500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:57.024604700,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:57.542608400,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
+2024-11-20T02:54:57.570886400,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
+2024-11-20T02:54:57.571899400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:57.601259300,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:58.116907500,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
+2024-11-20T02:54:58.143276700,Zone1_GateNode,ID [hala]'s permission: [DENIED]
+2024-11-20T02:54:58.148230700,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:58.173811,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:58.680338300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
+2024-11-20T02:54:58.721424600,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
+2024-11-20T02:54:58.722424600,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:58.752663300,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:59.257213100,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
+2024-11-20T02:54:59.299925,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
+2024-11-20T02:54:59.304940600,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:59.347044300,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:59.862049600,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
+2024-11-20T02:54:59.891293600,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
+2024-11-20T02:54:59.909182800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:54:59.939214300,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:00.454793700,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
+2024-11-20T02:55:00.484738400,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
+2024-11-20T02:55:00.493735400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:00.530777900,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:01.045112800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
+2024-11-20T02:55:01.070637100,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
+2024-11-20T02:55:01.070637100,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:01.105343700,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:01.620087200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
+2024-11-20T02:55:01.651771800,Zone1_GateNode,ID [hala]'s permission: [DENIED]
+2024-11-20T02:55:01.697695100,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:01.725669700,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:02.237164,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
+2024-11-20T02:55:02.265250600,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
+2024-11-20T02:55:02.266347500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:02.292344300,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:02.794216100,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
+2024-11-20T02:55:02.824725200,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
+2024-11-20T02:55:02.834747100,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:02.871575200,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:03.384651900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
+2024-11-20T02:55:03.415217600,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
+2024-11-20T02:55:03.420219400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:03.471371800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:03.978726500,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
+2024-11-20T02:55:04.008248100,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
+2024-11-20T02:55:04.011300600,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:04.039935500,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:04.568646700,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
+2024-11-20T02:55:04.599307600,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
+2024-11-20T02:55:04.604310,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:04.631313400,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:05.166213200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
+2024-11-20T02:55:05.195049,Zone1_GateNode,ID [hala]'s permission: [DENIED]
+2024-11-20T02:55:05.198036500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:05.227050,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:05.729558300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
+2024-11-20T02:55:05.759757200,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
+2024-11-20T02:55:05.759757200,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:05.790534200,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:06.321737200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
+2024-11-20T02:55:06.352937100,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
+2024-11-20T02:55:06.355933400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:06.382967600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:06.900316100,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
+2024-11-20T02:55:06.930543400,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
+2024-11-20T02:55:06.931780600,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:06.955965100,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:07.464645200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Omar]'s permission
+2024-11-20T02:55:07.493176600,Zone1_GateNode,ID [Omar]'s permission: [ALLOWED]
+2024-11-20T02:55:07.494165900,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:07.524748400,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:08.038644100,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
+2024-11-20T02:55:08.068615200,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
+2024-11-20T02:55:08.071201600,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:08.099713900,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:08.602203200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
+2024-11-20T02:55:08.631830300,Zone1_GateNode,ID [hala]'s permission: [DENIED]
+2024-11-20T02:55:08.633613400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:08.659480600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:09.160612200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
+2024-11-20T02:55:09.192428,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
+2024-11-20T02:55:09.195426500,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:09.223161600,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:09.747961800,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
+2024-11-20T02:55:09.833077300,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
+2024-11-20T02:55:09.835029300,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:09.864783,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:10.380250,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
+2024-11-20T02:55:10.410629500,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
+2024-11-20T02:55:10.411628200,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:10.440950800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:10.959143300,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Mars]'s permission
+2024-11-20T02:55:11.000413200,Zone1_GateNode,ID [Mars]'s permission: [DENIED]
+2024-11-20T02:55:11.002745400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:11.031758200,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:11.549248900,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Farrag]'s permission
+2024-11-20T02:55:11.575902400,Zone1_GateNode,ID [Farrag]'s permission: [ALLOWED]
+2024-11-20T02:55:11.575902400,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:11.611138500,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:12.114459200,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [hala]'s permission
+2024-11-20T02:55:12.152964900,Zone1_GateNode,ID [hala]'s permission: [DENIED]
+2024-11-20T02:55:12.156968,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:12.179930200,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:12.685127,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [cuz]'s permission
+2024-11-20T02:55:12.715199,Zone1_GateNode,ID [cuz]'s permission: [DENIED]
+2024-11-20T02:55:12.718356800,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:12.746006500,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:13.250565,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Guten]'s permission
+2024-11-20T02:55:13.288060600,Zone1_GateNode,ID [Guten]'s permission: [DENIED]
+2024-11-20T02:55:13.291057300,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:13.322879800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:13.840415700,Zone1_GateNode,Asked Control Node [Zone1_ControlNode] about ID [Bruno]'s permission
+2024-11-20T02:55:13.885550500,Zone1_GateNode,ID [Bruno]'s permission: [DENIED]
+2024-11-20T02:55:13.890731900,Zone1_GateNode,Started Publishing (2) packets to Control Node [Zone1_ControlNode]
+2024-11-20T02:55:13.930800800,Zone1_GateNode,Done Publishing (2) packets to Control Node [Zone1_ControlNode]

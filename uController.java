@@ -121,6 +121,10 @@ public class uController extends SimulationObject{
         if(parentControlNode != null) return parentControlNode.getBufferedDataPackets();
         else return new LinkedList<>();
     }
+    public void clearBufferedDataPackets(){
+        if(parentControlNode != null) parentControlNode.clearBufferedDataPackets();
+
+    }
 
     public ExecutionResult setFieldIn(String targetNodeName, String targetObjectName, String field, String value,
             int size) {

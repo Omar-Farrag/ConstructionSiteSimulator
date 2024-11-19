@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map.Entry;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class Simulation {
@@ -10,7 +11,7 @@ public class Simulation {
 
     public static void main(String[] args) {
         
-        int runTimeStep = 1000; //ms
+        int runTimeStep = 500; //ms
         ArrayList<SlaveNode> extraSlaveNodes = new ArrayList<>();
         
         //Create additional slave nodes
@@ -101,21 +102,40 @@ public class Simulation {
                 controller.updateSwitchIn("Zone1_ActuatorNode", "Zone1_ActuatorNode_actuator", "0","OFF");
             }
 
+            Queue<DataPacket> packets = controller.getBufferedDataPackets();
+            if(packets.size() > 20){
+                controller.clearBufferedDataPackets();
+                BulkDataPacket bigBoi = new BulkDataPacket(controller.getParentControlNode().getObject_name(), controller.getCurrentTimestamp());
+                bigBoi.addPackets(packets);
+                controller.exportState(String.format("Aggregated (%d) data packets to forward to control zone",packets.size()));
+                controller.forwardToZones(bigBoi, "Zone2","Zone3","MasterZone");
+            }
+
 
         };
-        PeripheralZone zone = new PeripheralZone("Zone1", runTimeStep, zoneAlgo);
+        PeripheralZone zone1 = new PeripheralZone("Zone1", runTimeStep, zoneAlgo);
         
-        zone.addPermittedId("Omar");
-        zone.addPermittedId("Farrag");
-        zone.addPermittedId("Mohsen");
+        zone1.addPermittedId("Omar");
+        zone1.addPermittedId("Farrag");
+        zone1.addPermittedId("Mohsen");
 
-        zone.addAllSlaveNodes(extraSlaveNodes);
-        zone.connectToActuationNode(pulleyLift, 0);
+        zone1.addAllSlaveNodes(extraSlaveNodes);
+        zone1.connectToActuationNode(pulleyLift, 0);
 
-        // zone.connectToZone(zone2, 100);
 
-        simulationObjects.put(zone.getObject_name(),zone);
-        // simulationObjects.put(zone2.getObject_name(),zone2);        
+        PeripheralZone zone2 = new PeripheralZone("Zone2", runTimeStep, (uController cont)->{});
+        PeripheralZone zone3 = new PeripheralZone("Zone3", runTimeStep, (uController cont)->{});
+        PeripheralZone masterZone = new PeripheralZone("MasterZone", runTimeStep, (uController cont)->{});
+
+
+        zone1.connectToZone(zone2, 100);
+        zone2.connectToZone(zone3, 100);
+        zone3.connectToZone(masterZone, 100);
+
+        simulationObjects.put(zone1.getObject_name(),zone1);
+        simulationObjects.put(zone2.getObject_name(),zone2);
+        simulationObjects.put(zone3.getObject_name(),zone3);
+        simulationObjects.put(masterZone.getObject_name(),masterZone);
 
         while(menu());
 

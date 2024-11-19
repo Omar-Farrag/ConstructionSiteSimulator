@@ -42,7 +42,7 @@ public class ControlNode extends SimulationObject {
         
     }
     
-    public synchronized void update(SlaveNode sender, DataPacket... receivedDataPackets){
+    public void update(SlaveNode sender, DataPacket... receivedDataPackets){
         int totalDataSize = 0;
         for(DataPacket packet : receivedDataPackets) totalDataSize += packet.getSize();
         int time_delay = sender.getRTT_to_Control_Node()/2 + totalDataSize / BLE_transmission_rate;
@@ -138,12 +138,16 @@ public class ControlNode extends SimulationObject {
     public Queue<DataPacket> getBufferedDataPackets() {
         synchronized(bufferedDataPackets){
             Queue<DataPacket> copy = new LinkedList<>(bufferedDataPackets);
-            bufferedDataPackets.clear();
             return copy;
 
         }
     }
-    
+    public void clearBufferedDataPackets(){
+        synchronized(bufferedDataPackets){
+            bufferedDataPackets.clear();
+        }
+    }
+
     @Override
     protected void runTimeFunction() {
         //Do Nothing. Controller does all the functionality
@@ -178,7 +182,7 @@ public class ControlNode extends SimulationObject {
     }
     
     @Override
-    public synchronized void exportState(String... event) {
+    public void exportState(String... event) {
         if(!hasAddedHeader){
             ArrayList<String> columns = new ArrayList<>();
             columns.add("Timestamp");
@@ -193,8 +197,14 @@ public class ControlNode extends SimulationObject {
         values.add(getCurrentTimestamp());
         values.add(object_name);
         values.add(event[0]);
-        for(Entry<String, String> entry : fieldValues.entrySet()) values.add(entry.getValue());
-        writer.println(String.join(",",values));  
+
+        synchronized(fieldValues){
+            for(Entry<String, String> entry : fieldValues.entrySet()) values.add(entry.getValue());
+        } 
+
+        synchronized(writer){
+            writer.println(String.join(",",values));  
+        }
 
     }
 

@@ -98,35 +98,33 @@ public class LowPowerDevice extends Device {
     }
 
     private DataPacket readField(String fieldName){
-        synchronized(fieldValues){
             String value = fieldValues.get(fieldName);
             return new DataPacket(object_name,fieldName,value,fieldSize,getCurrentTimestamp());
-        }
     }
     
     private DataPacket setField(String fieldName, String value){
-        synchronized(fieldValues){
             fieldValues.put(fieldName,value);
             return new DataPacket(object_name,fieldName,value,fieldSize,getCurrentTimestamp());
-        }
     }
 
     @Override
-    public synchronized ExecutionResult execute(String command, String... arguments){
+    public ExecutionResult execute(String command, String... arguments){
         boolean success = false;
         DataPacket packet = null;
 
-        if(command.equalsIgnoreCase("GET")){
-            if(fieldValues.containsKey(arguments[0])) {
-                packet = readField(arguments[0]);    
-                success = true;    
+        synchronized(fieldValues){
+            if(command.equalsIgnoreCase("GET")){
+                if(fieldValues.containsKey(arguments[0])) {
+                    packet = readField(arguments[0]);    
+                    success = true;    
+                }
             }
-        }
-
-        else if(command.equalsIgnoreCase("SET")){
-            if(fieldValues.containsKey(arguments[0])) {
-                packet = setField(arguments[0], arguments[1]);
-                success = true;        
+            
+            else if(command.equalsIgnoreCase("SET")){
+                if(fieldValues.containsKey(arguments[0])) {
+                    packet = setField(arguments[0], arguments[1]);
+                    success = true;        
+                }
             }
         }
 
