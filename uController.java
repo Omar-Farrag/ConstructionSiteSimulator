@@ -7,19 +7,32 @@ public class uController extends SimulationObject{
 
     private SlaveNode parentSlaveNode;
     private ControlNode parentControlNode;
-    private ProcessingAlgorithm algorithm;
+    private ProcessingAlgorithm setup;
+    private ProcessingAlgorithm loop;
     private ArrayList<Device> devices;
     private ArrayList<String> offeredFields;
     private HashSet<String> permittedIDs;
+    private boolean hasSetUp;
 
     private Gateway gateway;
 
-    public uController(String name, int runTimeStep, ProcessingAlgorithm algorithm) {
+    public uController(String name, int runTimeStep, ProcessingAlgorithm loop) {
         super(name,runTimeStep);
-        this.algorithm = algorithm;
+        this.loop = loop;
         this.devices = new ArrayList<>();
         offeredFields = new ArrayList<>();
         permittedIDs = new HashSet<>();
+        hasSetUp = true;
+    }
+
+    public uController(String name, int runTimeStep, ProcessingAlgorithm loop, ProcessingAlgorithm setup) {
+        super(name,runTimeStep);
+        this.loop = loop;
+        this.setup = setup;
+        this.devices = new ArrayList<>();
+        offeredFields = new ArrayList<>();
+        permittedIDs = new HashSet<>();
+        hasSetUp = false;
     }
 
     public void initFields(){
@@ -115,37 +128,48 @@ public class uController extends SimulationObject{
         exportState(String.format("Parent Node [%s] asked if ID [%s] is permitted to enter zone. Permission [%s]", parentControlNode.getObject_name(),id, permitted ? "ALLOWED" : "DENIED"));
         return permitted;
     }
-
     
     public Queue<DataPacket> getBufferedDataPackets() {
         if(parentControlNode != null) return parentControlNode.getBufferedDataPackets();
         else return new LinkedList<>();
     }
+    
     public void clearBufferedDataPackets(){
         if(parentControlNode != null) parentControlNode.clearBufferedDataPackets();
 
     }
 
+    
+
+    public Queue<BulkDataPacket> getReceivedBulkDataPackets(boolean consume) {
+        return parentControlNode.getReceivedBulkDataPackets(consume);
+    }
+
     public ExecutionResult setFieldIn(String targetNodeName, String targetObjectName, String field, String value,
             int size) {
+        exportState(String.format("Asked parent node to set field [%s] in object [%s] in slave node [%s]", field, targetObjectName, targetNodeName));
         ExecutionResult result =  parentControlNode.setFieldIn(targetNodeName, targetObjectName, field, value, size);
         String successStatus = result.isSuccess() ? "SUCCESS" : "FAILURE";
-        exportState(String.format("[%s] Set field [%s] in object [%s] in slave node [%s]", successStatus, field, targetObjectName, targetNodeName));
+        exportState(String.format("[%s] Parent set field [%s] in object [%s] in slave node [%s]", successStatus, field, targetObjectName, targetNodeName));
         return result;                
     }
 
     public ExecutionResult updateSwitchIn(String targetNodeName, String targetObjectName, String position,
             String switchStatus) {
+        exportState(String.format("Asked parent node to set switch position [%s] in object [%s] in slave node [%s]", position, targetObjectName, targetNodeName));
         ExecutionResult result = parentControlNode.updateSwitchIn(targetNodeName, targetObjectName, position, switchStatus);
         String successStatus = result.isSuccess() ? "SUCCESS" : "FAILURE";
-        exportState(String.format("[%s] Set switch position [%s] in object [%s] in slave node [%s]", successStatus, position, targetObjectName, targetNodeName));
+        exportState(String.format("[%s] Parent node set switch position [%s] in object [%s] in slave node [%s]", successStatus, position, targetObjectName, targetNodeName));
         return result;  
     }
 
-
     @Override
     protected void runTimeFunction() {
-        algorithm.process(this);
+        if(!hasSetUp) {
+            setup.process(this);
+            hasSetUp = true;
+        };
+        loop.process(this);
     }
 
     public ExecutionResult getField(String objectName, String field){

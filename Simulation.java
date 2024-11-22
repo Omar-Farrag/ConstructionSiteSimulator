@@ -1,3 +1,7 @@
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map.Entry;
@@ -7,7 +11,7 @@ import java.util.Scanner;
 public class Simulation {
 
     static Scanner scanner = new Scanner(System.in);
-    static HashMap<String, PeripheralZone> simulationObjects = new HashMap<>(); 
+    static HashMap<String, Zone> simulationObjects = new HashMap<>(); 
 
     public static void main(String[] args) {
         
@@ -15,37 +19,37 @@ public class Simulation {
         ArrayList<SlaveNode> extraSlaveNodes = new ArrayList<>();
         
         //Create additional slave nodes
-        extraSlaveNodes.add(create_general_slave_node("Zone1_UltrasonicNode1","UltrasonicSensor", "Distance",4, runTimeStep,20));
-        extraSlaveNodes.add(create_general_slave_node("Zone1_UltrasonicNode2","UltrasonicSensor", "Distance",4, runTimeStep,20));
-        extraSlaveNodes.add(create_general_slave_node("Zone1_UltrasonicNode3","UltrasonicSensor", "Distance",4, runTimeStep,20));
-        extraSlaveNodes.add(create_general_slave_node("Zone1_UltrasonicNode4","UltrasonicSensor", "Distance",4, runTimeStep,20));
-        extraSlaveNodes.add(create_general_slave_node("Zone1_UltrasonicNode5","UltrasonicSensor", "Distance",4, runTimeStep,20));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode1","UltrasonicSensor", "Distance",4, runTimeStep,20));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode2","UltrasonicSensor", "Distance",4, runTimeStep,20));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode3","UltrasonicSensor", "Distance",4, runTimeStep,20));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode4","UltrasonicSensor", "Distance",4, runTimeStep,20));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode5","UltrasonicSensor", "Distance",4, runTimeStep,20));
        
         // Create Smart Rope Nodes
-        extraSlaveNodes.add(create_general_slave_node("Zone1_SmartRopeNode1","SmartRope", "Is Attached",1, runTimeStep,20));
-        extraSlaveNodes.add(create_general_slave_node("Zone1_SmartRopeNode2","SmartRope", "Is Attached",1, runTimeStep,20));
-        extraSlaveNodes.add(create_general_slave_node("Zone1_SmartRopeNode3","SmartRope", "Is Attached",1, runTimeStep,20));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_SmartRopeNode1","SmartRope", "Is Attached",1, runTimeStep,20));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_SmartRopeNode2","SmartRope", "Is Attached",1, runTimeStep,20));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_SmartRopeNode3","SmartRope", "Is Attached",1, runTimeStep,20));
         
         // Create Wind Sensing Node
-        extraSlaveNodes.add(create_general_slave_node("Zone1_WindNode","WindSensor", "Wind Speed",4, runTimeStep,20));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_WindNode","WindSensor", "Wind Speed",4, runTimeStep,20));
         
         //Create a pulley lift to be attached to actuator
-        HighPowerDevice pulleyLift = new HighPowerDevice("Zone1_PulleyLift", runTimeStep);
+        HighPowerDevice pulleyLift = new HighPowerDevice("RoofZone_PulleyLift", runTimeStep);
 
 
         ProcessingAlgorithm zoneAlgo = (uController controller)->{
             
-            String distance1 = controller.getCurrentValue( "Zone1_UltrasonicNode1_UltrasonicSensor", "Distance");
-            String distance2 = controller.getCurrentValue( "Zone1_UltrasonicNode2_UltrasonicSensor", "Distance");
-            String distance3 = controller.getCurrentValue( "Zone1_UltrasonicNode3_UltrasonicSensor", "Distance");
-            String distance4 = controller.getCurrentValue( "Zone1_UltrasonicNode4_UltrasonicSensor", "Distance");
-            String distance5 = controller.getCurrentValue( "Zone1_UltrasonicNode5_UltrasonicSensor", "Distance");
+            String distance1 = controller.getCurrentValue( "RoofZone_UltrasonicNode1_UltrasonicSensor", "Distance");
+            String distance2 = controller.getCurrentValue( "RoofZone_UltrasonicNode2_UltrasonicSensor", "Distance");
+            String distance3 = controller.getCurrentValue( "RoofZone_UltrasonicNode3_UltrasonicSensor", "Distance");
+            String distance4 = controller.getCurrentValue( "RoofZone_UltrasonicNode4_UltrasonicSensor", "Distance");
+            String distance5 = controller.getCurrentValue( "RoofZone_UltrasonicNode5_UltrasonicSensor", "Distance");
             
-            String windSpeed = controller.getCurrentValue("Zone1_WindNode_WindSensor", "Wind Speed");
+            String windSpeed = controller.getCurrentValue("RoofZone_WindNode_WindSensor", "Wind Speed");
             
-            String ropeAttached1 = controller.getCurrentValue("Zone1_SmartRopeNode1_SmartRope", "Is Attached");
-            String ropeAttached2 = controller.getCurrentValue("Zone1_SmartRopeNode2_SmartRope", "Is Attached");
-            String ropeAttached3 = controller.getCurrentValue("Zone1_SmartRopeNode3_SmartRope", "Is Attached");
+            String ropeAttached1 = controller.getCurrentValue("RoofZone_SmartRopeNode1_SmartRope", "Is Attached");
+            String ropeAttached2 = controller.getCurrentValue("RoofZone_SmartRopeNode2_SmartRope", "Is Attached");
+            String ropeAttached3 = controller.getCurrentValue("RoofZone_SmartRopeNode3_SmartRope", "Is Attached");
             
             
 
@@ -78,28 +82,28 @@ public class Simulation {
             }
             
             if(ropeAttached1_float == 0 || ropeAttached2_float == 0 || ropeAttached3_float == 0){
-                controller.updateSwitchIn("Zone1_BuzzerNode", "Zone1_BuzzerNode_actuator", "0","ON");
-                controller.setFieldIn("Zone1_SpeakerNode", "Zone1_SpeakerNode_speaker", "Played Message", "One or more safety ropes not attached!!!!",32);
+                controller.updateSwitchIn("RoofZone_BuzzerNode", "RoofZone_BuzzerNode_actuator", "0","ON");
+                controller.setFieldIn("RoofZone_SpeakerNode", "RoofZone_SpeakerNode_speaker", "Played Message", "One or more safety ropes not attached!!!!",32);
             }
             else{
-                controller.updateSwitchIn("Zone1_BuzzerNode", "Zone1_BuzzerNode_actuator", "0","OFF");
-                 controller.setFieldIn("Zone1_SpeakerNode", "Zone1_SpeakerNode_speaker", "Played Message", "",0);
+                controller.updateSwitchIn("RoofZone_BuzzerNode", "RoofZone_BuzzerNode_actuator", "0","OFF");
+                 controller.setFieldIn("RoofZone_SpeakerNode", "RoofZone_SpeakerNode_speaker", "Played Message", "",0);
 
             }
             
             if(distance1_float<100 || distance2_float < 100 || distance3_float<100 || distance4_float<100 || distance4_float<100 || distance5_float<100){
-                controller.updateSwitchIn("Zone1_BuzzerNode", "Zone1_BuzzerNode_actuator", "0","ON");
-                controller.setFieldIn("Zone1_SpeakerNode", "Zone1_SpeakerNode_speaker", "Played Message", "Worker too close to edge",32);
+                controller.updateSwitchIn("RoofZone_BuzzerNode", "RoofZone_BuzzerNode_actuator", "0","ON");
+                controller.setFieldIn("RoofZone_SpeakerNode", "RoofZone_SpeakerNode_speaker", "Played Message", "Worker too close to edge",32);
 
             }else{
-                controller.updateSwitchIn("Zone1_BuzzerNode", "Zone1_BuzzerNode_actuator", "0","OFF");
-                controller.setFieldIn("Zone1_SpeakerNode", "Zone1_SpeakerNode_speaker", "Played Message", "",0);
+                controller.updateSwitchIn("RoofZone_BuzzerNode", "RoofZone_BuzzerNode_actuator", "0","OFF");
+                controller.setFieldIn("RoofZone_SpeakerNode", "RoofZone_SpeakerNode_speaker", "Played Message", "",0);
             }
 
             if(windSpeed_float < 20){
-                controller.updateSwitchIn("Zone1_ActuatorNode", "Zone1_ActuatorNode_actuator", "0", "ON");
+                controller.updateSwitchIn("RoofZone_ActuatorNode", "RoofZone_ActuatorNode_actuator", "0", "ON");
             }else{
-                controller.updateSwitchIn("Zone1_ActuatorNode", "Zone1_ActuatorNode_actuator", "0","OFF");
+                controller.updateSwitchIn("RoofZone_ActuatorNode", "RoofZone_ActuatorNode_actuator", "0","OFF");
             }
 
             Queue<DataPacket> packets = controller.getBufferedDataPackets();
@@ -113,34 +117,70 @@ public class Simulation {
 
 
         };
-        PeripheralZone zone1 = new PeripheralZone("Zone1", runTimeStep, zoneAlgo);
         
-        zone1.addPermittedId("Omar");
-        zone1.addPermittedId("Farrag");
-        zone1.addPermittedId("Mohsen");
+       Zone roofZone = new Zone("RoofZone", runTimeStep, zoneAlgo);
+        
+       roofZone.addPermittedId("Omar");
+       roofZone.addPermittedId("Farrag");
+       roofZone.addPermittedId("Mohsen");
 
-        zone1.addAllSlaveNodes(extraSlaveNodes);
-        zone1.connectToActuationNode(pulleyLift, 0);
-
-
-        PeripheralZone zone2 = new PeripheralZone("Zone2", runTimeStep, (uController cont)->{});
-        PeripheralZone zone3 = new PeripheralZone("Zone3", runTimeStep, (uController cont)->{});
-        PeripheralZone masterZone = new PeripheralZone("MasterZone", runTimeStep, (uController cont)->{});
+       roofZone.addAllSlaveNodes(extraSlaveNodes);
+       roofZone.connectToActuationNode(pulleyLift, 0);
 
 
-        zone1.connectToZone(zone2, 100);
+        Zone zone2 = new Zone("Zone2", runTimeStep, (uController cont)->{});
+        Zone zone3 = new Zone("Zone3", runTimeStep, (uController cont)->{});
+
+        ProcessingAlgorithm setup = (uController cont)->{
+            try {
+                File file = new File("logs/Database.csv"); // Change the path as needed
+                if (file.exists()) file.delete();
+
+                FileWriter fileWriter = new FileWriter("logs/Database.csv", true);
+                PrintWriter writer = new PrintWriter(fileWriter,true);
+                writer.println("Time of Arrival,"+DataPacket.getHeader());
+                writer.close();
+
+            } catch (IOException e) {
+                System.out.println("An error occurred while appending to the file.");
+                e.printStackTrace();
+            }
+
+        };
+        Zone masterZone = new Zone("MasterZone", runTimeStep, (uController cont)->{
+
+            Queue<BulkDataPacket> bulkDataPackets = cont.getReceivedBulkDataPackets(true);
+
+            if(!bulkDataPackets.isEmpty()){
+
+                try{
+                    FileWriter fileWriter = new FileWriter("logs/Database.csv", true);
+                    PrintWriter writer = new PrintWriter(fileWriter,true);
+                        
+                    for(BulkDataPacket bulkPacket : bulkDataPackets)
+                        for(DataPacket packet : bulkPacket.getPackets())
+                            writer.println(cont.getCurrentTimestamp() + ","+packet.toString());
+                    writer.close();
+                    
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+                        
+            }
+        }, setup);
+                    
+
+        roofZone.connectToZone(zone2, 100);
         zone2.connectToZone(zone3, 100);
         zone3.connectToZone(masterZone, 100);
 
-        simulationObjects.put(zone1.getObject_name(),zone1);
+        simulationObjects.put(roofZone.getObject_name(),roofZone);
         simulationObjects.put(zone2.getObject_name(),zone2);
         simulationObjects.put(zone3.getObject_name(),zone3);
         simulationObjects.put(masterZone.getObject_name(),masterZone);
 
         while(menu());
 
-        int x = 5;
-            
     }
 
     static SlaveNode create_general_slave_node(String nodeName, String deviceName, String fieldName, int fieldSize, int runTimeStep, int RTT_to_Zone_Controller) {
@@ -189,14 +229,14 @@ public class Simulation {
     }
 
     static void initFields(){
-        for(Entry<String,PeripheralZone> entry : simulationObjects.entrySet()) 
+        for(Entry<String,Zone> entry : simulationObjects.entrySet()) 
             if (!entry.getValue().isAlive()) entry.getValue().initFields();
 
         System.out.println("[Fields Initialized]");
     }
    
     static void startSimulation(){
-        for(Entry<String,PeripheralZone> entry : simulationObjects.entrySet()) 
+        for(Entry<String,Zone> entry : simulationObjects.entrySet()) 
             if (!entry.getValue().isAlive()) entry.getValue().start();
 
         System.out.println("[Simulation Started]");
@@ -213,7 +253,7 @@ public class Simulation {
     }
 
     static void endSimulation(){
-        for(Entry<String,PeripheralZone> entry : simulationObjects.entrySet()) 
+        for(Entry<String,Zone> entry : simulationObjects.entrySet()) 
             if (entry.getValue().isAlive()) entry.getValue().terminate();
         
         System.out.println("[Simulation Ended]");

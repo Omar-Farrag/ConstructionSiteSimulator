@@ -36,7 +36,7 @@ public class Gateway extends SimulationObject{
                 return true;
             }
             else{
-                exportState(String.format("[FAILURE] Forwarded packet from Gateway [%s] to Gateway [%s]", previous.getObject_name(), routeComponents[position]));
+                exportState(String.format("[FAILURE] Forwarded packet from Gateway [%s] to Gateway [%s]. Reached End of Route", previous.getObject_name(), routeComponents[position]));
                 return false;
             }
         }

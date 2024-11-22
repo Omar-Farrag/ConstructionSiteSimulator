@@ -32,6 +32,9 @@ public abstract class SimulationObject implements Runnable {
         synchronized(alive){
             alive = false;
         }
+        synchronized(writer){
+            writer.close();
+        }
     }
     
     public boolean isAlive(){

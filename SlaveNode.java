@@ -48,6 +48,14 @@ public class SlaveNode extends SimulationObject{
             result = localController.getField(objectName, field);
         }
 
+        exportState(String.format("[%s] Node [%s] requested field [%s] in object [%s]. Returned Value [%s]",
+        result.isSuccess() ? "SUCCESS" : "FAILURE",
+        requester.getObject_name(),
+        field, 
+        objectName,
+        result.isSuccess() ? result.getReturnedPacket().getValue() : "null"
+        ));
+
         try {
             int time_delay= RTT_to_Control_Node/2 + (result.isSuccess() ? result.getReturnedPacket().getSize() * 8 / (BLE_transmission_rate) : 0);
             Thread.sleep(time_delay);
@@ -77,6 +85,14 @@ public class SlaveNode extends SimulationObject{
         synchronized(localController){
             result = localController.setField(objectName, field, value);
         }
+        
+        exportState(String.format("[%s] Node [%s] attempted updating field [%s] in object [%s]. New Value [%s]",
+            result.isSuccess() ? "SUCCESS" : "FAILURE",
+            setter.getObject_name(),
+            field, 
+            objectName,
+            result.isSuccess() ? result.getReturnedPacket().getValue() : "old value"
+            ));
 
         try {
             int time_delay= RTT_to_Control_Node/2;
@@ -108,6 +124,14 @@ public class SlaveNode extends SimulationObject{
         synchronized(localController){
             result = localController.updateSwitch(objectName, position, switchStatus);
         }
+        
+        exportState(String.format("[%s] Node [%s] attempted updating switch position [%s] in object [%s]. New State [%s]",
+            result.isSuccess() ? "SUCCESS" : "FAILURE",
+            setter.getObject_name(),
+            position, 
+            objectName,
+            result.isSuccess() ? result.getReturnedPacket().getValue() : "old state"
+            ));
 
         try {
             int time_delay= RTT_to_Control_Node/2;

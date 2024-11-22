@@ -1,10 +1,10 @@
 public class DataPacket {
 
+    private String time_of_creation;
     private String sourceObjectName;
     private String fieldName ;
     private String value;
     private int size; // Bytes
-    private String time_of_creation;
 
     
     
@@ -45,6 +45,17 @@ public class DataPacket {
     public String getTime_of_creation() {
         return time_of_creation;
     }
+
+    public static String getHeader(){
+        return "Time of Creation, Source Object, Field Name, Value, Size";
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%s,%s,%s,%s,%d",
+        time_of_creation, sourceObjectName, fieldName, value, size);
+    }
+    
 
     
 }

@@ -148,6 +148,8 @@ public class Relay extends Device {
                 int position = Integer.parseInt(arguments[0]);
                 if(arguments[1].equalsIgnoreCase("ON")) success = switchOn(position);
                 else if (arguments[1].equalsIgnoreCase("OFF")) success = switchOff(position);
+                packet = new DataPacket(this.object_name, arguments[0], arguments[1], 1, getCurrentTimestamp());
+                
             } catch (NumberFormatException e) {
                 // e.printStackTrace();
             }

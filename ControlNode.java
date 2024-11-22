@@ -52,7 +52,7 @@ public class ControlNode extends SimulationObject {
             e.printStackTrace();
         }
 
-        exportState(String.format("Received (%d) new packet from slave node [%s]",receivedDataPackets.length, sender.getObject_name()));      
+        exportState(String.format("Received (%d) new packets from slave node [%s]",receivedDataPackets.length, sender.getObject_name()));      
         
         synchronized(bufferedDataPackets){
             for(DataPacket packet : receivedDataPackets) bufferedDataPackets.add(packet);
@@ -85,6 +85,8 @@ public class ControlNode extends SimulationObject {
          
         SlaveNode targetNode = connectedSlaveNodes.get(targetNodeName);
         if(targetNode!= null) {
+            
+            exportState(String.format("Queried field [%s] from object [%s] in slave node [%s]", field, targetObjectName, targetNodeName));
             result = targetNode.getField(this, targetObjectName, field);
             String successStatus = result.isSuccess() ? "SUCCESS" : "FAILURE";
             exportState(String.format("[%s] Received field [%s] from object [%s] in slave node [%s]. Value [%s]",successStatus, field, targetObjectName, targetNodeName, result.isSuccess()? result.getReturnedPacket().getValue():"Null"));
@@ -101,13 +103,14 @@ public class ControlNode extends SimulationObject {
         SlaveNode targetNode = connectedSlaveNodes.get(targetNodeName);
         
         if(targetNode != null){
+            exportState(String.format("Attempted setting field [%s] in object [%s] in slave node [%s]", field, targetObjectName, targetNodeName));
             ExecutionResult result = targetNode.setField(this, targetObjectName, field, value, size);
             String successStatus = result.isSuccess() ? "SUCCESS" : "FAILURE";
-            exportState(String.format("[%s] Set field [%s] in object [%s] in slave node [%s]", successStatus, field, targetObjectName, targetNodeName));
+            exportState(String.format("[%s] Set field [%s] in object [%s] in slave node [%s]. New Value [%s]", successStatus, field, targetObjectName, targetNodeName, result.isSuccess() ? result.getReturnedPacket().getValue() : "old value"));
             return result;
         }       
         else{
-            exportState(String.format("[FAILURE] Set field [%s] in object [%s] in slave node [%s]",field, targetObjectName, targetNodeName));
+            exportState(String.format("[FAILURE] Set field [%s] in object [%s] in slave node [%s]. New Value [old value]",field, targetObjectName, targetNodeName));
             return new ExecutionResult(false, null);
         }
         
@@ -117,18 +120,16 @@ public class ControlNode extends SimulationObject {
         SlaveNode targetNode = connectedSlaveNodes.get(targetNodeName);
         
         if(targetNode != null){
+            exportState(String.format("Attempted setting switch position [%s] in object [%s] in slave node [%s]", position, targetObjectName, targetNodeName));
             ExecutionResult result = targetNode.updateSwitch(this, targetObjectName, position,switchStatus);
             String successStatus = result.isSuccess() ? "SUCCESS" : "FAILURE";
-            exportState(String.format("[%s] Set switch position [%s] in object [%s] in slave node [%s]", successStatus, position, targetObjectName, targetNodeName));
+            exportState(String.format("[%s] Set switch position [%s] in object [%s] in slave node [%s]. New State [%s]", successStatus, position, targetObjectName, targetNodeName, result.isSuccess() ? result.getReturnedPacket().getValue() : "old state"));
             return result;
         }       
         else{
-            exportState(String.format("[FAILURE] Set switch position [%s] in object [%s] in slave node [%s]",position, targetObjectName, targetNodeName));
+            exportState(String.format("[FAILURE] Set switch position [%s] in object [%s] in slave node [%s]. New State [old state]",position, targetObjectName, targetNodeName));
             return new ExecutionResult(false, null);
         }
-    }
-    public Queue<BulkDataPacket> getReceivedBulkDataPackets() {
-        return receivedBulkDataPackets;
     }
 
     public void addPermittedId(String id){
@@ -142,12 +143,22 @@ public class ControlNode extends SimulationObject {
 
         }
     }
+    
     public void clearBufferedDataPackets(){
         synchronized(bufferedDataPackets){
             bufferedDataPackets.clear();
         }
     }
 
+    public Queue<BulkDataPacket> getReceivedBulkDataPackets(boolean consume) {
+        synchronized(receivedBulkDataPackets){
+            Queue<BulkDataPacket> copy = new LinkedList<>(receivedBulkDataPackets);
+            if(consume) receivedBulkDataPackets.clear();
+            return copy;
+
+        }
+    }
+    
     @Override
     protected void runTimeFunction() {
         //Do Nothing. Controller does all the functionality
@@ -162,6 +173,7 @@ public class ControlNode extends SimulationObject {
         synchronized(fieldValues){
             fieldValues.put(gate.getOfferedFields().get(0),id);
         }
+        exportState(String.format("Gate [%s] queried permission status for ID [%s]", gate.getObject_name(), id));
         boolean isPermitted =  localController.isPermittedToEnter(id);
         exportState(String.format("Gate [%s] queried permission status for ID [%s]. Permission [%s]", gate.getObject_name(), id, isPermitted ? "ALLOWED" : "DENIED"));
         
