@@ -1,35 +1,41 @@
-Timestamp, Object Name, Event
-2024-11-22T20:31:42.346307900,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [100]
-2024-11-22T20:31:43.016668800,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [200]
-2024-11-22T20:31:43.572692700,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [300]
-2024-11-22T20:31:44.104508500,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [0]
-2024-11-22T20:31:44.640863300,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [100]
-2024-11-22T20:31:45.171274200,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [0]
-2024-11-22T20:31:45.715210400,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [300]
-2024-11-22T20:31:46.267059900,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [50]
-2024-11-22T20:31:46.821500700,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [20]
-2024-11-22T20:31:47.357016300,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [10]
-2024-11-22T20:31:47.901047400,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [21]
-2024-11-22T20:31:48.441877700,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [14]
-2024-11-22T20:31:48.986019200,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [100]
-2024-11-22T20:31:49.533575800,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [300]
-2024-11-22T20:31:50.080102800,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [0]
-2024-11-22T20:31:50.608109500,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [100]
-2024-11-22T20:31:51.140448200,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [0]
-2024-11-22T20:31:51.696987800,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [300]
-2024-11-22T20:31:52.227369900,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [50]
-2024-11-22T20:31:52.769845800,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [20]
-2024-11-22T20:31:53.300897900,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [10]
-2024-11-22T20:31:53.844908100,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [21]
-2024-11-22T20:31:54.383345400,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [14]
-2024-11-22T20:31:54.914196600,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [100]
-2024-11-22T20:31:55.454075900,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [200]
-2024-11-22T20:31:55.999971100,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [300]
-2024-11-22T20:31:56.540466700,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [0]
-2024-11-22T20:31:57.086018,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [100]
-2024-11-22T20:31:57.831120,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [300]
-2024-11-22T20:31:58.355308600,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [50]
-2024-11-22T20:31:58.907981500,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [20]
-2024-11-22T20:31:59.435910300,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [10]
-2024-11-22T20:31:59.963602700,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [21]
-2024-11-22T20:32:00.496342400,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [14]
+Timestamp,Object Name,Event
+2024-11-26T14:51:52.308126700,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [Uninitialized]
+2024-11-26T14:51:52.315743700,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-11-26T14:51:53.026427800,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [200]
+2024-11-26T14:51:53.079692600,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-11-26T14:51:53.638178200,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [300]
+2024-11-26T14:51:53.638178200,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-11-26T14:51:54.175991100,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [0]
+2024-11-26T14:51:54.175991100,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-11-26T14:51:54.733733,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [100]
+2024-11-26T14:51:54.733733,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-11-26T14:51:55.275950400,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [0]
+2024-11-26T14:51:55.275950400,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-11-26T14:51:55.816323800,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [300]
+2024-11-26T14:51:55.817870500,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-11-26T14:51:56.356141,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [50]
+2024-11-26T14:51:56.357139500,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-11-26T14:51:56.902063600,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [20]
+2024-11-26T14:51:56.905077100,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-11-26T14:51:57.448697,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [21]
+2024-11-26T14:51:57.448697,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-11-26T14:51:57.994600600,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [14]
+2024-11-26T14:51:58.009156400,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-11-26T14:51:58.554397300,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [100]
+2024-11-26T14:51:58.554397300,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-11-26T14:51:59.095420,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [200]
+2024-11-26T14:51:59.113107500,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-11-26T14:51:59.650950500,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [300]
+2024-11-26T14:51:59.652586100,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-11-26T14:52:00.182272900,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [0]
+2024-11-26T14:52:00.206996400,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-11-26T14:52:00.743171500,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [100]
+2024-11-26T14:52:00.744685600,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-11-26T14:52:01.276953200,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [0]
+2024-11-26T14:52:01.278899300,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-11-26T14:52:01.803742100,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [300]
+2024-11-26T14:52:01.803742100,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-11-26T14:52:02.328903500,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [50]
+2024-11-26T14:52:02.329899900,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-11-26T14:52:02.861680900,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [20]
+2024-11-26T14:52:02.863692200,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them

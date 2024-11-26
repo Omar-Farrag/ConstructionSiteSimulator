@@ -92,7 +92,7 @@ public abstract class SimulationObject implements Runnable {
         synchronized(writer){
 
             if(!hasAddedHeader){
-                writer.println("Timestamp, Object Name, Event");
+                writer.println("Timestamp,Object Name,Event");
                 hasAddedHeader = true;
             }
             writer.println(getCurrentTimestamp()+"," + object_name + "," + event[0]);

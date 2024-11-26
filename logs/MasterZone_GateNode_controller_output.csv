@@ -1,194 +1,128 @@
-Timestamp, Object Name, Event
-2024-11-22T20:31:42.564572700,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:42.568143500,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:42.581474900,MasterZone_GateNode_controller,Started
-2024-11-22T20:31:42.651227,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:42.653226300,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:42.653226300,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:42.653226300,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:43.221659600,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:43.221659600,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:43.248378400,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:43.248378400,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:43.249460900,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:43.249460900,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:43.777987300,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:43.777987300,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:43.803054700,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:43.803054700,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:43.807254100,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:43.808342700,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:44.346984200,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:44.347585200,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:44.377781100,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:44.377781100,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:44.378787700,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:44.379781500,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:44.923092100,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:44.924414400,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:44.952974700,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:44.953843900,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:44.954841200,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:44.954841200,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:45.494347100,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:45.494865,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:45.526147100,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:45.526147100,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:45.527470200,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:45.527470200,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:46.066598700,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:46.067644100,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:46.099328900,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:46.099328900,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:46.099328900,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:46.099328900,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:46.640508300,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:46.640508300,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:46.670719,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:46.670719,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:46.671740,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:46.673212400,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:47.232078100,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:47.233084900,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:47.262564300,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:47.263558400,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:47.263558400,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:47.264559300,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:47.806535800,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:47.807902100,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:47.837804500,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:47.838754300,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:47.839795700,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:47.840785300,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:48.380101900,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:48.380101900,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:48.410431300,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:48.410431300,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:48.411310700,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:48.411310700,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:48.943650,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:48.944659700,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:48.973799200,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:48.974792700,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:48.975794900,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:48.975794900,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:49.533575800,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:49.534825,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:49.568422700,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:49.568422700,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:49.568422700,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:49.568422700,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:50.109875400,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:50.110872200,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:50.142349500,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:50.143769700,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:50.143769700,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:50.144991100,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:50.700960100,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:50.701959400,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:50.731521500,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:50.731521500,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:50.731521500,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:50.731521500,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:51.273448100,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:51.274311,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:51.308214900,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:51.309226300,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:51.309226300,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:51.309226300,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:51.850460700,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:51.851706700,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:51.882188300,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:51.883289900,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:51.883289900,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:51.883289900,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:52.430782800,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:52.432778500,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:52.461863500,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:52.462989700,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:52.462989700,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:52.464007200,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:53.001413300,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:53.003412900,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:53.033907500,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:53.033907500,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:53.033907500,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:53.033907500,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:53.580545,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:53.581417500,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:53.609838700,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:53.609838700,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:53.612826800,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:53.612826800,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:54.151717600,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:54.152717800,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:54.183654700,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:54.184840200,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:54.184840200,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:54.185860500,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:54.728549400,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:54.728549400,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:54.760728,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:54.761249700,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:54.762277300,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:54.762277300,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:55.299623400,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:55.299623400,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:55.329714600,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:55.329714600,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:55.330960300,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:55.331897,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:55.878227900,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:55.878227900,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:55.907807,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:55.907807,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:55.908807500,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:55.908807500,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:56.449152100,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:56.449152100,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:56.479580900,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:56.479580900,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:56.481011300,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:56.481011300,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:57.009219,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:57.010218800,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:57.040447500,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:57.041426500,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:57.042433600,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:57.042433600,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:57.582040900,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:57.583255600,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:57.613633200,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:57.613633200,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:57.615078,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:57.615078,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:58.158507200,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:58.160002100,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:58.190158800,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:58.190158800,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:58.190787,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:58.190787,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:58.735828,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:58.735828,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:58.768245800,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:58.768245800,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:58.769111800,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:58.769358500,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:59.311688100,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:59.311688100,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:59.343142400,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:59.343142400,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:59.346469800,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:59.347469500,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:31:59.885809100,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:31:59.885809100,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:59.917174100,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:59.917174100,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:31:59.917174100,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:31:59.917174100,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
-2024-11-22T20:32:00.458346600,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
-2024-11-22T20:32:00.459308800,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
-2024-11-22T20:32:00.489636200,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:32:00.491616800,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
-2024-11-22T20:32:00.491616800,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
-2024-11-22T20:32:00.491616800,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
+Timestamp,Object Name,Event
+2024-11-26T14:51:52.684567700,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
+2024-11-26T14:51:52.693650300,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:52.736762500,MasterZone_GateNode_controller,Started
+2024-11-26T14:51:52.827258,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:52.831642200,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
+2024-11-26T14:51:52.837799700,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
+2024-11-26T14:51:52.853534100,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
+2024-11-26T14:51:52.860060700,MasterZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-11-26T14:51:53.435767500,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
+2024-11-26T14:51:53.437817,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:53.486337,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:53.488423800,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
+2024-11-26T14:51:53.492443400,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
+2024-11-26T14:51:53.493442900,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
+2024-11-26T14:51:53.494635300,MasterZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-11-26T14:51:54.045054,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
+2024-11-26T14:51:54.049069700,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:54.075402900,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:54.076461500,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
+2024-11-26T14:51:54.077478500,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
+2024-11-26T14:51:54.077478500,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
+2024-11-26T14:51:54.078481400,MasterZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-11-26T14:51:54.617761900,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
+2024-11-26T14:51:54.618733600,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:54.650601,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:54.651662800,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
+2024-11-26T14:51:54.652660400,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
+2024-11-26T14:51:54.653658200,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
+2024-11-26T14:51:54.653658200,MasterZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-11-26T14:51:55.205854400,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
+2024-11-26T14:51:55.206854,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:55.236960600,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:55.237953300,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
+2024-11-26T14:51:55.240015300,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
+2024-11-26T14:51:55.241033300,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
+2024-11-26T14:51:55.241033300,MasterZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-11-26T14:51:55.783507700,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
+2024-11-26T14:51:55.784504,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:55.811108300,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:55.811108300,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
+2024-11-26T14:51:55.813325800,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
+2024-11-26T14:51:55.816323800,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
+2024-11-26T14:51:55.817870500,MasterZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-11-26T14:51:56.356141,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
+2024-11-26T14:51:56.357139500,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:56.384483400,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:56.384483400,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
+2024-11-26T14:51:56.385466600,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
+2024-11-26T14:51:56.385466600,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
+2024-11-26T14:51:56.385466600,MasterZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-11-26T14:51:56.921719600,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
+2024-11-26T14:51:56.921719600,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:56.967145500,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:56.968429900,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
+2024-11-26T14:51:56.968429900,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
+2024-11-26T14:51:56.969548300,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
+2024-11-26T14:51:56.969548300,MasterZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-11-26T14:51:57.520698900,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
+2024-11-26T14:51:57.521701500,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:57.551881400,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:57.553083400,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
+2024-11-26T14:51:57.553879,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
+2024-11-26T14:51:57.554972,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
+2024-11-26T14:51:57.554972,MasterZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-11-26T14:51:58.101331400,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
+2024-11-26T14:51:58.103273400,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:58.129990500,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:58.131425700,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
+2024-11-26T14:51:58.131425700,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
+2024-11-26T14:51:58.131425700,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
+2024-11-26T14:51:58.131425700,MasterZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-11-26T14:51:58.674563500,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
+2024-11-26T14:51:58.677570600,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:58.716301500,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:58.717295600,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
+2024-11-26T14:51:58.717295600,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
+2024-11-26T14:51:58.718296900,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
+2024-11-26T14:51:58.720298200,MasterZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-11-26T14:51:59.262072900,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
+2024-11-26T14:51:59.263070500,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:59.293590300,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:59.294070600,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
+2024-11-26T14:51:59.294070600,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
+2024-11-26T14:51:59.295074100,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
+2024-11-26T14:51:59.296071200,MasterZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-11-26T14:51:59.839624600,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
+2024-11-26T14:51:59.840635400,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:59.870108800,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:59.871110200,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
+2024-11-26T14:51:59.871110200,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
+2024-11-26T14:51:59.872107900,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
+2024-11-26T14:51:59.872107900,MasterZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-11-26T14:52:00.401190800,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
+2024-11-26T14:52:00.401190800,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
+2024-11-26T14:52:00.430934500,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:52:00.431931400,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
+2024-11-26T14:52:00.433021800,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
+2024-11-26T14:52:00.433641200,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
+2024-11-26T14:52:00.434659100,MasterZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-11-26T14:52:00.976714700,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
+2024-11-26T14:52:00.976714700,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
+2024-11-26T14:52:01.007640200,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:52:01.009638100,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
+2024-11-26T14:52:01.009638100,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
+2024-11-26T14:52:01.010640700,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
+2024-11-26T14:52:01.010640700,MasterZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-11-26T14:52:01.567746700,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
+2024-11-26T14:52:01.569758100,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
+2024-11-26T14:52:01.600169900,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:52:01.600686900,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
+2024-11-26T14:52:01.601801200,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
+2024-11-26T14:52:01.602715300,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
+2024-11-26T14:52:01.604702200,MasterZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-11-26T14:52:02.228714800,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
+2024-11-26T14:52:02.234737700,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
+2024-11-26T14:52:02.283979200,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:52:02.284981400,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
+2024-11-26T14:52:02.289980900,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
+2024-11-26T14:52:02.290978600,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
+2024-11-26T14:52:02.292980700,MasterZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-11-26T14:52:02.841874600,MasterZone_GateNode_controller,[SUCCESS] Received field [ID] from object [MasterZone_GateNode_scanner]. Value [Uninitialized]
+2024-11-26T14:52:02.842777,MasterZone_GateNode_controller,Asked Parent Node [MasterZone_GateNode] about ID [Uninitialized]'s permission
+2024-11-26T14:52:02.873676600,MasterZone_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:52:02.874680400,MasterZone_GateNode_controller,[SUCCESS] Switched object [MasterZone_GateNode_relay] position [0] to [OFF]
+2024-11-26T14:52:02.875682700,MasterZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [MasterZone_GateNode_relay]. Value [MasterZone_GateNode_motor]
+2024-11-26T14:52:02.875682700,MasterZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [MasterZone_GateNode_relay]. Value [false]
+2024-11-26T14:52:02.875682700,MasterZone_GateNode_controller,Sent [2] packets to parent node to publish them

@@ -43,10 +43,20 @@ public class SlaveNode extends SimulationObject{
             field, 
             objectName));
 
+        exportState(String.format("Attempted Retrieving field [%s] in object [%s] from local controller",
+            field, 
+            objectName));
+
         ExecutionResult result;
         synchronized(localController){
             result = localController.getField(objectName, field);
         }
+
+        exportState(String.format("[%s] Retrieved field [%s] in object [%s] from local controller. Returned Value [%s]",
+        result.isSuccess()? "SUCCESS" : "FAILURE",
+        field, 
+        objectName,
+        result.isSuccess() ? result.getReturnedPacket().getValue() : "null"));
 
         exportState(String.format("[%s] Node [%s] requested field [%s] in object [%s]. Returned Value [%s]",
         result.isSuccess() ? "SUCCESS" : "FAILURE",
@@ -81,11 +91,22 @@ public class SlaveNode extends SimulationObject{
             field, 
             objectName));
 
+        
+            exportState(String.format("Attempted setting field [%s] in object [%s] through local controller",
+            field, 
+            objectName));
+
         ExecutionResult result;
         synchronized(localController){
             result = localController.setField(objectName, field, value);
         }
         
+        exportState(String.format("[%s] Set field [%s] in object [%s] through local controller. New Value [%s]",
+        result.isSuccess()? "SUCCESS" : "FAILURE",
+        field, 
+        objectName,
+        result.isSuccess() ? result.getReturnedPacket().getValue() : "old value"));
+
         exportState(String.format("[%s] Node [%s] attempted updating field [%s] in object [%s]. New Value [%s]",
             result.isSuccess() ? "SUCCESS" : "FAILURE",
             setter.getObject_name(),
@@ -120,10 +141,21 @@ public class SlaveNode extends SimulationObject{
             position, 
             objectName));
 
+            exportState(String.format("Attempted switching position [%s] in object [%s] through local controller.",
+           position, 
+            objectName
+            ));
+
         ExecutionResult result;
         synchronized(localController){
             result = localController.updateSwitch(objectName, position, switchStatus);
         }
+
+        exportState(String.format("[%s] Switched position [%s] in object [%s] through local controller. New State [%s]",
+        result.isSuccess()? "SUCCESS" : "FAILURE",
+        position, 
+        objectName,
+        result.isSuccess() ? result.getReturnedPacket().getValue() : "old state"));
         
         exportState(String.format("[%s] Node [%s] attempted updating switch position [%s] in object [%s]. New State [%s]",
             result.isSuccess() ? "SUCCESS" : "FAILURE",

@@ -1,130 +1,74 @@
-Timestamp, Object Name, Event
-2024-11-22T20:31:42.579453900,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:42.581474900,MasterZone_GateNode,Started
-2024-11-22T20:31:42.648940900,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:42.653226300,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:42.685059900,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:43.222655100,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:43.248378400,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:43.249460900,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:43.276982700,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:43.778989800,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:43.802805900,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:43.808342700,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:43.834102900,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:44.348511700,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:44.377781100,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:44.379781500,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:44.408284800,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:44.925436400,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:44.952076,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:44.954841200,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:44.982990900,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:45.495743600,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:45.524125200,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:45.527470200,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:45.555710500,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:46.067644100,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:46.097720800,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:46.100699,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:46.128484800,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:46.642523400,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:46.669639800,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:46.678570300,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:46.716300700,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:47.233084900,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:47.262564300,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:47.264559300,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:47.293446,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:47.808914800,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:47.836760700,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:47.840785300,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:47.867784500,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:48.380101900,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:48.410431300,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:48.411310700,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:48.441558200,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:48.944659700,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:48.971791900,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:48.976794500,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:49.019977100,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:49.534825,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:49.566424700,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:49.568422700,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:49.596328300,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:50.111875300,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:50.140366700,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:50.146009200,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:50.187864900,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:50.702957,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:50.730482300,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:50.732954,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:50.762338100,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:51.274311,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:51.307200100,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:51.309226300,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:51.347807800,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:51.851706700,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:51.882188300,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:51.884604,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:51.913576700,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:52.432778500,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:52.460036600,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:52.464007200,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:52.491165300,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:53.003412900,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:53.032607100,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:53.033907500,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:53.063816800,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:53.581417500,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:53.608849100,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:53.613823500,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:53.643161300,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:54.153712800,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:54.182559200,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:54.185860500,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:54.213874200,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:54.729542800,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:54.759205,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:54.763272,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:54.789618800,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:55.301166200,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:55.329714600,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:55.331897,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:55.360681100,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:55.878227900,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:55.905762200,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:55.908807500,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:55.937052600,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:56.449697600,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:56.479580900,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:56.481011300,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:56.506988100,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:57.010218800,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:57.038405200,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:57.043429800,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:57.069309200,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:57.583255600,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:57.613633200,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:57.615078,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:57.644925200,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:58.160002100,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:58.189913900,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:58.190787,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:58.221675100,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:58.736817600,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:58.767107,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:58.769778200,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:58.798077800,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:59.311688100,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:59.343142400,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:59.347469500,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:59.374299400,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:59.885809100,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:31:59.916179700,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:31:59.917174100,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:31:59.947891800,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:32:00.459308800,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
-2024-11-22T20:32:00.489636200,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-11-22T20:32:00.491616800,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
-2024-11-22T20:32:00.521486,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
+Timestamp,Object Name,Event
+2024-11-26T14:51:52.726820500,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:52.728682100,MasterZone_GateNode,Started
+2024-11-26T14:51:52.767583900,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:52.867234800,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:52.907006500,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:53.438817,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:53.485821400,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:53.497651100,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:53.531054,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:54.050069,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:54.075402900,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:54.078994700,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:54.107177900,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:54.619736500,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:54.649806800,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:54.654663900,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:54.695250500,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:55.206854,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:55.236960600,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:55.242035600,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:55.268935600,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:55.784504,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:55.811108300,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:55.817870500,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:55.842800300,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:56.359192900,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:56.384483400,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:56.385466600,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:56.419595800,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:56.921719600,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:56.965129100,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:56.969548300,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:57.010846400,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:57.522702600,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:57.551881400,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:57.555877900,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:57.599511500,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:58.104268700,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:58.129990500,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:58.132709400,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:58.160685100,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:58.677570600,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:58.704295700,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:58.720298200,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:58.752176400,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:59.264068900,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:59.293064100,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:59.296071200,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:59.324813900,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:59.841627500,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
+2024-11-26T14:51:59.870108800,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:51:59.872107900,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:51:59.900107300,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:52:00.402085200,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
+2024-11-26T14:52:00.429934300,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:52:00.434659100,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:52:00.461103800,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:52:00.977725300,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
+2024-11-26T14:52:01.007640200,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:52:01.012639700,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:52:01.052930300,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:52:01.569758100,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
+2024-11-26T14:52:01.599295300,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:52:01.604702200,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:52:01.645262500,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:52:02.242273800,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
+2024-11-26T14:52:02.282979200,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:52:02.292980700,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:52:02.328903500,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:52:02.842777,MasterZone_GateNode,Asked Control Node [MasterZone_ControlNode] about ID [Uninitialized]'s permission
+2024-11-26T14:52:02.873676600,MasterZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2024-11-26T14:52:02.876682700,MasterZone_GateNode,Started Publishing (2) packets to Control Node [MasterZone_ControlNode]
+2024-11-26T14:52:02.903788100,MasterZone_GateNode,Done Publishing (2) packets to Control Node [MasterZone_ControlNode]

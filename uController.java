@@ -79,6 +79,7 @@ public class uController extends SimulationObject{
     }
     
     public void publishPacket(DataPacket... packets){
+        exportState(String.format("Sent [%d] packets to parent node to publish them",packets.length));
         parentSlaveNode.publishPacket(packets);
     }
 
