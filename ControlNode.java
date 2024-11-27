@@ -52,7 +52,7 @@ public class ControlNode extends SimulationObject {
             e.printStackTrace();
         }
 
-        exportState(String.format("Received (%d) new packets from slave node [%s]",receivedDataPackets.length, sender.getObject_name()));      
+        exportState(String.format("Received (%d) new packets from slave node [%s] created @ [%s]",receivedDataPackets.length, sender.getObject_name(),receivedDataPackets[0].getTime_of_creation())); 
         
         synchronized(bufferedDataPackets){
             for(DataPacket packet : receivedDataPackets) bufferedDataPackets.add(packet);
@@ -76,7 +76,7 @@ public class ControlNode extends SimulationObject {
     public void receiveForwardedPacket(ControlNode sender, BulkDataPacket receivedBulkDataPacket){
         synchronized(receivedBulkDataPackets){
             receivedBulkDataPackets.add(receivedBulkDataPacket);
-            exportState(String.format("Received new packet from control node [%s]", sender.getObject_name()));
+            exportState(String.format("Received new bulk packet from control node [%s]", sender.getObject_name()));
         }
     }
 

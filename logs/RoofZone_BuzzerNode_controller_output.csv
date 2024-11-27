@@ -1,84 +1,160 @@
 Timestamp,Object Name,Event
-2024-11-26T14:51:52.270135400,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:51:52.315743700,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
-2024-11-26T14:51:52.327863200,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-11-26T14:51:52.473062300,RoofZone_BuzzerNode_controller,Started
-2024-11-26T14:51:53.026427800,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:51:53.079692600,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
-2024-11-26T14:51:53.090694600,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-11-26T14:51:53.459758700,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
-2024-11-26T14:51:53.550183100,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
-2024-11-26T14:51:53.659935200,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:51:53.662931400,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
-2024-11-26T14:51:53.665929500,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-11-26T14:51:54.216182900,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:51:54.220193900,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
-2024-11-26T14:51:54.220193900,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-11-26T14:51:54.450142800,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
-2024-11-26T14:51:54.513003800,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
-2024-11-26T14:51:54.757824,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:51:54.761825900,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
-2024-11-26T14:51:54.762340900,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-11-26T14:51:55.313997300,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
-2024-11-26T14:51:55.314991500,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:51:55.316020600,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
-2024-11-26T14:51:55.316996300,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-11-26T14:51:55.395021200,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
-2024-11-26T14:51:55.843795700,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:51:55.843795700,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
-2024-11-26T14:51:55.848109700,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-11-26T14:51:56.200971900,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
-2024-11-26T14:51:56.282929200,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
-2024-11-26T14:51:56.387479800,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:51:56.389519300,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
-2024-11-26T14:51:56.389519300,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-11-26T14:51:56.917267,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:51:56.918268300,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
-2024-11-26T14:51:56.919266700,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-11-26T14:51:57.091181100,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
-2024-11-26T14:51:57.172417500,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
-2024-11-26T14:51:57.473391100,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:51:57.474391700,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
-2024-11-26T14:51:57.474391700,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-11-26T14:51:58.008158,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:51:58.009156400,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
-2024-11-26T14:51:58.010668400,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-11-26T14:51:58.024932600,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
-2024-11-26T14:51:58.100275300,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
-2024-11-26T14:51:58.554397300,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:51:58.554397300,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
-2024-11-26T14:51:58.555388800,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-11-26T14:51:58.894104100,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
-2024-11-26T14:51:59.000297800,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
-2024-11-26T14:51:59.108061800,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:51:59.114103600,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
-2024-11-26T14:51:59.120111600,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-11-26T14:51:59.655662700,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:51:59.655662700,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
-2024-11-26T14:51:59.655662700,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-11-26T14:51:59.871110200,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
-2024-11-26T14:51:59.934957600,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
-2024-11-26T14:52:00.181450300,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:52:00.206996400,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
-2024-11-26T14:52:00.207981100,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-11-26T14:52:00.737672200,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:52:00.737672200,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
-2024-11-26T14:52:00.737672200,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-11-26T14:52:00.777265100,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
-2024-11-26T14:52:00.841543700,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
-2024-11-26T14:52:01.270555100,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:52:01.271664500,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
-2024-11-26T14:52:01.272649300,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-11-26T14:52:01.656766600,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
-2024-11-26T14:52:01.739109900,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
-2024-11-26T14:52:01.801827300,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:52:01.802346600,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
-2024-11-26T14:52:01.802346600,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-11-26T14:52:02.344399400,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:52:02.344399400,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
-2024-11-26T14:52:02.344399400,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-11-26T14:52:02.546417500,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
-2024-11-26T14:52:02.624907200,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
-2024-11-26T14:52:02.873676600,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
-2024-11-26T14:52:02.874680400,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
-2024-11-26T14:52:02.874680400,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:11.067193500,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:11.083171300,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
+2024-11-27T10:05:11.089196500,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:11.157485,RoofZone_BuzzerNode_controller,Started
+2024-11-27T10:05:11.818837200,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:11.818837200,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
+2024-11-27T10:05:11.819909400,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:12.264970700,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
+2024-11-27T10:05:12.329415300,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:12.358657100,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:12.360664500,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:12.360664500,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:12.899907900,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:12.899907900,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:12.900859300,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:13.133286400,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:13.197057300,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:13.429351100,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:13.429351100,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:13.429351100,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:13.974915400,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:13.974915400,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:13.976934200,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:13.976934200,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:14.052817600,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:14.502904100,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:14.503917600,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:14.505080,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:14.846398600,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:14.908742800,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
+2024-11-27T10:05:15.047818600,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:15.056297800,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
+2024-11-27T10:05:15.079323200,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:15.606443300,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:15.606443300,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
+2024-11-27T10:05:15.606443300,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:15.729776900,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:15.793743800,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
+2024-11-27T10:05:16.138374100,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:16.144307,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
+2024-11-27T10:05:16.145312,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:16.589909800,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
+2024-11-27T10:05:16.651545600,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
+2024-11-27T10:05:16.681897700,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:16.683125900,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
+2024-11-27T10:05:16.683125900,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:17.226103400,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:17.226755500,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
+2024-11-27T10:05:17.229825200,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:17.443726600,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:17.507077500,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
+2024-11-27T10:05:17.770425500,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:17.775431100,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
+2024-11-27T10:05:17.776430200,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:18.299912100,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
+2024-11-27T10:05:18.314000400,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:18.315166500,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
+2024-11-27T10:05:18.315166500,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:18.354531,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:18.840334100,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:18.841331500,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:18.842332100,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:19.220792800,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:19.285983700,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:19.377578300,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:19.377578300,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:19.377578300,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:19.902506900,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:19.902506900,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:19.902506900,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:20.079255500,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:20.143531700,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:20.438582100,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:20.438582100,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:20.444653,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:20.937850800,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:20.999906900,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:21.000412900,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:21.000412900,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:21.001148,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:21.543677,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:21.543677,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:21.544415800,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:21.793129900,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:21.854318100,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:22.070335900,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:22.070335900,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:22.071349700,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:22.617416200,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:22.617416200,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:22.617416200,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:22.648353100,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
+2024-11-27T10:05:22.712650300,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:23.145948600,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:23.145948600,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:23.145948600,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:23.535723700,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:23.598060700,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
+2024-11-27T10:05:23.679803,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:23.679803,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
+2024-11-27T10:05:23.680799900,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:24.221207500,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:24.222207800,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
+2024-11-27T10:05:24.222207800,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:24.391487,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
+2024-11-27T10:05:24.458770100,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
+2024-11-27T10:05:24.749635400,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:24.749635400,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
+2024-11-27T10:05:24.749635400,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:25.251647200,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:25.298748700,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:25.311261200,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:25.311261200,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:25.347410200,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:25.846330,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:25.846330,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:25.846330,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:26.143704400,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:26.203574600,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:26.377852400,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:26.377852400,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:26.377852400,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:26.907374,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:26.909435,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:26.909435,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:27.264810,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:27.326703,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:27.435762,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:27.436758900,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:27.436758900,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:27.978442200,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:27.979438,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:27.979438,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:28.134910200,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:28.197141900,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:28.511876,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:28.511876,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:28.511876,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:28.980089300,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:29.039022900,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:29.039022900,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:29.040379,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:29.040379,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
+2024-11-27T10:05:29.582052600,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:29.583053100,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [false]
+2024-11-27T10:05:29.583053100,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:29.832418900,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:29.897107,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:30.128159300,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:30.128159300,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:30.128159300,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:30.657397400,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:30.657397400,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:30.657397400,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-11-27T10:05:30.688503100,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [OFF]
+2024-11-27T10:05:30.747710,RoofZone_BuzzerNode_controller,[SUCCESS] Switched object [RoofZone_BuzzerNode_actuator] position [0] to [ON]
+2024-11-27T10:05:31.189960800,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_BuzzerNode_actuator]. Value [RoofZone_BuzzerNode_actuator_buzzer]
+2024-11-27T10:05:31.191956300,RoofZone_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_BuzzerNode_actuator]. Value [true]
+2024-11-27T10:05:31.191956300,RoofZone_BuzzerNode_controller,Sent [2] packets to parent node to publish them

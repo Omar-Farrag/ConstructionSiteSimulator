@@ -1,42 +1,78 @@
 Timestamp,Object Name,Event
-2024-11-26T14:51:52.651199200,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:51:52.672477100,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-26T14:51:52.743703100,MasterZone_SpeakerNode_controller,Started
-2024-11-26T14:51:53.252680900,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:51:53.253638400,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-26T14:51:53.793785,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:51:53.793785,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-26T14:51:54.340487900,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:51:54.341056300,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-26T14:51:54.880320300,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:51:54.883317700,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-26T14:51:55.424918200,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:51:55.425940,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-26T14:51:55.953105100,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:51:55.954102300,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-26T14:51:56.498819200,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:51:56.501835,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-26T14:51:57.042850,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:51:57.043870700,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-26T14:51:57.583403800,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:51:57.586303600,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-26T14:51:58.129990500,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:51:58.129990500,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-26T14:51:58.657565,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:51:58.658569100,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-26T14:51:59.190708,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:51:59.192709700,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-26T14:51:59.744813400,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:51:59.750566400,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-26T14:52:00.289053200,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:52:00.289499500,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-26T14:52:00.837369,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:52:00.841543700,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-26T14:52:01.382089200,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:52:01.383051500,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-26T14:52:01.924060100,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:52:01.924060100,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-26T14:52:02.468640300,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:52:02.468640300,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-26T14:52:03.012707900,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-26T14:52:03.015243400,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:11.255138200,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:11.266909200,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:11.302894900,MasterZone_SpeakerNode_controller,Started
+2024-11-27T10:05:11.846517600,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:11.846517600,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:12.389816200,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:12.391974100,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:12.930725500,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:12.930725500,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:13.461081100,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:13.462135300,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:14.004797300,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:14.004797300,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:14.534846200,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:14.536844,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:15.079323200,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:15.079323200,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:15.621996,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:15.621996,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:16.153972,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:16.153972,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:16.697748400,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:16.698210600,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:17.226103400,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:17.226755500,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:17.753977600,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:17.775431100,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:18.314000400,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:18.315166500,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:18.838344900,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:18.838344900,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:19.378981400,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:19.378981400,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:19.924467900,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:19.924467900,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:20.469693500,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:20.469693500,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:21.015454100,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:21.016451800,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:21.542130300,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:21.542130300,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:22.086598300,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:22.086598300,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:22.612144800,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:22.612144800,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:23.161999300,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:23.163085400,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:23.691801300,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:23.692343300,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:24.237227,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:24.238226100,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:24.784629300,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:24.784629300,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:25.316345300,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:25.317358200,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:25.842806400,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:25.842806400,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:26.377852400,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:26.377852400,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:26.907374,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:26.909435,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:27.435762,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:27.436758900,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:27.978442200,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:27.979438,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:28.511876,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:28.511876,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:29.039022900,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:29.039022900,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:29.566250100,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:29.566250100,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:30.113125200,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:30.113125200,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:30.646100800,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:30.650098600,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-11-27T10:05:31.201335600,MasterZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [MasterZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-11-27T10:05:31.201335600,MasterZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
