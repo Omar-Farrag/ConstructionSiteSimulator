@@ -58,7 +58,7 @@ public class Gateway extends SimulationObject{
         return false;
     }
 
-    public ControlNode getParentNode(){
+    public MasterNode getParentNode(){
         return parentController.getParentControlNode();
     }
 

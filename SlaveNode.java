@@ -6,7 +6,7 @@ public class SlaveNode extends SimulationObject{
 
     protected uController localController;
     protected int RTT_to_Control_Node; //ms
-    private ControlNode controlNode;
+    private MasterNode controlNode;
 
     public SlaveNode(String object_name, int runTimeStep, int RTT_to_Zone_Controller, uController locaController){
         super(object_name, runTimeStep);
@@ -19,7 +19,7 @@ public class SlaveNode extends SimulationObject{
         localController.initFields();
     }
     
-    public void setControlNode(ControlNode controlNode){
+    public void setMasterNode(MasterNode controlNode){
         this.controlNode = controlNode;
     }
 
@@ -29,7 +29,7 @@ public class SlaveNode extends SimulationObject{
         exportState(String.format("Done Publishing (%d) packets to Control Node [%s]",packets.length, controlNode.getObject_name()));
     }
 
-    public ExecutionResult getField(ControlNode requester, String objectName, String field){
+    public ExecutionResult getField(MasterNode requester, String objectName, String field){
 
         try {
             int time_delay= RTT_to_Control_Node /2;
@@ -77,7 +77,7 @@ public class SlaveNode extends SimulationObject{
 
     }
     
-    public ExecutionResult setField(ControlNode setter, String objectName, String field, String value, int size){
+    public ExecutionResult setField(MasterNode setter, String objectName, String field, String value, int size){
 
         try {
             int time_delay= RTT_to_Control_Node /2 + size * 8 / BLE_transmission_rate;
@@ -127,7 +127,7 @@ public class SlaveNode extends SimulationObject{
     }
 
     
-    public ExecutionResult updateSwitch(ControlNode setter, String objectName, String position, String switchStatus) {
+    public ExecutionResult updateSwitch(MasterNode setter, String objectName, String position, String switchStatus) {
         
         try {
             int time_delay= RTT_to_Control_Node /2 + 8 / BLE_transmission_rate;
@@ -190,7 +190,7 @@ public class SlaveNode extends SimulationObject{
         return localController.getOfferedFields();
     }
 
-    public ControlNode getControlNode() {
+    public MasterNode getControlNode() {
         return controlNode;
     }
     @Override

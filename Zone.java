@@ -8,13 +8,13 @@ import java.util.ArrayList;
 public class Zone extends SimulationObject {
 
 
-    protected ControlNode controlNode;
+    protected MasterNode masterNode;
     protected SlaveNode gateNode;
     protected SlaveNode actuationNode;
     protected SlaveNode buzzerNode;
     protected SlaveNode speakerNode;
-    protected ProcessingAlgorithm controlNodeLoop;
-    protected ProcessingAlgorithm controlNodeSetup;
+    protected ProcessingAlgorithm masterNodeLoop;
+    protected ProcessingAlgorithm masterNodeSetup;
 
     private Relay actuator;
     private Gateway gateway;
@@ -24,21 +24,21 @@ public class Zone extends SimulationObject {
 
     protected ArrayList<SlaveNode> otherSlaveNodes;
 
-    public Zone(String object_name, int runTimeStep, ProcessingAlgorithm controlNodeLoop){
+    public Zone(String object_name, int runTimeStep, ProcessingAlgorithm masterNodeLoop){
         super(object_name, runTimeStep);
-        init(runTimeStep, controlNodeLoop);
+        init(runTimeStep, masterNodeLoop);
         
     }
 
-    public Zone(String object_name, int runTimeStep, ProcessingAlgorithm controlNodeLoop, ProcessingAlgorithm controlNodeSetup){
+    public Zone(String object_name, int runTimeStep, ProcessingAlgorithm masterNodeLoop, ProcessingAlgorithm masterNodeSetup){
         super(object_name, runTimeStep);
-        this.controlNodeSetup = controlNodeSetup;
-        init(runTimeStep, controlNodeLoop);
+        this.masterNodeSetup = masterNodeSetup;
+        init(runTimeStep, masterNodeLoop);
     }
 
     private void init(int runTimeStep, ProcessingAlgorithm algorithm) {
         this.runTimeStep = runTimeStep;
-        this.controlNodeLoop = algorithm;
+        this.masterNodeLoop = algorithm;
         
         otherSlaveNodes = new ArrayList<>();
 
@@ -46,12 +46,12 @@ public class Zone extends SimulationObject {
         actuationNode = createActuationNode();
         buzzerNode = createBuzzerNode();
         speakerNode = createSpeakerNode();
-        controlNode = createControlNode();
+        masterNode = createMasterNode();
 
-        controlNode.subscribeTo(gateNode);
-        controlNode.subscribeTo(actuationNode);
-        controlNode.subscribeTo(buzzerNode);
-        controlNode.subscribeTo(speakerNode);
+        masterNode.subscribeTo(gateNode);
+        masterNode.subscribeTo(actuationNode);
+        masterNode.subscribeTo(buzzerNode);
+        masterNode.subscribeTo(speakerNode);
     }
 
 
@@ -66,7 +66,7 @@ public class Zone extends SimulationObject {
 
     public void addSlaveNode(SlaveNode otherSlaveNode){
         otherSlaveNodes.add(otherSlaveNode);
-        controlNode.subscribeTo(otherSlaveNode);
+        masterNode.subscribeTo(otherSlaveNode);
 
     }
 
@@ -75,14 +75,14 @@ public class Zone extends SimulationObject {
     }
 
     public void addPermittedId(String id){
-        controlNode.addPermittedId(id);
+        masterNode.addPermittedId(id);
     }
     
     private SlaveNode createGateNode(){
         String nodeName = getFullName("GateNode");
         
         SlaveNode gateNode = new Gate(nodeName, runTimeStep, RTT_to_Zone_Controller); 
-        gateNode.setControlNode(controlNode);
+        gateNode.setMasterNode(masterNode);
         
         return gateNode;
         
@@ -118,7 +118,7 @@ public class Zone extends SimulationObject {
         controller.connectTo(actuator);
 
         SlaveNode node = new SlaveNode(nodeName, runTimeStep, RTT_to_Zone_Controller, controller);
-        gateNode.setControlNode(controlNode);
+        gateNode.setMasterNode(masterNode);
 
         return node;
 
@@ -144,7 +144,7 @@ public class Zone extends SimulationObject {
         controller.connectTo(actuator);
 
         SlaveNode node = new SlaveNode(nodeName,runTimeStep, RTT_to_Zone_Controller, controller);
-        gateNode.setControlNode(controlNode);
+        gateNode.setMasterNode(masterNode);
 
         return node;
 
@@ -177,14 +177,14 @@ public class Zone extends SimulationObject {
         controller.connectTo(speaker);
 
         SlaveNode node = new SlaveNode(nodeName, runTimeStep, RTT_to_Zone_Controller, controller);
-        gateNode.setControlNode(controlNode);
+        gateNode.setMasterNode(masterNode);
 
         return node;
 
     }
 
-    private ControlNode createControlNode(){
-        String nodeName = getFullName("ControlNode");
+    private MasterNode createMasterNode(){
+        String nodeName = getFullName("MasterNode");
 
         String controllerName = nodeName + "_controller";
         String cameraName = nodeName + "_camera";
@@ -205,13 +205,13 @@ public class Zone extends SimulationObject {
         gateway = new Gateway(gatewayName, runTimeStep);
 
         uController controller;
-        if(controlNodeSetup!= null) controller = new uController(controllerName, runTimeStep, controlNodeLoop, controlNodeSetup);
-        else controller = new uController(controllerName, runTimeStep, controlNodeLoop);
+        if(masterNodeSetup!= null) controller = new uController(controllerName, runTimeStep, masterNodeLoop, masterNodeSetup);
+        else controller = new uController(controllerName, runTimeStep, masterNodeLoop);
 
         controller.connectTo(camera);
         controller.connectTo(gateway);
 
-        ControlNode node = new ControlNode(nodeName, runTimeStep, controller);
+        MasterNode node = new MasterNode(nodeName, runTimeStep, controller);
 
         return node;
     }
@@ -229,7 +229,7 @@ public class Zone extends SimulationObject {
 
         for(SlaveNode node : otherSlaveNodes) node.initFields();
 
-        controlNode.initFields();
+        masterNode.initFields();
     }
     @Override
     protected void runTimeFunction() {
@@ -238,7 +238,7 @@ public class Zone extends SimulationObject {
 
     @Override
     public void start() {
-        controlNode.start();
+        masterNode.start();
         gateNode.start();
         actuationNode.start();
         buzzerNode.start();
@@ -250,8 +250,8 @@ public class Zone extends SimulationObject {
 
         exportState("Started");
 
-        controlNode.exportState("Started");
-        controlNode.localController.exportState("Started");
+        masterNode.exportState("Started");
+        masterNode.localController.exportState("Started");
 
         gateNode.exportState("Started");
         gateNode.localController.exportState("Started");
@@ -274,7 +274,7 @@ public class Zone extends SimulationObject {
         speakerNode.terminate();
         
         for(SlaveNode node : otherSlaveNodes) node.terminate();
-        controlNode.terminate();
+        masterNode.terminate();
         super.terminate();
     }
 

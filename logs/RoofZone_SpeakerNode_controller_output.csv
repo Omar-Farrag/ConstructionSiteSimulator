@@ -1,122 +1,103 @@
 Timestamp,Object Name,Event
-2024-11-27T10:05:11.092182900,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-27T10:05:11.100185400,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:11.158486200,RoofZone_SpeakerNode_controller,Started
-2024-11-27T10:05:11.822464600,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Uninitialized]
-2024-11-27T10:05:11.823456200,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:12.296233400,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:12.367342900,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:12.375212800,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:12.375212800,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:12.905420200,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:12.905420200,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:13.164597400,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:13.222592600,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:13.445092100,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:13.445092100,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:13.990316,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:13.990316,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:14.020289700,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:14.081010100,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:14.534846200,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:14.536844,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:14.875840200,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:14.969791900,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:15.079323200,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value []
-2024-11-27T10:05:15.079323200,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:15.621996,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value []
-2024-11-27T10:05:15.621996,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:15.758290500,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:15.823662400,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:16.153972,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value []
-2024-11-27T10:05:16.153972,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:16.620988400,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:16.683125900,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:16.697748400,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value []
-2024-11-27T10:05:16.698210600,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:17.231232800,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value []
-2024-11-27T10:05:17.231232800,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:17.474863300,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:17.537045300,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:17.770425500,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value []
-2024-11-27T10:05:17.775431100,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:18.329933200,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value []
-2024-11-27T10:05:18.330877400,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:18.330877400,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:18.393477900,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:18.861413900,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:18.862413100,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:19.255412900,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:19.316497400,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:19.394994400,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:19.396995100,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:19.939856500,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:19.940877100,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:20.109338700,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:20.175091900,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:20.485653900,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:20.486600900,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:20.968324200,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:21.031566,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [One or more safety ropes not attached!!!!]
-2024-11-27T10:05:21.032645200,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:21.032645200,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:21.559174200,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:21.559174200,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:21.822974200,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:21.902294200,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:22.101777100,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:22.102520600,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:22.632798200,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:22.632798200,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:22.680243100,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:22.743588500,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:23.166095100,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:23.166095100,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:23.566512300,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:23.628523500,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:23.707089800,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value []
-2024-11-27T10:05:23.708079100,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:24.252769700,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value []
-2024-11-27T10:05:24.253649700,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:24.427537,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:24.489799600,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:24.784629300,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value []
-2024-11-27T10:05:24.784629300,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:25.311261200,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:25.316345300,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [One or more safety ropes not attached!!!!]
-2024-11-27T10:05:25.317358200,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:25.374860600,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:25.842806400,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:25.842806400,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:26.171800900,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:26.238839100,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:26.374850400,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:26.375850200,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:26.907374,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:26.909435,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:27.293848200,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:27.373510900,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:27.451162600,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:27.452032900,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:27.994440500,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:27.994440500,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:28.164235900,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:28.228692700,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:28.537823600,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:28.537823600,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:29.006410300,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:29.069961400,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [One or more safety ropes not attached!!!!]
-2024-11-27T10:05:29.069961400,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:29.069961400,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:29.613882700,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value []
-2024-11-27T10:05:29.613882700,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:29.864125600,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:29.924742600,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:30.143542500,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:30.143542500,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:30.686605500,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:30.687497500,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
-2024-11-27T10:05:30.717209500,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:30.778885300,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
-2024-11-27T10:05:31.219195500,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
-2024-11-27T10:05:31.219195500,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:31.581945800,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-12-01T19:26:31.631627700,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:31.841779,RoofZone_SpeakerNode_controller,Started
+2024-12-01T19:26:32.432971700,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Uninitialized]
+2024-12-01T19:26:32.492186800,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:32.689022100,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:32.754382400,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:33.082383500,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
+2024-12-01T19:26:33.083454500,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:33.468268600,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:33.577505,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:33.658128400,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
+2024-12-01T19:26:33.658128400,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:34.204613200,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
+2024-12-01T19:26:34.205597100,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:34.242302600,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:34.333482300,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:34.738215900,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value []
+2024-12-01T19:26:34.738215900,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:34.971461200,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:35.048925500,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:35.282567100,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
+2024-12-01T19:26:35.283580200,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:35.692676900,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:35.775440500,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:35.817092300,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
+2024-12-01T19:26:35.817609,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:36.358136500,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
+2024-12-01T19:26:36.359025800,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:36.424417800,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:36.500273,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:36.892710200,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value []
+2024-12-01T19:26:36.893710300,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:37.119130700,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:37.203718500,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:37.435248400,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value []
+2024-12-01T19:26:37.439258600,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:37.832318800,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:37.921836700,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:37.982307300,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
+2024-12-01T19:26:37.983163,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:38.512299700,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
+2024-12-01T19:26:38.513183900,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:38.558900100,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:38.624938900,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:39.055974500,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
+2024-12-01T19:26:39.057980300,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:39.246222,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:39.323792,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:39.584694900,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value []
+2024-12-01T19:26:39.584694900,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:39.962881400,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:40.026504700,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:40.131679600,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
+2024-12-01T19:26:40.132683800,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:40.663634500,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:40.675634200,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [One or more safety ropes not attached!!!!]
+2024-12-01T19:26:40.677637700,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:40.723546,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:41.219690700,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
+2024-12-01T19:26:41.221560300,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:41.412410900,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:41.501187800,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:41.754124300,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
+2024-12-01T19:26:41.754124300,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:42.127461,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:42.204380,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:42.297890600,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
+2024-12-01T19:26:42.299650600,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:42.829857700,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
+2024-12-01T19:26:42.829857700,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:42.831861100,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:42.892386400,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:43.370349500,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
+2024-12-01T19:26:43.370349500,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:43.498599300,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:43.560104100,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:43.904406200,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value []
+2024-12-01T19:26:43.904406200,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:44.167803500,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:44.246524400,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:44.448649,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value []
+2024-12-01T19:26:44.451633400,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:44.850885100,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:44.916149700,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:44.994389300,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value []
+2024-12-01T19:26:44.994840800,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:45.525738400,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:45.538899400,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [One or more safety ropes not attached!!!!]
+2024-12-01T19:26:45.539801700,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:45.585878,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:46.071768800,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
+2024-12-01T19:26:46.071768800,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:46.211790800,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:46.275060800,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:46.604503200,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value [Worker too close to edge]
+2024-12-01T19:26:46.605438900,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:46.883204200,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:46.966496300,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]
+2024-12-01T19:26:47.132982,RoofZone_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [RoofZone_SpeakerNode_speaker]. Value []
+2024-12-01T19:26:47.132982,RoofZone_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2024-12-01T19:26:47.587979900,RoofZone_SpeakerNode_controller,[SUCCESS] Set field [Played Message] in object [RoofZone_SpeakerNode_speaker]

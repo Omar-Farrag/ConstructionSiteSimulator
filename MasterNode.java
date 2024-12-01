@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Map.Entry;
 import java.util.Queue;
 
-public class ControlNode extends SimulationObject {
+public class MasterNode extends SimulationObject {
 
     final int BLE_transmission_rate = 100; //kbps
     private HashMap<String, SlaveNode> connectedSlaveNodes;
@@ -13,7 +13,7 @@ public class ControlNode extends SimulationObject {
     private HashMap<String, String> fieldValues;
     protected uController localController;
 
-    public ControlNode(String object_name, int runTimeStep, uController localController){
+    public MasterNode(String object_name, int runTimeStep, uController localController){
         super(object_name, runTimeStep);
         this.localController = localController;
         localController.setParentNode(this);
@@ -25,7 +25,7 @@ public class ControlNode extends SimulationObject {
 
     public void subscribeTo(SlaveNode... nodesToConnect){
         for(SlaveNode node : nodesToConnect){
-            node.setControlNode(this);
+            node.setMasterNode(this);
             connectedSlaveNodes.put(node.getObject_name(), node);
             for(String field : node.getOfferedFields()) fieldValues.put(field, "Uninitialized");
         }
@@ -73,7 +73,7 @@ public class ControlNode extends SimulationObject {
         }
     }
 
-    public void receiveForwardedPacket(ControlNode sender, BulkDataPacket receivedBulkDataPacket){
+    public void receiveForwardedPacket(MasterNode sender, BulkDataPacket receivedBulkDataPacket){
         synchronized(receivedBulkDataPackets){
             receivedBulkDataPackets.add(receivedBulkDataPacket);
             exportState(String.format("Received new bulk packet from control node [%s]", sender.getObject_name()));

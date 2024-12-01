@@ -6,7 +6,7 @@ import java.util.Queue;
 public class uController extends SimulationObject{
 
     private SlaveNode parentSlaveNode;
-    private ControlNode parentControlNode;
+    private MasterNode parentControlNode;
     private ProcessingAlgorithm setup;
     private ProcessingAlgorithm loop;
     private ArrayList<Device> devices;
@@ -50,7 +50,7 @@ public class uController extends SimulationObject{
 
     }
     
-    public void setParentNode(ControlNode parentNode) {
+    public void setParentNode(MasterNode parentNode) {
         this.parentControlNode = parentNode;
         this.parentSlaveNode = null;
     }
@@ -227,7 +227,7 @@ public class uController extends SimulationObject{
         return parentSlaveNode;
     }
     
-    public ControlNode getParentControlNode() {
+    public MasterNode getParentControlNode() {
         return parentControlNode;
     }
 
