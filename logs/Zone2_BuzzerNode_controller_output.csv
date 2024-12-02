@@ -1,89 +1,53 @@
 Timestamp,Object Name,Event
-2024-12-01T19:26:32.290080500,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:32.312706900,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:32.323595800,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:32.394505,Zone2_BuzzerNode_controller,Started
-2024-12-01T19:26:32.912240400,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:32.912240400,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:32.913577800,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:33.457378,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:33.459264700,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:33.466378500,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:34.001945300,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:34.002939100,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:34.003933200,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:34.533051500,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:34.534035200,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:34.534035200,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:35.066603900,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:35.066603900,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:35.066603900,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:35.591760900,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:35.594776600,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:35.595702600,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:36.124889100,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:36.125768800,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:36.125768800,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:36.686499200,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:36.687489500,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:36.687489500,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:37.232836300,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:37.233825800,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:37.233825800,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:37.779667500,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:37.780537,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:37.781528200,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:38.325649900,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:38.326629700,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:38.327631800,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:38.869966900,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:38.869966900,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:38.870856600,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:39.415295500,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:39.417240100,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:39.418323,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:39.959896500,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:39.960882200,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:39.961889,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:40.504985900,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:40.506034600,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:40.507066,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:41.049054800,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:41.050056700,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:41.053106300,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:41.610781500,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:41.610781500,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:41.611756600,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:42.156632600,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:42.158634600,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:42.160017600,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:42.702443,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:42.703433,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:42.704449100,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:43.246083900,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:43.246931900,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:43.246931900,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:43.778814500,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:43.779888200,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:43.779888200,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:44.322841600,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:44.322841600,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:44.323858800,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:44.870034300,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:44.870034300,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:44.871015900,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:45.416109100,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:45.417070800,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:45.417070800,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:45.947997600,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:45.949052500,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:45.949946100,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:46.493886600,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:46.494767100,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:46.494767100,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:47.039822600,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:47.040835800,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:47.040835800,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:47.585981600,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
-2024-12-01T19:26:47.586980600,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
-2024-12-01T19:26:47.587979900,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:42.642168400,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
+2024-12-02T13:45:42.648174,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
+2024-12-02T13:45:42.653441200,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:42.665571600,Zone2_BuzzerNode_controller,Started
+2024-12-02T13:45:43.216506200,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
+2024-12-02T13:45:43.217482100,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
+2024-12-02T13:45:43.217482100,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:43.750498100,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
+2024-12-02T13:45:43.751506,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
+2024-12-02T13:45:43.752511500,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:44.296750100,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
+2024-12-02T13:45:44.296750100,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
+2024-12-02T13:45:44.297392900,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:44.829548800,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
+2024-12-02T13:45:44.829548800,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
+2024-12-02T13:45:44.829548800,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:45.380852100,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
+2024-12-02T13:45:45.380852100,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
+2024-12-02T13:45:45.380852100,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:45.909739,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
+2024-12-02T13:45:45.909739,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
+2024-12-02T13:45:45.911245800,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:46.446027700,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
+2024-12-02T13:45:46.446027700,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
+2024-12-02T13:45:46.446027700,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:47.001436400,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
+2024-12-02T13:45:47.001436400,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
+2024-12-02T13:45:47.002428500,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:47.530131100,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
+2024-12-02T13:45:47.530131100,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
+2024-12-02T13:45:47.531497,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:48.073317900,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
+2024-12-02T13:45:48.074327400,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
+2024-12-02T13:45:48.075323700,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:48.617986500,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
+2024-12-02T13:45:48.620980100,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
+2024-12-02T13:45:48.624428,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:49.172526500,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
+2024-12-02T13:45:49.172526500,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
+2024-12-02T13:45:49.172526500,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:49.715955100,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
+2024-12-02T13:45:49.716944500,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
+2024-12-02T13:45:49.716944500,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:50.259295900,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
+2024-12-02T13:45:50.260297300,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
+2024-12-02T13:45:50.261296,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:50.785707400,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
+2024-12-02T13:45:50.785707400,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
+2024-12-02T13:45:50.785707400,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:51.329543600,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone2_BuzzerNode_actuator]. Value [Zone2_BuzzerNode_actuator_buzzer]
+2024-12-02T13:45:51.331723400,Zone2_BuzzerNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone2_BuzzerNode_actuator]. Value [false]
+2024-12-02T13:45:51.332722800,Zone2_BuzzerNode_controller,Sent [2] packets to parent node to publish them

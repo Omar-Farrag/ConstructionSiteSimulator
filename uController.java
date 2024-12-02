@@ -90,7 +90,7 @@ public class uController extends SimulationObject{
     
     public boolean forwardToZones(BulkDataPacket packet, String... peripheralZoneRoute){
         
-        for (int i = 0; i<peripheralZoneRoute.length; i++) peripheralZoneRoute[i] += "_ControlNode_gateway";
+        for (int i = 0; i<peripheralZoneRoute.length; i++) peripheralZoneRoute[i] += "_MasterNode_gateway";
 
         return forward(packet, String.join(",", peripheralZoneRoute));
     }

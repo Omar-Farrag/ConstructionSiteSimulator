@@ -1,4 +1,3 @@
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -16,22 +15,23 @@ public class Simulation {
     public static void main(String[] args) {
         
         int runTimeStep = 500; //ms
+        int RTT_to_Zone_Controller = 20; //ms
         ArrayList<SlaveNode> extraSlaveNodes = new ArrayList<>();
         
         //Create additional slave nodes
-        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode1","UltrasonicSensor", "Distance",4, runTimeStep,20));
-        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode2","UltrasonicSensor", "Distance",4, runTimeStep,20));
-        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode3","UltrasonicSensor", "Distance",4, runTimeStep,20));
-        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode4","UltrasonicSensor", "Distance",4, runTimeStep,20));
-        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode5","UltrasonicSensor", "Distance",4, runTimeStep,20));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode1","UltrasonicSensor", "Distance",4, runTimeStep,RTT_to_Zone_Controller));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode2","UltrasonicSensor", "Distance",4, runTimeStep,RTT_to_Zone_Controller));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode3","UltrasonicSensor", "Distance",4, runTimeStep,RTT_to_Zone_Controller));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode4","UltrasonicSensor", "Distance",4, runTimeStep,RTT_to_Zone_Controller));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode5","UltrasonicSensor", "Distance",4, runTimeStep,RTT_to_Zone_Controller));
        
         // Create Smart Rope Nodes
-        extraSlaveNodes.add(create_general_slave_node("RoofZone_SmartRopeNode1","SmartRope", "Is Attached",1, runTimeStep,20));
-        extraSlaveNodes.add(create_general_slave_node("RoofZone_SmartRopeNode2","SmartRope", "Is Attached",1, runTimeStep,20));
-        extraSlaveNodes.add(create_general_slave_node("RoofZone_SmartRopeNode3","SmartRope", "Is Attached",1, runTimeStep,20));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_SmartRopeNode1","SmartRope", "Is Attached",1, runTimeStep,RTT_to_Zone_Controller));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_SmartRopeNode2","SmartRope", "Is Attached",1, runTimeStep,RTT_to_Zone_Controller));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_SmartRopeNode3","SmartRope", "Is Attached",1, runTimeStep,RTT_to_Zone_Controller));
         
         // Create Wind Sensing Node
-        extraSlaveNodes.add(create_general_slave_node("RoofZone_WindNode","WindSensor", "Wind Speed",4, runTimeStep,20));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_WindNode","WindSensor", "Wind Speed",4, runTimeStep,RTT_to_Zone_Controller));
         
         //Create a pulley lift to be attached to actuator
         HighPowerDevice pulleyLift = new HighPowerDevice("RoofZone_PulleyLift", runTimeStep);
@@ -118,7 +118,7 @@ public class Simulation {
 
         };
         
-       Zone roofZone = new Zone("RoofZone", runTimeStep, zoneAlgo);
+       SlaveZone roofZone = new SlaveZone("RoofZone", runTimeStep, zoneAlgo, RTT_to_Zone_Controller);
         
        roofZone.addPermittedId("Omar");
        roofZone.addPermittedId("Farrag");
@@ -128,26 +128,10 @@ public class Simulation {
        roofZone.connectToActuationNode(pulleyLift, 0);
 
 
-        Zone zone2 = new Zone("Zone2", runTimeStep, (uController cont)->{});
-        Zone zone3 = new Zone("Zone3", runTimeStep, (uController cont)->{});
+        SlaveZone zone2 = new SlaveZone("Zone2", runTimeStep, (uController cont)->{}, RTT_to_Zone_Controller);
+        SlaveZone zone3 = new SlaveZone("Zone3", runTimeStep, (uController cont)->{}, RTT_to_Zone_Controller);
 
-        ProcessingAlgorithm setup = (uController cont)->{
-            try {
-                File file = new File("logs/Database.csv"); // Change the path as needed
-                if (file.exists()) file.delete();
-
-                FileWriter fileWriter = new FileWriter("logs/Database.csv", true);
-                PrintWriter writer = new PrintWriter(fileWriter,true);
-                writer.println("Time of Arrival,"+DataPacket.getHeader());
-                writer.close();
-
-            } catch (IOException e) {
-                System.out.println("An error occurred while appending to the file.");
-                e.printStackTrace();
-            }
-
-        };
-        Zone masterZone = new Zone("MasterZone", runTimeStep, (uController cont)->{
+        MasterZone masterZone = new MasterZone("MasterZone", runTimeStep, (uController cont)->{
 
             Queue<BulkDataPacket> bulkDataPackets = cont.getReceivedBulkDataPackets(true);
 
@@ -167,7 +151,7 @@ public class Simulation {
                 }
                         
             }
-        }, setup);
+        });
                     
 
         roofZone.connectToZone(zone2, 100);

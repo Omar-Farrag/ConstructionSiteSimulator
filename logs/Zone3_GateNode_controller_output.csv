@@ -1,184 +1,109 @@
 Timestamp,Object Name,Event
-2024-12-01T19:26:32.525877400,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:32.533876800,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:32.568656100,Zone3_GateNode_controller,Started
-2024-12-01T19:26:32.592666700,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:32.592666700,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:32.593654300,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:32.598008100,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:32.598779,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:33.141441600,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:33.142145300,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:33.174538200,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:33.175407400,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:33.175407400,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:33.176530200,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:33.177517,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:33.719928,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:33.722931800,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:33.769589400,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:33.775556800,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:33.775556800,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:33.781530800,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:33.784631900,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:34.330596800,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:34.332505200,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:34.360245200,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:34.360245200,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:34.361361500,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:34.362338800,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:34.362338800,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:34.891707700,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:34.893161,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:34.955462100,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:34.955462100,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:34.956468400,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:34.957480100,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:34.957480100,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:35.501836100,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:35.502946300,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:35.534171200,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:35.537175800,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:35.542180800,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:35.543173400,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:35.545173900,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:36.093471500,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:36.094486900,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:36.125768800,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:36.125768800,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:36.125768800,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:36.130901900,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:36.130901900,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:36.671598900,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:36.672494300,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:36.702502200,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:36.703587700,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:36.704497400,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:36.705491400,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:36.705491400,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:37.248828800,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:37.249837,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:37.280084800,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:37.281080700,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:37.282076200,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:37.284076200,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:37.284076200,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:37.842349700,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:37.847322200,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:37.891075900,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:37.892134700,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:37.892134700,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:37.893128900,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:37.894141400,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:38.440117900,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:38.440117900,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:38.497005800,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:38.498919200,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:38.498919200,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:38.499878500,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:38.500240800,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:39.024319300,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:39.024981500,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:39.070984100,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:39.072978200,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:39.072978200,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:39.073981400,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:39.073981400,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:39.618516400,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:39.619370200,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:39.650303600,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:39.651170600,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:39.656334500,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:39.657345900,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:39.658337,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:40.208144300,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:40.222214700,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:40.256374300,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:40.258443700,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:40.258443700,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:40.264423700,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:40.265383,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:40.813988700,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:40.815067500,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:40.846085300,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:40.846945,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:40.847981900,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:40.847981900,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:40.848977400,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:41.391828,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:41.392745700,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:41.424564900,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:41.425648700,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:41.427661600,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:41.428655700,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:41.428655700,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:41.971279,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:41.973161800,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:42.002267800,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:42.003284600,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:42.003677200,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:42.004291,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:42.005272300,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:42.532438700,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:42.533447400,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:42.563140400,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:42.564097500,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:42.564097500,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:42.564097500,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:42.565029100,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:43.106892900,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:43.107812800,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:43.138774900,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:43.138774900,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:43.139818300,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:43.139818300,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:43.140831100,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:43.670209800,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:43.671173900,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:43.732498700,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:43.733502200,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:43.734437700,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:43.734437700,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:43.734437700,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:44.277306100,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:44.277306100,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:44.308423600,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:44.309267300,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:44.309267300,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:44.309829300,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:44.309829300,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:44.854904,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:44.854904,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:44.888283900,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:44.889295,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:44.889295,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:44.889295,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:44.889295,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:45.431080100,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:45.431080100,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:45.463164200,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:45.464130400,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:45.464130400,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:45.469135700,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:45.469135700,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:46.023298700,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:46.024292400,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:46.055757,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:46.056753100,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:46.057765100,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:46.057765100,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:46.058755300,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:46.589146300,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:46.590077,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:46.621964400,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:46.621964400,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:46.622966700,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:46.623967300,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:46.625963400,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-01T19:26:47.179496300,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
-2024-12-01T19:26:47.183542300,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
-2024-12-01T19:26:47.211122500,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
-2024-12-01T19:26:47.211122500,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
-2024-12-01T19:26:47.212115700,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
-2024-12-01T19:26:47.212115700,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
-2024-12-01T19:26:47.213112100,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:42.709036500,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
+2024-12-02T13:45:42.724415800,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
+2024-12-02T13:45:42.729687600,Zone3_GateNode_controller,Started
+2024-12-02T13:45:42.770698600,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-12-02T13:45:42.773703400,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
+2024-12-02T13:45:42.774698400,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
+2024-12-02T13:45:42.774698400,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
+2024-12-02T13:45:42.775959200,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:43.329186200,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
+2024-12-02T13:45:43.329186200,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
+2024-12-02T13:45:43.360070300,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-12-02T13:45:43.361159,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
+2024-12-02T13:45:43.361159,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
+2024-12-02T13:45:43.362168600,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
+2024-12-02T13:45:43.362168600,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:43.907655500,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
+2024-12-02T13:45:43.907655500,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
+2024-12-02T13:45:43.939173600,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-12-02T13:45:43.939173600,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
+2024-12-02T13:45:43.941886200,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
+2024-12-02T13:45:43.941886200,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
+2024-12-02T13:45:43.942879700,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:44.483893600,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
+2024-12-02T13:45:44.491396600,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
+2024-12-02T13:45:44.530130200,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-12-02T13:45:44.531542900,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
+2024-12-02T13:45:44.531542900,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
+2024-12-02T13:45:44.531542900,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
+2024-12-02T13:45:44.531542900,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:45.069306700,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
+2024-12-02T13:45:45.071986400,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
+2024-12-02T13:45:45.117354700,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-12-02T13:45:45.118361400,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
+2024-12-02T13:45:45.119367100,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
+2024-12-02T13:45:45.119367100,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
+2024-12-02T13:45:45.119367100,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:45.661247900,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
+2024-12-02T13:45:45.661247900,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
+2024-12-02T13:45:45.693240200,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-12-02T13:45:45.693240200,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
+2024-12-02T13:45:45.693240200,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
+2024-12-02T13:45:45.694314800,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
+2024-12-02T13:45:45.694314800,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:46.226542200,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
+2024-12-02T13:45:46.226542200,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
+2024-12-02T13:45:46.254958300,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-12-02T13:45:46.254958300,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
+2024-12-02T13:45:46.255948300,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
+2024-12-02T13:45:46.255948300,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
+2024-12-02T13:45:46.260156,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:46.800299100,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
+2024-12-02T13:45:46.800299100,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
+2024-12-02T13:45:46.830378500,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-12-02T13:45:46.831861,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
+2024-12-02T13:45:46.831861,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
+2024-12-02T13:45:46.831861,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
+2024-12-02T13:45:46.831861,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:47.375361900,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
+2024-12-02T13:45:47.375361900,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
+2024-12-02T13:45:47.407750,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-12-02T13:45:47.407750,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
+2024-12-02T13:45:47.408558200,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
+2024-12-02T13:45:47.409676100,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
+2024-12-02T13:45:47.409676100,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:47.948520200,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
+2024-12-02T13:45:47.949498700,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
+2024-12-02T13:45:47.980117500,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-12-02T13:45:47.981112400,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
+2024-12-02T13:45:47.981112400,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
+2024-12-02T13:45:47.981112400,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
+2024-12-02T13:45:47.981112400,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:48.524953500,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
+2024-12-02T13:45:48.524953500,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
+2024-12-02T13:45:48.556865400,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-12-02T13:45:48.557865200,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
+2024-12-02T13:45:48.557865200,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
+2024-12-02T13:45:48.557865200,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
+2024-12-02T13:45:48.557865200,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:49.095205600,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
+2024-12-02T13:45:49.096725200,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
+2024-12-02T13:45:49.127469,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-12-02T13:45:49.127469,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
+2024-12-02T13:45:49.127469,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
+2024-12-02T13:45:49.127469,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
+2024-12-02T13:45:49.127469,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:49.658667800,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
+2024-12-02T13:45:49.658667800,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
+2024-12-02T13:45:49.716944500,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-12-02T13:45:49.716944500,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
+2024-12-02T13:45:49.716944500,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
+2024-12-02T13:45:49.716944500,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
+2024-12-02T13:45:49.716944500,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:50.259295900,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
+2024-12-02T13:45:50.260297300,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
+2024-12-02T13:45:50.291299100,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-12-02T13:45:50.291299100,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
+2024-12-02T13:45:50.291299100,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
+2024-12-02T13:45:50.291299100,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
+2024-12-02T13:45:50.292344900,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:50.832759200,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
+2024-12-02T13:45:50.834821400,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission
+2024-12-02T13:45:50.865063600,Zone3_GateNode_controller,ID [Uninitialized]'s permission: [DENIED]
+2024-12-02T13:45:50.867074,Zone3_GateNode_controller,[SUCCESS] Switched object [Zone3_GateNode_relay] position [0] to [OFF]
+2024-12-02T13:45:50.867074,Zone3_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [Zone3_GateNode_relay]. Value [Zone3_GateNode_motor]
+2024-12-02T13:45:50.869067500,Zone3_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [Zone3_GateNode_relay]. Value [false]
+2024-12-02T13:45:50.870072200,Zone3_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-02T13:45:51.408748300,Zone3_GateNode_controller,[SUCCESS] Received field [ID] from object [Zone3_GateNode_scanner]. Value [Uninitialized]
+2024-12-02T13:45:51.408748300,Zone3_GateNode_controller,Asked Parent Node [Zone3_GateNode] about ID [Uninitialized]'s permission

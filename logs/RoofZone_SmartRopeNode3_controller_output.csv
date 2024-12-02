@@ -1,61 +1,35 @@
 Timestamp,Object Name,Event
-2024-12-01T19:26:31.532139200,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
-2024-12-01T19:26:31.559037800,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:32.346716900,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
-2024-12-01T19:26:32.351633600,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:32.890600,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
-2024-12-01T19:26:32.891612700,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:33.438935900,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
-2024-12-01T19:26:33.442497300,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:33.987901700,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
-2024-12-01T19:26:33.989905600,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:34.550041300,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
-2024-12-01T19:26:34.554053800,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:35.095237800,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
-2024-12-01T19:26:35.096156200,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:35.627889300,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
-2024-12-01T19:26:35.628834800,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:36.155663400,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
-2024-12-01T19:26:36.156638700,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:36.702502200,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
-2024-12-01T19:26:36.703587700,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:37.248828800,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
-2024-12-01T19:26:37.249837,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:37.779667500,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
-2024-12-01T19:26:37.780537,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:38.327631800,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
-2024-12-01T19:26:38.328586100,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:38.869966900,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
-2024-12-01T19:26:38.869966900,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:39.415295500,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
-2024-12-01T19:26:39.417240100,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:39.959896500,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
-2024-12-01T19:26:39.959896500,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:40.504985900,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
-2024-12-01T19:26:40.506034600,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:41.049054800,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
-2024-12-01T19:26:41.050056700,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:41.595042700,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
-2024-12-01T19:26:41.595042700,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:42.141148500,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
-2024-12-01T19:26:42.142039100,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:42.686436200,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
-2024-12-01T19:26:42.686436200,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:43.230275300,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
-2024-12-01T19:26:43.233193100,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:43.763867900,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
-2024-12-01T19:26:43.764818600,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:44.307408100,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
-2024-12-01T19:26:44.308423600,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:44.854904,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
-2024-12-01T19:26:44.854904,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:45.400592100,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
-2024-12-01T19:26:45.400592100,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:45.945932400,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
-2024-12-01T19:26:45.945932400,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:46.477886400,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
-2024-12-01T19:26:46.477886400,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:47.023760900,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
-2024-12-01T19:26:47.024700700,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
-2024-12-01T19:26:47.570035600,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
-2024-12-01T19:26:47.570983,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
+2024-12-02T13:45:42.420802200,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
+2024-12-02T13:45:42.453993700,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
+2024-12-02T13:45:43.041932900,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
+2024-12-02T13:45:43.041932900,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
+2024-12-02T13:45:43.580431400,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
+2024-12-02T13:45:43.581308500,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
+2024-12-02T13:45:44.126664100,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
+2024-12-02T13:45:44.128090200,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
+2024-12-02T13:45:44.682936600,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
+2024-12-02T13:45:44.683982900,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
+2024-12-02T13:45:45.226335900,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
+2024-12-02T13:45:45.227685200,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
+2024-12-02T13:45:45.773046,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
+2024-12-02T13:45:45.797303700,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
+2024-12-02T13:45:46.416489600,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
+2024-12-02T13:45:46.416489600,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
+2024-12-02T13:45:46.958790900,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
+2024-12-02T13:45:46.958790900,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
+2024-12-02T13:45:47.486875300,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
+2024-12-02T13:45:47.486875300,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
+2024-12-02T13:45:48.026820500,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
+2024-12-02T13:45:48.026820500,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
+2024-12-02T13:45:48.570891900,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
+2024-12-02T13:45:48.571916300,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
+2024-12-02T13:45:49.106104300,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
+2024-12-02T13:45:49.106104300,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
+2024-12-02T13:45:49.654180800,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
+2024-12-02T13:45:49.654180800,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
+2024-12-02T13:45:50.228089300,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [1]
+2024-12-02T13:45:50.228089300,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
+2024-12-02T13:45:50.754890400,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
+2024-12-02T13:45:50.755891700,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
+2024-12-02T13:45:51.298722600,RoofZone_SmartRopeNode3_controller,[SUCCESS] Received field [Is Attached] from object [RoofZone_SmartRopeNode3_SmartRope]. Value [0]
+2024-12-02T13:45:51.299600600,RoofZone_SmartRopeNode3_controller,Sent [1] packets to parent node to publish them
