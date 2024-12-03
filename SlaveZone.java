@@ -220,7 +220,7 @@ public class SlaveZone extends Zone {
         uController controller = new uController(controllerName, runTimeStep, (uController cont)->{
             // uController continuous algorithm
             
-            // Prepare packets containing fields and their values of the relay to be published to the master node.
+            // Prepare packets for the relay containing fields and their values to be published to the master node.
             ArrayList<DataPacket> packets = new ArrayList<>();
             
             // For every field in the all the devices connected to uController (only relay is connected)
@@ -251,13 +251,21 @@ public class SlaveZone extends Zone {
     }
 
     
-    
+    /**
+     * Function to set up the speaker node
+     * @return Fully created speaker node
+     */
     private SlaveNode createSpeakerNode(){
+        // Get full name of the speaker node
         String nodeName = getFullName("SpeakerNode");
 
+        // Prepare names of the controller and speaker
         String controllerName = nodeName + "_controller";
         String speakerName = nodeName + "_speaker";
 
+        // Create an input file with a header for speaker
+        // Header used to identify the fields of the speaker.
+        // No need to specify any values in the file since these can be set dynamically by a uController script
         if(!new File(Device.getInputFileName(speakerName)).exists())
         { 
             try (FileWriter fileWriter = new FileWriter(Device.getInputFileName(speakerName));
@@ -269,30 +277,60 @@ public class SlaveZone extends Zone {
             }
         }
 
-
+        // Initialize the speaker object
         LowPowerDevice speaker = new LowPowerDevice(speakerName, runTimeStep,100);
 
+        // Initialize a uController
         uController controller = new uController(controllerName, runTimeStep, (uController cont)->{
-            ExecutionResult result1 = cont.getField(speakerName, "Played Message");
-            if(result1.isSuccess()) cont.publishPacket(result1.getReturnedPacket());
+            
+            // Prepare packets for the speaker containing fields and their values  be published to the master node.
+            ArrayList<DataPacket> packets = new ArrayList<>();
+            
+            // For every field in the all the devices connected to uController (only speaker is connected)
+            for(String field : cont.getLocalOfferedFields()) {
+                // Get the value of the field
+                ExecutionResult result = cont.getField(speakerName, field);
+                
+                // Add the returned data packet to the list of packets to publish if the result was successful
+                if(result.isSuccess()) packets.add(result.getReturnedPacket());
+            }
+
+            // Publish the prepared packets to the master node
+            cont.publishPacket(packets.toArray(new DataPacket[0]));
         });
+
+        // Connect uController to speaker
         controller.connectTo(speaker);
 
+        // Initialize speaker slave node
         SlaveNode node = new SlaveNode(nodeName, runTimeStep, RTT_to_Master_Node, controller);
+        
+        // Set the master node of the speaker node to be the master node in this class
         gateNode.setMasterNode(masterNode);
 
+        // Return the fully created speaker node
         return node;
 
     }
 
+    /**
+     * Function to set up the master node of the zone
+     * @return fully created master node
+     */
     @Override
     protected MasterNode createMasterNode(){
+
+        // Get full name of master node
         String nodeName = getFullName("MasterNode");
 
+        // Prepare names of the uController, camera, and
         String controllerName = nodeName + "_controller";
         String cameraName = nodeName + "_camera";
         String gatewayName = nodeName + "_gateway";
 
+        // Create input file with header for the camera. Header is used to identify the fields of the 
+        // camera. No values need to be added to the input file since these values can be set dynamically in a 
+        // uController script 
         if(!new File(Device.getInputFileName(cameraName)).exists())
         { 
             try (FileWriter fileWriter = new FileWriter(Device.getInputFileName(cameraName));
@@ -304,21 +342,31 @@ public class SlaveZone extends Zone {
             }
         }
 
+        // Initialize a camera device
         LowPowerDevice camera = new LowPowerDevice(cameraName, runTimeStep,3500000);
+        
+        // Initialize a gateway
         gateway = new Gateway(gatewayName, runTimeStep);
 
+        // Initialize a controller using the appropriate constructor depending on whether a setup function was provided or not 
         uController controller;
         if(masterNodeSetup!= null) controller = new uController(controllerName, runTimeStep, masterNodeLoop, masterNodeSetup);
         else controller = new uController(controllerName, runTimeStep, masterNodeLoop);
 
+        // Connect the uController to the camera and gateway
         controller.connectTo(camera);
         controller.connectTo(gateway);
 
+        // Initialze the master node 
         MasterNode node = new MasterNode(nodeName, runTimeStep, controller);
 
+        // Return the fully created master node
         return node;
     }
 
+    /**
+     * Function to initialize the fields of all devices in the zone from the input files
+     */
     @Override
     public void initFields(){
         gateNode.initFields();
@@ -331,31 +379,28 @@ public class SlaveZone extends Zone {
         super.initFields();
     }
 
+    /**
+     * Function to start the zone's lifetime thread. The zone is responsible for starting 
+     * its constituent nodes
+     */
     @Override
     public void start() {
         super.start();
+        
         gateNode.start();
         actuationNode.start();
         buzzerNode.start();
         speakerNode.start();
 
-        for(SlaveNode node : otherSlaveNodes) node.start();
-
-        gateNode.exportState("Started");
-        gateNode.localController.exportState("Started");
-        
-        actuationNode.exportState("Started");
-        actuationNode.localController.exportState("Started");
-        
-        buzzerNode.exportState("Started");
-        buzzerNode.localController.exportState("Started");
-        
-        speakerNode.exportState("Started");
-        speakerNode.localController.exportState("Started");
+        for(SlaveNode node : otherSlaveNodes) node.start();     
     }
     
+    /**
+     * Function to terminate the zone's lifetime thread. The zone is responsible for terminating its constituent nodes
+     */
     @Override
     public void terminate() {
+        
         gateNode.terminate();
         actuationNode.terminate();
         buzzerNode.terminate();

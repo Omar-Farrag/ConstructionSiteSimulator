@@ -1,510 +1,368 @@
 Time of Arrival,Time of Creation, Source Object, Field Name, Value, Size
-2024-12-03T20:00:41.385958600,2024-12-03T20:00:39.425508300,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,200,4
-2024-12-03T20:00:41.395049600,2024-12-03T20:00:39.425508300,RoofZone_SmartRopeNode2_SmartRope,Is Attached,Uninitialized,1
-2024-12-03T20:00:41.397048600,2024-12-03T20:00:39.427525,RoofZone_SmartRopeNode3_SmartRope,Is Attached,1,1
-2024-12-03T20:00:41.397937400,2024-12-03T20:00:39.424020300,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,Uninitialized,4
-2024-12-03T20:00:41.400048800,2024-12-03T20:00:39.424020300,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,Uninitialized,4
-2024-12-03T20:00:41.402035900,2024-12-03T20:00:39.425508300,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
-2024-12-03T20:00:41.403985500,2024-12-03T20:00:39.425508300,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,200,4
-2024-12-03T20:00:41.405936400,2024-12-03T20:00:39.428527300,RoofZone_WindNode_WindSensor,Wind Speed,100,4
-2024-12-03T20:00:41.405936400,2024-12-03T20:00:39.424020300,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:41.410043400,2024-12-03T20:00:39.704628400,RoofZone_BuzzerNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:41.411935600,2024-12-03T20:00:39.426526600,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,200,4
-2024-12-03T20:00:41.413934700,2024-12-03T20:00:39.704628400,RoofZone_SpeakerNode_speaker,Played Message,Uninitialized,100
-2024-12-03T20:00:41.416055600,2024-12-03T20:00:39.425508300,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:41.416929700,2024-12-03T20:00:39.704628400,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:41.418929300,2024-12-03T20:00:39.745152700,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:41.419956500,2024-12-03T20:00:39.775412300,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:41.421929800,2024-12-03T20:00:39.836496700,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:41.425056400,2024-12-03T20:00:39.853293500,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:41.431933800,2024-12-03T20:00:39.858290900,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:41.436768500,2024-12-03T20:00:39.864312800,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:41.437768900,2024-12-03T20:00:39.877420700,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:41.440778,2024-12-03T20:00:39.880889700,RoofZone_GateNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:41.441767400,2024-12-03T20:00:40.376170900,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
-2024-12-03T20:00:41.444670600,2024-12-03T20:00:40.376170900,RoofZone_SmartRopeNode3_SmartRope,Is Attached,1,1
-2024-12-03T20:00:41.445599400,2024-12-03T20:00:40.393433,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,15,4
-2024-12-03T20:00:41.447553400,2024-12-03T20:00:40.381780200,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,15,4
-2024-12-03T20:00:41.448546900,2024-12-03T20:00:40.393433,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,30,4
-2024-12-03T20:00:41.451341500,2024-12-03T20:00:40.393433,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,15,4
-2024-12-03T20:00:41.452360600,2024-12-03T20:00:40.393433,RoofZone_SpeakerNode_speaker,Played Message,Uninitialized,100
-2024-12-03T20:00:41.455323900,2024-12-03T20:00:40.393433,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:41.456216600,2024-12-03T20:00:40.395435800,RoofZone_BuzzerNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:41.459343900,2024-12-03T20:00:40.393433,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,15,4
-2024-12-03T20:00:41.460345500,2024-12-03T20:00:40.393433,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
-2024-12-03T20:00:41.462326,2024-12-03T20:00:40.393433,RoofZone_WindNode_WindSensor,Wind Speed,200,4
-2024-12-03T20:00:41.463359100,2024-12-03T20:00:40.408559,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:41.465217800,2024-12-03T20:00:40.409436300,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:41.466225100,2024-12-03T20:00:40.411434600,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:41.468344500,2024-12-03T20:00:40.413430800,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:41.469352300,2024-12-03T20:00:40.415843600,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:41.472348300,2024-12-03T20:00:40.415843600,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:41.475390200,2024-12-03T20:00:40.416927800,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:41.479353600,2024-12-03T20:00:40.417930700,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:41.483034300,2024-12-03T20:00:40.474670400,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:41.483996100,2024-12-03T20:00:40.475690500,RoofZone_GateNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:41.483996100,2024-12-03T20:00:40.907640400,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
-2024-12-03T20:00:41.486990600,2024-12-03T20:00:40.911599200,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
-2024-12-03T20:00:41.488028600,2024-12-03T20:00:40.935267400,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,10,4
-2024-12-03T20:00:41.490681800,2024-12-03T20:00:40.935267400,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,10,4
-2024-12-03T20:00:41.491673,2024-12-03T20:00:40.935267400,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,140,4
-2024-12-03T20:00:41.494561200,2024-12-03T20:00:40.942320,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,10,4
-2024-12-03T20:00:41.496730,2024-12-03T20:00:40.942320,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
-2024-12-03T20:00:41.497607700,2024-12-03T20:00:40.942320,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
-2024-12-03T20:00:41.500671100,2024-12-03T20:00:40.942320,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,10,4
-2024-12-03T20:00:41.501651200,2024-12-03T20:00:40.951197600,RoofZone_WindNode_WindSensor,Wind Speed,300,4
-2024-12-03T20:00:41.504660300,2024-12-03T20:00:40.951197600,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:41.505568100,2024-12-03T20:00:40.953186900,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:41.507662200,2024-12-03T20:00:40.967304,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:41.509704500,2024-12-03T20:00:40.968292500,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:41.511655900,2024-12-03T20:00:40.969197200,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:41.512553400,2024-12-03T20:00:40.971200300,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:41.515624500,2024-12-03T20:00:40.973241200,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:41.516700100,2024-12-03T20:00:40.973241200,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:41.518677300,2024-12-03T20:00:40.976315200,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:41.519706800,2024-12-03T20:00:40.977287400,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:42.537382300,2024-12-03T20:00:41.078203100,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:42.546400800,2024-12-03T20:00:41.079217700,RoofZone_GateNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:42.547275300,2024-12-03T20:00:41.450337800,RoofZone_SmartRopeNode3_SmartRope,Is Attached,1,1
-2024-12-03T20:00:42.547275300,2024-12-03T20:00:41.450337800,RoofZone_SmartRopeNode2_SmartRope,Is Attached,0,1
-2024-12-03T20:00:42.549318100,2024-12-03T20:00:41.465217800,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,59,4
-2024-12-03T20:00:42.550394900,2024-12-03T20:00:41.463359100,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,59,4
-2024-12-03T20:00:42.551441400,2024-12-03T20:00:41.474362,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
-2024-12-03T20:00:42.552407600,2024-12-03T20:00:41.478355,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,59,4
-2024-12-03T20:00:42.553275800,2024-12-03T20:00:41.478355,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,50,4
-2024-12-03T20:00:42.554275700,2024-12-03T20:00:41.493683800,RoofZone_WindNode_WindSensor,Wind Speed,0,4
-2024-12-03T20:00:42.555276600,2024-12-03T20:00:41.493683800,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
-2024-12-03T20:00:42.555276600,2024-12-03T20:00:41.493683800,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,59,4
-2024-12-03T20:00:42.556275800,2024-12-03T20:00:41.493683800,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:42.556275800,2024-12-03T20:00:41.494561200,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:42.556275800,2024-12-03T20:00:41.524684,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:42.557300600,2024-12-03T20:00:41.525696400,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:42.558322800,2024-12-03T20:00:41.528664300,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:42.559299700,2024-12-03T20:00:41.532683200,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:42.559299700,2024-12-03T20:00:41.533589400,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:42.563412500,2024-12-03T20:00:41.534669,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:42.564274900,2024-12-03T20:00:41.537287800,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:42.564274900,2024-12-03T20:00:41.539311,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:42.568466600,2024-12-03T20:00:41.684553800,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:42.569332800,2024-12-03T20:00:41.696080500,RoofZone_GateNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:42.571331300,2024-12-03T20:00:41.995226200,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
-2024-12-03T20:00:42.577461200,2024-12-03T20:00:41.995226200,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
-2024-12-03T20:00:42.577461200,2024-12-03T20:00:42.006224200,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,120,4
-2024-12-03T20:00:42.578330300,2024-12-03T20:00:42.021228800,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,160,4
-2024-12-03T20:00:42.579493500,2024-12-03T20:00:42.012243600,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,120,4
-2024-12-03T20:00:42.579493500,2024-12-03T20:00:42.009242100,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,120,4
-2024-12-03T20:00:42.580332700,2024-12-03T20:00:42.014225300,RoofZone_SmartRopeNode1_SmartRope,Is Attached,0,1
-2024-12-03T20:00:42.580332700,2024-12-03T20:00:42.036836400,RoofZone_WindNode_WindSensor,Wind Speed,100,4
-2024-12-03T20:00:42.580332700,2024-12-03T20:00:42.036836400,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
-2024-12-03T20:00:42.581838200,2024-12-03T20:00:42.036836400,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,120,4
-2024-12-03T20:00:42.581838200,2024-12-03T20:00:42.052836100,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:42.583045500,2024-12-03T20:00:42.052836100,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:43.588326300,2024-12-03T20:00:42.084454100,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:43.605077800,2024-12-03T20:00:42.085430800,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:43.608067700,2024-12-03T20:00:42.089430500,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:43.610088500,2024-12-03T20:00:42.090436400,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:43.611097600,2024-12-03T20:00:42.091429100,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:43.612093900,2024-12-03T20:00:42.091429100,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:43.612093900,2024-12-03T20:00:42.092482300,RoofZone_ActuatorNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:43.613968200,2024-12-03T20:00:42.092482300,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:43.615089600,2024-12-03T20:00:42.307800600,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:43.615089600,2024-12-03T20:00:42.307800600,RoofZone_GateNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:43.616094100,2024-12-03T20:00:42.553275800,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,70,4
-2024-12-03T20:00:43.616969,2024-12-03T20:00:42.555276600,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,70,4
-2024-12-03T20:00:43.618083800,2024-12-03T20:00:42.553275800,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,70,4
-2024-12-03T20:00:43.619084500,2024-12-03T20:00:42.536382500,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
-2024-12-03T20:00:43.619084500,2024-12-03T20:00:42.553275800,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,70,4
-2024-12-03T20:00:43.620043500,2024-12-03T20:00:42.540274500,RoofZone_SmartRopeNode2_SmartRope,Is Attached,0,1
-2024-12-03T20:00:43.621033700,2024-12-03T20:00:42.566326400,RoofZone_WindNode_WindSensor,Wind Speed,0,4
-2024-12-03T20:00:43.621033700,2024-12-03T20:00:42.567439500,RoofZone_SmartRopeNode1_SmartRope,Is Attached,0,1
-2024-12-03T20:00:43.625128200,2024-12-03T20:00:42.566326400,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,70,4
-2024-12-03T20:00:43.625128200,2024-12-03T20:00:42.567439500,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
-2024-12-03T20:00:43.626098100,2024-12-03T20:00:42.598603,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:43.626098100,2024-12-03T20:00:42.598603,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:43.627098600,2024-12-03T20:00:42.646148100,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:43.628068400,2024-12-03T20:00:42.650140500,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:43.628068400,2024-12-03T20:00:42.651040300,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:43.629010400,2024-12-03T20:00:42.651040300,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:43.630971600,2024-12-03T20:00:42.652106500,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:43.634078200,2024-12-03T20:00:42.654083300,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:43.634970900,2024-12-03T20:00:42.655052100,RoofZone_ActuatorNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:43.635970400,2024-12-03T20:00:42.656052200,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:43.638074200,2024-12-03T20:00:42.895366900,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:43.643808700,2024-12-03T20:00:42.898375700,RoofZone_GateNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:44.659016500,2024-12-03T20:00:43.082386800,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,180,4
-2024-12-03T20:00:44.670175800,2024-12-03T20:00:43.083512400,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,180,4
-2024-12-03T20:00:44.673188700,2024-12-03T20:00:43.086496600,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,180,4
-2024-12-03T20:00:44.674066100,2024-12-03T20:00:43.099601,RoofZone_SmartRopeNode1_SmartRope,Is Attached,0,1
-2024-12-03T20:00:44.675110200,2024-12-03T20:00:43.090478200,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
-2024-12-03T20:00:44.676178300,2024-12-03T20:00:43.115507600,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
-2024-12-03T20:00:44.676178300,2024-12-03T20:00:43.099601,RoofZone_SmartRopeNode3_SmartRope,Is Attached,1,1
-2024-12-03T20:00:44.677177100,2024-12-03T20:00:43.101523100,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,180,4
-2024-12-03T20:00:44.678097600,2024-12-03T20:00:43.099601,RoofZone_WindNode_WindSensor,Wind Speed,300,4
-2024-12-03T20:00:44.678097600,2024-12-03T20:00:43.099601,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,180,4
-2024-12-03T20:00:44.679266600,2024-12-03T20:00:43.130395300,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:44.679266600,2024-12-03T20:00:43.130766400,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:44.682326200,2024-12-03T20:00:43.207999900,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:44.683378600,2024-12-03T20:00:43.207999900,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:44.684979,2024-12-03T20:00:43.208983900,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:44.688732200,2024-12-03T20:00:43.208983900,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:44.688732200,2024-12-03T20:00:43.211980300,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:44.689660100,2024-12-03T20:00:43.212988700,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:44.689660100,2024-12-03T20:00:43.213930800,RoofZone_ActuatorNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:44.690758200,2024-12-03T20:00:43.213930800,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:44.695726300,2024-12-03T20:00:43.479943700,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:44.697724700,2024-12-03T20:00:43.480900100,RoofZone_GateNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:44.698727900,2024-12-03T20:00:43.615089600,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,90,4
-2024-12-03T20:00:44.705610,2024-12-03T20:00:43.616969,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,90,4
-2024-12-03T20:00:44.705610,2024-12-03T20:00:43.628068400,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
-2024-12-03T20:00:44.706608,2024-12-03T20:00:43.630971600,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
-2024-12-03T20:00:44.708651100,2024-12-03T20:00:43.630971600,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,90,4
-2024-12-03T20:00:44.712722400,2024-12-03T20:00:43.645827100,RoofZone_WindNode_WindSensor,Wind Speed,50,4
-2024-12-03T20:00:44.713610700,2024-12-03T20:00:43.645827100,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,90,4
-2024-12-03T20:00:44.714657,2024-12-03T20:00:43.645827100,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
-2024-12-03T20:00:44.714657,2024-12-03T20:00:43.647707800,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,90,4
-2024-12-03T20:00:44.715679700,2024-12-03T20:00:43.645827100,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
-2024-12-03T20:00:44.716607300,2024-12-03T20:00:43.675939600,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:44.716607300,2024-12-03T20:00:43.676829600,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:44.717605700,2024-12-03T20:00:43.770208300,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:44.718659,2024-12-03T20:00:43.771163500,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:44.718659,2024-12-03T20:00:43.771163500,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:44.719609300,2024-12-03T20:00:43.772180800,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:44.720609600,2024-12-03T20:00:43.773160900,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:44.720609600,2024-12-03T20:00:43.776154600,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:44.720609600,2024-12-03T20:00:43.776154600,RoofZone_ActuatorNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:44.721805,2024-12-03T20:00:43.777160900,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:45.237085400,2024-12-03T20:00:44.084013800,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:45.259080400,2024-12-03T20:00:44.084763600,RoofZone_GateNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:45.260138800,2024-12-03T20:00:44.145381100,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,100,4
-2024-12-03T20:00:45.263079700,2024-12-03T20:00:44.148285700,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,100,4
-2024-12-03T20:00:45.263079700,2024-12-03T20:00:44.164335800,RoofZone_SmartRopeNode1_SmartRope,Is Attached,0,1
-2024-12-03T20:00:45.263079700,2024-12-03T20:00:44.178027800,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,100,4
-2024-12-03T20:00:45.264517100,2024-12-03T20:00:44.175031900,RoofZone_SmartRopeNode2_SmartRope,Is Attached,0,1
-2024-12-03T20:00:45.267552600,2024-12-03T20:00:44.192136200,RoofZone_WindNode_WindSensor,Wind Speed,20,4
-2024-12-03T20:00:45.268544,2024-12-03T20:00:44.206822600,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,100,4
-2024-12-03T20:00:45.269544600,2024-12-03T20:00:44.206822600,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
-2024-12-03T20:00:45.270543900,2024-12-03T20:00:44.206822600,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,100,4
-2024-12-03T20:00:45.270543900,2024-12-03T20:00:44.222567100,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
-2024-12-03T20:00:45.274559600,2024-12-03T20:00:44.237705,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:45.275559400,2024-12-03T20:00:44.239705700,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:45.280562100,2024-12-03T20:00:44.330657,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:45.283567200,2024-12-03T20:00:44.332642600,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:45.289134700,2024-12-03T20:00:44.333650300,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:45.290134,2024-12-03T20:00:44.334643700,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:45.291110200,2024-12-03T20:00:44.335654500,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:45.292109200,2024-12-03T20:00:44.336649600,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:45.294109200,2024-12-03T20:00:44.337640700,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:45.297666400,2024-12-03T20:00:44.337640700,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:45.301663700,2024-12-03T20:00:44.665060700,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:45.307654500,2024-12-03T20:00:44.668064600,RoofZone_GateNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:45.311662100,2024-12-03T20:00:44.679266600,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,130,4
-2024-12-03T20:00:45.321654400,2024-12-03T20:00:44.688732200,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,130,4
-2024-12-03T20:00:45.329652600,2024-12-03T20:00:44.704738300,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
-2024-12-03T20:00:45.332655700,2024-12-03T20:00:44.720609600,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
-2024-12-03T20:00:45.344180800,2024-12-03T20:00:44.720609600,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,120,4
-2024-12-03T20:00:45.348183600,2024-12-03T20:00:44.724610500,RoofZone_WindNode_WindSensor,Wind Speed,10,4
-2024-12-03T20:00:45.349195500,2024-12-03T20:00:44.736136900,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,130,4
-2024-12-03T20:00:45.350180200,2024-12-03T20:00:44.736136900,RoofZone_SmartRopeNode3_SmartRope,Is Attached,1,1
-2024-12-03T20:00:45.351180,2024-12-03T20:00:44.736136900,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,130,4
-2024-12-03T20:00:45.359182500,2024-12-03T20:00:44.768273,RoofZone_SpeakerNode_speaker,Played Message,One or more safety ropes not attached!!!!,100
-2024-12-03T20:00:45.361179300,2024-12-03T20:00:44.815536600,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:45.363183900,2024-12-03T20:00:44.903754100,RoofZone_BuzzerNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:45.364590900,2024-12-03T20:00:44.880448800,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:45.365612700,2024-12-03T20:00:44.904641600,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:45.366620500,2024-12-03T20:00:44.910748900,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:45.370913300,2024-12-03T20:00:44.911764300,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:45.372046700,2024-12-03T20:00:44.913781100,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:45.372046700,2024-12-03T20:00:44.914692700,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:45.373081,2024-12-03T20:00:44.914692700,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:45.378056100,2024-12-03T20:00:44.915649200,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:46.407133700,2024-12-03T20:00:45.222762100,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,140,4
-2024-12-03T20:00:46.420124,2024-12-03T20:00:45.222762100,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,140,4
-2024-12-03T20:00:46.421028400,2024-12-03T20:00:45.254089900,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
-2024-12-03T20:00:46.421262200,2024-12-03T20:00:45.266538300,RoofZone_WindNode_WindSensor,Wind Speed,21,4
-2024-12-03T20:00:46.422025600,2024-12-03T20:00:45.257086800,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:46.422025600,2024-12-03T20:00:45.260138800,RoofZone_GateNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:46.423020500,2024-12-03T20:00:45.263079700,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,100,4
-2024-12-03T20:00:46.423020500,2024-12-03T20:00:45.241085700,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
-2024-12-03T20:00:46.423020500,2024-12-03T20:00:45.273558900,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,140,4
-2024-12-03T20:00:46.423020500,2024-12-03T20:00:45.298653700,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
-2024-12-03T20:00:46.424019300,2024-12-03T20:00:45.298653700,RoofZone_SpeakerNode_speaker,Played Message,,100
-2024-12-03T20:00:46.424019300,2024-12-03T20:00:45.298653700,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,140,4
-2024-12-03T20:00:46.425021100,2024-12-03T20:00:45.443048,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:46.425021100,2024-12-03T20:00:45.443048,RoofZone_BuzzerNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:46.426024900,2024-12-03T20:00:45.470644300,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:46.428121100,2024-12-03T20:00:45.470644300,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:46.429022400,2024-12-03T20:00:45.471657200,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:46.429022400,2024-12-03T20:00:45.471657200,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:46.429022400,2024-12-03T20:00:45.472799900,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:46.430254500,2024-12-03T20:00:45.473771900,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:46.430254500,2024-12-03T20:00:45.476750400,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:46.430254500,2024-12-03T20:00:45.478761500,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:46.430254500,2024-12-03T20:00:45.792522,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,250,4
-2024-12-03T20:00:46.430254500,2024-12-03T20:00:45.782870500,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,250,4
-2024-12-03T20:00:46.431258600,2024-12-03T20:00:45.814047600,RoofZone_SmartRopeNode2_SmartRope,Is Attached,0,1
-2024-12-03T20:00:46.431258600,2024-12-03T20:00:45.814047600,RoofZone_WindNode_WindSensor,Wind Speed,14,4
-2024-12-03T20:00:46.431258600,2024-12-03T20:00:45.824165100,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,250,4
-2024-12-03T20:00:46.431258600,2024-12-03T20:00:45.823040100,RoofZone_SmartRopeNode1_SmartRope,Is Attached,0,1
-2024-12-03T20:00:46.431258600,2024-12-03T20:00:45.823040100,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,90,4
-2024-12-03T20:00:46.433025500,2024-12-03T20:00:45.845839300,RoofZone_SpeakerNode_speaker,Played Message,One or more safety ropes not attached!!!!,100
-2024-12-03T20:00:46.436024100,2024-12-03T20:00:45.850946800,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:46.436024100,2024-12-03T20:00:45.851839200,RoofZone_GateNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:46.437022700,2024-12-03T20:00:45.861831400,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
-2024-12-03T20:00:46.439016600,2024-12-03T20:00:45.876521900,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,250,4
-2024-12-03T20:00:47.459313900,2024-12-03T20:00:45.984488,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:47.477306,2024-12-03T20:00:45.985617900,RoofZone_BuzzerNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:47.478307,2024-12-03T20:00:46.031521500,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:47.479351800,2024-12-03T20:00:46.034133700,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:47.480322300,2024-12-03T20:00:46.034398700,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:47.486109400,2024-12-03T20:00:46.037399100,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:47.491849700,2024-12-03T20:00:46.037399100,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:47.492846700,2024-12-03T20:00:46.038510,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:47.493842900,2024-12-03T20:00:46.039467100,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:47.493842900,2024-12-03T20:00:46.041301200,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:47.494848300,2024-12-03T20:00:46.329270300,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,150,4
-2024-12-03T20:00:47.497867100,2024-12-03T20:00:46.332206100,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,150,4
-2024-12-03T20:00:47.501862400,2024-12-03T20:00:46.343673700,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
-2024-12-03T20:00:47.502880,2024-12-03T20:00:46.360925800,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,150,4
-2024-12-03T20:00:47.503886500,2024-12-03T20:00:46.358987800,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,150,4
-2024-12-03T20:00:47.503886500,2024-12-03T20:00:46.374652400,RoofZone_WindNode_WindSensor,Wind Speed,100,4
-2024-12-03T20:00:47.504855700,2024-12-03T20:00:46.374652400,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
-2024-12-03T20:00:47.504855700,2024-12-03T20:00:46.390696400,RoofZone_SpeakerNode_speaker,Played Message,,100
-2024-12-03T20:00:47.505896100,2024-12-03T20:00:46.394724,RoofZone_SmartRopeNode3_SmartRope,Is Attached,1,1
-2024-12-03T20:00:47.506866,2024-12-03T20:00:46.421028400,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,150,4
-2024-12-03T20:00:47.506866,2024-12-03T20:00:46.456025900,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:47.508876600,2024-12-03T20:00:46.456025900,RoofZone_GateNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:47.509857200,2024-12-03T20:00:46.530407900,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:47.509857200,2024-12-03T20:00:46.530775300,RoofZone_BuzzerNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:47.510847,2024-12-03T20:00:46.592810900,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:47.510847,2024-12-03T20:00:46.592810900,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:47.511849300,2024-12-03T20:00:46.593709700,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:47.512853500,2024-12-03T20:00:46.594828400,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:47.512853500,2024-12-03T20:00:46.597806300,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:47.513873900,2024-12-03T20:00:46.598754500,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:47.514854,2024-12-03T20:00:46.598754500,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:47.514854,2024-12-03T20:00:46.600700800,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:48.017941,2024-12-03T20:00:46.873853100,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,60,4
-2024-12-03T20:00:48.029948900,2024-12-03T20:00:46.873853100,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,60,4
-2024-12-03T20:00:48.031947900,2024-12-03T20:00:46.892368600,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,60,4
-2024-12-03T20:00:48.031947900,2024-12-03T20:00:46.889369300,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,60,4
-2024-12-03T20:00:48.032991200,2024-12-03T20:00:46.889369300,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
-2024-12-03T20:00:48.033930700,2024-12-03T20:00:46.908373,RoofZone_WindNode_WindSensor,Wind Speed,200,4
-2024-12-03T20:00:48.033930700,2024-12-03T20:00:46.921485600,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
-2024-12-03T20:00:48.034961,2024-12-03T20:00:46.937162300,RoofZone_SpeakerNode_speaker,Played Message,,100
-2024-12-03T20:00:48.034961,2024-12-03T20:00:46.937162300,RoofZone_SmartRopeNode3_SmartRope,Is Attached,1,1
-2024-12-03T20:00:48.035898500,2024-12-03T20:00:46.969019,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,250,4
-2024-12-03T20:00:48.036601400,2024-12-03T20:00:47.033919100,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:48.040949700,2024-12-03T20:00:47.033919100,RoofZone_GateNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:48.041962400,2024-12-03T20:00:47.063028,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:48.047542500,2024-12-03T20:00:47.064121400,RoofZone_BuzzerNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:48.047542500,2024-12-03T20:00:47.142853300,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:48.048699800,2024-12-03T20:00:47.143716700,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:48.048699800,2024-12-03T20:00:47.143716700,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:48.048699800,2024-12-03T20:00:47.144711500,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:48.049631600,2024-12-03T20:00:47.145821600,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:48.055565300,2024-12-03T20:00:47.145821600,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:48.056550100,2024-12-03T20:00:47.146790500,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:48.056550100,2024-12-03T20:00:47.147713800,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:48.060668700,2024-12-03T20:00:47.406812200,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,250,4
-2024-12-03T20:00:48.061734500,2024-12-03T20:00:47.406812200,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,250,4
-2024-12-03T20:00:48.062551500,2024-12-03T20:00:47.423873200,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
-2024-12-03T20:00:48.069611100,2024-12-03T20:00:47.423873200,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,250,4
-2024-12-03T20:00:48.070145500,2024-12-03T20:00:47.423873200,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,250,4
-2024-12-03T20:00:48.071194600,2024-12-03T20:00:47.450292900,RoofZone_WindNode_WindSensor,Wind Speed,300,4
-2024-12-03T20:00:48.071194600,2024-12-03T20:00:47.455197400,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
-2024-12-03T20:00:48.071194600,2024-12-03T20:00:47.470304100,RoofZone_SpeakerNode_speaker,Played Message,,100
-2024-12-03T20:00:48.072163100,2024-12-03T20:00:47.485089200,RoofZone_SmartRopeNode3_SmartRope,Is Attached,1,1
-2024-12-03T20:00:48.072163100,2024-12-03T20:00:47.515872,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,200,4
-2024-12-03T20:00:48.073155500,2024-12-03T20:00:47.626130800,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:48.074161600,2024-12-03T20:00:47.627050500,RoofZone_BuzzerNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:48.074161600,2024-12-03T20:00:47.628051100,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:48.075180300,2024-12-03T20:00:47.629047400,RoofZone_GateNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:49.091819200,2024-12-03T20:00:47.704368700,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:49.104065800,2024-12-03T20:00:47.705257100,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:49.108020,2024-12-03T20:00:47.705257100,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:49.109027,2024-12-03T20:00:47.706334900,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:49.109027,2024-12-03T20:00:47.707375600,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:49.110019100,2024-12-03T20:00:47.710360700,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:49.111018700,2024-12-03T20:00:47.712370600,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:49.111018700,2024-12-03T20:00:47.715387400,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:49.112072400,2024-12-03T20:00:47.938147600,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,200,4
-2024-12-03T20:00:49.112072400,2024-12-03T20:00:47.941248200,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,200,4
-2024-12-03T20:00:49.113018100,2024-12-03T20:00:47.953286400,RoofZone_SmartRopeNode2_SmartRope,Is Attached,0,1
-2024-12-03T20:00:49.114026600,2024-12-03T20:00:47.969761200,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,30,4
-2024-12-03T20:00:49.114026600,2024-12-03T20:00:47.969761200,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,15,4
-2024-12-03T20:00:49.115026700,2024-12-03T20:00:47.987048600,RoofZone_WindNode_WindSensor,Wind Speed,100,4
-2024-12-03T20:00:49.116202600,2024-12-03T20:00:48.016853900,RoofZone_SpeakerNode_speaker,Played Message,,100
-2024-12-03T20:00:49.116374100,2024-12-03T20:00:48.031947900,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
-2024-12-03T20:00:49.117518800,2024-12-03T20:00:48.015837600,RoofZone_SmartRopeNode1_SmartRope,Is Attached,0,1
-2024-12-03T20:00:49.117518800,2024-12-03T20:00:48.046961400,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,15,4
-2024-12-03T20:00:49.118510,2024-12-03T20:00:48.159761700,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:49.120514300,2024-12-03T20:00:48.159761700,RoofZone_BuzzerNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:49.121405600,2024-12-03T20:00:48.223946900,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:49.121812800,2024-12-03T20:00:48.226869300,RoofZone_GateNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:49.122395500,2024-12-03T20:00:48.266447800,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:49.122395500,2024-12-03T20:00:48.268322100,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:49.122395500,2024-12-03T20:00:48.272317500,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:49.133308700,2024-12-03T20:00:48.272317500,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:49.134196800,2024-12-03T20:00:48.273329500,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:49.135198,2024-12-03T20:00:48.274364600,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:49.136300600,2024-12-03T20:00:48.275321300,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:49.138309300,2024-12-03T20:00:48.275321300,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:49.138309300,2024-12-03T20:00:48.467464,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,15,4
-2024-12-03T20:00:49.139195800,2024-12-03T20:00:48.482600900,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,15,4
-2024-12-03T20:00:49.143310500,2024-12-03T20:00:48.487622100,RoofZone_SmartRopeNode2_SmartRope,Is Attached,0,1
-2024-12-03T20:00:49.144318100,2024-12-03T20:00:48.514141500,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,10,4
-2024-12-03T20:00:49.145309500,2024-12-03T20:00:48.514141500,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,140,4
-2024-12-03T20:00:49.146193,2024-12-03T20:00:48.533427800,RoofZone_WindNode_WindSensor,Wind Speed,0,4
-2024-12-03T20:00:49.146193,2024-12-03T20:00:48.562095300,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
-2024-12-03T20:00:49.147194300,2024-12-03T20:00:48.577159300,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
-2024-12-03T20:00:49.147194300,2024-12-03T20:00:48.577159300,RoofZone_SmartRopeNode1_SmartRope,Is Attached,0,1
-2024-12-03T20:00:49.148196400,2024-12-03T20:00:48.593085300,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,10,4
-2024-12-03T20:00:50.167059500,2024-12-03T20:00:48.718160400,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:50.181038300,2024-12-03T20:00:48.718160400,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:50.182056300,2024-12-03T20:00:48.826704400,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:50.182056300,2024-12-03T20:00:48.827635700,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:50.183047800,2024-12-03T20:00:48.828743900,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:50.183047800,2024-12-03T20:00:48.828743900,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:50.184038800,2024-12-03T20:00:48.831766400,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:50.185032600,2024-12-03T20:00:48.834759,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:50.185032600,2024-12-03T20:00:48.834759,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:50.186146,2024-12-03T20:00:48.835648800,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:50.186146,2024-12-03T20:00:48.828743900,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:50.187037100,2024-12-03T20:00:48.834759,RoofZone_GateNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:50.188112500,2024-12-03T20:00:48.996682500,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,59,4
-2024-12-03T20:00:50.188112500,2024-12-03T20:00:49.013682300,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,59,4
-2024-12-03T20:00:50.189041400,2024-12-03T20:00:49.029130200,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
-2024-12-03T20:00:50.190148300,2024-12-03T20:00:49.060328500,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,50,4
-2024-12-03T20:00:50.190148300,2024-12-03T20:00:49.060328500,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,59,4
-2024-12-03T20:00:50.191106800,2024-12-03T20:00:49.075577200,RoofZone_WindNode_WindSensor,Wind Speed,300,4
-2024-12-03T20:00:50.192029800,2024-12-03T20:00:49.106019200,RoofZone_SmartRopeNode3_SmartRope,Is Attached,1,1
-2024-12-03T20:00:50.194903,2024-12-03T20:00:49.121405600,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
-2024-12-03T20:00:50.195842200,2024-12-03T20:00:49.137194600,RoofZone_SmartRopeNode1_SmartRope,Is Attached,0,1
-2024-12-03T20:00:50.196895700,2024-12-03T20:00:49.137194600,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,59,4
-2024-12-03T20:00:50.197780900,2024-12-03T20:00:49.277477800,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:50.202857300,2024-12-03T20:00:49.314817300,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:50.203905400,2024-12-03T20:00:49.372360300,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:50.204787300,2024-12-03T20:00:49.372360300,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:50.204787300,2024-12-03T20:00:49.373389900,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:50.205792,2024-12-03T20:00:49.374367700,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:50.206846700,2024-12-03T20:00:49.375359600,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:50.207881400,2024-12-03T20:00:49.375359600,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:50.208795500,2024-12-03T20:00:49.376375100,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:50.208795500,2024-12-03T20:00:49.377367900,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:50.209795900,2024-12-03T20:00:49.419855500,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:50.210855100,2024-12-03T20:00:49.422861400,RoofZone_GateNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:50.730815800,2024-12-03T20:00:49.556668300,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,120,4
-2024-12-03T20:00:50.736925100,2024-12-03T20:00:49.540684300,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,120,4
-2024-12-03T20:00:50.738812100,2024-12-03T20:00:49.556668300,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
-2024-12-03T20:00:50.739819800,2024-12-03T20:00:49.587927900,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,160,4
-2024-12-03T20:00:50.739819800,2024-12-03T20:00:49.603974900,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,120,4
-2024-12-03T20:00:50.741316,2024-12-03T20:00:49.620120800,RoofZone_WindNode_WindSensor,Wind Speed,50,4
-2024-12-03T20:00:50.742316700,2024-12-03T20:00:49.650977,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
-2024-12-03T20:00:50.742316700,2024-12-03T20:00:49.665994,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
-2024-12-03T20:00:50.743365200,2024-12-03T20:00:49.681031500,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
-2024-12-03T20:00:50.743365200,2024-12-03T20:00:49.681031500,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,120,4
-2024-12-03T20:00:50.744380400,2024-12-03T20:00:49.855742,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:50.744380400,2024-12-03T20:00:49.856643200,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:50.746398600,2024-12-03T20:00:49.917884500,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:50.759522,2024-12-03T20:00:49.918064700,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:50.762508200,2024-12-03T20:00:49.921998300,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:50.766413100,2024-12-03T20:00:49.921998300,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:50.770510600,2024-12-03T20:00:49.922915800,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:50.770510600,2024-12-03T20:00:49.923975500,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:50.771417600,2024-12-03T20:00:49.923975500,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:50.774494500,2024-12-03T20:00:49.925001600,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:50.778255600,2024-12-03T20:00:50.001088300,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:50.778255600,2024-12-03T20:00:50.002020100,RoofZone_GateNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:50.779286300,2024-12-03T20:00:50.088731100,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,70,4
-2024-12-03T20:00:50.780173800,2024-12-03T20:00:50.084829200,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,70,4
-2024-12-03T20:00:50.781161900,2024-12-03T20:00:50.087733,RoofZone_SmartRopeNode2_SmartRope,Is Attached,0,1
-2024-12-03T20:00:50.782149700,2024-12-03T20:00:50.135060400,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,70,4
-2024-12-03T20:00:50.782149700,2024-12-03T20:00:50.150023800,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,70,4
-2024-12-03T20:00:50.782149700,2024-12-03T20:00:50.166147300,RoofZone_WindNode_WindSensor,Wind Speed,20,4
-2024-12-03T20:00:50.784750800,2024-12-03T20:00:50.182056300,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
-2024-12-03T20:00:50.784750800,2024-12-03T20:00:50.211789700,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
-2024-12-03T20:00:50.786386900,2024-12-03T20:00:50.227788600,RoofZone_SmartRopeNode1_SmartRope,Is Attached,0,1
-2024-12-03T20:00:50.787590600,2024-12-03T20:00:50.227788600,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,70,4
-2024-12-03T20:00:50.788449300,2024-12-03T20:00:50.414899,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:50.789410500,2024-12-03T20:00:50.415900,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:51.811165600,2024-12-03T20:00:50.467493200,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:51.821485200,2024-12-03T20:00:50.468494200,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:51.822530800,2024-12-03T20:00:50.468494200,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:51.822530800,2024-12-03T20:00:50.469516100,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:51.823541,2024-12-03T20:00:50.469516100,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:51.824482900,2024-12-03T20:00:50.470496,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:51.824482900,2024-12-03T20:00:50.471490700,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:51.825608100,2024-12-03T20:00:50.471490700,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:51.826571800,2024-12-03T20:00:50.611459700,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:51.826571800,2024-12-03T20:00:50.612519700,RoofZone_GateNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:51.827485800,2024-12-03T20:00:50.619514900,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,180,4
-2024-12-03T20:00:51.827485800,2024-12-03T20:00:50.619514900,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,180,4
-2024-12-03T20:00:51.828483600,2024-12-03T20:00:50.635163900,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
-2024-12-03T20:00:51.829487900,2024-12-03T20:00:50.682985800,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,180,4
-2024-12-03T20:00:51.829487900,2024-12-03T20:00:50.669057900,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,180,4
-2024-12-03T20:00:51.830482800,2024-12-03T20:00:50.713457200,RoofZone_SmartRopeNode3_SmartRope,Is Attached,1,1
-2024-12-03T20:00:51.831495600,2024-12-03T20:00:50.713457200,RoofZone_WindNode_WindSensor,Wind Speed,10,4
-2024-12-03T20:00:51.832496,2024-12-03T20:00:50.759522,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
-2024-12-03T20:00:51.833483500,2024-12-03T20:00:50.759522,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
-2024-12-03T20:00:51.834486100,2024-12-03T20:00:50.791006100,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,180,4
-2024-12-03T20:00:51.834486100,2024-12-03T20:00:50.948781400,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:51.836004900,2024-12-03T20:00:50.949783700,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:51.836004900,2024-12-03T20:00:51.025949300,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:51.837024800,2024-12-03T20:00:51.026961300,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:51.837024800,2024-12-03T20:00:51.028357100,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:51.838032700,2024-12-03T20:00:51.028950800,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:51.839027200,2024-12-03T20:00:51.029954400,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:51.839027200,2024-12-03T20:00:51.030952600,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:51.840026300,2024-12-03T20:00:51.030952600,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:51.841026800,2024-12-03T20:00:51.031985400,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:51.841026800,2024-12-03T20:00:51.167178600,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,90,4
-2024-12-03T20:00:51.842027,2024-12-03T20:00:51.153438100,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,90,4
-2024-12-03T20:00:51.843026600,2024-12-03T20:00:51.182067700,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
-2024-12-03T20:00:51.845027200,2024-12-03T20:00:51.212036600,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,90,4
-2024-12-03T20:00:51.846032500,2024-12-03T20:00:51.213939600,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:51.847021,2024-12-03T20:00:51.213939600,RoofZone_GateNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:51.847021,2024-12-03T20:00:51.227606500,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,90,4
-2024-12-03T20:00:51.848031900,2024-12-03T20:00:51.242816400,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
-2024-12-03T20:00:51.848031900,2024-12-03T20:00:51.258974800,RoofZone_WindNode_WindSensor,Wind Speed,21,4
-2024-12-03T20:00:51.849018700,2024-12-03T20:00:51.306052500,RoofZone_SpeakerNode_speaker,Played Message,,100
-2024-12-03T20:00:51.849018700,2024-12-03T20:00:51.310049100,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
-2024-12-03T20:00:51.850019800,2024-12-03T20:00:51.337577700,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,90,4
-2024-12-03T20:00:52.862136800,2024-12-03T20:00:51.495533600,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:52.868143100,2024-12-03T20:00:51.495533600,RoofZone_BuzzerNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:52.872039400,2024-12-03T20:00:51.574726300,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:52.872039400,2024-12-03T20:00:51.575732600,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:52.873114400,2024-12-03T20:00:51.575732600,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:52.874170900,2024-12-03T20:00:51.576671300,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:52.876138600,2024-12-03T20:00:51.576671300,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:52.877038,2024-12-03T20:00:51.577708300,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:52.878126800,2024-12-03T20:00:51.577708300,RoofZone_ActuatorNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:52.879185,2024-12-03T20:00:51.578734400,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:52.880170800,2024-12-03T20:00:51.715445400,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,100,4
-2024-12-03T20:00:52.888904600,2024-12-03T20:00:51.713456600,RoofZone_SmartRopeNode2_SmartRope,Is Attached,0,1
-2024-12-03T20:00:52.888904600,2024-12-03T20:00:51.715445400,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,100,4
-2024-12-03T20:00:52.889907100,2024-12-03T20:00:51.747024100,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,100,4
-2024-12-03T20:00:52.889907100,2024-12-03T20:00:51.777408,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,100,4
-2024-12-03T20:00:52.901370200,2024-12-03T20:00:51.793263300,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
-2024-12-03T20:00:52.903365100,2024-12-03T20:00:51.795246100,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
-2024-12-03T20:00:52.903365100,2024-12-03T20:00:51.796242200,RoofZone_GateNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:52.908270900,2024-12-03T20:00:51.809220400,RoofZone_WindNode_WindSensor,Wind Speed,14,4
-2024-12-03T20:00:52.909382100,2024-12-03T20:00:51.840026300,RoofZone_SmartRopeNode1_SmartRope,Is Attached,0,1
-2024-12-03T20:00:52.910271500,2024-12-03T20:00:51.840026300,RoofZone_SpeakerNode_speaker,Played Message,,100
-2024-12-03T20:00:52.910271500,2024-12-03T20:00:51.871023600,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,100,4
-2024-12-03T20:00:52.910271500,2024-12-03T20:00:52.029589400,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
-2024-12-03T20:00:52.911362500,2024-12-03T20:00:52.030540,RoofZone_BuzzerNode_relay,Switch 0 Status,false,1
-2024-12-03T20:00:52.911362500,2024-12-03T20:00:52.107623800,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
-2024-12-03T20:00:52.912359300,2024-12-03T20:00:52.109547800,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
-2024-12-03T20:00:52.913361200,2024-12-03T20:00:52.110547300,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
-2024-12-03T20:00:52.913361200,2024-12-03T20:00:52.110547300,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
-2024-12-03T20:00:52.914348700,2024-12-03T20:00:52.111543100,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
-2024-12-03T20:00:52.914348700,2024-12-03T20:00:52.112543100,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
-2024-12-03T20:00:52.914348700,2024-12-03T20:00:52.113539100,RoofZone_ActuatorNode_relay,Switch 0 Status,true,1
-2024-12-03T20:00:52.916369300,2024-12-03T20:00:52.113539100,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
-2024-12-03T20:00:52.916369300,2024-12-03T20:00:52.296508400,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,130,4
-2024-12-03T20:00:52.917375,2024-12-03T20:00:52.296508400,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
-2024-12-03T20:00:52.917375,2024-12-03T20:00:52.296508400,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,130,4
-2024-12-03T20:00:52.918374200,2024-12-03T20:00:52.311090800,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,120,4
-2024-12-03T20:00:52.919354900,2024-12-03T20:00:52.296508400,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,130,4
-2024-12-03T20:00:52.919354900,2024-12-03T20:00:52.327395300,RoofZone_SmartRopeNode3_SmartRope,Is Attached,1,1
-2024-12-03T20:00:52.920367900,2024-12-03T20:00:52.340868300,RoofZone_WindNode_WindSensor,Wind Speed,100,4
+2024-12-03T21:25:38.069814800,2024-12-03T21:25:35.883957200,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
+2024-12-03T21:25:38.080863800,2024-12-03T21:25:35.922633900,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
+2024-12-03T21:25:38.083864,2024-12-03T21:25:35.927606900,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
+2024-12-03T21:25:38.085857300,2024-12-03T21:25:35.935346800,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
+2024-12-03T21:25:38.086857500,2024-12-03T21:25:35.939528,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
+2024-12-03T21:25:38.087865700,2024-12-03T21:25:35.951534900,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
+2024-12-03T21:25:38.088862200,2024-12-03T21:25:35.983093,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:38.088862200,2024-12-03T21:25:36.019093100,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
+2024-12-03T21:25:38.089854200,2024-12-03T21:25:35.935346800,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
+2024-12-03T21:25:38.090873500,2024-12-03T21:25:36.019093100,RoofZone_BuzzerNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:38.090873500,2024-12-03T21:25:36.022039100,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
+2024-12-03T21:25:38.092437400,2024-12-03T21:25:36.029989200,RoofZone_GateNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:38.093517900,2024-12-03T21:25:36.068449600,RoofZone_SpeakerNode_speaker,Played Message,Uninitialized,100
+2024-12-03T21:25:38.094517100,2024-12-03T21:25:36.074444800,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,20,4
+2024-12-03T21:25:38.094517100,2024-12-03T21:25:36.113230600,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,200,4
+2024-12-03T21:25:38.095505200,2024-12-03T21:25:36.156236200,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,Uninitialized,4
+2024-12-03T21:25:38.096515800,2024-12-03T21:25:36.280296800,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,200,4
+2024-12-03T21:25:38.096515800,2024-12-03T21:25:36.325637600,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,200,4
+2024-12-03T21:25:38.097516400,2024-12-03T21:25:36.375774400,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
+2024-12-03T21:25:38.098459900,2024-12-03T21:25:36.412437,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
+2024-12-03T21:25:38.100521900,2024-12-03T21:25:36.448181800,RoofZone_SmartRopeNode3_SmartRope,Is Attached,1,1
+2024-12-03T21:25:38.119458100,2024-12-03T21:25:36.475811500,RoofZone_WindNode_WindSensor,Wind Speed,100,4
+2024-12-03T21:25:38.121515800,2024-12-03T21:25:36.576955700,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
+2024-12-03T21:25:38.122460500,2024-12-03T21:25:36.579849100,RoofZone_BuzzerNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:38.123473900,2024-12-03T21:25:36.576955700,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
+2024-12-03T21:25:38.129459200,2024-12-03T21:25:36.579849100,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
+2024-12-03T21:25:38.130463700,2024-12-03T21:25:36.580845200,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
+2024-12-03T21:25:38.131515400,2024-12-03T21:25:36.582849500,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
+2024-12-03T21:25:38.134550900,2024-12-03T21:25:36.586951100,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
+2024-12-03T21:25:38.136455700,2024-12-03T21:25:36.588939700,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
+2024-12-03T21:25:38.137455,2024-12-03T21:25:36.590433800,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:38.137455,2024-12-03T21:25:36.591326400,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
+2024-12-03T21:25:38.138456600,2024-12-03T21:25:36.623317300,RoofZone_SpeakerNode_speaker,Played Message,Uninitialized,100
+2024-12-03T21:25:38.139456900,2024-12-03T21:25:36.660501500,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,30,4
+2024-12-03T21:25:38.143053500,2024-12-03T21:25:36.652766800,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
+2024-12-03T21:25:38.143053500,2024-12-03T21:25:36.662588500,RoofZone_GateNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:38.147126800,2024-12-03T21:25:36.825841,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,15,4
+2024-12-03T21:25:38.148130800,2024-12-03T21:25:36.872855600,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,15,4
+2024-12-03T21:25:38.149075200,2024-12-03T21:25:36.779021,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,15,4
+2024-12-03T21:25:38.153067700,2024-12-03T21:25:36.918640200,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,15,4
+2024-12-03T21:25:38.157073900,2024-12-03T21:25:36.949589600,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
+2024-12-03T21:25:38.159736600,2024-12-03T21:25:37.011129800,RoofZone_SmartRopeNode3_SmartRope,Is Attached,1,1
+2024-12-03T21:25:38.160719800,2024-12-03T21:25:37.011129800,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
+2024-12-03T21:25:38.160719800,2024-12-03T21:25:37.041891900,RoofZone_WindNode_WindSensor,Wind Speed,200,4
+2024-12-03T21:25:38.162721800,2024-12-03T21:25:37.134256700,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
+2024-12-03T21:25:38.163721500,2024-12-03T21:25:37.137251600,RoofZone_BuzzerNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:38.164720500,2024-12-03T21:25:37.165398700,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
+2024-12-03T21:25:38.165719800,2024-12-03T21:25:37.168541400,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
+2024-12-03T21:25:38.166800300,2024-12-03T21:25:37.169422400,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
+2024-12-03T21:25:38.168725200,2024-12-03T21:25:37.172509200,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
+2024-12-03T21:25:38.169725100,2024-12-03T21:25:37.172509200,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
+2024-12-03T21:25:38.170729,2024-12-03T21:25:37.175397600,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
+2024-12-03T21:25:38.171722700,2024-12-03T21:25:37.176401400,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:38.172725800,2024-12-03T21:25:37.178414900,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
+2024-12-03T21:25:38.173723700,2024-12-03T21:25:37.197563100,RoofZone_SpeakerNode_speaker,Played Message,Uninitialized,100
+2024-12-03T21:25:38.174732100,2024-12-03T21:25:37.224613100,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,140,4
+2024-12-03T21:25:38.178804800,2024-12-03T21:25:37.279465900,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
+2024-12-03T21:25:38.180750100,2024-12-03T21:25:37.280490300,RoofZone_GateNode_relay,Switch 0 Status,true,1
+2024-12-03T21:25:38.181748400,2024-12-03T21:25:37.429775700,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,10,4
+2024-12-03T21:25:38.181748400,2024-12-03T21:25:37.439950100,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,10,4
+2024-12-03T21:25:38.182746,2024-12-03T21:25:37.437903800,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,10,4
+2024-12-03T21:25:38.183744400,2024-12-03T21:25:37.473247200,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,10,4
+2024-12-03T21:25:38.183744400,2024-12-03T21:25:37.513908700,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
+2024-12-03T21:25:38.691013,2024-12-03T21:25:37.553638300,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
+2024-12-03T21:25:38.699991500,2024-12-03T21:25:37.553638300,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
+2024-12-03T21:25:38.702051900,2024-12-03T21:25:37.583708600,RoofZone_WindNode_WindSensor,Wind Speed,300,4
+2024-12-03T21:25:38.705059100,2024-12-03T21:25:37.692420700,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
+2024-12-03T21:25:38.705954500,2024-12-03T21:25:37.692420700,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
+2024-12-03T21:25:38.707954700,2024-12-03T21:25:37.714989100,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
+2024-12-03T21:25:38.708947500,2024-12-03T21:25:37.718009200,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
+2024-12-03T21:25:38.708947500,2024-12-03T21:25:37.720011400,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
+2024-12-03T21:25:38.709953600,2024-12-03T21:25:37.720011400,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
+2024-12-03T21:25:38.710951200,2024-12-03T21:25:37.720995800,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
+2024-12-03T21:25:38.712072900,2024-12-03T21:25:37.721993100,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
+2024-12-03T21:25:38.712072900,2024-12-03T21:25:37.724009500,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:38.712954300,2024-12-03T21:25:37.724955300,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
+2024-12-03T21:25:38.714016800,2024-12-03T21:25:37.738651100,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
+2024-12-03T21:25:38.714951400,2024-12-03T21:25:37.779195100,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,50,4
+2024-12-03T21:25:38.714951400,2024-12-03T21:25:37.884687400,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
+2024-12-03T21:25:38.715951500,2024-12-03T21:25:37.885658600,RoofZone_GateNode_relay,Switch 0 Status,true,1
+2024-12-03T21:25:38.716951,2024-12-03T21:25:37.989198400,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,59,4
+2024-12-03T21:25:38.717945200,2024-12-03T21:25:37.989198400,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,59,4
+2024-12-03T21:25:38.717945200,2024-12-03T21:25:37.989198400,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,59,4
+2024-12-03T21:25:38.719065600,2024-12-03T21:25:38.020095100,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,59,4
+2024-12-03T21:25:38.719065600,2024-12-03T21:25:38.051383300,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
+2024-12-03T21:25:38.740063900,2024-12-03T21:25:38.112451600,RoofZone_SmartRopeNode3_SmartRope,Is Attached,1,1
+2024-12-03T21:25:38.743946200,2024-12-03T21:25:38.097516400,RoofZone_SmartRopeNode2_SmartRope,Is Attached,0,1
+2024-12-03T21:25:38.744946400,2024-12-03T21:25:38.128502300,RoofZone_WindNode_WindSensor,Wind Speed,0,4
+2024-12-03T21:25:38.745951700,2024-12-03T21:25:38.252587300,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
+2024-12-03T21:25:38.746953300,2024-12-03T21:25:38.255652400,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
+2024-12-03T21:25:38.746953300,2024-12-03T21:25:38.283241500,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
+2024-12-03T21:25:38.747964600,2024-12-03T21:25:38.287189600,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
+2024-12-03T21:25:38.749054900,2024-12-03T21:25:38.287189600,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
+2024-12-03T21:25:38.749054900,2024-12-03T21:25:38.290176200,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
+2024-12-03T21:25:38.751259400,2024-12-03T21:25:38.291203700,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
+2024-12-03T21:25:38.752259300,2024-12-03T21:25:38.294173300,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
+2024-12-03T21:25:38.753280800,2024-12-03T21:25:38.294173300,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:38.754331500,2024-12-03T21:25:38.297195100,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
+2024-12-03T21:25:38.754331500,2024-12-03T21:25:38.299218700,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
+2024-12-03T21:25:38.755375800,2024-12-03T21:25:38.320414700,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,160,4
+2024-12-03T21:25:39.784816200,2024-12-03T21:25:38.511700900,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
+2024-12-03T21:25:39.824439800,2024-12-03T21:25:38.512685100,RoofZone_GateNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:39.834399200,2024-12-03T21:25:38.550385100,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,120,4
+2024-12-03T21:25:39.908747100,2024-12-03T21:25:38.550385100,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,120,4
+2024-12-03T21:25:39.917629200,2024-12-03T21:25:38.550385100,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,120,4
+2024-12-03T21:25:39.925599700,2024-12-03T21:25:38.566042800,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,120,4
+2024-12-03T21:25:39.945465300,2024-12-03T21:25:38.586248,RoofZone_SmartRopeNode1_SmartRope,Is Attached,0,1
+2024-12-03T21:25:39.962154500,2024-12-03T21:25:38.674094800,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
+2024-12-03T21:25:39.981261300,2024-12-03T21:25:38.674094800,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
+2024-12-03T21:25:40.005049400,2024-12-03T21:25:38.690022600,RoofZone_WindNode_WindSensor,Wind Speed,100,4
+2024-12-03T21:25:40.028929300,2024-12-03T21:25:38.798634600,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
+2024-12-03T21:25:40.032923500,2024-12-03T21:25:38.798634600,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
+2024-12-03T21:25:40.034947200,2024-12-03T21:25:38.831822900,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
+2024-12-03T21:25:40.040677300,2024-12-03T21:25:38.831822900,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
+2024-12-03T21:25:40.045821100,2024-12-03T21:25:38.832826200,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
+2024-12-03T21:25:40.053958800,2024-12-03T21:25:38.833360200,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
+2024-12-03T21:25:40.061512200,2024-12-03T21:25:38.834381400,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
+2024-12-03T21:25:40.070650100,2024-12-03T21:25:38.835490400,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
+2024-12-03T21:25:40.082652800,2024-12-03T21:25:38.835490400,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
+2024-12-03T21:25:40.083541600,2024-12-03T21:25:38.836369800,RoofZone_ActuatorNode_relay,Switch 0 Status,true,1
+2024-12-03T21:25:40.084580900,2024-12-03T21:25:38.837444400,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
+2024-12-03T21:25:40.086190300,2024-12-03T21:25:38.877438200,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,70,4
+2024-12-03T21:25:40.088331500,2024-12-03T21:25:39.111471800,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,70,4
+2024-12-03T21:25:40.089259800,2024-12-03T21:25:39.097482300,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,70,4
+2024-12-03T21:25:40.091216700,2024-12-03T21:25:39.102572900,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
+2024-12-03T21:25:40.092224400,2024-12-03T21:25:39.102572900,RoofZone_GateNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:40.092224400,2024-12-03T21:25:39.111471800,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,70,4
+2024-12-03T21:25:40.095335100,2024-12-03T21:25:39.127464500,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,70,4
+2024-12-03T21:25:40.095335100,2024-12-03T21:25:39.129476100,RoofZone_SmartRopeNode1_SmartRope,Is Attached,0,1
+2024-12-03T21:25:40.096246300,2024-12-03T21:25:39.205926100,RoofZone_SmartRopeNode2_SmartRope,Is Attached,0,1
+2024-12-03T21:25:40.097202,2024-12-03T21:25:39.220915600,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
+2024-12-03T21:25:40.099317700,2024-12-03T21:25:39.267294,RoofZone_WindNode_WindSensor,Wind Speed,0,4
+2024-12-03T21:25:40.100225300,2024-12-03T21:25:39.343444200,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
+2024-12-03T21:25:40.101197500,2024-12-03T21:25:39.346481600,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
+2024-12-03T21:25:40.103325100,2024-12-03T21:25:39.373764100,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
+2024-12-03T21:25:40.104318800,2024-12-03T21:25:39.373764100,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
+2024-12-03T21:25:40.109202800,2024-12-03T21:25:39.374183400,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
+2024-12-03T21:25:40.112382200,2024-12-03T21:25:39.375132200,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
+2024-12-03T21:25:40.113350300,2024-12-03T21:25:39.378184100,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
+2024-12-03T21:25:40.114368500,2024-12-03T21:25:39.379194300,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
+2024-12-03T21:25:40.117267500,2024-12-03T21:25:39.381361900,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
+2024-12-03T21:25:40.119328700,2024-12-03T21:25:39.381361900,RoofZone_ActuatorNode_relay,Switch 0 Status,true,1
+2024-12-03T21:25:40.121201700,2024-12-03T21:25:39.383872600,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
+2024-12-03T21:25:41.137443200,2024-12-03T21:25:39.452034900,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,180,4
+2024-12-03T21:25:41.207589900,2024-12-03T21:25:39.671964800,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,180,4
+2024-12-03T21:25:41.209713100,2024-12-03T21:25:39.687125600,RoofZone_SmartRopeNode1_SmartRope,Is Attached,0,1
+2024-12-03T21:25:41.210600600,2024-12-03T21:25:39.671964800,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,180,4
+2024-12-03T21:25:41.211634,2024-12-03T21:25:39.641210100,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,180,4
+2024-12-03T21:25:41.211634,2024-12-03T21:25:39.641210100,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,180,4
+2024-12-03T21:25:41.212589300,2024-12-03T21:25:39.752071,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
+2024-12-03T21:25:41.214587900,2024-12-03T21:25:39.764895400,RoofZone_SmartRopeNode3_SmartRope,Is Attached,1,1
+2024-12-03T21:25:41.214587900,2024-12-03T21:25:39.766756100,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
+2024-12-03T21:25:41.215587100,2024-12-03T21:25:39.767759600,RoofZone_GateNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:41.216586800,2024-12-03T21:25:39.813390600,RoofZone_WindNode_WindSensor,Wind Speed,300,4
+2024-12-03T21:25:41.217585600,2024-12-03T21:25:39.889723200,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
+2024-12-03T21:25:41.218585200,2024-12-03T21:25:39.909725,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
+2024-12-03T21:25:41.219583700,2024-12-03T21:25:39.920707900,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
+2024-12-03T21:25:41.220583600,2024-12-03T21:25:39.997921900,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,90,4
+2024-12-03T21:25:41.220583600,2024-12-03T21:25:39.936464600,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
+2024-12-03T21:25:41.221585400,2024-12-03T21:25:39.946463500,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
+2024-12-03T21:25:41.222584900,2024-12-03T21:25:39.962154500,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
+2024-12-03T21:25:41.225584200,2024-12-03T21:25:39.981261300,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
+2024-12-03T21:25:41.226612100,2024-12-03T21:25:40.005049400,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
+2024-12-03T21:25:41.227585500,2024-12-03T21:25:40.028929300,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
+2024-12-03T21:25:41.230783900,2024-12-03T21:25:40.032923500,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:41.231645600,2024-12-03T21:25:40.034947200,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
+2024-12-03T21:25:41.233604500,2024-12-03T21:25:40.261524400,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,90,4
+2024-12-03T21:25:41.239586300,2024-12-03T21:25:40.250517100,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,90,4
+2024-12-03T21:25:41.241272900,2024-12-03T21:25:40.251499700,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
+2024-12-03T21:25:41.243339900,2024-12-03T21:25:40.265326400,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,100,4
+2024-12-03T21:25:41.244289700,2024-12-03T21:25:40.267198200,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,90,4
+2024-12-03T21:25:41.247423100,2024-12-03T21:25:40.324180900,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
+2024-12-03T21:25:41.247423100,2024-12-03T21:25:40.324180900,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
+2024-12-03T21:25:41.248442300,2024-12-03T21:25:40.391294100,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
+2024-12-03T21:25:41.248442300,2024-12-03T21:25:40.394423700,RoofZone_GateNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:41.249442600,2024-12-03T21:25:40.449140900,RoofZone_WindNode_WindSensor,Wind Speed,50,4
+2024-12-03T21:25:41.767179100,2024-12-03T21:25:40.512540600,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
+2024-12-03T21:25:41.780244300,2024-12-03T21:25:40.513541,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
+2024-12-03T21:25:41.780244300,2024-12-03T21:25:40.544306600,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
+2024-12-03T21:25:41.781177700,2024-12-03T21:25:40.575956800,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,100,4
+2024-12-03T21:25:41.783175,2024-12-03T21:25:40.622100900,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
+2024-12-03T21:25:41.783175,2024-12-03T21:25:40.630100100,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
+2024-12-03T21:25:41.784174900,2024-12-03T21:25:40.631205300,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
+2024-12-03T21:25:41.785296700,2024-12-03T21:25:40.635566500,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
+2024-12-03T21:25:41.786302100,2024-12-03T21:25:40.636244400,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
+2024-12-03T21:25:41.786302100,2024-12-03T21:25:40.639785100,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
+2024-12-03T21:25:41.786302100,2024-12-03T21:25:40.648876300,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:41.787826800,2024-12-03T21:25:40.652893800,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
+2024-12-03T21:25:41.788896600,2024-12-03T21:25:40.795252900,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,130,4
+2024-12-03T21:25:41.788896600,2024-12-03T21:25:40.810240700,RoofZone_SmartRopeNode1_SmartRope,Is Attached,0,1
+2024-12-03T21:25:41.789840700,2024-12-03T21:25:40.810240700,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,130,4
+2024-12-03T21:25:41.790839,2024-12-03T21:25:40.810240700,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,100,4
+2024-12-03T21:25:41.791840500,2024-12-03T21:25:40.810240700,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,100,4
+2024-12-03T21:25:41.791840500,2024-12-03T21:25:40.886410600,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
+2024-12-03T21:25:41.792948100,2024-12-03T21:25:40.886410600,RoofZone_SmartRopeNode2_SmartRope,Is Attached,0,1
+2024-12-03T21:25:41.793860,2024-12-03T21:25:41.020202600,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
+2024-12-03T21:25:41.793860,2024-12-03T21:25:41.021211300,RoofZone_GateNode_relay,Switch 0 Status,true,1
+2024-12-03T21:25:41.794965400,2024-12-03T21:25:41.011215500,RoofZone_WindNode_WindSensor,Wind Speed,20,4
+2024-12-03T21:25:41.795849,2024-12-03T21:25:41.057602600,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
+2024-12-03T21:25:41.798965400,2024-12-03T21:25:41.058498600,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
+2024-12-03T21:25:41.799841100,2024-12-03T21:25:41.119775100,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,120,4
+2024-12-03T21:25:41.799841100,2024-12-03T21:25:41.103760400,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
+2024-12-03T21:25:41.800834900,2024-12-03T21:25:41.201718500,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
+2024-12-03T21:25:41.803952400,2024-12-03T21:25:41.203592700,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
+2024-12-03T21:25:41.804970300,2024-12-03T21:25:41.206591600,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
+2024-12-03T21:25:41.806948700,2024-12-03T21:25:41.207589900,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
+2024-12-03T21:25:41.810959200,2024-12-03T21:25:41.207589900,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
+2024-12-03T21:25:41.811959300,2024-12-03T21:25:41.210600600,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
+2024-12-03T21:25:41.813956200,2024-12-03T21:25:41.211634,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:41.814964,2024-12-03T21:25:41.211634,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
+2024-12-03T21:25:41.815960600,2024-12-03T21:25:41.385000500,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,140,4
+2024-12-03T21:25:41.816946300,2024-12-03T21:25:41.399112400,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,140,4
+2024-12-03T21:25:41.816946300,2024-12-03T21:25:41.399112400,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,130,4
+2024-12-03T21:25:41.818971100,2024-12-03T21:25:41.399112400,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
+2024-12-03T21:25:41.818971100,2024-12-03T21:25:41.399112400,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,130,4
+2024-12-03T21:25:41.820943300,2024-12-03T21:25:41.430754500,RoofZone_SmartRopeNode3_SmartRope,Is Attached,1,1
+2024-12-03T21:25:41.821822600,2024-12-03T21:25:41.430754500,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
+2024-12-03T21:25:42.847502300,2024-12-03T21:25:41.569352800,RoofZone_WindNode_WindSensor,Wind Speed,10,4
+2024-12-03T21:25:42.870058400,2024-12-03T21:25:41.604534,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
+2024-12-03T21:25:42.871061200,2024-12-03T21:25:41.605530400,RoofZone_GateNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:42.871061200,2024-12-03T21:25:41.694972100,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
+2024-12-03T21:25:42.872048,2024-12-03T21:25:41.696479,RoofZone_BuzzerNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:42.873063700,2024-12-03T21:25:41.727770200,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,100,4
+2024-12-03T21:25:42.873063700,2024-12-03T21:25:41.726756100,RoofZone_SpeakerNode_speaker,Played Message,,100
+2024-12-03T21:25:42.874045800,2024-12-03T21:25:41.758441500,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
+2024-12-03T21:25:42.874045800,2024-12-03T21:25:41.759442400,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
+2024-12-03T21:25:42.874989700,2024-12-03T21:25:41.760568300,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
+2024-12-03T21:25:42.875927800,2024-12-03T21:25:41.768289100,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
+2024-12-03T21:25:42.878070300,2024-12-03T21:25:41.773284200,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
+2024-12-03T21:25:42.878957500,2024-12-03T21:25:41.776174500,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
+2024-12-03T21:25:42.882047600,2024-12-03T21:25:41.776174500,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:42.882932200,2024-12-03T21:25:41.778278600,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
+2024-12-03T21:25:42.883927500,2024-12-03T21:25:41.913630400,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,250,4
+2024-12-03T21:25:42.891046900,2024-12-03T21:25:41.929609800,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,250,4
+2024-12-03T21:25:42.892443200,2024-12-03T21:25:41.943588500,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
+2024-12-03T21:25:42.894585300,2024-12-03T21:25:41.943588500,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,140,4
+2024-12-03T21:25:42.905454100,2024-12-03T21:25:41.974831100,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
+2024-12-03T21:25:42.908448500,2024-12-03T21:25:41.959555,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
+2024-12-03T21:25:42.908448500,2024-12-03T21:25:41.959555,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,140,4
+2024-12-03T21:25:42.913554500,2024-12-03T21:25:42.114906200,RoofZone_WindNode_WindSensor,Wind Speed,21,4
+2024-12-03T21:25:42.916480100,2024-12-03T21:25:42.210691900,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
+2024-12-03T21:25:42.917507700,2024-12-03T21:25:42.212784500,RoofZone_GateNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:42.919489100,2024-12-03T21:25:42.239430900,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
+2024-12-03T21:25:42.920582100,2024-12-03T21:25:42.240301400,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
+2024-12-03T21:25:42.923564600,2024-12-03T21:25:42.269503600,RoofZone_SpeakerNode_speaker,Played Message,One or more safety ropes not attached!!!!,100
+2024-12-03T21:25:42.924450900,2024-12-03T21:25:42.269503600,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,150,4
+2024-12-03T21:25:43.944676600,2024-12-03T21:25:42.331729400,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
+2024-12-03T21:25:43.978213700,2024-12-03T21:25:42.332677100,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
+2024-12-03T21:25:43.980289700,2024-12-03T21:25:42.335525200,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
+2024-12-03T21:25:43.983459200,2024-12-03T21:25:42.336637200,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
+2024-12-03T21:25:43.984457100,2024-12-03T21:25:42.337673700,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
+2024-12-03T21:25:43.987471500,2024-12-03T21:25:42.338575800,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
+2024-12-03T21:25:43.989470100,2024-12-03T21:25:42.339660300,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:43.995501100,2024-12-03T21:25:42.340697500,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
+2024-12-03T21:25:43.999591100,2024-12-03T21:25:42.443609200,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,150,4
+2024-12-03T21:25:43.999591100,2024-12-03T21:25:42.460728300,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,150,4
+2024-12-03T21:25:44.002455700,2024-12-03T21:25:42.489347400,RoofZone_SmartRopeNode1_SmartRope,Is Attached,0,1
+2024-12-03T21:25:44.012460500,2024-12-03T21:25:42.489347400,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,150,4
+2024-12-03T21:25:44.018474200,2024-12-03T21:25:42.506354300,RoofZone_SmartRopeNode2_SmartRope,Is Attached,0,1
+2024-12-03T21:25:44.023471500,2024-12-03T21:25:42.506354300,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
+2024-12-03T21:25:44.025454,2024-12-03T21:25:42.534645900,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,150,4
+2024-12-03T21:25:44.027459800,2024-12-03T21:25:42.663548400,RoofZone_WindNode_WindSensor,Wind Speed,14,4
+2024-12-03T21:25:44.027459800,2024-12-03T21:25:42.768798200,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
+2024-12-03T21:25:44.028456500,2024-12-03T21:25:42.770687800,RoofZone_BuzzerNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:44.029456,2024-12-03T21:25:42.815810100,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,60,4
+2024-12-03T21:25:44.030454200,2024-12-03T21:25:42.799992700,RoofZone_SpeakerNode_speaker,Played Message,,100
+2024-12-03T21:25:44.030454200,2024-12-03T21:25:42.828588300,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
+2024-12-03T21:25:44.031453500,2024-12-03T21:25:42.828588300,RoofZone_GateNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:44.032461600,2024-12-03T21:25:42.877063500,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
+2024-12-03T21:25:44.032461600,2024-12-03T21:25:42.878070300,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
+2024-12-03T21:25:44.033454400,2024-12-03T21:25:42.878957500,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
+2024-12-03T21:25:44.033454400,2024-12-03T21:25:42.882932200,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
+2024-12-03T21:25:44.034461700,2024-12-03T21:25:42.883927500,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
+2024-12-03T21:25:44.035453700,2024-12-03T21:25:42.891046900,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
+2024-12-03T21:25:44.036454100,2024-12-03T21:25:42.892443200,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:44.037454200,2024-12-03T21:25:42.894585300,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
+2024-12-03T21:25:44.037454200,2024-12-03T21:25:43.094334300,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,60,4
+2024-12-03T21:25:44.039481900,2024-12-03T21:25:43.032272800,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,60,4
+2024-12-03T21:25:44.040454200,2024-12-03T21:25:43.078581500,RoofZone_SmartRopeNode3_SmartRope,Is Attached,1,1
+2024-12-03T21:25:44.040454200,2024-12-03T21:25:43.001288200,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,60,4
+2024-12-03T21:25:44.040454200,2024-12-03T21:25:43.017182600,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,60,4
+2024-12-03T21:25:44.041958900,2024-12-03T21:25:43.032272800,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
+2024-12-03T21:25:44.042964600,2024-12-03T21:25:43.063049200,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
+2024-12-03T21:25:44.042964600,2024-12-03T21:25:43.219308800,RoofZone_WindNode_WindSensor,Wind Speed,100,4
+2024-12-03T21:25:44.043964200,2024-12-03T21:25:43.343309600,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,250,4
+2024-12-03T21:25:44.044964,2024-12-03T21:25:43.343309600,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
+2024-12-03T21:25:44.045989700,2024-12-03T21:25:43.344308500,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
+2024-12-03T21:25:44.046964600,2024-12-03T21:25:43.359368400,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
+2024-12-03T21:25:44.047967500,2024-12-03T21:25:43.499238100,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
+2024-12-03T21:25:44.047967500,2024-12-03T21:25:43.500196900,RoofZone_GateNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:44.048969400,2024-12-03T21:25:43.453895,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
+2024-12-03T21:25:44.048969400,2024-12-03T21:25:43.472565800,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
+2024-12-03T21:25:44.049984500,2024-12-03T21:25:43.478564400,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
+2024-12-03T21:25:44.050965900,2024-12-03T21:25:43.487317200,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
+2024-12-03T21:25:44.050965900,2024-12-03T21:25:43.488288,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
+2024-12-03T21:25:44.050965900,2024-12-03T21:25:43.489325800,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
+2024-12-03T21:25:44.051963900,2024-12-03T21:25:43.490354500,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:44.051963900,2024-12-03T21:25:43.491203700,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
+2024-12-03T21:25:45.075250200,2024-12-03T21:25:43.688906500,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,250,4
+2024-12-03T21:25:45.092309400,2024-12-03T21:25:43.704280400,RoofZone_SmartRopeNode3_SmartRope,Is Attached,1,1
+2024-12-03T21:25:45.093328100,2024-12-03T21:25:43.704280400,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,250,4
+2024-12-03T21:25:45.094333200,2024-12-03T21:25:43.704280400,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,250,4
+2024-12-03T21:25:45.094333200,2024-12-03T21:25:43.688906500,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,250,4
+2024-12-03T21:25:45.095333400,2024-12-03T21:25:43.753081700,RoofZone_WindNode_WindSensor,Wind Speed,300,4
+2024-12-03T21:25:45.095333400,2024-12-03T21:25:43.719881,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
+2024-12-03T21:25:45.096329500,2024-12-03T21:25:43.719881,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
+2024-12-03T21:25:45.097330400,2024-12-03T21:25:43.906075300,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,20,4
+2024-12-03T21:25:45.098334100,2024-12-03T21:25:43.936682200,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
+2024-12-03T21:25:45.098334100,2024-12-03T21:25:43.944676600,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
+2024-12-03T21:25:45.099329100,2024-12-03T21:25:43.973217,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
+2024-12-03T21:25:45.099329100,2024-12-03T21:25:44.030454200,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
+2024-12-03T21:25:45.100736800,2024-12-03T21:25:44.030454200,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
+2024-12-03T21:25:45.100736800,2024-12-03T21:25:44.031453500,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
+2024-12-03T21:25:45.101786,2024-12-03T21:25:44.032461600,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
+2024-12-03T21:25:45.101786,2024-12-03T21:25:44.032461600,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
+2024-12-03T21:25:45.102758800,2024-12-03T21:25:44.033454400,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
+2024-12-03T21:25:45.103766900,2024-12-03T21:25:44.033454400,RoofZone_ActuatorNode_relay,Switch 0 Status,true,1
+2024-12-03T21:25:45.104752600,2024-12-03T21:25:44.033454400,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
+2024-12-03T21:25:45.105758400,2024-12-03T21:25:44.083478800,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
+2024-12-03T21:25:45.105758400,2024-12-03T21:25:44.096844100,RoofZone_GateNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:45.109756200,2024-12-03T21:25:44.366690500,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,200,4
+2024-12-03T21:25:45.109756200,2024-12-03T21:25:44.381082100,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,15,4
+2024-12-03T21:25:45.110755,2024-12-03T21:25:44.381082100,RoofZone_SmartRopeNode3_SmartRope,Is Attached,1,1
+2024-12-03T21:25:45.113755500,2024-12-03T21:25:44.421426800,RoofZone_WindNode_WindSensor,Wind Speed,0,4
+2024-12-03T21:25:45.114753200,2024-12-03T21:25:44.421426800,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,200,4
+2024-12-03T21:25:45.116745700,2024-12-03T21:25:44.421426800,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,15,4
+2024-12-03T21:25:45.117817400,2024-12-03T21:25:44.452767700,RoofZone_SmartRopeNode2_SmartRope,Is Attached,0,1
+2024-12-03T21:25:45.119819400,2024-12-03T21:25:44.452767700,RoofZone_SmartRopeNode1_SmartRope,Is Attached,1,1
+2024-12-03T21:25:45.120994800,2024-12-03T21:25:44.490854300,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,30,4
+2024-12-03T21:25:45.123753800,2024-12-03T21:25:44.514520200,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
+2024-12-03T21:25:45.124758200,2024-12-03T21:25:44.514520200,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
+2024-12-03T21:25:45.128079700,2024-12-03T21:25:44.530328100,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
+2024-12-03T21:25:46.148417200,2024-12-03T21:25:44.577406800,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
+2024-12-03T21:25:46.156408800,2024-12-03T21:25:44.580411,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
+2024-12-03T21:25:46.157411,2024-12-03T21:25:44.584405600,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
+2024-12-03T21:25:46.157411,2024-12-03T21:25:44.585424300,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
+2024-12-03T21:25:46.158409,2024-12-03T21:25:44.586407800,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
+2024-12-03T21:25:46.158409,2024-12-03T21:25:44.593430400,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
+2024-12-03T21:25:46.160427500,2024-12-03T21:25:44.594455200,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:46.160427500,2024-12-03T21:25:44.595450200,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
+2024-12-03T21:25:46.161433400,2024-12-03T21:25:44.692838600,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
+2024-12-03T21:25:46.161433400,2024-12-03T21:25:44.693834900,RoofZone_GateNode_relay,Switch 0 Status,true,1
+2024-12-03T21:25:46.162495100,2024-12-03T21:25:44.906288100,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,15,4
+2024-12-03T21:25:46.162495100,2024-12-03T21:25:44.918549900,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,10,4
+2024-12-03T21:25:46.164425800,2024-12-03T21:25:44.934231600,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1
+2024-12-03T21:25:46.164425800,2024-12-03T21:25:44.970973700,RoofZone_UltrasonicNode4_UltrasonicSensor,Distance,15,4
+2024-12-03T21:25:46.165500,2024-12-03T21:25:44.970973700,RoofZone_UltrasonicNode2_UltrasonicSensor,Distance,10,4
+2024-12-03T21:25:46.165500,2024-12-03T21:25:44.981994900,RoofZone_SmartRopeNode2_SmartRope,Is Attached,1,1
+2024-12-03T21:25:46.166429,2024-12-03T21:25:44.980037100,RoofZone_WindNode_WindSensor,Wind Speed,100,4
+2024-12-03T21:25:46.166429,2024-12-03T21:25:44.981994900,RoofZone_SmartRopeNode1_SmartRope,Is Attached,0,1
+2024-12-03T21:25:46.166429,2024-12-03T21:25:45.041748300,RoofZone_UltrasonicNode1_UltrasonicSensor,Distance,140,4
+2024-12-03T21:25:46.167994300,2024-12-03T21:25:45.057210100,RoofZone_BuzzerNode_relay,Connected Device 0,RoofZone_BuzzerNode_relay_buzzer,1
+2024-12-03T21:25:46.167994300,2024-12-03T21:25:45.059622300,RoofZone_BuzzerNode_relay,Switch 0 Status,true,1
+2024-12-03T21:25:46.169060300,2024-12-03T21:25:45.073281400,RoofZone_SpeakerNode_speaker,Played Message,Worker too close to edge,100
+2024-12-03T21:25:46.169060300,2024-12-03T21:25:45.136614400,RoofZone_ActuatorNode_relay,Connected Device 3,Disconnected,1
+2024-12-03T21:25:46.170080200,2024-12-03T21:25:45.137623400,RoofZone_ActuatorNode_relay,Connected Device 0,RoofZone_PulleyLift,1
+2024-12-03T21:25:46.171070700,2024-12-03T21:25:45.139616200,RoofZone_ActuatorNode_relay,Switch 3 Status,false,1
+2024-12-03T21:25:46.171070700,2024-12-03T21:25:45.140622400,RoofZone_ActuatorNode_relay,Connected Device 2,Disconnected,1
+2024-12-03T21:25:46.172078,2024-12-03T21:25:45.140622400,RoofZone_ActuatorNode_relay,Connected Device 1,Disconnected,1
+2024-12-03T21:25:46.172078,2024-12-03T21:25:45.141609900,RoofZone_ActuatorNode_relay,Switch 1 Status,false,1
+2024-12-03T21:25:46.173662,2024-12-03T21:25:45.141609900,RoofZone_ActuatorNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:46.173662,2024-12-03T21:25:45.141609900,RoofZone_ActuatorNode_relay,Switch 2 Status,false,1
+2024-12-03T21:25:46.173662,2024-12-03T21:25:45.295204300,RoofZone_GateNode_relay,Connected Device 0,RoofZone_GateNode_motor,1
+2024-12-03T21:25:46.174739200,2024-12-03T21:25:45.296092100,RoofZone_GateNode_relay,Switch 0 Status,false,1
+2024-12-03T21:25:46.175980,2024-12-03T21:25:45.446283100,RoofZone_UltrasonicNode5_UltrasonicSensor,Distance,10,4
+2024-12-03T21:25:46.180070500,2024-12-03T21:25:45.461703100,RoofZone_UltrasonicNode3_UltrasonicSensor,Distance,59,4
+2024-12-03T21:25:46.181048500,2024-12-03T21:25:45.477016900,RoofZone_SmartRopeNode3_SmartRope,Is Attached,0,1

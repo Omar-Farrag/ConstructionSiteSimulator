@@ -263,5 +263,6 @@ public class uController extends SimulationObject{
         for(Device dev : devices) dev.start();
         if(gateway != null) gateway.start();
         super.start();
+        exportState("Started");
     }
 }

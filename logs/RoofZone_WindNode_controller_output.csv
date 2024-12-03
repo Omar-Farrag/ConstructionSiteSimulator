@@ -1,53 +1,40 @@
 Timestamp,Object Name,Event
-2024-12-03T20:00:39.743267200,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [100]
-2024-12-03T20:00:39.755253400,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:40.393433,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [200]
-2024-12-03T20:00:40.395435800,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:40.951197600,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [300]
-2024-12-03T20:00:40.953186900,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:41.494561200,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [0]
-2024-12-03T20:00:41.494561200,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:42.036836400,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [100]
-2024-12-03T20:00:42.037861600,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:42.566326400,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [0]
-2024-12-03T20:00:42.569332800,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:43.099601,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [300]
-2024-12-03T20:00:43.102543800,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:43.645827100,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [50]
-2024-12-03T20:00:43.646810800,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:44.192136200,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [20]
-2024-12-03T20:00:44.193134500,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:44.724610500,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [10]
-2024-12-03T20:00:44.725610500,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:45.266538300,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [21]
-2024-12-03T20:00:45.267552600,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:45.814047600,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [14]
-2024-12-03T20:00:45.815040600,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:46.374652400,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [100]
-2024-12-03T20:00:46.375616900,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:46.908373,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [200]
-2024-12-03T20:00:46.910477900,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:47.450292900,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [300]
-2024-12-03T20:00:47.452196600,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:47.987048600,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [100]
-2024-12-03T20:00:47.987048600,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:48.533427800,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [0]
-2024-12-03T20:00:48.534327800,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:49.075577200,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [300]
-2024-12-03T20:00:49.076580800,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:49.620120800,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [50]
-2024-12-03T20:00:49.621028500,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:50.166147300,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [20]
-2024-12-03T20:00:50.167059500,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:50.713457200,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [10]
-2024-12-03T20:00:50.714932100,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:51.258974800,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [21]
-2024-12-03T20:00:51.264879800,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:51.809220400,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [14]
-2024-12-03T20:00:51.810164400,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:52.340868300,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [100]
-2024-12-03T20:00:52.343875100,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:52.877038,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [200]
-2024-12-03T20:00:52.877038,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
-2024-12-03T20:00:53.434856,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [300]
-2024-12-03T20:00:53.435707,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-12-03T21:25:36.485944200,RoofZone_WindNode_controller,Started
+2024-12-03T21:25:36.489922300,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [100]
+2024-12-03T21:25:36.491808800,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-12-03T21:25:37.041891900,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [200]
+2024-12-03T21:25:37.043823300,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-12-03T21:25:37.583708600,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [300]
+2024-12-03T21:25:37.584706500,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-12-03T21:25:38.128502300,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [0]
+2024-12-03T21:25:38.129459200,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-12-03T21:25:38.690022600,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [100]
+2024-12-03T21:25:38.691960700,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-12-03T21:25:39.267294,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [0]
+2024-12-03T21:25:39.267294,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-12-03T21:25:39.813390600,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [300]
+2024-12-03T21:25:39.816392700,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-12-03T21:25:40.449140900,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [50]
+2024-12-03T21:25:40.450037600,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-12-03T21:25:41.011215500,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [20]
+2024-12-03T21:25:41.016090400,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-12-03T21:25:41.569352800,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [10]
+2024-12-03T21:25:41.570270500,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-12-03T21:25:42.114906200,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [21]
+2024-12-03T21:25:42.115800800,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-12-03T21:25:42.663548400,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [14]
+2024-12-03T21:25:42.663548400,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-12-03T21:25:43.219308800,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [100]
+2024-12-03T21:25:43.219517600,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-12-03T21:25:43.753081700,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [300]
+2024-12-03T21:25:43.848082600,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-12-03T21:25:44.421426800,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [0]
+2024-12-03T21:25:44.421999100,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-12-03T21:25:44.980037100,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [100]
+2024-12-03T21:25:44.983083100,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-12-03T21:25:45.538913100,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [0]
+2024-12-03T21:25:45.557984700,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-12-03T21:25:46.087850600,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [300]
+2024-12-03T21:25:46.087850600,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them
+2024-12-03T21:25:46.616206800,RoofZone_WindNode_controller,[SUCCESS] Received field [Wind Speed] from object [RoofZone_WindNode_WindSensor]. Value [50]
+2024-12-03T21:25:46.688286,RoofZone_WindNode_controller,Sent [1] packets to parent node to publish them

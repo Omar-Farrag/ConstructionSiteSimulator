@@ -1,170 +1,123 @@
 Timestamp,Object Name,Event
-2024-12-03T20:00:39.686492900,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Bruno]
-2024-12-03T20:00:39.705505500,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Bruno]'s permission
-2024-12-03T20:00:39.745152700,RoofZone_GateNode_controller,Started
-2024-12-03T20:00:39.875511,RoofZone_GateNode_controller,ID [Bruno]'s permission: [DENIED]
-2024-12-03T20:00:39.876308400,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
-2024-12-03T20:00:39.877420700,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:39.882105600,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
-2024-12-03T20:00:39.882883500,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:40.425693300,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Mars]
-2024-12-03T20:00:40.426591600,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Mars]'s permission
-2024-12-03T20:00:40.472668600,RoofZone_GateNode_controller,ID [Mars]'s permission: [DENIED]
-2024-12-03T20:00:40.472668600,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
-2024-12-03T20:00:40.474670400,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:40.475690500,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
-2024-12-03T20:00:40.478617900,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:41.028262800,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Omar]
-2024-12-03T20:00:41.030006800,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Omar]'s permission
-2024-12-03T20:00:41.075297900,RoofZone_GateNode_controller,ID [Omar]'s permission: [ALLOWED]
-2024-12-03T20:00:41.076060500,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [true]
-2024-12-03T20:00:41.078203100,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:41.079217700,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [true]
-2024-12-03T20:00:41.081778100,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:41.633673,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Farrag]
-2024-12-03T20:00:41.635790100,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Farrag]'s permission
-2024-12-03T20:00:41.679058900,RoofZone_GateNode_controller,ID [Farrag]'s permission: [ALLOWED]
-2024-12-03T20:00:41.681016400,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [true]
-2024-12-03T20:00:41.684553800,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:41.696080500,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [true]
-2024-12-03T20:00:41.698071500,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:42.255415900,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [hala]
-2024-12-03T20:00:42.260533400,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [hala]'s permission
-2024-12-03T20:00:42.306762500,RoofZone_GateNode_controller,ID [hala]'s permission: [DENIED]
-2024-12-03T20:00:42.306762500,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
-2024-12-03T20:00:42.307800600,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:42.307800600,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
-2024-12-03T20:00:42.307800600,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:42.862631600,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Guten]
-2024-12-03T20:00:42.864746900,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Guten]'s permission
-2024-12-03T20:00:42.893273400,RoofZone_GateNode_controller,ID [Guten]'s permission: [DENIED]
-2024-12-03T20:00:42.894389500,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
-2024-12-03T20:00:42.895366900,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:42.898375700,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
-2024-12-03T20:00:42.899277100,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:43.440777200,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Bruno]
-2024-12-03T20:00:43.440777200,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Bruno]'s permission
-2024-12-03T20:00:43.477964900,RoofZone_GateNode_controller,ID [Bruno]'s permission: [DENIED]
-2024-12-03T20:00:43.478966200,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
-2024-12-03T20:00:43.479943700,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:43.480900100,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
-2024-12-03T20:00:43.481846200,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:44.034563700,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Mars]
-2024-12-03T20:00:44.035563900,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Mars]'s permission
-2024-12-03T20:00:44.082971600,RoofZone_GateNode_controller,ID [Mars]'s permission: [DENIED]
-2024-12-03T20:00:44.082971600,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
-2024-12-03T20:00:44.084013800,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:44.084763600,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
-2024-12-03T20:00:44.084763600,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:44.626384900,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Omar]
-2024-12-03T20:00:44.627312700,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Omar]'s permission
-2024-12-03T20:00:44.659016500,RoofZone_GateNode_controller,ID [Omar]'s permission: [ALLOWED]
-2024-12-03T20:00:44.659016500,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [true]
-2024-12-03T20:00:44.665060700,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:44.668064600,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [true]
-2024-12-03T20:00:44.673188700,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:45.206293700,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Farrag]
-2024-12-03T20:00:45.206293700,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Farrag]'s permission
-2024-12-03T20:00:45.241085700,RoofZone_GateNode_controller,ID [Farrag]'s permission: [ALLOWED]
-2024-12-03T20:00:45.252074300,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [true]
-2024-12-03T20:00:45.257086800,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:45.260138800,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [true]
-2024-12-03T20:00:45.263079700,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:45.814047600,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [hala]
-2024-12-03T20:00:45.815040600,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [hala]'s permission
-2024-12-03T20:00:45.845839300,RoofZone_GateNode_controller,ID [hala]'s permission: [DENIED]
-2024-12-03T20:00:45.847841600,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
-2024-12-03T20:00:45.851839200,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:45.851839200,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
-2024-12-03T20:00:45.853884700,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:46.406036400,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [cuz]
-2024-12-03T20:00:46.408132400,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [cuz]'s permission
-2024-12-03T20:00:46.454066400,RoofZone_GateNode_controller,ID [cuz]'s permission: [DENIED]
-2024-12-03T20:00:46.455016300,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
-2024-12-03T20:00:46.456025900,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:46.456025900,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
-2024-12-03T20:00:46.457016200,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:47.000218200,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Bruno]
-2024-12-03T20:00:47.001523300,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Bruno]'s permission
-2024-12-03T20:00:47.031919,RoofZone_GateNode_controller,ID [Bruno]'s permission: [DENIED]
-2024-12-03T20:00:47.032925400,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
-2024-12-03T20:00:47.033919100,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:47.033919100,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
-2024-12-03T20:00:47.033919100,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:47.578193200,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Mars]
-2024-12-03T20:00:47.580168400,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Mars]'s permission
-2024-12-03T20:00:47.626130800,RoofZone_GateNode_controller,ID [Mars]'s permission: [DENIED]
-2024-12-03T20:00:47.627050500,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
-2024-12-03T20:00:47.628051100,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:47.629047400,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
-2024-12-03T20:00:47.629047400,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:48.188230900,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Omar]
-2024-12-03T20:00:48.190854900,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Omar]'s permission
-2024-12-03T20:00:48.222126100,RoofZone_GateNode_controller,ID [Omar]'s permission: [ALLOWED]
-2024-12-03T20:00:48.222865200,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [true]
-2024-12-03T20:00:48.223946900,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:48.226869300,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [true]
-2024-12-03T20:00:48.226869300,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:48.779712400,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Farrag]
-2024-12-03T20:00:48.781721800,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Farrag]'s permission
-2024-12-03T20:00:48.827635700,RoofZone_GateNode_controller,ID [Farrag]'s permission: [ALLOWED]
-2024-12-03T20:00:48.828743900,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [true]
-2024-12-03T20:00:48.828743900,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:48.834759,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [true]
-2024-12-03T20:00:48.834759,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:49.376375100,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [hala]
-2024-12-03T20:00:49.376375100,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [hala]'s permission
-2024-12-03T20:00:49.418716300,RoofZone_GateNode_controller,ID [hala]'s permission: [DENIED]
-2024-12-03T20:00:49.418716300,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
-2024-12-03T20:00:49.419855500,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:49.422861400,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
-2024-12-03T20:00:49.422861400,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:49.949005400,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [cuz]
-2024-12-03T20:00:49.950,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [cuz]'s permission
-2024-12-03T20:00:50.000131300,RoofZone_GateNode_controller,ID [cuz]'s permission: [DENIED]
-2024-12-03T20:00:50.001088300,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
-2024-12-03T20:00:50.001088300,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:50.002020100,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
-2024-12-03T20:00:50.002020100,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:50.556095700,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Bruno]
-2024-12-03T20:00:50.557094200,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Bruno]'s permission
-2024-12-03T20:00:50.605406900,RoofZone_GateNode_controller,ID [Bruno]'s permission: [DENIED]
-2024-12-03T20:00:50.606418800,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
-2024-12-03T20:00:50.611459700,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:50.612519700,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
-2024-12-03T20:00:50.619514900,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:51.153438100,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Mars]
-2024-12-03T20:00:51.154368300,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Mars]'s permission
-2024-12-03T20:00:51.212036600,RoofZone_GateNode_controller,ID [Mars]'s permission: [DENIED]
-2024-12-03T20:00:51.212931800,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
-2024-12-03T20:00:51.213939600,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:51.213939600,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
-2024-12-03T20:00:51.213939600,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:51.747024100,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Omar]
-2024-12-03T20:00:51.750150600,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Omar]'s permission
-2024-12-03T20:00:51.794257900,RoofZone_GateNode_controller,ID [Omar]'s permission: [ALLOWED]
-2024-12-03T20:00:51.795246100,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [true]
-2024-12-03T20:00:51.795246100,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:51.796242200,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [true]
-2024-12-03T20:00:51.797744,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:52.327395300,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Farrag]
-2024-12-03T20:00:52.328268400,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Farrag]'s permission
-2024-12-03T20:00:52.358866500,RoofZone_GateNode_controller,ID [Farrag]'s permission: [ALLOWED]
-2024-12-03T20:00:52.364920900,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [true]
-2024-12-03T20:00:52.365934900,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:52.368932200,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [true]
-2024-12-03T20:00:52.369937300,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:52.921366200,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [hala]
-2024-12-03T20:00:52.921366200,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [hala]'s permission
-2024-12-03T20:00:52.954078200,RoofZone_GateNode_controller,ID [hala]'s permission: [DENIED]
-2024-12-03T20:00:52.954078200,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
-2024-12-03T20:00:52.955963700,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:52.955963700,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
-2024-12-03T20:00:53.035002800,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
-2024-12-03T20:00:53.588573400,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [cuz]
-2024-12-03T20:00:53.589673200,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [cuz]'s permission
-2024-12-03T20:00:53.638157100,RoofZone_GateNode_controller,ID [cuz]'s permission: [DENIED]
-2024-12-03T20:00:53.639053600,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
-2024-12-03T20:00:53.640163,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
-2024-12-03T20:00:53.641160100,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
-2024-12-03T20:00:53.647050700,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-03T21:25:35.833611700,RoofZone_GateNode_controller,Started
+2024-12-03T21:25:35.857111,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Bruno]
+2024-12-03T21:25:35.863206200,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Bruno]'s permission
+2024-12-03T21:25:35.951534900,RoofZone_GateNode_controller,ID [Bruno]'s permission: [DENIED]
+2024-12-03T21:25:35.983982700,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
+2024-12-03T21:25:36.022039100,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
+2024-12-03T21:25:36.029989200,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
+2024-12-03T21:25:36.030989300,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-03T21:25:36.580845200,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Mars]
+2024-12-03T21:25:36.582849500,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Mars]'s permission
+2024-12-03T21:25:36.649730600,RoofZone_GateNode_controller,ID [Mars]'s permission: [DENIED]
+2024-12-03T21:25:36.650711500,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
+2024-12-03T21:25:36.652766800,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
+2024-12-03T21:25:36.662588500,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
+2024-12-03T21:25:36.663680600,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-03T21:25:37.218555600,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Omar]
+2024-12-03T21:25:37.219629100,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Omar]'s permission
+2024-12-03T21:25:37.278467600,RoofZone_GateNode_controller,ID [Omar]'s permission: [ALLOWED]
+2024-12-03T21:25:37.279465900,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [true]
+2024-12-03T21:25:37.279465900,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
+2024-12-03T21:25:37.280490300,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [true]
+2024-12-03T21:25:37.280490300,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-03T21:25:37.848808400,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Farrag]
+2024-12-03T21:25:37.849729800,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Farrag]'s permission
+2024-12-03T21:25:37.882657900,RoofZone_GateNode_controller,ID [Farrag]'s permission: [ALLOWED]
+2024-12-03T21:25:37.883657800,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [true]
+2024-12-03T21:25:37.884687400,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
+2024-12-03T21:25:37.885658600,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [true]
+2024-12-03T21:25:37.886663,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-03T21:25:38.440571600,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [cuz]
+2024-12-03T21:25:38.443636,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [cuz]'s permission
+2024-12-03T21:25:38.504597100,RoofZone_GateNode_controller,ID [cuz]'s permission: [DENIED]
+2024-12-03T21:25:38.508575300,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
+2024-12-03T21:25:38.511700900,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
+2024-12-03T21:25:38.512685100,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
+2024-12-03T21:25:38.515574500,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-03T21:25:39.063677,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Guten]
+2024-12-03T21:25:39.064727100,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Guten]'s permission
+2024-12-03T21:25:39.096460100,RoofZone_GateNode_controller,ID [Guten]'s permission: [DENIED]
+2024-12-03T21:25:39.100351500,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
+2024-12-03T21:25:39.102572900,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
+2024-12-03T21:25:39.102572900,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
+2024-12-03T21:25:39.104475400,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-03T21:25:39.656442200,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Bruno]
+2024-12-03T21:25:39.717161300,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Bruno]'s permission
+2024-12-03T21:25:39.763872800,RoofZone_GateNode_controller,ID [Bruno]'s permission: [DENIED]
+2024-12-03T21:25:39.763872800,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
+2024-12-03T21:25:39.766756100,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
+2024-12-03T21:25:39.767759600,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
+2024-12-03T21:25:39.771889800,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-03T21:25:40.339720,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Mars]
+2024-12-03T21:25:40.341649600,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Mars]'s permission
+2024-12-03T21:25:40.386423300,RoofZone_GateNode_controller,ID [Mars]'s permission: [DENIED]
+2024-12-03T21:25:40.387342300,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
+2024-12-03T21:25:40.391294100,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
+2024-12-03T21:25:40.394423700,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
+2024-12-03T21:25:40.395407100,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-03T21:25:40.933310300,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Omar]
+2024-12-03T21:25:40.934311600,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Omar]'s permission
+2024-12-03T21:25:41.015195100,RoofZone_GateNode_controller,ID [Omar]'s permission: [ALLOWED]
+2024-12-03T21:25:41.017120700,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [true]
+2024-12-03T21:25:41.020202600,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
+2024-12-03T21:25:41.021211300,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [true]
+2024-12-03T21:25:41.022211,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-03T21:25:41.569352800,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [hala]
+2024-12-03T21:25:41.571333900,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [hala]'s permission
+2024-12-03T21:25:41.603533900,RoofZone_GateNode_controller,ID [hala]'s permission: [DENIED]
+2024-12-03T21:25:41.604534,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
+2024-12-03T21:25:41.605530400,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
+2024-12-03T21:25:41.605530400,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
+2024-12-03T21:25:41.606534800,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-03T21:25:42.149411400,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [cuz]
+2024-12-03T21:25:42.150445,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [cuz]'s permission
+2024-12-03T21:25:42.209671900,RoofZone_GateNode_controller,ID [cuz]'s permission: [DENIED]
+2024-12-03T21:25:42.210691900,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
+2024-12-03T21:25:42.210691900,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
+2024-12-03T21:25:42.212784500,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
+2024-12-03T21:25:42.213817800,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-03T21:25:42.757663500,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Guten]
+2024-12-03T21:25:42.761585,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Guten]'s permission
+2024-12-03T21:25:42.827687600,RoofZone_GateNode_controller,ID [Guten]'s permission: [DENIED]
+2024-12-03T21:25:42.827687600,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
+2024-12-03T21:25:42.828588300,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
+2024-12-03T21:25:42.828588300,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
+2024-12-03T21:25:42.828588300,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-03T21:25:43.375061400,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Bruno]
+2024-12-03T21:25:43.378199900,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Bruno]'s permission
+2024-12-03T21:25:43.498198100,RoofZone_GateNode_controller,ID [Bruno]'s permission: [DENIED]
+2024-12-03T21:25:43.499238100,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
+2024-12-03T21:25:43.499238100,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
+2024-12-03T21:25:43.500196900,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
+2024-12-03T21:25:43.501196900,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-03T21:25:44.045989700,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Mars]
+2024-12-03T21:25:44.046964600,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Mars]'s permission
+2024-12-03T21:25:44.080493300,RoofZone_GateNode_controller,ID [Mars]'s permission: [DENIED]
+2024-12-03T21:25:44.082477400,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
+2024-12-03T21:25:44.083478800,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
+2024-12-03T21:25:44.096844100,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
+2024-12-03T21:25:44.097836300,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-03T21:25:44.640596100,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Omar]
+2024-12-03T21:25:44.643578100,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Omar]'s permission
+2024-12-03T21:25:44.690468300,RoofZone_GateNode_controller,ID [Omar]'s permission: [ALLOWED]
+2024-12-03T21:25:44.691799300,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [true]
+2024-12-03T21:25:44.692838600,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
+2024-12-03T21:25:44.693834900,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [true]
+2024-12-03T21:25:44.698839900,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-03T21:25:45.245021100,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [hala]
+2024-12-03T21:25:45.246027400,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [hala]'s permission
+2024-12-03T21:25:45.292100500,RoofZone_GateNode_controller,ID [hala]'s permission: [DENIED]
+2024-12-03T21:25:45.293135200,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
+2024-12-03T21:25:45.295204300,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
+2024-12-03T21:25:45.296092100,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
+2024-12-03T21:25:45.299190800,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-03T21:25:45.850024300,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [cuz]
+2024-12-03T21:25:45.851026700,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [cuz]'s permission
+2024-12-03T21:25:45.912999300,RoofZone_GateNode_controller,ID [cuz]'s permission: [DENIED]
+2024-12-03T21:25:45.913928200,RoofZone_GateNode_controller,[SUCCESS] Switched object [RoofZone_GateNode_relay] position [0] to [false]
+2024-12-03T21:25:45.915906200,RoofZone_GateNode_controller,[SUCCESS] Received field [Connected Device 0] from object [RoofZone_GateNode_relay]. Value [RoofZone_GateNode_motor]
+2024-12-03T21:25:45.915906200,RoofZone_GateNode_controller,[SUCCESS] Received field [Switch 0 Status] from object [RoofZone_GateNode_relay]. Value [false]
+2024-12-03T21:25:45.916906900,RoofZone_GateNode_controller,Sent [2] packets to parent node to publish them
+2024-12-03T21:25:46.459446800,RoofZone_GateNode_controller,[SUCCESS] Received field [ID] from object [RoofZone_GateNode_scanner]. Value [Guten]
+2024-12-03T21:25:46.687765800,RoofZone_GateNode_controller,Asked Parent Node [RoofZone_GateNode] about ID [Guten]'s permission

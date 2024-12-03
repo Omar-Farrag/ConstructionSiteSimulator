@@ -158,6 +158,11 @@ public class Gateway extends SimulationObject{
         return object_name.equals(other.getObject_name());
     }
 
+    @Override
+    public void start() {
+        exportState("Started");
+        super.start();
+    }
     
 
 }

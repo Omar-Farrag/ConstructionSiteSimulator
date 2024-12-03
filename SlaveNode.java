@@ -324,8 +324,9 @@ public class SlaveNode extends SimulationObject{
      */
     @Override
     public void start() {
-        localController.start();
         super.start();
+        exportState("Started");
+        localController.start();
     }
 
     /**
