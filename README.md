@@ -2,6 +2,7 @@
 
 ## Overview
 This project contains code to simulate a proposed framework for automating safety monitoring and control on construction sites. The simulation uses agent-based modelling to assess the effectiveness of the proposed framework. The framework adopts a distributed approach, where the construction site is divided into zones with each zone having a local master and a group of slaves. One of the zones acts as a master while the other zones act as its slaves. Communication within a zone uses BLE, while communication between zones uses WiFi.
+
 ---
 
 ## Architecture
