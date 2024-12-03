@@ -10,7 +10,9 @@ public class uController extends SimulationObject{
     private ProcessingAlgorithm setup;
     private ProcessingAlgorithm loop;
     private ArrayList<Device> devices;
-    private ArrayList<String> offeredFields;
+    private ArrayList<String> globalOfferedFields;
+    private ArrayList<String> localOfferedFields;
+    
     private HashSet<String> permittedIDs;
     private boolean hasSetUp;
 
@@ -20,7 +22,8 @@ public class uController extends SimulationObject{
         super(name,runTimeStep);
         this.loop = loop;
         this.devices = new ArrayList<>();
-        offeredFields = new ArrayList<>();
+        globalOfferedFields = new ArrayList<>();
+        localOfferedFields = new ArrayList<>();
         permittedIDs = new HashSet<>();
         hasSetUp = true;
     }
@@ -30,7 +33,8 @@ public class uController extends SimulationObject{
         this.loop = loop;
         this.setup = setup;
         this.devices = new ArrayList<>();
-        offeredFields = new ArrayList<>();
+        globalOfferedFields = new ArrayList<>();
+        localOfferedFields = new ArrayList<>();
         permittedIDs = new HashSet<>();
         hasSetUp = false;
     }
@@ -39,7 +43,8 @@ public class uController extends SimulationObject{
         for (Device dev : devices){
             dev.initFields();
             for(String field : dev.getFieldNames()){
-                offeredFields.add(dev.getObject_name()+"_"+field);
+                globalOfferedFields.add(dev.getObject_name()+"_"+field);
+                localOfferedFields.add(field);
             }
         }         
     }
@@ -231,8 +236,12 @@ public class uController extends SimulationObject{
         return parentControlNode;
     }
 
-    public ArrayList<String> getOfferedFields() {
-        return offeredFields;
+    public ArrayList<String> getGlobalOfferedFields() {
+        return globalOfferedFields;
+    }
+
+    public ArrayList<String> getLocalOfferedFields() {
+        return localOfferedFields;
     }
 
     public String getCurrentValue(String deviceName, String fieldName){

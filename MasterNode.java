@@ -45,7 +45,7 @@ public class MasterNode extends SimulationObject {
     public void update(SlaveNode sender, DataPacket... receivedDataPackets){
         int totalDataSize = 0;
         for(DataPacket packet : receivedDataPackets) totalDataSize += packet.getSize();
-        int time_delay = sender.getRTT_to_Control_Node()/2 + totalDataSize / BLE_transmission_rate;
+        int time_delay = sender.getRTT_to_Master_Node()/2 + totalDataSize / BLE_transmission_rate;
         try {
             Thread.sleep(time_delay);
         } catch (InterruptedException e) {
@@ -65,7 +65,7 @@ public class MasterNode extends SimulationObject {
                 packet.getValue());
                 
         }
-        time_delay = sender.getRTT_to_Control_Node()/2;
+        time_delay = sender.getRTT_to_Master_Node()/2;
         try {
             Thread.sleep(time_delay);
         } catch (InterruptedException e) {
@@ -166,7 +166,7 @@ public class MasterNode extends SimulationObject {
 
     public boolean isPermittedToEnter(SlaveNode gate, String id){
         try {
-            Thread.sleep(gate.getRTT_to_Control_Node()/2);
+            Thread.sleep(gate.getRTT_to_Master_Node()/2);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -178,7 +178,7 @@ public class MasterNode extends SimulationObject {
         exportState(String.format("Gate [%s] queried permission status for ID [%s]. Permission [%s]", gate.getObject_name(), id, isPermitted ? "ALLOWED" : "DENIED"));
         
         try {
-            Thread.sleep(gate.getRTT_to_Control_Node()/2);
+            Thread.sleep(gate.getRTT_to_Master_Node()/2);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

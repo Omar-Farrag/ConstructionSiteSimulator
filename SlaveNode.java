@@ -1,209 +1,336 @@
 import java.util.ArrayList;
 
+/**
+ * This class implements a SlaveNode, which encapsulates a uController and its connected devices
+ */
 public class SlaveNode extends SimulationObject{
 
-    final int BLE_transmission_rate = 100; //kbps
 
+    // A constant BLE transmission rate in Kbps between a SlaveNode and the MasterNode
+    // This rate applies for all instances of a SlaveNode
+    private static final int BLE_transmission_rate = 100; //kbps
+    
+    // Round trip time between this slave node object and and the master node in the same zone
+    protected int RTT_to_Master_Node; //ms
+
+    // The uController of the node
     protected uController localController;
-    protected int RTT_to_Control_Node; //ms
-    private MasterNode controlNode;
 
-    public SlaveNode(String object_name, int runTimeStep, int RTT_to_Zone_Controller, uController locaController){
+    // Reference to the masterNode of the zone
+    private MasterNode masterNode;
+
+    /**
+     * Constructor
+     * @param object_name Name of the slave node
+     * @param runTimeStep Timestep of the node's simulation lifetime in ms
+     * @param RTT_to_Master_Node Round trip time between this node and the master node
+     * @param locaController uController of the node
+     */
+    public SlaveNode(String object_name, int runTimeStep, int RTT_to_Master_Node, uController localController){
         super(object_name, runTimeStep);
-        this.RTT_to_Control_Node = RTT_to_Zone_Controller;
-        this.localController = locaController;
+        this.RTT_to_Master_Node = RTT_to_Master_Node;
+        this.localController = localController;
+        
+        // Set this node as the parent or encapsulator of the local uController
         localController.setParentNode(this);
     }
 
+    /**
+     * Function to initialize fields of the slave node
+     * Slave node does not have any fields of its own.
+     * However, localController may be connected to devices that have fields
+     */
     public void initFields(){
+
+        // Ask local controller to initialize its fields
         localController.initFields();
     }
     
-    public void setMasterNode(MasterNode controlNode){
-        this.controlNode = controlNode;
+    /**
+     * Function to set the master node of this slave node
+     * All slave nodes in the same zone share the same master node
+     * @param masterNode Reference to the zone's master node
+     */
+    public void setMasterNode(MasterNode masterNode){
+        this.masterNode = masterNode;
     }
 
+    /**
+     * Function to send one or more packets from this slave node to the master node
+     * @param packets packets to send to master node
+     */
     public void publishPacket(DataPacket... packets){
-        exportState(String.format("Started Publishing (%d) packets to Control Node [%s]",packets.length, controlNode.getObject_name()));
-        controlNode.update(this,packets);
-        exportState(String.format("Done Publishing (%d) packets to Control Node [%s]",packets.length, controlNode.getObject_name()));
+        // Write a log message to output log file
+        exportState(String.format("Started Publishing (%d) packets to Control Node [%s]",packets.length, masterNode.getObject_name()));
+        
+        // Send the packet to the master node
+        masterNode.update(this,packets);
+
+        // Write a log message to output log file after message was sent
+        exportState(String.format("Done Publishing (%d) packets to Control Node [%s]",packets.length, masterNode.getObject_name()));
     }
 
-    public ExecutionResult getField(MasterNode requester, String objectName, String field){
+    /**
+     * Getter to retrieve a certain field from one of the slave node's devices.
+     * Usually there is only one uController connected to one device.
+     * @param requester MasterNode that requested the field. This node should be the same as the masterNode reference in the class.
+     *        However, it is passed as an argument to make it easier to spot a mismatch between the requester and the local masterNode reference in the class.
+     *        The mismatch would be visible on the output log files
+     * @param deviceName Name of the device that contains the field to be retrieved
+     * @param field Name of the field whose value is to be retrieved
+     * @return Execution result containing a data packet that encapsulates the field value
+     */
+    public ExecutionResult getField(MasterNode requester, String deviceName, String field){
 
         try {
-            int time_delay= RTT_to_Control_Node /2;
+            // Delay to simulate the propagation delay between the master node and this slave node
+            int time_delay= RTT_to_Master_Node /2;
             Thread.sleep(time_delay);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
+        // Add a log message to the output log file indicating that the request arrived at the slave node
         exportState(String.format("Node [%s] requested field [%s] in object [%s]",
             requester.getObject_name(),
             field, 
-            objectName));
+            deviceName));
 
+
+        // Add a log message to indicate that this slave node has asked its controller to retrieve the field value
         exportState(String.format("Attempted Retrieving field [%s] in object [%s] from local controller",
             field, 
-            objectName));
+            deviceName));
 
         ExecutionResult result;
         synchronized(localController){
-            result = localController.getField(objectName, field);
+            // Ask the local controller to retrieve the value
+            result = localController.getField(deviceName, field);
         }
 
+        //Add a log message to indicate the status of the query to the local controller
         exportState(String.format("[%s] Retrieved field [%s] in object [%s] from local controller. Returned Value [%s]",
         result.isSuccess()? "SUCCESS" : "FAILURE",
         field, 
-        objectName,
+        deviceName,
         result.isSuccess() ? result.getReturnedPacket().getValue() : "null"));
 
+        // Add a log message to indicate the status of the query at the node level
         exportState(String.format("[%s] Node [%s] requested field [%s] in object [%s]. Returned Value [%s]",
         result.isSuccess() ? "SUCCESS" : "FAILURE",
         requester.getObject_name(),
         field, 
-        objectName,
+        deviceName,
         result.isSuccess() ? result.getReturnedPacket().getValue() : "null"
         ));
 
         try {
-            int time_delay= RTT_to_Control_Node/2 + (result.isSuccess() ? result.getReturnedPacket().getSize() * 8 / (BLE_transmission_rate) : 0);
+
+            // Delay simulating the propagation and transmission delays to transmit data packet from slave node to master node 
+            int time_delay= RTT_to_Master_Node/2 + (result.isSuccess() ? result.getReturnedPacket().getSize() * 8 / (BLE_transmission_rate) : 0);
             Thread.sleep(time_delay);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
+        // return the execution result
         return result;
 
     }
     
-    public ExecutionResult setField(MasterNode setter, String objectName, String field, String value, int size){
+    /**
+     * Function to set a certain field in one of the slave node's objects. 
+     * Usually there is only one uController connected to only one device
+     * @param setter MasterNode that is attemoting to set the field. This node should be the same as the masterNode reference in the class.
+     *        However, it is passed as an argument to make it easier to spot a mismatch between the requester and the local masterNode reference in the class.
+     *        The mismatch would be visible on the output log files
+     * @param deviceName Name of the device whose field is to be updated 
+     * @param field Name of the field to be updated
+     * @param value New value of the field
+     * @param size Size in bytes of the new value
+     * @return ExecutionResult encapsulating the success state of setting the field and a copy of the passed values as a DataPacket
+     */
+    public ExecutionResult setField(MasterNode setter, String deviceName, String field, String value, int size){
 
         try {
-            int time_delay= RTT_to_Control_Node /2 + size * 8 / BLE_transmission_rate;
+            // Delay simulating the propagation and tranmission delays of the new value from the master node to this slave node
+            int time_delay= RTT_to_Master_Node /2 + size * 8 / BLE_transmission_rate;
             Thread.sleep(time_delay);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
+        // Add a log message indicating that the request to set the field was received at the slave node
         exportState(String.format("Node [%s] attempted updating field [%s] in object [%s]",
             setter.getObject_name(),
             field, 
-            objectName));
+            deviceName));
 
-        
-            exportState(String.format("Attempted setting field [%s] in object [%s] through local controller",
+        // Add a log message indicating that this slave node has asked its local uController to set the value of the field 
+        exportState(String.format("Attempted setting field [%s] in object [%s] through local controller",
             field, 
-            objectName));
+            deviceName));
 
         ExecutionResult result;
         synchronized(localController){
-            result = localController.setField(objectName, field, value);
+            // Ask the localuController to set the field
+            result = localController.setField(deviceName, field, value);
         }
         
+        // Add a log message indicating the success of the setting attempt by the local uController
         exportState(String.format("[%s] Set field [%s] in object [%s] through local controller. New Value [%s]",
         result.isSuccess()? "SUCCESS" : "FAILURE",
         field, 
-        objectName,
+        deviceName,
         result.isSuccess() ? result.getReturnedPacket().getValue() : "old value"));
 
+        // Add a log message indicating the success of the setting attempt at the node level
         exportState(String.format("[%s] Node [%s] attempted updating field [%s] in object [%s]. New Value [%s]",
             result.isSuccess() ? "SUCCESS" : "FAILURE",
             setter.getObject_name(),
             field, 
-            objectName,
+            deviceName,
             result.isSuccess() ? result.getReturnedPacket().getValue() : "old value"
             ));
 
         try {
-            int time_delay= RTT_to_Control_Node/2;
+
+            // Delay simulating the propagation delay of the acknowledgement back to the master node that attempted to set the field.
+            // It is assumed that the transmission delay of that acknowledgement is negligible 
+            int time_delay= RTT_to_Master_Node/2;
             Thread.sleep(time_delay);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
+        // Return result to the master node
         return result;
-
     }
 
-    
-    public ExecutionResult updateSwitch(MasterNode setter, String objectName, String position, String switchStatus) {
+    /**
+     * Function similar to setField but written specifically for updating the switch status of a relay in the node
+     * @param switcher MasterNode that is attempting to switch the relay at a certain position. This node should be the same as the masterNode reference in the class.
+     *        However, it is passed as an argument to make it easier to spot a mismatch between the requester and the local masterNode reference in the class.
+     *        The mismatch would be visible on the output log files
+     * @param deviceName Name of the relay device to be switched
+     * @param position Position to be switched in the relay
+     * @param switchStatus New switch state at the target position: "true" or "false"
+     * @return ExecutionResult encapsulating the success state of switching the specified position in the relay and a copy of the passed values as a DataPacket
+     * 
+     */
+    public ExecutionResult updateSwitch(MasterNode switcher, String deviceName, String position, String switchStatus) {
         
         try {
-            int time_delay= RTT_to_Control_Node /2 + 8 / BLE_transmission_rate;
+            // Delay simulating the propagation and tranmission delays of the new switch state from the master node to this slave node
+            int time_delay= RTT_to_Master_Node /2 + 8 / BLE_transmission_rate;
             Thread.sleep(time_delay);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
+        // Add a log message indicating that the request to update the switch was received at the slave node
         exportState(String.format("Node [%s] attempted updating switch position [%s] in object [%s]",
-            setter.getObject_name(),
+            switcher.getObject_name(),
             position, 
-            objectName));
+            deviceName));
 
-            exportState(String.format("Attempted switching position [%s] in object [%s] through local controller.",
+        // Add a log message indicating that this slave node has asked its local uController to switch the specified position in the connected relay
+        exportState(String.format("Attempted switching position [%s] in object [%s] through local controller.",
            position, 
-            objectName
+            deviceName
             ));
 
         ExecutionResult result;
         synchronized(localController){
-            result = localController.updateSwitch(objectName, position, switchStatus);
+            // Ask the localuController to update the switch state
+            result = localController.updateSwitch(deviceName, position, switchStatus);
         }
 
+        // Add a log message indicating the success of the switch update attempt by the local uController
         exportState(String.format("[%s] Switched position [%s] in object [%s] through local controller. New State [%s]",
         result.isSuccess()? "SUCCESS" : "FAILURE",
         position, 
-        objectName,
+        deviceName,
         result.isSuccess() ? result.getReturnedPacket().getValue() : "old state"));
         
+        // Add a log message indicating the success of the switch update attempt at the node level
         exportState(String.format("[%s] Node [%s] attempted updating switch position [%s] in object [%s]. New State [%s]",
             result.isSuccess() ? "SUCCESS" : "FAILURE",
-            setter.getObject_name(),
+            switcher.getObject_name(),
             position, 
-            objectName,
+            deviceName,
             result.isSuccess() ? result.getReturnedPacket().getValue() : "old state"
             ));
 
         try {
-            int time_delay= RTT_to_Control_Node/2;
+            // Delay simulating the propagation delay of the acknowledgement back to the master node that attempted to update the switch state.
+            // It is assumed that the transmission delay of that acknowledgement is negligible
+            int time_delay= RTT_to_Master_Node/2;
             Thread.sleep(time_delay);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
+        // Return result to the master node
         return result;       
     }
 
+    /**
+     * Function to ask the master node whether a certain worker ID is permitted to enter the zone or not 
+     * @param id Worker ID whose entry permission is to be queried 
+     * @return true if worker is permitted, false otherwise
+     */
     public boolean isPermittedToEnter(String id){
-        exportState(String.format("Asked Control Node [%s] about ID [%s]'s permission",controlNode.getObject_name(),id));
-        boolean permitted = controlNode.isPermittedToEnter(this, id);
+        exportState(String.format("Asked Control Node [%s] about ID [%s]'s permission",masterNode.getObject_name(),id));
+        boolean permitted = masterNode.isPermittedToEnter(this, id);
         exportState(String.format("ID [%s]'s permission: [%s]", id, permitted? "ALLOWED": "DENIED"));
         return permitted;
     }
 
-    public int getRTT_to_Control_Node() {
-        return RTT_to_Control_Node;
+    /**
+     * Getter
+     * @return RTT_to_Master_Node
+     */
+    public int getRTT_to_Master_Node() {
+        return RTT_to_Master_Node;
     }
 
+    /**
+     * Gets all fields available on all devices in this node . Gets the fields from the local uController
+     * @return list of field names
+     */
     public ArrayList<String> getOfferedFields(){
-        return localController.getOfferedFields();
+        return localController.getGlobalOfferedFields();
     }
 
-    public MasterNode getControlNode() {
-        return controlNode;
+    /**
+     * Getter
+     * @return reference to master node object
+     */
+    public MasterNode getMasterNode() {
+        return masterNode;
     }
+
+    /**
+     * Function called continuously in the node's runtime thread
+     */
     @Override
     protected void runTimeFunction() {
         // Do Nothing
     }
 
+    /**
+     * Function to start the node's thread. The SlaveNode is responsible for starting its local controller
+     */
     @Override
     public void start() {
         localController.start();
         super.start();
     }
 
+    /**
+     * Function to terminate the node's thread. The SlaveNode is responsible for terminating its local controller
+     */
     @Override
     public void terminate() {
         localController.terminate();

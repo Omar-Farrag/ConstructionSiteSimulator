@@ -82,28 +82,28 @@ public class Simulation {
             }
             
             if(ropeAttached1_float == 0 || ropeAttached2_float == 0 || ropeAttached3_float == 0){
-                controller.updateSwitchIn("RoofZone_BuzzerNode", "RoofZone_BuzzerNode_actuator", "0","ON");
+                controller.updateSwitchIn("RoofZone_BuzzerNode", "RoofZone_BuzzerNode_relay", "0","true");
                 controller.setFieldIn("RoofZone_SpeakerNode", "RoofZone_SpeakerNode_speaker", "Played Message", "One or more safety ropes not attached!!!!",32);
             }
             else{
-                controller.updateSwitchIn("RoofZone_BuzzerNode", "RoofZone_BuzzerNode_actuator", "0","OFF");
+                controller.updateSwitchIn("RoofZone_BuzzerNode", "RoofZone_BuzzerNode_relay", "0","false");
                  controller.setFieldIn("RoofZone_SpeakerNode", "RoofZone_SpeakerNode_speaker", "Played Message", "",0);
 
             }
             
             if(distance1_float<100 || distance2_float < 100 || distance3_float<100 || distance4_float<100 || distance4_float<100 || distance5_float<100){
-                controller.updateSwitchIn("RoofZone_BuzzerNode", "RoofZone_BuzzerNode_actuator", "0","ON");
+                controller.updateSwitchIn("RoofZone_BuzzerNode", "RoofZone_BuzzerNode_relay", "0","true");
                 controller.setFieldIn("RoofZone_SpeakerNode", "RoofZone_SpeakerNode_speaker", "Played Message", "Worker too close to edge",32);
 
             }else{
-                controller.updateSwitchIn("RoofZone_BuzzerNode", "RoofZone_BuzzerNode_actuator", "0","OFF");
+                controller.updateSwitchIn("RoofZone_BuzzerNode", "RoofZone_BuzzerNode_relay", "0","false");
                 controller.setFieldIn("RoofZone_SpeakerNode", "RoofZone_SpeakerNode_speaker", "Played Message", "",0);
             }
 
             if(windSpeed_float < 20){
-                controller.updateSwitchIn("RoofZone_ActuatorNode", "RoofZone_ActuatorNode_actuator", "0", "ON");
+                controller.updateSwitchIn("RoofZone_ActuatorNode", "RoofZone_ActuatorNode_relay", "0", "true");
             }else{
-                controller.updateSwitchIn("RoofZone_ActuatorNode", "RoofZone_ActuatorNode_actuator", "0","OFF");
+                controller.updateSwitchIn("RoofZone_ActuatorNode", "RoofZone_ActuatorNode_relay", "0","false");
             }
 
             Queue<DataPacket> packets = controller.getBufferedDataPackets();
@@ -187,9 +187,7 @@ public class Simulation {
         System.out.println("***************Options*************** ");
         System.out.println("1) Init Fields");
         System.out.println("2) Start Simulation");
-        System.out.println("3) Deactivate Simulation Object");
-        System.out.println("4) Update Field");
-        System.out.println("5) End Simulation");
+        System.out.println("3) End Simulation");
         System.out.print("Your Option (type number only): ");
         
         String userInput = scanner.nextLine();
@@ -198,12 +196,10 @@ public class Simulation {
             switch(option){
                 case 1: initFields(); break;
                 case 2: startSimulation(); break;
-                case 3: switchObject(false); break;
-                case 4: updateField(); break;
-                case 5: endSimulation(); break;
+                case 3: endSimulation(); break;
                 default: System.out.println("Invalid option");
             }
-            return option != 5;
+            return option != 3;
 
         }catch(NumberFormatException e){
             System.out.println("Invalid option");
@@ -223,17 +219,7 @@ public class Simulation {
         for(Entry<String,Zone> entry : simulationObjects.entrySet()) 
             if (!entry.getValue().isAlive()) entry.getValue().start();
 
-        System.out.println("[Simulation Started]");
-        
-        
-    }
-    
-    static void switchObject(boolean ON){
-        
-    }
-    
-    static void updateField(){
-        
+        System.out.println("[Simulation Started]");   
     }
 
     static void endSimulation(){
