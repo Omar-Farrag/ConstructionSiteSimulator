@@ -16,17 +16,22 @@ public abstract class Zone extends SimulationObject {
     // Reference to the master node's internal gateway
     protected Gateway gateway;
 
+    // WiFi transmission rate in Kbps between connected gateways
+    protected int WIFI_Transmission_Rate;
+
     /**
      * Constructor
      * @param objectName Name of the zone
      * @param runTimeStep Timestep in ms of the zone's simulation lifetime
      * @param loop Control algorithm running continuously on master node's uController
      * @param setup Setup algorithm that runs once on master node's uController at the beginning
+     * @param WiFi_transmission_rate Transmission rate for data sent from this zone's gateway to other gateways
      */
-    public Zone(String objectName, int runTimeStep, ProcessingAlgorithm loop, ProcessingAlgorithm setup){
+    public Zone(String objectName, int runTimeStep, ProcessingAlgorithm loop, ProcessingAlgorithm setup, int WIFI_Transmission_Rate){
         super(objectName,runTimeStep);
         this.masterNodeLoop = loop;
         this.masterNodeSetup = setup;
+        this.WIFI_Transmission_Rate = WIFI_Transmission_Rate;
     }
 
     /**

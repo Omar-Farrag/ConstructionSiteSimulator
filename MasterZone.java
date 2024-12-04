@@ -13,9 +13,10 @@ public class MasterZone extends Zone {
      * @param object_name Name of the master zone
      * @param runTimeStep Timestep of the object's simulation lifetime in ms
      * @param masterNodeLoop Algorithm running on the zone's master node's uController
+     * @param WiFi_transmission_rate Transmission rate for data sent from this zone's gateway to other gateways
      */
-    MasterZone(String object_name, int runTimeStep, ProcessingAlgorithm masterNodeLoop){
-        super(object_name, runTimeStep, masterNodeLoop, null);
+    MasterZone(String object_name, int runTimeStep, ProcessingAlgorithm masterNodeLoop, int WIFI_Transmission_Rate){
+        super(object_name, runTimeStep, masterNodeLoop, null, WIFI_Transmission_Rate);
         
         // Create an output Database.csv file
         createDatabaseFile();
@@ -30,9 +31,10 @@ public class MasterZone extends Zone {
      * @param runTimeStep Timestep of the object's simulation lifetime in ms
      * @param masterNodeLoop Algorithm running on the zone's master node's uController
      * @param masterNodeSetup Setup algorithm that runs once on the zone's master node's uController
+     * @param WiFi_transmission_rate Transmission rate for data sent from this zone's gateway to other gateways
      */
-    MasterZone(String object_name, int runTimeStep, ProcessingAlgorithm masterNodeLoop, ProcessingAlgorithm masterNodeSetup){
-        super(object_name, runTimeStep, masterNodeLoop, masterNodeSetup);
+    MasterZone(String object_name, int runTimeStep, ProcessingAlgorithm masterNodeLoop, ProcessingAlgorithm masterNodeSetup, int WIFI_Transmission_Rate){
+        super(object_name, runTimeStep, masterNodeLoop, masterNodeSetup, WIFI_Transmission_Rate);
         
         // Create an output Database.csv file
         createDatabaseFile();
@@ -78,7 +80,7 @@ public class MasterZone extends Zone {
         String gatewayName = nodeName + "_gateway";
 
         // Initialize new gateway
-        gateway = new Gateway(gatewayName, runTimeStep);
+        gateway = new Gateway(gatewayName, runTimeStep, WIFI_Transmission_Rate);
 
         uController controller;
 

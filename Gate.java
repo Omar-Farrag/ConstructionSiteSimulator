@@ -23,9 +23,10 @@ public class Gate extends SlaveNode{
      * @param nodeName Name of this gate node
      * @param runTimeStep Timestep for this gate's lifetime in ms
      * @param RTT_to_Zone_Controller RTT between the gate node and the master node in ms
+     * @param BLE_transmission_rate BLE transmission rate in kbps for data sent from this node to the master node
      */
-    public Gate(String nodeName, int runTimeStep, int RTT_to_Zone_Controller){
-        super(nodeName, runTimeStep, RTT_to_Zone_Controller, 
+    public Gate(String nodeName, int runTimeStep, int RTT_to_Zone_Controller, int BLE_transmission_rate){
+        super(nodeName, runTimeStep, RTT_to_Zone_Controller, BLE_transmission_rate,
                 // Initialize new uController
                 new uController(
                     getFullName(nodeName, "controller") 

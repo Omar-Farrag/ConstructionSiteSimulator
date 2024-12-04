@@ -8,7 +8,7 @@ public class SlaveNode extends SimulationObject{
 
     // A constant BLE transmission rate in Kbps between a SlaveNode and the MasterNode
     // This rate applies for all instances of a SlaveNode
-    private static final int BLE_transmission_rate = 100; //kbps
+    private int BLE_transmission_rate; //kbps
     
     // Round trip time between this slave node object and and the master node in the same zone
     protected int RTT_to_Master_Node; //ms
@@ -24,13 +24,14 @@ public class SlaveNode extends SimulationObject{
      * @param object_name Name of the slave node
      * @param runTimeStep Timestep of the node's simulation lifetime in ms
      * @param RTT_to_Master_Node Round trip time between this node and the master node
+     * @param BLE_transmission_rate transmission rate in Kbps for data sent by bluetooth from this node to master node
      * @param locaController uController of the node
      */
-    public SlaveNode(String object_name, int runTimeStep, int RTT_to_Master_Node, uController localController){
+    public SlaveNode(String object_name, int runTimeStep, int RTT_to_Master_Node, int BLE_transmission_rate, uController localController){
         super(object_name, runTimeStep);
         this.RTT_to_Master_Node = RTT_to_Master_Node;
         this.localController = localController;
-        
+        this.BLE_transmission_rate = BLE_transmission_rate;
         // Set this node as the parent or encapsulator of the local uController
         localController.setParentNode(this);
     }

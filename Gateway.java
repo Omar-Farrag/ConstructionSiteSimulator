@@ -9,7 +9,7 @@ import java.util.Map.Entry;
 public class Gateway extends SimulationObject{
 
     // Data rate for WiFi transmissions in kbps
-    final int WIFI_TRANSMISSION_RATE = 2000;
+    private int WIFI_Transmission_Rate;
 
     // uController connected to this gateway
     private uController parentController;
@@ -25,10 +25,12 @@ public class Gateway extends SimulationObject{
      * Constructor
      * @param object_name Name of the gateway object
      * @param runTimeStep Timestep for the object's lifetime
+     * @param WiFi_Transmission_Rate WiFi transmission rate in kbps for data sent between gateways
      */
-    public Gateway(String object_name, int runTimeStep){
+    public Gateway(String object_name, int runTimeStep, int WIFI_TRANSMISSION_RATE){
         super(object_name, runTimeStep);
         connectedGateways = new HashMap<>();
+        this.WIFI_Transmission_Rate = WIFI_TRANSMISSION_RATE;
     }
 
     /**
@@ -103,7 +105,7 @@ public class Gateway extends SimulationObject{
                 // Wait for a delay simulating the transmission of the packet.
                 // Delay = RTT/2 + packet size/transmission rate
                 try {
-                    int time_delay= nextGateway.getValue()/2 + packet.getSize() / (WIFI_TRANSMISSION_RATE);
+                    int time_delay= nextGateway.getValue()/2 + packet.getSize() / (WIFI_Transmission_Rate);
                     Thread.sleep(time_delay);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
