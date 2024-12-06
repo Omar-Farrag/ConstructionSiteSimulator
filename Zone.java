@@ -16,6 +16,13 @@ public abstract class Zone extends SimulationObject {
     // Reference to the master node's internal gateway
     protected Gateway gateway;
 
+    // Round trip time in ms between the zone's slave nodes and master node.
+    // It is assumed that all slave nodes have the same RTT to the master node
+    protected int RTT_to_Master_Node;
+    
+    // BLE transmission rate in Kbps between slave nodes and master node in the same zone
+    protected int BLE_Transmission_Rate;
+
     // WiFi transmission rate in Kbps between connected gateways
     protected int WIFI_Transmission_Rate;
 
@@ -25,12 +32,16 @@ public abstract class Zone extends SimulationObject {
      * @param runTimeStep Timestep in ms of the zone's simulation lifetime
      * @param loop Control algorithm running continuously on master node's uController
      * @param setup Setup algorithm that runs once on master node's uController at the beginning
+     * @param RTT_to_Master_Node RTT in ms between the slave nodes and master node in the zone
+     * @param BLE_Transmission_Rate transmission rate in Kbps for data sent by bluetooth from slave nodes to master node in the zone
      * @param WiFi_transmission_rate Transmission rate for data sent from this zone's gateway to other gateways
      */
-    public Zone(String objectName, int runTimeStep, ProcessingAlgorithm loop, ProcessingAlgorithm setup, int WIFI_Transmission_Rate){
+    public Zone(String objectName, int runTimeStep, ProcessingAlgorithm loop, ProcessingAlgorithm setup, int RTT_to_Master_Node, int BLE_Transmission_Rate, int WIFI_Transmission_Rate){
         super(objectName,runTimeStep);
         this.masterNodeLoop = loop;
         this.masterNodeSetup = setup;
+        this.RTT_to_Master_Node = RTT_to_Master_Node;
+        this.BLE_Transmission_Rate = BLE_Transmission_Rate;
         this.WIFI_Transmission_Rate = WIFI_Transmission_Rate;
     }
 

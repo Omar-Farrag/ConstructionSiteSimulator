@@ -13,10 +13,12 @@ public class MasterZone extends Zone {
      * @param object_name Name of the master zone
      * @param runTimeStep Timestep of the object's simulation lifetime in ms
      * @param masterNodeLoop Algorithm running on the zone's master node's uController
+     * @param RTT_to_Master_Node RTT in ms between the slave nodes and master node in the zone
+     * @param BLE_Transmission_Rate transmission rate in Kbps for data sent by bluetooth from slave nodes to master node in the zone
      * @param WiFi_transmission_rate Transmission rate for data sent from this zone's gateway to other gateways
      */
-    MasterZone(String object_name, int runTimeStep, ProcessingAlgorithm masterNodeLoop, int WIFI_Transmission_Rate){
-        super(object_name, runTimeStep, masterNodeLoop, null, WIFI_Transmission_Rate);
+    MasterZone(String object_name, int runTimeStep, ProcessingAlgorithm masterNodeLoop, int RTT_to_Master_Node,int BLE_Transmission_Rate, int WIFI_Transmission_Rate){
+        super(object_name, runTimeStep, masterNodeLoop, null, RTT_to_Master_Node, BLE_Transmission_Rate, WIFI_Transmission_Rate);
         
         // Create an output Database.csv file
         createDatabaseFile();
@@ -31,10 +33,12 @@ public class MasterZone extends Zone {
      * @param runTimeStep Timestep of the object's simulation lifetime in ms
      * @param masterNodeLoop Algorithm running on the zone's master node's uController
      * @param masterNodeSetup Setup algorithm that runs once on the zone's master node's uController
+     * @param RTT_to_Master_Node RTT in ms between the slave nodes and master node in the zone
+     * @param BLE_Transmission_Rate transmission rate in Kbps for data sent by bluetooth from slave nodes to master node in the zone
      * @param WiFi_transmission_rate Transmission rate for data sent from this zone's gateway to other gateways
      */
-    MasterZone(String object_name, int runTimeStep, ProcessingAlgorithm masterNodeLoop, ProcessingAlgorithm masterNodeSetup, int WIFI_Transmission_Rate){
-        super(object_name, runTimeStep, masterNodeLoop, masterNodeSetup, WIFI_Transmission_Rate);
+    MasterZone(String object_name, int runTimeStep, ProcessingAlgorithm masterNodeLoop, ProcessingAlgorithm masterNodeSetup, int RTT_to_Master_Node, int BLE_Transmission_Rate, int WIFI_Transmission_Rate){
+        super(object_name, runTimeStep, masterNodeLoop, masterNodeSetup, RTT_to_Master_Node, BLE_Transmission_Rate, WIFI_Transmission_Rate);
         
         // Create an output Database.csv file
         createDatabaseFile();
@@ -92,7 +96,7 @@ public class MasterZone extends Zone {
         controller.connectTo(gateway);
 
         // Initialize the MasterNode object
-        MasterNode node = new MasterNode(nodeName, runTimeStep, controller);
+        MasterNode node = new MasterNode(nodeName, runTimeStep, BLE_Transmission_Rate, controller);
 
         return node;
     }

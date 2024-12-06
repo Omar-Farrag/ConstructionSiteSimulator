@@ -24,12 +24,7 @@ public class SlaveZone extends Zone {
     // Reference to the actuationNode's internal relay.
     private Relay relay;
 
-    // Round trip time in ms between the zone's slave nodes and master node.
-    // It is assumed that all slave nodes have the same RTT to the master node
-    private int RTT_to_Master_Node;
 
-    // BLE transmission rate in kbps when sending data between slave nodes and master node in the zone
-    private int BLE_transmission_rate;
 
     // List of other slave nodes in the zone in addition to the nodes mentioned above.
     // This allows the user to add new slave nodes to the slave zone to customize it. 
@@ -41,13 +36,12 @@ public class SlaveZone extends Zone {
      * @param runTimeStep Timestep in ms of the zone and its internal components's simulation lifetimes
      * @param masterNodeLoop Control algorithm to run on the zone's master node uController
      * @param RTT_to_Master_Node RTT in ms between the slave nodes and master node in the zone
-     * @param BLE_transmission_rate transmission rate in Kbps for data sent by bluetooth from this node to master node
+     * @param BLE_Transmission_Rate transmission rate in Kbps for data sent by bluetooth from slave nodes to master node in the zone
      * @param WiFi_transmission_rate Transmission rate for data sent from this zone's gateway to other gateways
      */
-    public SlaveZone(String object_name, int runTimeStep, ProcessingAlgorithm masterNodeLoop, int RTT_to_Master_Node, int BLE_transmission_rate, int WIFI_Transmission_Rate){
-        super(object_name, runTimeStep, masterNodeLoop, null, WIFI_Transmission_Rate);
+    public SlaveZone(String object_name, int runTimeStep, ProcessingAlgorithm masterNodeLoop, int RTT_to_Master_Node, int BLE_Transmission_Rate, int WIFI_Transmission_Rate){
+        super(object_name, runTimeStep, masterNodeLoop, null, RTT_to_Master_Node, BLE_Transmission_Rate, WIFI_Transmission_Rate);
         this.RTT_to_Master_Node = RTT_to_Master_Node;
-        this.BLE_transmission_rate = BLE_transmission_rate;
         this.otherSlaveNodes = new ArrayList<>();
         init();
         
@@ -60,12 +54,11 @@ public class SlaveZone extends Zone {
      * @param masterNodeLoop Control algorithm to run on the zone's master node uController
      * @param masterNodeSetup Setup algorithm that runs once on the zone's master node uController at the beginning
      * @param RTT_to_Master_Node RTT in ms between the slave nodes and master node in the zone
-     * @param BLE_transmission_rate transmission rate in Kbps for data sent by bluetooth from this node to master node
+     * @param BLE_transmission_rate transmission rate in Kbps for data sent by bluetooth from slave nodes to master node in the zone
      * @param WiFi_transmission_rate Transmission rate for data sent from this zone's gateway to other gateways
      */
-    public SlaveZone(String object_name, int runTimeStep, ProcessingAlgorithm masterNodeLoop, ProcessingAlgorithm masterNodeSetup, int RTT_to_Zone_Controller, int WIFI_Transmission_Rate){
-        super(object_name, runTimeStep,masterNodeLoop, masterNodeSetup, WIFI_Transmission_Rate);
-        this.RTT_to_Master_Node = RTT_to_Zone_Controller;
+    public SlaveZone(String object_name, int runTimeStep, ProcessingAlgorithm masterNodeLoop, ProcessingAlgorithm masterNodeSetup, int RTT_to_Master_Node, int BLE_Transmission_Rate, int WIFI_Transmission_Rate){
+        super(object_name, runTimeStep,masterNodeLoop, masterNodeSetup, RTT_to_Master_Node, BLE_Transmission_Rate, WIFI_Transmission_Rate);
         this.otherSlaveNodes = new ArrayList<>();
         init();
     }
@@ -141,7 +134,7 @@ public class SlaveZone extends Zone {
         String nodeName = getFullName("GateNode");
         
         // Initialize a new gate node as a SlaveNode
-        SlaveNode gateNode = new Gate(nodeName, runTimeStep, RTT_to_Master_Node, BLE_transmission_rate); 
+        SlaveNode gateNode = new Gate(nodeName, runTimeStep, RTT_to_Master_Node, BLE_Transmission_Rate); 
         
         // Set the master node of the gate node to be the master node in this class
         gateNode.setMasterNode(masterNode);
@@ -191,7 +184,7 @@ public class SlaveZone extends Zone {
         controller.connectTo(relay);
 
         // Initialize the actuator node
-        SlaveNode node = new SlaveNode(nodeName, runTimeStep, RTT_to_Master_Node, BLE_transmission_rate, controller);
+        SlaveNode node = new SlaveNode(nodeName, runTimeStep, RTT_to_Master_Node, BLE_Transmission_Rate, controller);
         
         // Set the node's master node to be the master node in the class
         gateNode.setMasterNode(masterNode);
@@ -249,7 +242,7 @@ public class SlaveZone extends Zone {
         controller.connectTo(relay);
 
         // Initialize the buzzer node
-        SlaveNode node = new SlaveNode(nodeName,runTimeStep, RTT_to_Master_Node, BLE_transmission_rate,controller);
+        SlaveNode node = new SlaveNode(nodeName,runTimeStep, RTT_to_Master_Node, BLE_Transmission_Rate,controller);
         
         // Set the master node of the buzzer node to be the master node in this class
         gateNode.setMasterNode(masterNode);
@@ -311,7 +304,7 @@ public class SlaveZone extends Zone {
         controller.connectTo(speaker);
 
         // Initialize speaker slave node
-        SlaveNode node = new SlaveNode(nodeName, runTimeStep, RTT_to_Master_Node, BLE_transmission_rate,controller);
+        SlaveNode node = new SlaveNode(nodeName, runTimeStep, RTT_to_Master_Node, BLE_Transmission_Rate,controller);
         
         // Set the master node of the speaker node to be the master node in this class
         gateNode.setMasterNode(masterNode);
@@ -366,7 +359,7 @@ public class SlaveZone extends Zone {
         controller.connectTo(gateway);
 
         // Initialze the master node 
-        MasterNode node = new MasterNode(nodeName, runTimeStep, controller);
+        MasterNode node = new MasterNode(nodeName, runTimeStep, BLE_Transmission_Rate, controller);
 
         // Return the fully created master node
         return node;

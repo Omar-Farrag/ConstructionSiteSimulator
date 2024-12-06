@@ -8,7 +8,7 @@ public class SlaveNode extends SimulationObject{
 
     // A constant BLE transmission rate in Kbps between a SlaveNode and the MasterNode
     // This rate applies for all instances of a SlaveNode
-    private int BLE_transmission_rate; //kbps
+    private int BLE_Transmission_Rate; //kbps
     
     // Round trip time between this slave node object and and the master node in the same zone
     protected int RTT_to_Master_Node; //ms
@@ -24,14 +24,14 @@ public class SlaveNode extends SimulationObject{
      * @param object_name Name of the slave node
      * @param runTimeStep Timestep of the node's simulation lifetime in ms
      * @param RTT_to_Master_Node Round trip time between this node and the master node
-     * @param BLE_transmission_rate transmission rate in Kbps for data sent by bluetooth from this node to master node
+     * @param BLE_Transmission_Rate transmission rate in Kbps for data sent by bluetooth from this node to master node
      * @param locaController uController of the node
      */
-    public SlaveNode(String object_name, int runTimeStep, int RTT_to_Master_Node, int BLE_transmission_rate, uController localController){
+    public SlaveNode(String object_name, int runTimeStep, int RTT_to_Master_Node, int BLE_Transmission_Rate, uController localController){
         super(object_name, runTimeStep);
         this.RTT_to_Master_Node = RTT_to_Master_Node;
         this.localController = localController;
-        this.BLE_transmission_rate = BLE_transmission_rate;
+        this.BLE_Transmission_Rate = BLE_Transmission_Rate;
         // Set this node as the parent or encapsulator of the local uController
         localController.setParentNode(this);
     }
@@ -128,7 +128,7 @@ public class SlaveNode extends SimulationObject{
         try {
 
             // Delay simulating the propagation and transmission delays to transmit data packet from slave node to master node 
-            int time_delay= RTT_to_Master_Node/2 + (result.isSuccess() ? result.getReturnedPacket().getSize() * 8 / (BLE_transmission_rate) : 0);
+            int time_delay= RTT_to_Master_Node/2 + (result.isSuccess() ? result.getReturnedPacket().getSize() * 8 / (BLE_Transmission_Rate) : 0);
             Thread.sleep(time_delay);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -155,7 +155,7 @@ public class SlaveNode extends SimulationObject{
 
         try {
             // Delay simulating the propagation and tranmission delays of the new value from the master node to this slave node
-            int time_delay= RTT_to_Master_Node /2 + size * 8 / BLE_transmission_rate;
+            int time_delay= RTT_to_Master_Node /2 + size * 8 / BLE_Transmission_Rate;
             Thread.sleep(time_delay);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -223,7 +223,7 @@ public class SlaveNode extends SimulationObject{
         
         try {
             // Delay simulating the propagation and tranmission delays of the new switch state from the master node to this slave node
-            int time_delay= RTT_to_Master_Node /2 + 8 / BLE_transmission_rate;
+            int time_delay= RTT_to_Master_Node /2 + 8 / BLE_Transmission_Rate;
             Thread.sleep(time_delay);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -278,13 +278,23 @@ public class SlaveNode extends SimulationObject{
 
     /**
      * Function to ask the master node whether a certain worker ID is permitted to enter the zone or not 
-     * @param id Worker ID whose entry permission is to be queried 
+     * @param packet Data packet encapsulating worker ID whose entry permission is to be queried 
      * @return true if worker is permitted, false otherwise
      */
-    public boolean isPermittedToEnter(String id){
+    public boolean isPermittedToEnter(DataPacket packet){
+        String id = packet.getValue();
+
+        // Add a log message indicating that this slave node has asked 
+        // the master node about a certain worker's permission to enter zone
         exportState(String.format("Asked Control Node [%s] about ID [%s]'s permission",masterNode.getObject_name(),id));
-        boolean permitted = masterNode.isPermittedToEnter(this, id);
+
+        // Ask master node if the worker is permitted to enter or not
+        boolean permitted = masterNode.isPermittedToEnter(this, packet);
+
+        // Add a log message indicating whether the worker is permitted or not
         exportState(String.format("ID [%s]'s permission: [%s]", id, permitted? "ALLOWED": "DENIED"));
+        
+        // Return permission status
         return permitted;
     }
 
@@ -297,10 +307,10 @@ public class SlaveNode extends SimulationObject{
     }
 
     /**
-     * Gets all fields available on all devices in this node . Gets the fields from the local uController
-     * @return list of field names
+     * Gets all fields available on all devices in this node. Gets the fields from the local uController
+     * @return list of field names in the form [object name]_[field name]
      */
-    public ArrayList<String> getOfferedFields(){
+    public ArrayList<String> getGlobalOfferedFields(){
         return localController.getGlobalOfferedFields();
     }
 

@@ -104,7 +104,7 @@ public class Gate extends SlaveNode{
             controller.exportState(String.format("Asked Parent Node [%s] about ID [%s]'s permission",parent.getObject_name(),value));
                         
             // Ask the parent to check whether the read ID value is permitted to enter
-            boolean permitted = parent.isPermittedToEnter(value);
+            boolean permitted = parent.isPermittedToEnter(result.getReturnedPacket());
 
             // Add a log message to the controller's output log file
             controller.exportState(String.format("ID [%s]'s permission: [%s]", value, permitted? "ALLOWED": "DENIED"));

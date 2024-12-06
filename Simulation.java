@@ -16,24 +16,25 @@ public class Simulation {
         
         int runTimeStep = 500; //ms
         int RTT_to_Master_Node = 20; //ms
-        int BLE_transmission_rate = 100; //kbps
+        int RTT_between_gateways = 100; //ms 
+        int BLE_Transmission_Rate = 100; //kbps
         int WIFI_Transmission_Rate = 2000; // kbps
         ArrayList<SlaveNode> extraSlaveNodes = new ArrayList<>();
         
         //Create additional slave nodes
-        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode1","UltrasonicSensor", "Distance",4, runTimeStep,RTT_to_Master_Node, BLE_transmission_rate));
-        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode2","UltrasonicSensor", "Distance",4, runTimeStep,RTT_to_Master_Node, BLE_transmission_rate));
-        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode3","UltrasonicSensor", "Distance",4, runTimeStep,RTT_to_Master_Node, BLE_transmission_rate));
-        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode4","UltrasonicSensor", "Distance",4, runTimeStep,RTT_to_Master_Node, BLE_transmission_rate));
-        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode5","UltrasonicSensor", "Distance",4, runTimeStep,RTT_to_Master_Node, BLE_transmission_rate));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode1","UltrasonicSensor", "Distance",4, runTimeStep,RTT_to_Master_Node, BLE_Transmission_Rate));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode2","UltrasonicSensor", "Distance",4, runTimeStep,RTT_to_Master_Node, BLE_Transmission_Rate));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode3","UltrasonicSensor", "Distance",4, runTimeStep,RTT_to_Master_Node, BLE_Transmission_Rate));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode4","UltrasonicSensor", "Distance",4, runTimeStep,RTT_to_Master_Node, BLE_Transmission_Rate));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_UltrasonicNode5","UltrasonicSensor", "Distance",4, runTimeStep,RTT_to_Master_Node, BLE_Transmission_Rate));
        
         // Create Smart Rope Nodes
-        extraSlaveNodes.add(create_general_slave_node("RoofZone_SmartRopeNode1","SmartRope", "Is Attached",1, runTimeStep,RTT_to_Master_Node, BLE_transmission_rate));
-        extraSlaveNodes.add(create_general_slave_node("RoofZone_SmartRopeNode2","SmartRope", "Is Attached",1, runTimeStep,RTT_to_Master_Node, BLE_transmission_rate));
-        extraSlaveNodes.add(create_general_slave_node("RoofZone_SmartRopeNode3","SmartRope", "Is Attached",1, runTimeStep,RTT_to_Master_Node, BLE_transmission_rate));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_SmartRopeNode1","SmartRope", "Is Attached",1, runTimeStep,RTT_to_Master_Node, BLE_Transmission_Rate));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_SmartRopeNode2","SmartRope", "Is Attached",1, runTimeStep,RTT_to_Master_Node, BLE_Transmission_Rate));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_SmartRopeNode3","SmartRope", "Is Attached",1, runTimeStep,RTT_to_Master_Node, BLE_Transmission_Rate));
         
         // Create Wind Sensing Node
-        extraSlaveNodes.add(create_general_slave_node("RoofZone_WindNode","WindSensor", "Wind Speed",4, runTimeStep,RTT_to_Master_Node, BLE_transmission_rate));
+        extraSlaveNodes.add(create_general_slave_node("RoofZone_WindNode","WindSensor", "Wind Speed",4, runTimeStep,RTT_to_Master_Node, BLE_Transmission_Rate));
         
         //Create a pulley lift to be attached to actuator
         HighPowerDevice pulleyLift = new HighPowerDevice("RoofZone_PulleyLift", runTimeStep);
@@ -120,7 +121,7 @@ public class Simulation {
 
         };
         
-       SlaveZone roofZone = new SlaveZone("RoofZone", runTimeStep, zoneAlgo, RTT_to_Master_Node, BLE_transmission_rate, WIFI_Transmission_Rate);
+       SlaveZone roofZone = new SlaveZone("RoofZone", runTimeStep, zoneAlgo, RTT_to_Master_Node, BLE_Transmission_Rate, WIFI_Transmission_Rate);
         
        roofZone.addPermittedId("Omar");
        roofZone.addPermittedId("Farrag");
@@ -130,8 +131,8 @@ public class Simulation {
        roofZone.connectToActuationNode(pulleyLift, 0);
 
 
-        SlaveZone zone2 = new SlaveZone("Zone2", runTimeStep, (uController cont)->{}, RTT_to_Master_Node,BLE_transmission_rate,  WIFI_Transmission_Rate);
-        SlaveZone zone3 = new SlaveZone("Zone3", runTimeStep, (uController cont)->{}, RTT_to_Master_Node, BLE_transmission_rate,  WIFI_Transmission_Rate);
+        SlaveZone zone2 = new SlaveZone("Zone2", runTimeStep, (uController cont)->{}, RTT_to_Master_Node, BLE_Transmission_Rate,  WIFI_Transmission_Rate);
+        SlaveZone zone3 = new SlaveZone("Zone3", runTimeStep, (uController cont)->{}, RTT_to_Master_Node, BLE_Transmission_Rate,  WIFI_Transmission_Rate);
 
         MasterZone masterZone = new MasterZone("MasterZone", runTimeStep, (uController cont)->{
 
@@ -153,12 +154,12 @@ public class Simulation {
                 }
                         
             }
-        }, WIFI_Transmission_Rate);
+        }, RTT_to_Master_Node, BLE_Transmission_Rate, WIFI_Transmission_Rate);
                     
 
-        roofZone.connectToZone(zone2, 100);
-        zone2.connectToZone(zone3, 100);
-        zone3.connectToZone(masterZone, 100);
+        roofZone.connectToZone(zone2, RTT_between_gateways);
+        zone2.connectToZone(zone3, RTT_between_gateways);
+        zone3.connectToZone(masterZone, RTT_between_gateways);
 
         simulationObjects.put(roofZone.getObject_name(),roofZone);
         simulationObjects.put(zone2.getObject_name(),zone2);

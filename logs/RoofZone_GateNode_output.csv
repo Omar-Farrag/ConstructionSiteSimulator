@@ -1,66 +1,222 @@
 Timestamp,Object Name,Event
-2024-12-04T13:40:04.571435200,RoofZone_GateNode,Started
-2024-12-04T13:40:04.591911100,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Uninitialized]'s permission
-2024-12-04T13:40:04.638819400,RoofZone_GateNode,ID [Uninitialized]'s permission: [DENIED]
-2024-12-04T13:40:04.643822300,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:04.669831100,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:05.171289500,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Mars]'s permission
-2024-12-04T13:40:05.211335800,RoofZone_GateNode,ID [Mars]'s permission: [DENIED]
-2024-12-04T13:40:05.214173200,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:05.241822100,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:05.744760500,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Omar]'s permission
-2024-12-04T13:40:05.784240300,RoofZone_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-12-04T13:40:05.785421900,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:05.813684700,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:06.327651700,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Farrag]'s permission
-2024-12-04T13:40:06.360388600,RoofZone_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-12-04T13:40:06.360388600,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:06.389534900,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:06.904929500,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [hala]'s permission
-2024-12-04T13:40:06.934740400,RoofZone_GateNode,ID [hala]'s permission: [DENIED]
-2024-12-04T13:40:06.940084500,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:06.979763,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:07.483162,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [cuz]'s permission
-2024-12-04T13:40:07.524182300,RoofZone_GateNode,ID [cuz]'s permission: [DENIED]
-2024-12-04T13:40:07.526623600,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:07.555016,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:08.070218700,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Guten]'s permission
-2024-12-04T13:40:08.100962900,RoofZone_GateNode,ID [Guten]'s permission: [DENIED]
-2024-12-04T13:40:08.104143900,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:08.132312,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:08.658421900,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Bruno]'s permission
-2024-12-04T13:40:08.692795600,RoofZone_GateNode,ID [Bruno]'s permission: [DENIED]
-2024-12-04T13:40:08.695288100,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:08.724387500,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:09.242409800,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Omar]'s permission
-2024-12-04T13:40:09.270534500,RoofZone_GateNode,ID [Omar]'s permission: [ALLOWED]
-2024-12-04T13:40:09.271419400,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:09.301280600,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:09.804941900,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Farrag]'s permission
-2024-12-04T13:40:09.830775900,RoofZone_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-12-04T13:40:09.832691100,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:09.864333600,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:10.380378300,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [hala]'s permission
-2024-12-04T13:40:10.423206400,RoofZone_GateNode,ID [hala]'s permission: [DENIED]
-2024-12-04T13:40:10.426283200,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:10.453898900,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:10.966494700,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [cuz]'s permission
-2024-12-04T13:40:10.996412300,RoofZone_GateNode,ID [cuz]'s permission: [DENIED]
-2024-12-04T13:40:10.997412700,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:11.026883200,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:11.540327700,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Guten]'s permission
-2024-12-04T13:40:11.570551900,RoofZone_GateNode,ID [Guten]'s permission: [DENIED]
-2024-12-04T13:40:11.576513100,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:11.617425300,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:12.133492900,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Bruno]'s permission
-2024-12-04T13:40:12.174476100,RoofZone_GateNode,ID [Bruno]'s permission: [DENIED]
-2024-12-04T13:40:12.179549500,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:12.221245300,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:12.723058800,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Mars]'s permission
-2024-12-04T13:40:12.755748,RoofZone_GateNode,ID [Mars]'s permission: [DENIED]
-2024-12-04T13:40:12.758202400,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:12.787424600,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:13.300946500,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Farrag]'s permission
-2024-12-04T13:40:13.330944600,RoofZone_GateNode,ID [Farrag]'s permission: [ALLOWED]
-2024-12-04T13:40:13.331861700,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
-2024-12-04T13:40:13.354335200,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:14.783593300,RoofZone_GateNode,Started
+2024-12-06T20:58:14.818673700,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Bruno]'s permission
+2024-12-06T20:58:14.855084200,RoofZone_GateNode,ID [Bruno]'s permission: [DENIED]
+2024-12-06T20:58:14.878588100,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:14.910557100,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:15.437030500,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Mars]'s permission
+2024-12-06T20:58:15.462824200,RoofZone_GateNode,ID [Mars]'s permission: [DENIED]
+2024-12-06T20:58:15.467827,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:15.494474400,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:16.007142900,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Omar]'s permission
+2024-12-06T20:58:16.037659800,RoofZone_GateNode,ID [Omar]'s permission: [ALLOWED]
+2024-12-06T20:58:16.042334,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:16.104108300,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:16.615663200,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Farrag]'s permission
+2024-12-06T20:58:16.645184600,RoofZone_GateNode,ID [Farrag]'s permission: [ALLOWED]
+2024-12-06T20:58:16.652143200,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:16.690348100,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:17.205092200,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [hala]'s permission
+2024-12-06T20:58:17.234886600,RoofZone_GateNode,ID [hala]'s permission: [DENIED]
+2024-12-06T20:58:17.236914800,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:17.265800100,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:17.768276700,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [cuz]'s permission
+2024-12-06T20:58:17.795949700,RoofZone_GateNode,ID [cuz]'s permission: [DENIED]
+2024-12-06T20:58:17.799323300,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:17.842087600,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:18.358342,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Guten]'s permission
+2024-12-06T20:58:18.388928300,RoofZone_GateNode,ID [Guten]'s permission: [DENIED]
+2024-12-06T20:58:18.395191200,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:18.435472600,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:18.948785200,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Mars]'s permission
+2024-12-06T20:58:18.977715500,RoofZone_GateNode,ID [Mars]'s permission: [DENIED]
+2024-12-06T20:58:18.982129200,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:19.008657600,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:19.527894200,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Omar]'s permission
+2024-12-06T20:58:19.584435300,RoofZone_GateNode,ID [Omar]'s permission: [ALLOWED]
+2024-12-06T20:58:19.586543400,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:19.614880200,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:20.129725700,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Farrag]'s permission
+2024-12-06T20:58:20.160271300,RoofZone_GateNode,ID [Farrag]'s permission: [ALLOWED]
+2024-12-06T20:58:20.161255300,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:20.191361300,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:20.708539500,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [hala]'s permission
+2024-12-06T20:58:20.734608900,RoofZone_GateNode,ID [hala]'s permission: [DENIED]
+2024-12-06T20:58:20.739720900,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:20.767514800,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:21.284767500,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [cuz]'s permission
+2024-12-06T20:58:21.312301600,RoofZone_GateNode,ID [cuz]'s permission: [DENIED]
+2024-12-06T20:58:21.317603800,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:21.373401200,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:21.889783200,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Guten]'s permission
+2024-12-06T20:58:21.919523700,RoofZone_GateNode,ID [Guten]'s permission: [DENIED]
+2024-12-06T20:58:21.923626700,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:21.964240300,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:22.477623900,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Mars]'s permission
+2024-12-06T20:58:22.508305200,RoofZone_GateNode,ID [Mars]'s permission: [DENIED]
+2024-12-06T20:58:22.512665800,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:22.538055400,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:23.054913800,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Omar]'s permission
+2024-12-06T20:58:23.079528500,RoofZone_GateNode,ID [Omar]'s permission: [ALLOWED]
+2024-12-06T20:58:23.081392300,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:23.113884500,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:23.617301300,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Farrag]'s permission
+2024-12-06T20:58:23.643370900,RoofZone_GateNode,ID [Farrag]'s permission: [ALLOWED]
+2024-12-06T20:58:23.650090700,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:23.692887800,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:24.207625100,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [hala]'s permission
+2024-12-06T20:58:24.237164700,RoofZone_GateNode,ID [hala]'s permission: [DENIED]
+2024-12-06T20:58:24.241222,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:24.282681400,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:24.786806200,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [cuz]'s permission
+2024-12-06T20:58:24.859417100,RoofZone_GateNode,ID [cuz]'s permission: [DENIED]
+2024-12-06T20:58:24.862791200,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:24.890557900,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:25.396001700,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Guten]'s permission
+2024-12-06T20:58:25.424321400,RoofZone_GateNode,ID [Guten]'s permission: [DENIED]
+2024-12-06T20:58:25.427764,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:25.453763300,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:25.957386200,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Bruno]'s permission
+2024-12-06T20:58:25.987295400,RoofZone_GateNode,ID [Bruno]'s permission: [DENIED]
+2024-12-06T20:58:25.991757700,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:26.019568400,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:26.523260400,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Mars]'s permission
+2024-12-06T20:58:26.580573300,RoofZone_GateNode,ID [Mars]'s permission: [DENIED]
+2024-12-06T20:58:26.583289700,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:26.610857800,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:27.129178600,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Farrag]'s permission
+2024-12-06T20:58:27.156842700,RoofZone_GateNode,ID [Farrag]'s permission: [ALLOWED]
+2024-12-06T20:58:27.160291400,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:27.190495900,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:27.702444900,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [hala]'s permission
+2024-12-06T20:58:27.734694500,RoofZone_GateNode,ID [hala]'s permission: [DENIED]
+2024-12-06T20:58:27.739156400,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:27.765021700,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:28.286372100,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [cuz]'s permission
+2024-12-06T20:58:28.323267600,RoofZone_GateNode,ID [cuz]'s permission: [DENIED]
+2024-12-06T20:58:28.326787900,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:28.357314900,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:28.872802300,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Guten]'s permission
+2024-12-06T20:58:28.902542900,RoofZone_GateNode,ID [Guten]'s permission: [DENIED]
+2024-12-06T20:58:28.905676,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:28.934787300,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:29.448273300,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Bruno]'s permission
+2024-12-06T20:58:29.478438500,RoofZone_GateNode,ID [Bruno]'s permission: [DENIED]
+2024-12-06T20:58:29.485455,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:29.525089200,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:30.042251200,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Mars]'s permission
+2024-12-06T20:58:30.087995900,RoofZone_GateNode,ID [Mars]'s permission: [DENIED]
+2024-12-06T20:58:30.089984500,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:30.118999,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:30.636375700,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Omar]'s permission
+2024-12-06T20:58:30.665136300,RoofZone_GateNode,ID [Omar]'s permission: [ALLOWED]
+2024-12-06T20:58:30.671495400,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:30.710463300,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:31.212610900,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [hala]'s permission
+2024-12-06T20:58:31.253405600,RoofZone_GateNode,ID [hala]'s permission: [DENIED]
+2024-12-06T20:58:31.257608600,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:31.284064900,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:31.801396900,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [cuz]'s permission
+2024-12-06T20:58:31.829078800,RoofZone_GateNode,ID [cuz]'s permission: [DENIED]
+2024-12-06T20:58:31.832266900,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:31.860413700,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:32.365680,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Guten]'s permission
+2024-12-06T20:58:32.393458500,RoofZone_GateNode,ID [Guten]'s permission: [DENIED]
+2024-12-06T20:58:32.397275300,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:32.440368900,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:32.955044200,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Bruno]'s permission
+2024-12-06T20:58:32.985825300,RoofZone_GateNode,ID [Bruno]'s permission: [DENIED]
+2024-12-06T20:58:32.988078800,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:33.015674100,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:33.530715300,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Mars]'s permission
+2024-12-06T20:58:33.560205800,RoofZone_GateNode,ID [Mars]'s permission: [DENIED]
+2024-12-06T20:58:33.563208800,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:33.591363300,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:34.106595,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Omar]'s permission
+2024-12-06T20:58:34.134871100,RoofZone_GateNode,ID [Omar]'s permission: [ALLOWED]
+2024-12-06T20:58:34.137560400,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:34.165926100,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:34.678830200,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Farrag]'s permission
+2024-12-06T20:58:34.708341,RoofZone_GateNode,ID [Farrag]'s permission: [ALLOWED]
+2024-12-06T20:58:34.734457400,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:34.771992100,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:35.281031,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [cuz]'s permission
+2024-12-06T20:58:35.320301,RoofZone_GateNode,ID [cuz]'s permission: [DENIED]
+2024-12-06T20:58:35.322776300,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:35.351047500,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:35.864089200,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Guten]'s permission
+2024-12-06T20:58:35.894428200,RoofZone_GateNode,ID [Guten]'s permission: [DENIED]
+2024-12-06T20:58:35.897562400,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:35.957153100,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:36.472928300,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Bruno]'s permission
+2024-12-06T20:58:36.501723600,RoofZone_GateNode,ID [Bruno]'s permission: [DENIED]
+2024-12-06T20:58:36.507282800,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:36.548519500,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:37.063146300,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Mars]'s permission
+2024-12-06T20:58:37.093204900,RoofZone_GateNode,ID [Mars]'s permission: [DENIED]
+2024-12-06T20:58:37.098702,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:37.122661900,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:37.638841300,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Omar]'s permission
+2024-12-06T20:58:37.668054100,RoofZone_GateNode,ID [Omar]'s permission: [ALLOWED]
+2024-12-06T20:58:37.673053200,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:37.715213700,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:38.230403600,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Farrag]'s permission
+2024-12-06T20:58:38.260729300,RoofZone_GateNode,ID [Farrag]'s permission: [ALLOWED]
+2024-12-06T20:58:38.264160800,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:38.292478800,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:38.808365500,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [hala]'s permission
+2024-12-06T20:58:38.839574800,RoofZone_GateNode,ID [hala]'s permission: [DENIED]
+2024-12-06T20:58:38.840692900,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:38.865217800,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:39.385002600,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Guten]'s permission
+2024-12-06T20:58:39.410707,RoofZone_GateNode,ID [Guten]'s permission: [DENIED]
+2024-12-06T20:58:39.415498200,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:39.442856900,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:39.958170200,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Bruno]'s permission
+2024-12-06T20:58:39.986625800,RoofZone_GateNode,ID [Bruno]'s permission: [DENIED]
+2024-12-06T20:58:39.988630300,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:40.016965900,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:40.533508500,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Mars]'s permission
+2024-12-06T20:58:40.562813800,RoofZone_GateNode,ID [Mars]'s permission: [DENIED]
+2024-12-06T20:58:40.567570600,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:40.608985100,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:41.126234400,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Omar]'s permission
+2024-12-06T20:58:41.159359300,RoofZone_GateNode,ID [Omar]'s permission: [ALLOWED]
+2024-12-06T20:58:41.164788500,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:41.200622300,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:41.718329900,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Farrag]'s permission
+2024-12-06T20:58:41.746936800,RoofZone_GateNode,ID [Farrag]'s permission: [ALLOWED]
+2024-12-06T20:58:41.749107700,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:41.777538200,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:42.293206400,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [hala]'s permission
+2024-12-06T20:58:42.321404900,RoofZone_GateNode,ID [hala]'s permission: [DENIED]
+2024-12-06T20:58:42.323225,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:42.350925,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:42.857144700,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [cuz]'s permission
+2024-12-06T20:58:42.884535300,RoofZone_GateNode,ID [cuz]'s permission: [DENIED]
+2024-12-06T20:58:42.887057500,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:42.915323300,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:43.431511300,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Guten]'s permission
+2024-12-06T20:58:43.460531900,RoofZone_GateNode,ID [Guten]'s permission: [DENIED]
+2024-12-06T20:58:43.465765900,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:43.507400500,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:44.023691200,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Mars]'s permission
+2024-12-06T20:58:44.051126600,RoofZone_GateNode,ID [Mars]'s permission: [DENIED]
+2024-12-06T20:58:44.053934100,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:44.082251800,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:44.597295500,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Omar]'s permission
+2024-12-06T20:58:44.625939600,RoofZone_GateNode,ID [Omar]'s permission: [ALLOWED]
+2024-12-06T20:58:44.630767800,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:44.659214600,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:45.172464800,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [Farrag]'s permission
+2024-12-06T20:58:45.202999400,RoofZone_GateNode,ID [Farrag]'s permission: [ALLOWED]
+2024-12-06T20:58:45.206470200,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:45.233502900,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:45.747686200,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [hala]'s permission
+2024-12-06T20:58:45.777592300,RoofZone_GateNode,ID [hala]'s permission: [DENIED]
+2024-12-06T20:58:45.781196200,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:45.808802700,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:46.311127500,RoofZone_GateNode,Asked Control Node [RoofZone_MasterNode] about ID [cuz]'s permission
+2024-12-06T20:58:46.338359800,RoofZone_GateNode,ID [cuz]'s permission: [DENIED]
+2024-12-06T20:58:46.342512500,RoofZone_GateNode,Started Publishing (2) packets to Control Node [RoofZone_MasterNode]
+2024-12-06T20:58:46.369053800,RoofZone_GateNode,Done Publishing (2) packets to Control Node [RoofZone_MasterNode]

@@ -1,20 +1,63 @@
 Timestamp,Object Name,Played Message
-2024-12-04T13:40:04.620863100,RoofZone_SpeakerNode_speaker,Uninitialized
-2024-12-04T13:40:05.122780700,RoofZone_SpeakerNode_speaker,Uninitialized
-2024-12-04T13:40:05.630781700,RoofZone_SpeakerNode_speaker,Uninitialized
-2024-12-04T13:40:06.140768500,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-04T13:40:06.655294900,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-04T13:40:07.166637900,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-04T13:40:07.680219300,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-04T13:40:08.194167600,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-04T13:40:08.708381300,RoofZone_SpeakerNode_speaker,
-2024-12-04T13:40:09.209893600,RoofZone_SpeakerNode_speaker,
-2024-12-04T13:40:09.721445300,RoofZone_SpeakerNode_speaker,
-2024-12-04T13:40:10.236994,RoofZone_SpeakerNode_speaker,
-2024-12-04T13:40:10.747986500,RoofZone_SpeakerNode_speaker,
-2024-12-04T13:40:11.260041100,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-04T13:40:11.774608800,RoofZone_SpeakerNode_speaker,
-2024-12-04T13:40:12.284452700,RoofZone_SpeakerNode_speaker,
-2024-12-04T13:40:12.787424600,RoofZone_SpeakerNode_speaker,
-2024-12-04T13:40:13.299942100,RoofZone_SpeakerNode_speaker,
-2024-12-04T13:40:13.804146400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:14.891982600,RoofZone_SpeakerNode_speaker,Uninitialized
+2024-12-06T20:58:15.396459900,RoofZone_SpeakerNode_speaker,
+2024-12-06T20:58:15.936316700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:16.438503200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:16.940947,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:17.454244700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:17.966182800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:18.482147200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:18.993361900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:19.506922300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:20.024410200,RoofZone_SpeakerNode_speaker,
+2024-12-06T20:58:20.534201200,RoofZone_SpeakerNode_speaker,
+2024-12-06T20:58:21.047631800,RoofZone_SpeakerNode_speaker,
+2024-12-06T20:58:21.564553,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
+2024-12-06T20:58:22.066561,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:22.570927300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:23.082830900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:23.596642500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:24.098513800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:24.609626600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:25.127523300,RoofZone_SpeakerNode_speaker,
+2024-12-06T20:58:25.643872800,RoofZone_SpeakerNode_speaker,
+2024-12-06T20:58:26.160149900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:26.673547800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:27.190495900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:27.701657700,RoofZone_SpeakerNode_speaker,
+2024-12-06T20:58:28.217701800,RoofZone_SpeakerNode_speaker,
+2024-12-06T20:58:28.731391600,RoofZone_SpeakerNode_speaker,
+2024-12-06T20:58:29.246291300,RoofZone_SpeakerNode_speaker,
+2024-12-06T20:58:29.759672600,RoofZone_SpeakerNode_speaker,
+2024-12-06T20:58:30.271792400,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
+2024-12-06T20:58:30.788996,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:31.300758600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:31.815819100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:32.332050200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:32.843836400,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
+2024-12-06T20:58:33.357345100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:33.870395100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:34.382649900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:34.893549600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:35.397677500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:35.929211900,RoofZone_SpeakerNode_speaker,
+2024-12-06T20:58:36.440401200,RoofZone_SpeakerNode_speaker,
+2024-12-06T20:58:36.953303200,RoofZone_SpeakerNode_speaker,
+2024-12-06T20:58:37.467801400,RoofZone_SpeakerNode_speaker,
+2024-12-06T20:58:37.980401700,RoofZone_SpeakerNode_speaker,
+2024-12-06T20:58:38.495016200,RoofZone_SpeakerNode_speaker,
+2024-12-06T20:58:39.008818400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:39.522318700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:40.037334,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:40.546979300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:41.049172900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:41.560180900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:42.074460600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:42.575164900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:43.085922100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:43.602220100,RoofZone_SpeakerNode_speaker,
+2024-12-06T20:58:44.113031200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:44.630767800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:45.140145100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:45.653247800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-06T20:58:46.168331800,RoofZone_SpeakerNode_speaker,
