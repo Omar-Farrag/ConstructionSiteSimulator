@@ -43,12 +43,11 @@ public class MasterNode extends SimulationObject {
     /**
      * Constructor
      * @param object_name Name of the object
-     * @param runTimeStep Timestep in ms for the node's simulation lifetime
      * @param BLE_Transmission_Rate BLE transmission rate in kbps for data sent from master node to slave nodes
      * @param localController Local uController for the node
      */
-    public MasterNode(String object_name, int runTimeStep, int BLE_Transmission_Rate, uController localController){
-        super(object_name, runTimeStep);
+    public MasterNode(String object_name,int BLE_Transmission_Rate, uController localController){
+        super(object_name);
         this.localController = localController;
         this.BLE_Transmission_Rate = BLE_Transmission_Rate;
         
@@ -203,7 +202,7 @@ public class MasterNode extends SimulationObject {
     }
 
     /**
-     * Function to update the value of a certain field in a certain device in a certain slave node. Does not implement transmission delays
+     * Function to update the value of a certain field in a certain device in a certain slave node.
      * @param targetNodeName Name of the slave node containing the device containing the field whose value is to be updated
      * @param targetObjectName Name of the device containing the field to be updated
      * @param field Name of the field to be updated
@@ -337,7 +336,8 @@ public class MasterNode extends SimulationObject {
     }
     
     /**
-     * Run time function called continuously by the object's run time thread
+     * Run time function called continuously by the object's runtime thread assuming a thread 
+     * was started for this node.
      */
     @Override
     protected void runTimeFunction() {
@@ -445,12 +445,12 @@ public class MasterNode extends SimulationObject {
     }
 
     /**
-     * Function to start the object's run time thread. The master node is responsbile for
+     * Function to start the object without starting a new thread. The master node is responsible for
      * starting its local controller, which in turn starts all devices connected to uController
      */
     @Override
     public void start() {
-        super.start();
+        super.start(false,0);
         exportState("Started");
         localController.start();
     }

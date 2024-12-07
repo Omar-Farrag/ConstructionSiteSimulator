@@ -37,7 +37,7 @@ public class Simulation {
         extraSlaveNodes.add(create_general_slave_node("RoofZone_WindNode","WindSensor", "Wind Speed",4, runTimeStep,RTT_to_Master_Node, BLE_Transmission_Rate));
         
         //Create a pulley lift to be attached to actuator
-        HighPowerDevice pulleyLift = new HighPowerDevice("RoofZone_PulleyLift", runTimeStep);
+        HighPowerDevice pulleyLift = new HighPowerDevice("RoofZone_PulleyLift");
 
 
         ProcessingAlgorithm zoneAlgo = (uController controller)->{
@@ -52,9 +52,7 @@ public class Simulation {
             
             String ropeAttached1 = controller.getCurrentValue("RoofZone_SmartRopeNode1_SmartRope", "Is Attached");
             String ropeAttached2 = controller.getCurrentValue("RoofZone_SmartRopeNode2_SmartRope", "Is Attached");
-            String ropeAttached3 = controller.getCurrentValue("RoofZone_SmartRopeNode3_SmartRope", "Is Attached");
-            
-            
+            String ropeAttached3 = controller.getCurrentValue("RoofZone_SmartRopeNode3_SmartRope", "Is Attached");         
 
             Float distance1_float;
             Float distance2_float;
@@ -112,7 +110,7 @@ public class Simulation {
             Queue<DataPacket> packets = controller.getBufferedDataPackets();
             if(packets.size() > 20){
                 controller.clearBufferedDataPackets();
-                BulkDataPacket bigBoi = new BulkDataPacket(controller.getParentControlNode().getObject_name(), controller.getCurrentTimestamp());
+                BulkDataPacket bigBoi = new BulkDataPacket(controller.getParentMasterNode().getObject_name(), controller.getCurrentTimestamp());
                 bigBoi.addPackets(packets);
                 controller.exportState(String.format("Aggregated (%d) data packets to forward to control zone",packets.size()));
                 controller.forwardToZones(bigBoi, "Zone2","Zone3","MasterZone");
@@ -168,11 +166,12 @@ public class Simulation {
 
         while(menu());
 
+
     }
 
     static SlaveNode create_general_slave_node(String nodeName, String deviceName, String fieldName, int fieldSize, int runTimeStep, int RTT_to_Zone_Controller, int BLE_transmission_rate) {
         String fullName = nodeName + "_" + deviceName;
-        LowPowerDevice dev = new LowPowerDevice(fullName, runTimeStep, fieldSize);
+        LowPowerDevice dev = new LowPowerDevice(fullName, fieldSize);
         
         ProcessingAlgorithm algo = (uController controller)->{
             ExecutionResult result = controller.getField(fullName, fieldName);
@@ -182,7 +181,7 @@ public class Simulation {
         uController controller = new uController(nodeName+"_controller", runTimeStep, algo);
         
         controller.connectTo(dev);
-        return new SlaveNode(nodeName, runTimeStep, RTT_to_Zone_Controller,BLE_transmission_rate, controller);
+        return new SlaveNode(nodeName, RTT_to_Zone_Controller,BLE_transmission_rate, controller);
     }
 
     static boolean menu(){

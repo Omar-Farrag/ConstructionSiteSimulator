@@ -11,10 +11,9 @@ public class HighPowerDevice extends Device {
     /**
      * Constructor
      * @param name Name of the high power device
-     * @param runTimeStep Timestep of the object's lifetime in ms
      */
-    public HighPowerDevice(String name, int runTimeStep){
-        super(name, runTimeStep);
+    public HighPowerDevice(String name){
+        super(name);
         connectedToPower = false;
     }
 
@@ -64,7 +63,8 @@ public class HighPowerDevice extends Device {
     }
 
     /**
-     * Function running continuously in the device's runtime thread with a timestep of runTimeStep
+     * Function running continuously in the device's runtime thread with a timestep of runTimeStep assuming a thread
+     * was started for the high power device
      */
     @Override
     protected void runTimeFunction() {
@@ -113,6 +113,14 @@ public class HighPowerDevice extends Device {
         ArrayList<String> fieldNames = new ArrayList<>();
         fieldNames.add("Is Powered");
         return fieldNames;
+    }
+
+    /**
+     * Function to start the object without starting a thread
+     */
+    @Override
+    public void start() {
+        super.start(false,0);
     }
 
 }

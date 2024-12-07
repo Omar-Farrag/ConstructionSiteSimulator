@@ -29,15 +29,15 @@ public abstract class Zone extends SimulationObject {
     /**
      * Constructor
      * @param objectName Name of the zone
-     * @param runTimeStep Timestep in ms of the zone's simulation lifetime
+     * @param runTimeStep Timestep in ms of the zone's uControllers' runtime threads
      * @param loop Control algorithm running continuously on master node's uController
      * @param setup Setup algorithm that runs once on master node's uController at the beginning
      * @param RTT_to_Master_Node RTT in ms between the slave nodes and master node in the zone
      * @param BLE_Transmission_Rate transmission rate in Kbps for data sent by bluetooth from slave nodes to master node in the zone
      * @param WiFi_transmission_rate Transmission rate for data sent from this zone's gateway to other gateways
      */
-    public Zone(String objectName, int runTimeStep, ProcessingAlgorithm loop, ProcessingAlgorithm setup, int RTT_to_Master_Node, int BLE_Transmission_Rate, int WIFI_Transmission_Rate){
-        super(objectName,runTimeStep);
+    public Zone(String objectName, ProcessingAlgorithm loop, ProcessingAlgorithm setup, int RTT_to_Master_Node, int BLE_Transmission_Rate, int WIFI_Transmission_Rate){
+        super(objectName);
         this.masterNodeLoop = loop;
         this.masterNodeSetup = setup;
         this.RTT_to_Master_Node = RTT_to_Master_Node;
@@ -72,7 +72,7 @@ public abstract class Zone extends SimulationObject {
     }
     
     /**
-     * Function called continuously by the object's runtime thread
+     * Function called continuously by the object's runtime thread assuming a thread was started for the zone object
      */
     @Override
     protected void runTimeFunction() {
@@ -80,12 +80,12 @@ public abstract class Zone extends SimulationObject {
     }
     
     /**
-     * Function to start the zone's runtime thread. Zone is responsible for starting
+     * Function to start the object without starting a new run time thread. Zone is responsible for starting
      * its master node.
      */
     @Override
     public void start() {
-        super.start();
+        super.start(false,0);
         exportState("Started");
         
         masterNode.start();   
@@ -104,7 +104,8 @@ public abstract class Zone extends SimulationObject {
     
     /**
      * Abstract method to be implemented by children. This function sets up a master node for the zone
+     * @param runTimeStep Timestep in ms for the node's uController's runTimeThread
      * @return Fully created master node object
      */
-    protected abstract MasterNode createMasterNode();
+    protected abstract MasterNode createMasterNode(int runTimeStep);
 }

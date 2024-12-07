@@ -26,11 +26,10 @@ public class Relay extends Device {
     /**
      * Constructor
      * @param object_name Name of the Relay object
-     * @param runTimeStep Timestep for the object's simulation lifetime in ms 
      * @param numSwitches Number of switches in the relay
      */
-    public Relay(String object_name, int runTimeStep, int numSwitches){
-        super(object_name, runTimeStep);
+    public Relay(String object_name, int numSwitches){
+        super(object_name);
         this.numSwitches = numSwitches;
 
         switchStates = new ArrayList<>(numSwitches);
@@ -225,7 +224,8 @@ public class Relay extends Device {
     }
 
     /**
-     * Function running continuously in the object's runtime thread in timesteps of runTimeStep
+     * Function running continuously in the object's runtime thread assuming a thread was started for
+     * this Relay
      */
     @Override
     protected void runTimeFunction() {
@@ -297,7 +297,7 @@ public class Relay extends Device {
 
     
     /**
-     * Function to start the Relay's simulation lifetime thread
+     * Function to start the object without starting a new thread
      */
     @Override
     public void start() {
@@ -308,7 +308,7 @@ public class Relay extends Device {
         } 
         
         // Call to base class starter
-        super.start();
+        super.start(false,0);
     }
 
     /**

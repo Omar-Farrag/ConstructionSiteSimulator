@@ -21,12 +21,12 @@ public class Gate extends SlaveNode{
     /**
      * Constructor
      * @param nodeName Name of this gate node
-     * @param runTimeStep Timestep for this gate's lifetime in ms
+     * @param runTimeStep Timestep for this gate's uController's lifetime in ms
      * @param RTT_to_Zone_Controller RTT between the gate node and the master node in ms
      * @param BLE_transmission_rate BLE transmission rate in kbps for data sent from this node to the master node
      */
     public Gate(String nodeName, int runTimeStep, int RTT_to_Zone_Controller, int BLE_transmission_rate){
-        super(nodeName, runTimeStep, RTT_to_Zone_Controller, BLE_transmission_rate,
+        super(nodeName, RTT_to_Zone_Controller, BLE_transmission_rate,
                 // Initialize new uController
                 new uController(
                     getFullName(nodeName, "controller") 
@@ -55,19 +55,19 @@ public class Gate extends SlaveNode{
         }
 
         // Initialize scanner
-        scanner = new LowPowerDevice(name, runTimeStep, 12); 
+        scanner = new LowPowerDevice(name, 12); 
 
         // Get full name for the relay object including the prefix and file extension  
         name = getFullName(nodeName,"relay");
         
         // Initialize relay with one switch
-        motorRelay = new Relay(name, runTimeStep,1);
+        motorRelay = new Relay(name, 1);
 
         // Get full name for the relay object including the prefix and file extension  
         name = getFullName(nodeName,"motor");
 
         // Initialize motor  
-        motor = new HighPowerDevice(name, runTimeStep);
+        motor = new HighPowerDevice(name);
 
         // Connect the uController in the node to the scanner object
         localController.connectTo(scanner);

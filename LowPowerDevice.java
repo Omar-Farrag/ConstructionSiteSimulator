@@ -42,11 +42,10 @@ public class LowPowerDevice extends Device {
     /**
      * Constructor
      * @param name Name of the low power device
-     * @param runTimeStep Timestep of the object's lifetime in ms
      * @param fieldSize Size in bytes of the object's fields
      */
-    public LowPowerDevice(String name, int runTimeStep, int fieldSize){
-        super(name, runTimeStep);
+    public LowPowerDevice(String name, int fieldSize){
+        super(name);
         fieldNames = new ArrayList<>();
         fileInputs = new ArrayList<>();
         fieldValues = new HashMap<>();
@@ -219,7 +218,8 @@ public class LowPowerDevice extends Device {
     }
 
     /**
-     * Function runnning continuously with a timestep of runTimeStep
+     * Function runnning continuously with a timestep of runTimeStep in the object's runtime thread assuming that
+     * a thread was started for this low power device
      */
     @Override
     protected void runTimeFunction() {
@@ -264,5 +264,13 @@ public class LowPowerDevice extends Device {
     @Override
     public ArrayList<String> getFieldNames() {
         return fieldNames;
+    }
+
+    /**
+     * Function to start the object without creating a new thread
+     */
+    @Override
+    public void start() {
+       super.start(false,0);
     }
 }

@@ -22,13 +22,12 @@ public class SlaveNode extends SimulationObject{
     /**
      * Constructor
      * @param object_name Name of the slave node
-     * @param runTimeStep Timestep of the node's simulation lifetime in ms
      * @param RTT_to_Master_Node Round trip time between this node and the master node
      * @param BLE_Transmission_Rate transmission rate in Kbps for data sent by bluetooth from this node to master node
      * @param locaController uController of the node
      */
-    public SlaveNode(String object_name, int runTimeStep, int RTT_to_Master_Node, int BLE_Transmission_Rate, uController localController){
-        super(object_name, runTimeStep);
+    public SlaveNode(String object_name, int RTT_to_Master_Node, int BLE_Transmission_Rate, uController localController){
+        super(object_name);
         this.RTT_to_Master_Node = RTT_to_Master_Node;
         this.localController = localController;
         this.BLE_Transmission_Rate = BLE_Transmission_Rate;
@@ -323,7 +322,8 @@ public class SlaveNode extends SimulationObject{
     }
 
     /**
-     * Function called continuously in the node's runtime thread
+     * Function called continuously in the node's runtime thread assuming a thread was started for 
+     * this node
      */
     @Override
     protected void runTimeFunction() {
@@ -331,11 +331,11 @@ public class SlaveNode extends SimulationObject{
     }
 
     /**
-     * Function to start the node's thread. The SlaveNode is responsible for starting its local controller
+     * Function to start the object without creating a thread. The SlaveNode is responsible for starting its local controller
      */
     @Override
     public void start() {
-        super.start();
+        super.start(false,0);
         exportState("Started");
         localController.start();
     }

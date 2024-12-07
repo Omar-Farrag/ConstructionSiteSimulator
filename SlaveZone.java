@@ -33,17 +33,17 @@ public class SlaveZone extends Zone {
     /** 
      * Constructor
      * @param object_name Name of the slave zone
-     * @param runTimeStep Timestep in ms of the zone and its internal components's simulation lifetimes
+     * @param runTimeStep Timestep in ms of the zone's uControllers' runtime threads
      * @param masterNodeLoop Control algorithm to run on the zone's master node uController
      * @param RTT_to_Master_Node RTT in ms between the slave nodes and master node in the zone
      * @param BLE_Transmission_Rate transmission rate in Kbps for data sent by bluetooth from slave nodes to master node in the zone
      * @param WiFi_transmission_rate Transmission rate for data sent from this zone's gateway to other gateways
      */
     public SlaveZone(String object_name, int runTimeStep, ProcessingAlgorithm masterNodeLoop, int RTT_to_Master_Node, int BLE_Transmission_Rate, int WIFI_Transmission_Rate){
-        super(object_name, runTimeStep, masterNodeLoop, null, RTT_to_Master_Node, BLE_Transmission_Rate, WIFI_Transmission_Rate);
+        super(object_name, masterNodeLoop, null, RTT_to_Master_Node, BLE_Transmission_Rate, WIFI_Transmission_Rate);
         this.RTT_to_Master_Node = RTT_to_Master_Node;
         this.otherSlaveNodes = new ArrayList<>();
-        init();
+        init(runTimeStep);
         
     }
 
@@ -58,22 +58,24 @@ public class SlaveZone extends Zone {
      * @param WiFi_transmission_rate Transmission rate for data sent from this zone's gateway to other gateways
      */
     public SlaveZone(String object_name, int runTimeStep, ProcessingAlgorithm masterNodeLoop, ProcessingAlgorithm masterNodeSetup, int RTT_to_Master_Node, int BLE_Transmission_Rate, int WIFI_Transmission_Rate){
-        super(object_name, runTimeStep,masterNodeLoop, masterNodeSetup, RTT_to_Master_Node, BLE_Transmission_Rate, WIFI_Transmission_Rate);
+        super(object_name, masterNodeLoop, masterNodeSetup, RTT_to_Master_Node, BLE_Transmission_Rate, WIFI_Transmission_Rate);
         this.otherSlaveNodes = new ArrayList<>();
-        init();
+        init(runTimeStep);
     }
 
     /**
      * Function to initailize the nodes of the zone
+     * @param runTimeStep Timestep in ms for the nodes' uControllers' runTimeThreads
+     * 
      */
-    private void init() {
+    private void init(int runTimeStep) {
 
         // Create the nodes
-        gateNode = createGateNode();
-        actuationNode = createActuationNode();
-        buzzerNode = createBuzzerNode();
-        speakerNode = createSpeakerNode();
-        masterNode = createMasterNode();
+        gateNode = createGateNode(runTimeStep);
+        actuationNode = createActuationNode(runTimeStep);
+        buzzerNode = createBuzzerNode(runTimeStep);
+        speakerNode = createSpeakerNode(runTimeStep);
+        masterNode = createMasterNode(runTimeStep);
 
         // Subscribe the master node to each of the other slave nodes.
         // This ensures that the slave nodes will regularly send status update
@@ -126,9 +128,10 @@ public class SlaveZone extends Zone {
     
     /**
      * Function to set up the gate node
+     * @param runTimeStep Timestep in ms for the gate node's uController's runTimeThread
      * @return Fully created gate node
      */
-    private SlaveNode createGateNode(){
+    private SlaveNode createGateNode(int runTimeStep){
     
         // Get full name for gate node 
         String nodeName = getFullName("GateNode");
@@ -146,9 +149,10 @@ public class SlaveZone extends Zone {
 
     /**
      * Function to set up the actuation node
+     * @param runTimeStep Timestep in ms for the node's uController's runTimeThread
      * @return Fully created actuation node
      */
-    private SlaveNode createActuationNode(){
+    private SlaveNode createActuationNode(int runTimeStep){
 
         // Get full name of the actuator node
         String nodeName = getFullName("ActuatorNode");
@@ -160,7 +164,7 @@ public class SlaveZone extends Zone {
         String controllerName = nodeName + "_controller";
 
         // Initialize the actuator relay
-        relay = new Relay(relayName, runTimeStep, 4);
+        relay = new Relay(relayName, 4);
 
         // Initialize the node's uController including the algorithm running on it
         uController controller = new uController(controllerName, runTimeStep, (uController cont)->{
@@ -184,7 +188,7 @@ public class SlaveZone extends Zone {
         controller.connectTo(relay);
 
         // Initialize the actuator node
-        SlaveNode node = new SlaveNode(nodeName, runTimeStep, RTT_to_Master_Node, BLE_Transmission_Rate, controller);
+        SlaveNode node = new SlaveNode(nodeName, RTT_to_Master_Node, BLE_Transmission_Rate, controller);
         
         // Set the node's master node to be the master node in the class
         gateNode.setMasterNode(masterNode);
@@ -196,9 +200,10 @@ public class SlaveZone extends Zone {
     
     /**
      * Function to set up the buzzer node
+     * @param runTimeStep Timestep in ms for the node's uController's runTimeThread
      * @return fully created buzzer node
      */
-    private SlaveNode createBuzzerNode(){
+    private SlaveNode createBuzzerNode(int runTimeStep){
 
         // Get full name of buzzer node
         String nodeName = getFullName("BuzzerNode");
@@ -209,10 +214,10 @@ public class SlaveZone extends Zone {
         String buzzerName =relayName + "_buzzer";
 
         // Create a buzzer
-        HighPowerDevice buzzer = new HighPowerDevice(buzzerName, runTimeStep);
+        HighPowerDevice buzzer = new HighPowerDevice(buzzerName);
         
         // Initialize a relay with a single switch 
-        Relay relay = new Relay(relayName, runTimeStep, 1);
+        Relay relay = new Relay(relayName,  1);
 
         // Connect the relay to the buzzer
         relay.connectTo(buzzer, 0);
@@ -242,7 +247,7 @@ public class SlaveZone extends Zone {
         controller.connectTo(relay);
 
         // Initialize the buzzer node
-        SlaveNode node = new SlaveNode(nodeName,runTimeStep, RTT_to_Master_Node, BLE_Transmission_Rate,controller);
+        SlaveNode node = new SlaveNode(nodeName, RTT_to_Master_Node, BLE_Transmission_Rate,controller);
         
         // Set the master node of the buzzer node to be the master node in this class
         gateNode.setMasterNode(masterNode);
@@ -254,9 +259,10 @@ public class SlaveZone extends Zone {
     
     /**
      * Function to set up the speaker node
+     * @param runTimeStep Timestep in ms for the node's uController's runTimeThread
      * @return Fully created speaker node
      */
-    private SlaveNode createSpeakerNode(){
+    private SlaveNode createSpeakerNode(int runTimeStep){
         // Get full name of the speaker node
         String nodeName = getFullName("SpeakerNode");
 
@@ -279,7 +285,7 @@ public class SlaveZone extends Zone {
         }
 
         // Initialize the speaker object
-        LowPowerDevice speaker = new LowPowerDevice(speakerName, runTimeStep,100);
+        LowPowerDevice speaker = new LowPowerDevice(speakerName, 100);
 
         // Initialize a uController
         uController controller = new uController(controllerName, runTimeStep, (uController cont)->{
@@ -304,7 +310,7 @@ public class SlaveZone extends Zone {
         controller.connectTo(speaker);
 
         // Initialize speaker slave node
-        SlaveNode node = new SlaveNode(nodeName, runTimeStep, RTT_to_Master_Node, BLE_Transmission_Rate,controller);
+        SlaveNode node = new SlaveNode(nodeName,RTT_to_Master_Node, BLE_Transmission_Rate,controller);
         
         // Set the master node of the speaker node to be the master node in this class
         gateNode.setMasterNode(masterNode);
@@ -316,10 +322,11 @@ public class SlaveZone extends Zone {
 
     /**
      * Function to set up the master node of the zone
+     * @param runTimeStep Timestep in ms for the zone's uController's runTimeThread
      * @return fully created master node
      */
     @Override
-    protected MasterNode createMasterNode(){
+    protected MasterNode createMasterNode(int runTimeStep){
 
         // Get full name of master node
         String nodeName = getFullName("MasterNode");
@@ -344,10 +351,10 @@ public class SlaveZone extends Zone {
         }
 
         // Initialize a camera device
-        LowPowerDevice camera = new LowPowerDevice(cameraName, runTimeStep,3500000);
+        LowPowerDevice camera = new LowPowerDevice(cameraName, 3500000);
         
         // Initialize a gateway
-        gateway = new Gateway(gatewayName, runTimeStep, WIFI_Transmission_Rate);
+        gateway = new Gateway(gatewayName,  WIFI_Transmission_Rate);
 
         // Initialize a controller using the appropriate constructor depending on whether a setup function was provided or not 
         uController controller;
@@ -359,7 +366,7 @@ public class SlaveZone extends Zone {
         controller.connectTo(gateway);
 
         // Initialze the master node 
-        MasterNode node = new MasterNode(nodeName, runTimeStep, BLE_Transmission_Rate, controller);
+        MasterNode node = new MasterNode(nodeName, BLE_Transmission_Rate, controller);
 
         // Return the fully created master node
         return node;

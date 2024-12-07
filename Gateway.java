@@ -24,11 +24,10 @@ public class Gateway extends SimulationObject{
     /**
      * Constructor
      * @param object_name Name of the gateway object
-     * @param runTimeStep Timestep for the object's lifetime
      * @param WiFi_Transmission_Rate WiFi transmission rate in kbps for data sent between gateways
      */
-    public Gateway(String object_name, int runTimeStep, int WIFI_TRANSMISSION_RATE){
-        super(object_name, runTimeStep);
+    public Gateway(String object_name, int WIFI_TRANSMISSION_RATE){
+        super(object_name);
         connectedGateways = new HashMap<>();
         this.WIFI_Transmission_Rate = WIFI_TRANSMISSION_RATE;
     }
@@ -82,7 +81,7 @@ public class Gateway extends SimulationObject{
                 exportState(String.format("[SUCCESS] Received packet from Gateway [%s]. Last Forwarded By Gateway [%s]", source.getObject_name(), previous.getObject_name()));
                 
                 // Share the received packet with the connected uController
-                parentController.receiveDataPacket(source, previous, packet);
+                parentController.receiveBulkDataPacket(source, previous, packet);
                 return true;
             }
             // Unexpected Behavior
@@ -125,11 +124,12 @@ public class Gateway extends SimulationObject{
      * @return reference to parent master node
      */
     public MasterNode getParentNode(){
-        return parentController.getParentControlNode();
+        return parentController.getParentMasterNode();
     }
 
     /**
-     * Function to run continuously in the Gateway's runtime thread with a timestep of runTimeStep
+     * Function to run continuously in the Gateway's runtime thread with a timestep of runTimeStep. This assumes
+     * that a thread was started for the gateway
      */
     @Override
     protected void runTimeFunction() {
@@ -160,10 +160,13 @@ public class Gateway extends SimulationObject{
         return object_name.equals(other.getObject_name());
     }
 
+    /**
+     * Start the object without starting a thread
+     */
     @Override
     public void start() {
+        super.start(false,0);
         exportState("Started");
-        super.start();
     }
     
 

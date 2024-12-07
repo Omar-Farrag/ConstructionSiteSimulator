@@ -9,18 +9,15 @@ import java.io.PrintWriter;
  */
 public abstract class SimulationObject implements Runnable {
 
-    // Timestep in ms for the object's lifetime thread. Every object runs
-    // on a thread throughout the whole simulation. The thread continuously 
+    // Timestep in ms for the object's lifetime thread. The thread continuously 
     // calls a runtime function representing the object's behavior throughout
     // the simulation. After executing the function, the thread waits for a
-    // short duration, runTimeStep, before re-executing the runtime function
-    protected int runTimeStep; 
+    // short duration, runTimeStep, before re-executing the runtime function. Not all
+    // simulation objects start a runtime thread
+    protected int runTimeStep;
 
     // Name of the simulation object
     protected String object_name;
-
-    // Runtime thread representing the object's lifetime
-    private Thread runTimeThread;
 
     // Name of the output CSV file where all the logs for this object will be stored
     private String outputLogFileName;
@@ -37,16 +34,13 @@ public abstract class SimulationObject implements Runnable {
         
     /**
      * Constructor
-     * @param name
-     * @param runTimeStep
+     * @param name Name of the object
      */
-    protected SimulationObject(String name, int runTimeStep){
-        this.runTimeThread = new Thread(this);
+    protected SimulationObject(String name){
         this.hasAddedHeader = false;
         this.alive = false;
         this.object_name = name;
         this.outputLogFileName = getOutputFileName(name);
-        this.runTimeStep = runTimeStep;
         initWriter();
     }
 
@@ -95,14 +89,27 @@ public abstract class SimulationObject implements Runnable {
     }
     
     /**
-     * Function to start the runtime thread
+     * Function to start the object to be implemented by all children
      */
-    public void start(){
+    public abstract void start();
+
+    /**
+     * Function to start the object
+     * @param startThread flag indicating whether a runtime thread should be started or not.
+     * @param runTimeStep timestep for the runtime thread's execution. The runtime thread continuously
+     * calls the runtime function with a delay of runTimeStep ms between successive executions
+     */
+    protected void start(boolean startThread, int runTimeStep){
         synchronized(alive){
 
-            // Start thread
             this.alive = true;
-            runTimeThread.start();
+            
+            // Start thread
+            if (startThread) {
+                this.runTimeStep = runTimeStep;
+                Thread runTimeThread = new Thread(this);
+                runTimeThread.start();
+            }
         }
     }
 

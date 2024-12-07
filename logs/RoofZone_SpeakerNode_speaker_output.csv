@@ -1,63 +1,314 @@
 Timestamp,Object Name,Played Message
-2024-12-06T20:58:14.891982600,RoofZone_SpeakerNode_speaker,Uninitialized
-2024-12-06T20:58:15.396459900,RoofZone_SpeakerNode_speaker,
-2024-12-06T20:58:15.936316700,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:16.438503200,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:16.940947,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:17.454244700,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:17.966182800,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:18.482147200,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:18.993361900,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:19.506922300,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:20.024410200,RoofZone_SpeakerNode_speaker,
-2024-12-06T20:58:20.534201200,RoofZone_SpeakerNode_speaker,
-2024-12-06T20:58:21.047631800,RoofZone_SpeakerNode_speaker,
-2024-12-06T20:58:21.564553,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
-2024-12-06T20:58:22.066561,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:22.570927300,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:23.082830900,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:23.596642500,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:24.098513800,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:24.609626600,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:25.127523300,RoofZone_SpeakerNode_speaker,
-2024-12-06T20:58:25.643872800,RoofZone_SpeakerNode_speaker,
-2024-12-06T20:58:26.160149900,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:26.673547800,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:27.190495900,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:27.701657700,RoofZone_SpeakerNode_speaker,
-2024-12-06T20:58:28.217701800,RoofZone_SpeakerNode_speaker,
-2024-12-06T20:58:28.731391600,RoofZone_SpeakerNode_speaker,
-2024-12-06T20:58:29.246291300,RoofZone_SpeakerNode_speaker,
-2024-12-06T20:58:29.759672600,RoofZone_SpeakerNode_speaker,
-2024-12-06T20:58:30.271792400,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
-2024-12-06T20:58:30.788996,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:31.300758600,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:31.815819100,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:32.332050200,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:32.843836400,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
-2024-12-06T20:58:33.357345100,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:33.870395100,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:34.382649900,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:34.893549600,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:35.397677500,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:35.929211900,RoofZone_SpeakerNode_speaker,
-2024-12-06T20:58:36.440401200,RoofZone_SpeakerNode_speaker,
-2024-12-06T20:58:36.953303200,RoofZone_SpeakerNode_speaker,
-2024-12-06T20:58:37.467801400,RoofZone_SpeakerNode_speaker,
-2024-12-06T20:58:37.980401700,RoofZone_SpeakerNode_speaker,
-2024-12-06T20:58:38.495016200,RoofZone_SpeakerNode_speaker,
-2024-12-06T20:58:39.008818400,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:39.522318700,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:40.037334,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:40.546979300,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:41.049172900,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:41.560180900,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:42.074460600,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:42.575164900,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:43.085922100,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:43.602220100,RoofZone_SpeakerNode_speaker,
-2024-12-06T20:58:44.113031200,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:44.630767800,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:45.140145100,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:45.653247800,RoofZone_SpeakerNode_speaker,Worker too close to edge
-2024-12-06T20:58:46.168331800,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:35:57.338019200,RoofZone_SpeakerNode_speaker,Uninitialized
+2024-12-07T23:35:57.908734400,RoofZone_SpeakerNode_speaker,Uninitialized
+2024-12-07T23:35:58.452578900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:35:59.028362200,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
+2024-12-07T23:35:59.667248100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:00.213200400,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:00.746300200,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:01.291224800,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:01.852582300,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:02.400604200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:02.946078600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:03.480304900,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:04.027079300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:04.573312400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:05.106828800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:05.665483500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:06.202087,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:06.752417600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:07.296461800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:07.844215700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:08.389888200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:08.921770400,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:09.468769200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:10.003480200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:10.537968600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:11.073295100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:11.617677400,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:12.161298700,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
+2024-12-07T23:36:12.708543500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:13.253043700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:13.797928300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:14.360303100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:14.902961300,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
+2024-12-07T23:36:15.433862900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:15.973846,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:16.517354,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:17.048708900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:17.589045600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:18.121230800,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:18.667670600,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:19.211481800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:19.757419500,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:20.291045200,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:20.835611700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:21.379400100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:21.909457300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:22.452266800,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
+2024-12-07T23:36:22.982569100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:23.526980500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:24.056910100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:24.601342200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:25.147441200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:25.798204100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:26.342962200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:26.875403600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:27.403801900,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:27.933249600,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:28.492897500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:29.038248600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:29.572303700,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:30.123715,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:30.669960200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:31.199550800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:31.740776300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:32.266918900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:32.811134100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:33.355105600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:33.889680,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:34.451536800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:34.996224,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:35.538216500,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:36.084542,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:36.628850300,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:37.172674600,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:37.718004,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:38.261137900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:38.792805,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:39.337088500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:39.881628300,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
+2024-12-07T23:36:40.414538400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:40.958529800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:41.503638500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:42.063022600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:42.594167700,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:43.168146400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:43.711830400,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:44.254387300,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:44.813136,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:45.358061900,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:45.899928300,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:46.456815900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:47.000936900,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
+2024-12-07T23:36:47.546233400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:48.109850400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:48.642421300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:49.185313600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:49.745105800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:50.291975300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:50.823397400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:51.365033800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:51.922118800,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:52.500045,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:53.045624500,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:53.591073200,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:54.119975400,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:36:54.666698400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:55.211979500,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
+2024-12-07T23:36:55.753522200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:56.296527200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:56.844590500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:57.376547900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:57.918900300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:58.462797900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:59.104510600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:36:59.648737800,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
+2024-12-07T23:37:00.190513500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:00.735018200,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:01.266019200,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:01.808395300,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:02.337544300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:02.871051700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:03.403232800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:03.931808100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:04.490648600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:05.024558800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:05.569234400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:06.101429400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:06.643020400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:07.188809700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:07.800442400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:08.349416300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:08.889158800,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:09.421191,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:09.948917900,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:10.481191400,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:11.029873700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:11.569850800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:12.116976700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:12.662099500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:13.192723500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:13.734572600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:14.266547100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:14.808189500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:15.383633600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:15.916413600,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
+2024-12-07T23:37:16.446602800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:16.984825300,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:17.526511,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:18.069471300,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:18.613627800,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:19.156111500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:19.701776700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:20.248492,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:20.789703300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:21.332144500,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
+2024-12-07T23:37:21.860417400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:22.402589300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:22.946119,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:23.490325700,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:24.034805,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:24.599523200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:25.161508600,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:25.770863400,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:26.311487100,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:26.856367700,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
+2024-12-07T23:37:27.389701300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:27.932142,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:28.465211700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:29.007398600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:29.552160,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:30.095061700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:30.639142,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:31.185956200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:31.734895,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:32.283014800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:32.825614600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:33.375160600,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:33.907836,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:34.446004900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:34.993149900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:35.534955400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:36.081325700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:36.629338500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:37.173551500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:37.713314400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:38.261092700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:38.804269600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:39.348724200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:39.896854900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:40.441450800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:40.986723700,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:41.562319700,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:42.091750700,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:42.653167,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:43.195297400,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:43.728135500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:44.258146500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:44.801344900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:45.334843300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:45.863599900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:46.407738900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:46.952896500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:47.484679500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:48.029001900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:48.574865400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:49.118857500,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:49.662589200,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:50.195502,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:50.754717700,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:51.349062700,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:51.882967900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:52.428752,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:52.961845,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:53.494538800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:54.053547700,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
+2024-12-07T23:37:54.597289200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:55.143272600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:55.676131200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:56.221957100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:56.768414800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:37:57.300691700,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:57.829856900,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:58.361096,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:58.907530800,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:59.439503,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:37:59.980080400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:00.535785100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:01.079956300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:01.642545400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:02.174062300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:02.718141400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:03.261828400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:03.806107300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:04.351860500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:04.897432500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:05.459049200,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:38:06.005304600,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:38:06.557745,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:07.087274900,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:38:07.635038100,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:38:08.179710100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:08.712518100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:09.243620500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:09.798038700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:10.327095700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:10.952054400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:11.494457900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:12.041645400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:12.585324300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:13.117991100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:13.659143,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:38:14.187151500,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:38:14.718052300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:15.262196800,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:38:15.806975900,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:38:16.349776400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:16.895036700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:17.425094200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:17.966363700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:18.511020300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:19.059238500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:19.598939200,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
+2024-12-07T23:38:20.162587700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:20.719951500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:21.262448300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:21.821666800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:22.366299800,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:38:22.896432100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:23.454618900,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:38:23.987216300,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:38:24.530697600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:25.072553400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:25.604310500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:26.147301200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:26.692312400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:27.225863600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:27.770937300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:28.315940900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:28.860254900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:29.544866100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:30.077966400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:30.639213600,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:31.184740100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:31.728602600,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:38:32.261732400,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
+2024-12-07T23:38:32.795535700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:33.354394300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:33.887539,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:34.431989800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:34.976254300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:35.554058900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:36.113708200,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:36.644166800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:37.190967300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:37.723538300,RoofZone_SpeakerNode_speaker,One or more safety ropes not attached!!!!
+2024-12-07T23:38:38.268274500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:38.794806500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:39.340823800,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:39.886655,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:38:40.429264500,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:38:40.976185900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:41.509894900,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:42.051894100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:42.594222500,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:43.126532600,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:38:43.654689300,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:44.202703700,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:44.761680400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:45.307271100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:45.855232400,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:46.404816100,RoofZone_SpeakerNode_speaker,Worker too close to edge
+2024-12-07T23:38:46.949280400,RoofZone_SpeakerNode_speaker,
+2024-12-07T23:38:47.482476500,RoofZone_SpeakerNode_speaker,

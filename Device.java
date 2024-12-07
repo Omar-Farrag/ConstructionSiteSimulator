@@ -8,10 +8,9 @@ public abstract class Device extends SimulationObject{
     /**
      * Constructor
      * @param name Name of the Device Object
-     * @param runTimeStep Timestep for the Device's simulation lifetime in ms
      */
-    public Device(String name, int runTimeStep){
-        super(name, runTimeStep);
+    public Device(String name){
+        super(name);
     }
 
     /**
