@@ -109,13 +109,10 @@ public class MasterNode extends SimulationObject {
         // Based on the total size of the payload being sent, calculate the propagation and transmission delay from the 
         // slave node to this master node: delay = RTT/2 + Size / Transmission Rate
         int time_delay = sender.getRTT_to_Master_Node()/2 + totalDataSize / BLE_Transmission_Rate;
-        try {
-            // Simulate the delay introduced by the transmission of the data by BLE
-            Thread.sleep(time_delay);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
+        
+        // Simulate the delay introduced by the transmission of the data by BLE
+        SimulationClock.getInstance().waitFor(time_delay);
+        
         // Add log message indicating that the data packets have been received
         exportState(String.format("Received (%d) new packets from slave node [%s] created @ [%s]",receivedDataPackets.length, sender.getObject_name(),receivedDataPackets[0].getTime_of_creation())); 
         
@@ -137,12 +134,10 @@ public class MasterNode extends SimulationObject {
         // Calculate the delay for the acknowledgement that has to travel back to the slave node that shared the packet
         // The delay is only RTT/2 assuming the acknowledgment size is negligible
         time_delay = sender.getRTT_to_Master_Node()/2;
-        try {
-            // Simulate the acknowledgement delay before returing back to the slave node that called this function
-            Thread.sleep(time_delay);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
+        // Simulate the acknowledgement delay before returing back to the slave node that called this function
+        SimulationClock.getInstance().waitFor(time_delay);
+
     }
 
     /**
@@ -352,12 +347,9 @@ public class MasterNode extends SimulationObject {
      */
     public boolean isPermittedToEnter(SlaveNode gate, DataPacket packet){
         String id = packet.getValue();
-        try {
-            // Simulate the delay of RTT/2 + size/Transmission rate for the request to arrive from gate slave node to this master node
-            Thread.sleep(gate.getRTT_to_Master_Node()/2 + packet.getSize() / BLE_Transmission_Rate);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        
+        // Simulate the delay of RTT/2 + size/Transmission rate for the request to arrive from gate slave node to this master node
+        SimulationClock.getInstance().waitFor(gate.getRTT_to_Master_Node()/2 + packet.getSize() / BLE_Transmission_Rate);
 
         synchronized(bufferedDataPackets){
             // Add received packet to list of buffered packets
@@ -383,12 +375,9 @@ public class MasterNode extends SimulationObject {
         // Add a log message indicating whether the worker is allowed or not
         exportState(String.format("Gate [%s] queried permission status for ID [%s]. Permission [%s]", gate.getObject_name(), id, isPermitted ? "ALLOWED" : "DENIED"));
         
-        try {
-            // Simulate a delay of RTT/2, which is the time needed for the acknowledgement to get back to caller
-            Thread.sleep(gate.getRTT_to_Master_Node()/2);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        // Simulate a delay of RTT/2, which is the time needed for the acknowledgement to get back to caller
+        SimulationClock.getInstance().waitFor(gate.getRTT_to_Master_Node()/2);
+     
 
         // Return permission status
         return isPermitted;

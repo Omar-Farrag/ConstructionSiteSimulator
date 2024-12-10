@@ -130,7 +130,6 @@ public abstract class SimulationObject implements Runnable {
             runTimeFunction();
             
             // Wait the timestep
-            // Thread.sleep(runTimeStep);
             SimulationClock.getInstance().waitFor(runTimeStep);
         }
     }

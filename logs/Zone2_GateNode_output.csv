@@ -1,6 +1,598 @@
 Timestamp,Object Name,Event
-PT0S,Zone2_GateNode,Started
-PT0S,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
-PT0S,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
-PT0S,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
-PT0S,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.011,Zone2_GateNode,Started
+0.044,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+0.121,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+0.151,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.172,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.192,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+0.240,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+0.241,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.315,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.370,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+0.390,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+0.390,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.475,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.495,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+0.571,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+0.571,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.591,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.611,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+0.631,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+0.631,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.660,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.681,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+0.705,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+0.705,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.725,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.745,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+0.783,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+0.783,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.803,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.826,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+0.853,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+0.853,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.873,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.893,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+0.913,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+0.914,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.934,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.954,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+0.974,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+0.974,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+0.994,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.014,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+1.034,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+1.035,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.055,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.075,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+1.095,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+1.095,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.115,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.135,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+1.155,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+1.155,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.175,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.195,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+1.215,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+1.215,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.235,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.255,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+1.275,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+1.275,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.295,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.315,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+1.335,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+1.335,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.355,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.376,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+1.396,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+1.396,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.416,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.436,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+1.456,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+1.456,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.476,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.496,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+1.516,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+1.516,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.536,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.556,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+1.578,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+1.578,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.598,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.618,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+1.638,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+1.638,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.668,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.688,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+1.708,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+1.708,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.728,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.748,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+1.771,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+1.771,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.791,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.811,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+1.831,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+1.831,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.851,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.871,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+1.891,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+1.892,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.912,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.939,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+1.959,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+1.960,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+1.980,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.000,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+2.020,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2.020,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.040,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.060,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+2.080,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2.080,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.123,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.143,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+2.163,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2.163,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.185,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.205,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+2.225,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2.225,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.245,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.271,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+2.291,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2.291,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.320,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.340,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+2.368,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2.368,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.388,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.431,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+2.451,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2.451,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.479,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.499,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+2.528,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2.528,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.548,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.575,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+2.595,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2.595,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.623,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.643,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+2.663,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2.663,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.683,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.703,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+2.723,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2.723,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.743,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.763,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+2.793,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2.793,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.813,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.833,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+2.853,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2.853,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.873,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.893,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+2.921,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2.921,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.941,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+2.961,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+2.991,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+2.991,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.011,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.040,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+3.060,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+3.060,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.080,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.100,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+3.135,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+3.135,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.155,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.175,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+3.195,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+3.195,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.226,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.246,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+3.274,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+3.274,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.294,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.314,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+3.345,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+3.345,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.365,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.391,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+3.411,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+3.411,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.431,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.451,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+3.484,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+3.484,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.504,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.524,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+3.544,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+3.544,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.564,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.599,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+3.619,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+3.619,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.647,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.668,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+3.688,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+3.688,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.708,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.743,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+3.763,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+3.763,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.783,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.803,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+3.834,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+3.834,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.854,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.874,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+3.902,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+3.902,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.922,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.942,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+3.962,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+3.962,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+3.982,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.002,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+4.022,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+4.022,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.043,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.063,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+4.083,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+4.083,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.112,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.132,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+4.156,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+4.156,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.176,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.196,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+4.216,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+4.216,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.240,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.260,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+4.280,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+4.281,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.301,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.322,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+4.342,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+4.342,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.370,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.390,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+4.413,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+4.413,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.433,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.453,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+4.473,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+4.473,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.493,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.513,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+4.540,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+4.540,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.560,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.580,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+4.600,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+4.600,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.620,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.640,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+4.666,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+4.666,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.686,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.706,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+4.726,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+4.726,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.749,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.769,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+4.797,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+4.797,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.817,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.837,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+4.857,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+4.857,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.877,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.897,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+4.925,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+4.925,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.945,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+4.965,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+4.985,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+4.985,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.006,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.026,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+5.055,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+5.055,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.075,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.095,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+5.115,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+5.115,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.135,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.155,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+5.196,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+5.196,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.216,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.241,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+5.261,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+5.261,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.284,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.304,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+5.331,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+5.331,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.351,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.376,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+5.396,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+5.396,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.416,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.436,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+5.459,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+5.459,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.479,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.499,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+5.519,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+5.519,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.540,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.560,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+5.580,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+5.580,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.600,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.620,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+5.646,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+5.646,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.666,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.686,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+5.706,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+5.706,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.726,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.746,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+5.766,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+5.766,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.786,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.812,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+5.832,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+5.832,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.852,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.872,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+5.903,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+5.903,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.923,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.944,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+5.964,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+5.964,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+5.988,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.008,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+6.028,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+6.028,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.048,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.068,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+6.102,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+6.102,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.122,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.142,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+6.162,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+6.162,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.183,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.203,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+6.231,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+6.231,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.251,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.277,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+6.302,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+6.302,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.322,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.342,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+6.373,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+6.373,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.393,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.413,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+6.433,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+6.433,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.464,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.484,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+6.511,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+6.511,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.531,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.551,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+6.580,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+6.580,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.600,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.629,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+6.649,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+6.649,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.669,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.689,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+6.710,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+6.710,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.735,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.755,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+6.775,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+6.775,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.796,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.822,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+6.842,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+6.842,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.869,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.889,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+6.909,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+6.909,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.929,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.950,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+6.970,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+6.970,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+6.991,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.011,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+7.031,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+7.031,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.051,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.071,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+7.091,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+7.091,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.122,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.142,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+7.162,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+7.162,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.182,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.206,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+7.226,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+7.226,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.254,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.274,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+7.294,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+7.294,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.314,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.334,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+7.354,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+7.354,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.374,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.394,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+7.414,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+7.414,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.434,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.454,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+7.474,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+7.474,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.494,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.514,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+7.535,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+7.535,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.555,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.575,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+7.595,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+7.595,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.615,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.635,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+7.655,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+7.655,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.675,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.695,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+7.715,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+7.715,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.735,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.755,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+7.778,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+7.778,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.798,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.818,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+7.838,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+7.838,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.858,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.878,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+7.898,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+7.898,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.918,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.938,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+7.958,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+7.958,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+7.987,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.007,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+8.027,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+8.027,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.053,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.073,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+8.093,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+8.093,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.113,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.133,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+8.169,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+8.169,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.189,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.209,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+8.229,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+8.229,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.254,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.274,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+8.294,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+8.294,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.327,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.347,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+8.367,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+8.367,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.387,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.407,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+8.427,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+8.427,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.447,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.467,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+8.487,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+8.487,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.507,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.527,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+8.547,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+8.547,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.567,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.587,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+8.608,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+8.608,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.628,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.648,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+8.668,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+8.668,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.688,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.708,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+8.728,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+8.728,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.748,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.768,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+8.788,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+8.788,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.808,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.828,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+8.848,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+8.848,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.868,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.888,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+8.908,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+8.908,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.928,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.948,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+8.968,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+8.968,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+8.988,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.008,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+9.028,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+9.028,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.048,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.068,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+9.088,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+9.088,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.108,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.128,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+9.148,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+9.148,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.169,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.189,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+9.209,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+9.209,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.229,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.249,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+9.269,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+9.269,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.289,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.309,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+9.329,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+9.329,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.349,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.369,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+9.389,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+9.389,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.409,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.429,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+9.449,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+9.449,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.469,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.489,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+9.509,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+9.509,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.529,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.549,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+9.569,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+9.569,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.589,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.609,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+9.629,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+9.629,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.649,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.669,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+9.689,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+9.689,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.709,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.729,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+9.749,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+9.749,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.769,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.789,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+9.809,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+9.809,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.829,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.873,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+9.893,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+9.893,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.913,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.933,Zone2_GateNode,Asked Control Node [Zone2_MasterNode] about ID [Uninitialized]'s permission
+9.979,Zone2_GateNode,ID [Uninitialized]'s permission: [DENIED]
+9.979,Zone2_GateNode,Started Publishing (2) packets to Control Node [Zone2_MasterNode]
+9.999,Zone2_GateNode,Done Publishing (2) packets to Control Node [Zone2_MasterNode]

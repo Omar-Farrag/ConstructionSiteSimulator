@@ -103,12 +103,9 @@ public class Gateway extends SimulationObject{
                 
                 // Wait for a delay simulating the transmission of the packet.
                 // Delay = RTT/2 + packet size/transmission rate
-                try {
-                    int time_delay= nextGateway.getValue()/2 + packet.getSize() / (WIFI_Transmission_Rate);
-                    Thread.sleep(time_delay);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
+                int time_delay= nextGateway.getValue()/2 + packet.getSize() / (WIFI_Transmission_Rate);
+                SimulationClock.getInstance().waitFor(time_delay);
+                
                 // Forward the packet to the next gateway
                 return nextGateway.getKey().forward(source, this, packet, route, position+1);
             }

@@ -82,13 +82,9 @@ public class SlaveNode extends SimulationObject{
      */
     public ExecutionResult getField(MasterNode requester, String deviceName, String field){
 
-        try {
-            // Delay to simulate the propagation delay between the master node and this slave node
-            int time_delay= RTT_to_Master_Node /2;
-            Thread.sleep(time_delay);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        // Delay to simulate the propagation delay between the master node and this slave node
+        int time_delay= RTT_to_Master_Node /2;
+        SimulationClock.getInstance().waitFor(time_delay);
 
         // Add a log message to the output log file indicating that the request arrived at the slave node
         exportState(String.format("Node [%s] requested field [%s] in object [%s]",
@@ -124,14 +120,10 @@ public class SlaveNode extends SimulationObject{
         result.isSuccess() ? result.getReturnedPacket().getValue() : "null"
         ));
 
-        try {
+        // Delay simulating the propagation and transmission delays to transmit data packet from slave node to master node 
+        time_delay= RTT_to_Master_Node/2 + (result.isSuccess() ? result.getReturnedPacket().getSize() * 8 / (BLE_Transmission_Rate) : 0);
+        SimulationClock.getInstance().waitFor(time_delay);
 
-            // Delay simulating the propagation and transmission delays to transmit data packet from slave node to master node 
-            int time_delay= RTT_to_Master_Node/2 + (result.isSuccess() ? result.getReturnedPacket().getSize() * 8 / (BLE_Transmission_Rate) : 0);
-            Thread.sleep(time_delay);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
 
         // return the execution result
         return result;
@@ -152,13 +144,10 @@ public class SlaveNode extends SimulationObject{
      */
     public ExecutionResult setField(MasterNode setter, String deviceName, String field, String value, int size){
 
-        try {
-            // Delay simulating the propagation and tranmission delays of the new value from the master node to this slave node
-            int time_delay= RTT_to_Master_Node /2 + size * 8 / BLE_Transmission_Rate;
-            Thread.sleep(time_delay);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        // Delay simulating the propagation and tranmission delays of the new value from the master node to this slave node
+        int time_delay= RTT_to_Master_Node /2 + size * 8 / BLE_Transmission_Rate;
+        SimulationClock.getInstance().waitFor(time_delay);
+    
 
         // Add a log message indicating that the request to set the field was received at the slave node
         exportState(String.format("Node [%s] attempted updating field [%s] in object [%s]",
@@ -193,15 +182,10 @@ public class SlaveNode extends SimulationObject{
             result.isSuccess() ? result.getReturnedPacket().getValue() : "old value"
             ));
 
-        try {
-
-            // Delay simulating the propagation delay of the acknowledgement back to the master node that attempted to set the field.
-            // It is assumed that the transmission delay of that acknowledgement is negligible 
-            int time_delay= RTT_to_Master_Node/2;
-            Thread.sleep(time_delay);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        // Delay simulating the propagation delay of the acknowledgement back to the master node that attempted to set the field.
+        // It is assumed that the transmission delay of that acknowledgement is negligible 
+         time_delay= RTT_to_Master_Node/2;
+         SimulationClock.getInstance().waitFor(time_delay);
 
         // Return result to the master node
         return result;
@@ -220,13 +204,9 @@ public class SlaveNode extends SimulationObject{
      */
     public ExecutionResult updateSwitch(MasterNode switcher, String deviceName, String position, String switchStatus) {
         
-        try {
-            // Delay simulating the propagation and tranmission delays of the new switch state from the master node to this slave node
-            int time_delay= RTT_to_Master_Node /2 + 8 / BLE_Transmission_Rate;
-            Thread.sleep(time_delay);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        // Delay simulating the propagation and tranmission delays of the new switch state from the master node to this slave node
+        int time_delay= RTT_to_Master_Node /2 + 8 / BLE_Transmission_Rate;
+        SimulationClock.getInstance().waitFor(time_delay);
 
         // Add a log message indicating that the request to update the switch was received at the slave node
         exportState(String.format("Node [%s] attempted updating switch position [%s] in object [%s]",
@@ -262,14 +242,10 @@ public class SlaveNode extends SimulationObject{
             result.isSuccess() ? result.getReturnedPacket().getValue() : "old state"
             ));
 
-        try {
-            // Delay simulating the propagation delay of the acknowledgement back to the master node that attempted to update the switch state.
-            // It is assumed that the transmission delay of that acknowledgement is negligible
-            int time_delay= RTT_to_Master_Node/2;
-            Thread.sleep(time_delay);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        // Delay simulating the propagation delay of the acknowledgement back to the master node that attempted to update the switch state.
+        // It is assumed that the transmission delay of that acknowledgement is negligible
+        time_delay= RTT_to_Master_Node/2;
+        SimulationClock.getInstance().waitFor(time_delay);
 
         // Return result to the master node
         return result;       

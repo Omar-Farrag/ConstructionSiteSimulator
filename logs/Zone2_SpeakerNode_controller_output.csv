@@ -1,4 +1,400 @@
 Timestamp,Object Name,Event
-PT0S,Zone2_SpeakerNode_controller,Started
-PT0S,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
-PT0S,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.012,Zone2_SpeakerNode_controller,Started
+0.068,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.068,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.113,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.113,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.172,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.172,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.213,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.213,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.261,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.261,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.303,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.303,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.360,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.360,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.401,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.401,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.442,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.442,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.483,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.483,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.525,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.525,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.566,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.566,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.607,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.607,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.654,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.654,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.704,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.704,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.746,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.746,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.794,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.794,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.860,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.860,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.920,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.920,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+0.983,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+0.983,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+1.024,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+1.025,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+1.090,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+1.090,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+1.159,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+1.159,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+1.213,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+1.213,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+1.271,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+1.271,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+1.323,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+1.323,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+1.381,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+1.381,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+1.445,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+1.445,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+1.498,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+1.498,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+1.560,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+1.560,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+1.623,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+1.623,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+1.688,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+1.688,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+1.748,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+1.748,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+1.812,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+1.812,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+1.860,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+1.860,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+1.925,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+1.925,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+1.971,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+1.971,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.023,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.023,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.103,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.103,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.146,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.146,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.190,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.190,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.231,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.231,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.272,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.272,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.316,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.316,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.358,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.358,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.401,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.401,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.447,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.447,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.488,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.488,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.529,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.529,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.570,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.570,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.611,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.611,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.655,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.655,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.703,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.703,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.744,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.744,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.787,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.787,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.832,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.832,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.879,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.879,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.920,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.920,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+2.961,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+2.961,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.008,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.008,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.049,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.049,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.090,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.090,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.135,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.135,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.182,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.182,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.223,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.223,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.264,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.264,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.305,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.305,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.346,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.346,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.389,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.389,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.439,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.439,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.487,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.487,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.528,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.528,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.569,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.569,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.611,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.611,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.679,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.679,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.720,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.720,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.761,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.761,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.808,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.808,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.849,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.849,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.890,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.890,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.933,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.933,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+3.974,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+3.974,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.016,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.016,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.064,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.064,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.105,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.105,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.147,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.147,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.193,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.193,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.234,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.234,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.275,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.275,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.316,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.316,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.370,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.370,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.411,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.411,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.452,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.452,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.493,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.493,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.538,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.538,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.579,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.579,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.628,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.628,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.669,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.669,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.721,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.721,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.768,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.768,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.816,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.816,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.866,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.866,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.914,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.914,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.955,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.955,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+4.996,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+4.996,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.037,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.037,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.078,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.078,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.119,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.119,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.160,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.160,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.201,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.201,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.255,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.255,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.307,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.307,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.368,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.368,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.415,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.415,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.456,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.456,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.522,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.522,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.571,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.571,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.621,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.621,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.681,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.681,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.729,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.729,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.770,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.770,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.815,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.815,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.861,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.861,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.914,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.914,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+5.966,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+5.966,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.009,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.009,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.057,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.057,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.105,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.105,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.152,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.152,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.198,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.198,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.259,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.259,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.308,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.308,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.356,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.356,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.403,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.403,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.452,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.452,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.511,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.511,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.565,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.565,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.621,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.621,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.665,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.665,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.706,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.706,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.755,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.755,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.812,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.812,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.866,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.866,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.917,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.917,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+6.979,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+6.979,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.029,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.029,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.090,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.090,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.140,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.140,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.187,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.187,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.245,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.245,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.298,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.298,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.339,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.339,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.398,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.398,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.441,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.441,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.482,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.482,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.536,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.536,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.578,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.578,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.619,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.619,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.660,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.660,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.702,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.702,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.766,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.766,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.830,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.830,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.879,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.879,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.926,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.926,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+7.980,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+7.980,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+8.044,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+8.044,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+8.085,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+8.085,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+8.151,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+8.151,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+8.198,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+8.198,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+8.250,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+8.250,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+8.291,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+8.291,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+8.359,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+8.359,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+8.406,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+8.406,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+8.457,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+8.457,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+8.517,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+8.517,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+8.566,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+8.566,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+8.618,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+8.618,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+8.666,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+8.666,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+8.754,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+8.754,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+8.816,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+8.816,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+8.883,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+8.883,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+8.946,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+8.946,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+9.010,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+9.010,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+9.074,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+9.074,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+9.138,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+9.138,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+9.188,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+9.188,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+9.251,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+9.251,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+9.314,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+9.314,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+9.378,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+9.378,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+9.428,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+9.428,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+9.492,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+9.492,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+9.554,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+9.554,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+9.618,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+9.618,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+9.682,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+9.682,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+9.762,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+9.762,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+9.825,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+9.825,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+9.887,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+9.887,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+9.936,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+9.936,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
+9.988,Zone2_SpeakerNode_controller,[SUCCESS] Received field [Played Message] from object [Zone2_SpeakerNode_speaker]. Value [Uninitialized]
+9.988,Zone2_SpeakerNode_controller,Sent [1] packets to parent node to publish them
