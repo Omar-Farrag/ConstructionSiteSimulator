@@ -130,7 +130,7 @@ public class Simulation {
         };
         
         // Create the RoofZone with the defined algorithm
-        SlaveZone roofZone = new SlaveZone("RoofZone", runTimeStep, zoneAlgo, RTT_to_Master_Node, BLE_Transmission_Rate, WIFI_Transmission_Rate);
+        SlaveZone roofZone = new SlaveZone("RoofZone", runTimeStep, roofZoneAlgo, RTT_to_Master_Node, BLE_Transmission_Rate, WIFI_Transmission_Rate);
         
         // Add permitted users to the zone
         roofZone.addPermittedId("Omar");
