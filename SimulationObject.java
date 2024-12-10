@@ -1,7 +1,6 @@
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.time.LocalDateTime;
 import java.io.PrintWriter;
 
 /**
@@ -53,6 +52,9 @@ public abstract class SimulationObject implements Runnable {
             alive = false;
         }
         synchronized(writer){
+            // flush any remaining content
+            writer.flush();
+            
             // close the writer
             writer.close();
         }
@@ -80,7 +82,7 @@ public abstract class SimulationObject implements Runnable {
 
             // Start the writer
             FileWriter fileWriter = new FileWriter(outputLogFileName, true);
-            writer = new PrintWriter(fileWriter,true);
+            writer = new PrintWriter(fileWriter);
             hasAddedHeader = false;
         } catch (IOException e) {
             System.out.println("An error occurred while appending to the file.");
@@ -94,13 +96,16 @@ public abstract class SimulationObject implements Runnable {
     public abstract void start();
 
     /**
-     * Function to start the object
+     * Function to start the object. Starting an already started object has no effect
      * @param startThread flag indicating whether a runtime thread should be started or not.
      * @param runTimeStep timestep for the runtime thread's execution. The runtime thread continuously
      * calls the runtime function with a delay of runTimeStep ms between successive executions
      */
     protected void start(boolean startThread, int runTimeStep){
         synchronized(alive){
+
+            // Return if object is already started
+            if(alive) return;
 
             this.alive = true;
             
@@ -123,12 +128,10 @@ public abstract class SimulationObject implements Runnable {
 
             // Call the runtime function specified for the object
             runTimeFunction();
-            try {
-                // Wait the timestep
-                Thread.sleep(runTimeStep);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            
+            // Wait the timestep
+            // Thread.sleep(runTimeStep);
+            SimulationClock.getInstance().waitFor(runTimeStep);
         }
     }
 
@@ -174,7 +177,8 @@ public abstract class SimulationObject implements Runnable {
      * @return current timestamp
      */
     public String getCurrentTimestamp(){
-        return LocalDateTime.now().toString();
+        return SimulationClock.getInstance().getCurrentTimeString();
+        // return LocalDateTime.now().toString();
     }
     
     /**
