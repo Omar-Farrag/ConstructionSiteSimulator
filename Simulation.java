@@ -22,9 +22,11 @@ public class Simulation {
         int RTT_between_gateways = 100; //ms 
         int BLE_Transmission_Rate = 100; //kbps
         int WIFI_Transmission_Rate = 2000; // kbps
-
+        int duration = 30; // seconds
         // Set the simulation clock scale factor
         SimulationClock.getInstance().setScaleFactor(1);
+
+
 
         // List to store extra slave nodes
         ArrayList<SlaveNode> extraSlaveNodes = new ArrayList<>();
@@ -102,21 +104,21 @@ public class Simulation {
                 controller.setFieldIn("RoofZone_SpeakerNode", "RoofZone_SpeakerNode_speaker", "Played Message", "",0);
             }
             
-            // Safety check: if the worker is too close to the edge, trigger buzzer and message
-            if(distance1_float<100 || distance2_float < 100 || distance3_float<100 || distance4_float<100 || distance4_float<100 || distance5_float<100){
-                controller.updateSwitchIn("RoofZone_BuzzerNode", "RoofZone_BuzzerNode_relay", "0","true");
-                controller.setFieldIn("RoofZone_SpeakerNode", "RoofZone_SpeakerNode_speaker", "Played Message", "Worker too close to edge",32);
-            }else{
-                controller.updateSwitchIn("RoofZone_BuzzerNode", "RoofZone_BuzzerNode_relay", "0","false");
-                controller.setFieldIn("RoofZone_SpeakerNode", "RoofZone_SpeakerNode_speaker", "Played Message", "",0);
-            }
+            // // Safety check: if the worker is too close to the edge, trigger buzzer and message
+            // if(distance1_float<100 || distance2_float < 100 || distance3_float<100 || distance4_float<100 || distance4_float<100 || distance5_float<100){
+            //     controller.updateSwitchIn("RoofZone_BuzzerNode", "RoofZone_BuzzerNode_relay", "0","true");
+            //     controller.setFieldIn("RoofZone_SpeakerNode", "RoofZone_SpeakerNode_speaker", "Played Message", "Worker too close to edge",32);
+            // }else{
+            //     controller.updateSwitchIn("RoofZone_BuzzerNode", "RoofZone_BuzzerNode_relay", "0","false");
+            //     controller.setFieldIn("RoofZone_SpeakerNode", "RoofZone_SpeakerNode_speaker", "Played Message", "",0);
+            // }
 
-            // Control the actuator node based on wind speed
-            if(windSpeed_float < 20){
-                controller.updateSwitchIn("RoofZone_ActuatorNode", "RoofZone_ActuatorNode_relay", "0", "true");
-            }else{
-                controller.updateSwitchIn("RoofZone_ActuatorNode", "RoofZone_ActuatorNode_relay", "0","false");
-            }
+            // // Control the actuator node based on wind speed
+            // if(windSpeed_float < 20){
+            //     controller.updateSwitchIn("RoofZone_ActuatorNode", "RoofZone_ActuatorNode_relay", "0", "true");
+            // }else{
+            //     controller.updateSwitchIn("RoofZone_ActuatorNode", "RoofZone_ActuatorNode_relay", "0","false");
+            // }
 
             // If more than 20 packets are buffered, aggregate and forward them
             Queue<DataPacket> packets = controller.getBufferedDataPackets();
@@ -190,82 +192,97 @@ public class Simulation {
         // Initialize fields, start the simulation, and then end it after 10 seconds
         initFields();
         startSimulation();
-        SimulationClock.getInstance().waitFor(10000); // Wait for 10 seconds
+        SimulationClock.getInstance().waitFor(duration * 1000);
         endSimulation();
     }
         
         // Method to create a general slave node with a given set of parameters
-        static SlaveNode create_general_slave_node(String nodeName, String deviceName, String fieldName, int fieldSize, int runTimeStep, int RTT_to_Zone_Controller, int BLE_transmission_rate) {
-            String fullName = nodeName + "_" + deviceName; // Full name of the node
-            LowPowerDevice dev = new LowPowerDevice(fullName, fieldSize); // Create a low power device with specified field size
-            
-            // Define the processing algorithm for the slave node uController
-            ProcessingAlgorithm algo = (uController controller)->{
-                // Get the field value from the device and publish the packet
-                ExecutionResult result = controller.getField(fullName, fieldName);
-                if(result.isSuccess()) controller.publishPacket(result.getReturnedPacket());
-            };
-        
-            // Create a controller for the node with the defined algorithm
-            uController controller = new uController(nodeName + "_controller", runTimeStep, algo);
-            
-            // Connect the controller to the device
-            controller.connectTo(dev);
-            return new SlaveNode(nodeName, RTT_to_Zone_Controller, BLE_transmission_rate, controller); // Return the created slave node
-        }
-        
-        // Method for the menu, allowing user to interact with the simulation
-        static boolean menu(){
-            // Display menu options
-            System.out.println("***************Options*************** ");
-            System.out.println("1) Init Fields");
-            System.out.println("2) Start Simulation");
-            System.out.println("3) End Simulation");
-            System.out.print("Your Option (type number only): ");
-            
-            String userInput = scanner.nextLine(); // Get user input
-            try{
-                int option = Integer.parseInt(userInput); // Try parsing the input to an integer
-                switch(option){
-                    case 1: initFields(); break; // Option to initialize fields
-                    case 2: startSimulation(); break; // Option to start simulation
-                    case 3: endSimulation(); break; // Option to end simulation
-                    default: System.out.println("Invalid option"); // Handle invalid option
-                }
-                return option != 3; // Keep showing the menu until the user selects option 3 (exit)
-        
-            }catch(NumberFormatException e){
-                System.out.println("Invalid option"); // Handle invalid input format
-                return true; // Keep showing the menu
+    static SlaveNode create_general_slave_node(String nodeName, String deviceName, String fieldName, int fieldSize,
+            int runTimeStep, int RTT_to_Zone_Controller, int BLE_transmission_rate) {
+        String fullName = nodeName + "_" + deviceName; // Full name of the node
+        LowPowerDevice dev = new LowPowerDevice(fullName, fieldSize); // Create a low power device with specified field
+                                                                      // size
+
+        // Define the processing algorithm for the slave node uController
+        ProcessingAlgorithm algo = (uController controller) -> {
+            // Get the field value from the device and publish the packet
+            ExecutionResult result = controller.getField(fullName, fieldName);
+            if (result.isSuccess())
+                controller.publishPacket(result.getReturnedPacket());
+        };
+
+        // Create a controller for the node with the defined algorithm
+        uController controller = new uController(nodeName + "_controller", runTimeStep, algo);
+
+        // Connect the controller to the device
+        controller.connectTo(dev);
+        return new SlaveNode(nodeName, RTT_to_Zone_Controller, BLE_transmission_rate, controller); // Return the created
+                                                                                                   // slave node
+    }
+
+    // Method for the menu, allowing user to interact with the simulation
+    static boolean menu() {
+        // Display menu options
+        System.out.println("***************Options*************** ");
+        System.out.println("1) Init Fields");
+        System.out.println("2) Start Simulation");
+        System.out.println("3) End Simulation");
+        System.out.print("Your Option (type number only): ");
+
+        String userInput = scanner.nextLine(); // Get user input
+        try {
+            int option = Integer.parseInt(userInput); // Try parsing the input to an integer
+            switch (option) {
+                case 1:
+                    initFields();
+                    break; // Option to initialize fields
+                case 2:
+                    startSimulation();
+                    break; // Option to start simulation
+                case 3:
+                    endSimulation();
+                    break; // Option to end simulation
+                default:
+                    System.out.println("Invalid option"); // Handle invalid option
             }
+            return option != 3; // Keep showing the menu until the user selects option 3 (exit)
+
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid option"); // Handle invalid input format
+            return true; // Keep showing the menu
         }
-        
-        // Method to initialize fields for all simulation objects
-        static void initFields(){
-            // Loop through all simulation objects and initialize fields for inactive zones
-            for(Entry<String, Zone> entry : simulationObjects.entrySet()) 
-                if (!entry.getValue().isAlive()) entry.getValue().initFields();
-        
-            System.out.println("[Fields Initialized]"); // Notify that fields have been initialized
-        }
-        
-        // Method to start the simulation, resetting the simulation clock and starting all zones
-        static void startSimulation(){
-            SimulationClock.getInstance().reset(); // Reset the simulation clock
-            
-            // Loop through all simulation objects and start any inactive zones
-            for(Entry<String, Zone> entry : simulationObjects.entrySet()) 
-                if (!entry.getValue().isAlive()) entry.getValue().start();
-        
-            System.out.println("[Simulation Started]"); // Notify that the simulation has started
-        }
-        
-        // Method to end the simulation and terminate all active zones
-        static void endSimulation(){
-            // Loop through all simulation objects and terminate any active zones
-            for(Entry<String, Zone> entry : simulationObjects.entrySet()) 
-                if (entry.getValue().isAlive()) entry.getValue().terminate();
-            
-            System.out.println("[Simulation Ended]"); // Notify that the simulation has ended
-        }
-    }        
+    }
+
+    // Method to initialize fields for all simulation objects
+    static void initFields() {
+        // Loop through all simulation objects and initialize fields for inactive zones
+        for (Entry<String, Zone> entry : simulationObjects.entrySet())
+            if (!entry.getValue().isAlive())
+                entry.getValue().initFields();
+
+        System.out.println("[Fields Initialized]"); // Notify that fields have been initialized
+    }
+
+    // Method to start the simulation, resetting the simulation clock and starting
+    // all zones
+    static void startSimulation() {
+        SimulationClock.getInstance().reset(); // Reset the simulation clock
+
+        // Loop through all simulation objects and start any inactive zones
+        for (Entry<String, Zone> entry : simulationObjects.entrySet())
+            if (!entry.getValue().isAlive())
+                entry.getValue().start();
+
+        System.out.println("[Simulation Started]"); // Notify that the simulation has started
+    }
+
+    // Method to end the simulation and terminate all active zones
+    static void endSimulation() {
+        // Loop through all simulation objects and terminate any active zones
+        for (Entry<String, Zone> entry : simulationObjects.entrySet())
+            if (entry.getValue().isAlive())
+                entry.getValue().terminate();
+
+        System.out.println("[Simulation Ended]"); // Notify that the simulation has ended
+    }
+}        
