@@ -7,7 +7,8 @@ public class SimulationClock {
     private long startTime;
     
     // Factor representing the relationship between simulation delays and real-life delays
-    // For example, if scale factor is 100, a 1 second delay in real life is represented by 1/100 seconds in the simulation
+    // For example, if scale factor is 100, then simulating a 1 second delay in will be done using a 1/100 seconds delay in the simulation
+    // This speeds up the simulation.
     private int scaleFactor = 1;
 
     // Private constructor to initialize the start time with the current nano time
@@ -49,8 +50,14 @@ public class SimulationClock {
         // Calculate the target time for when to stop waiting
         long endTime = startTime + targetWaitTimeInNanos;
 
-        // Busy-wait loop to keep the thread alive until the target time is reached
-        while (System.nanoTime() < endTime); // Do nothing, just wait
+        // // Busy-wait loop to keep the thread alive until the target time is reached
+        // while (System.nanoTime() < endTime); // Do nothing, just wait
+
+        try {
+            Thread.sleep((long) scaledTimeToWait);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     // Method to reset the start time of the simulation clock to the current time
@@ -61,4 +68,13 @@ public class SimulationClock {
     public void setScaleFactor(int scaleFactor) {
         this.scaleFactor = scaleFactor;
     }
+    public static void main(String[] args) throws InterruptedException {
+      SimulationClock clock = SimulationClock.getInstance();
+      clock.setScaleFactor(1);
+      for(int i = 0; i<10;i++){
+          Thread.sleep(1000);
+          System.out.println(System.nanoTime());  
+
+      }
+    } 
 }
